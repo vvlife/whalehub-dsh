@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-13T16:28:03.470Z",
+  "generatedAt": "2026-08-13T18:18:23.438Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 66,
+  "pluginCount": 67,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -1394,6 +1394,33 @@
           "web"
         ]
       }
+    },
+    {
+      "slug": "vvlife-dsh-agnes-paseo",
+      "name": "dsh-agnes-paseo",
+      "displayName": "Agnes AI + Paseo 接入",
+      "description": "把 dsh 接入 Agnes AI 模型网关（OpenAI 兼容），并自带零依赖 ACP 桥，一键把 DeepSeek Harness 注册为 Paseo 的 provider。",
+      "author": "vvlife",
+      "repoUrl": "https://github.com/vvlife/dsh-agnes-paseo",
+      "category": "integrations",
+      "tags": [
+        "llm",
+        "agnes-ai",
+        "paseo",
+        "acp",
+        "provider"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T02:20:00Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "headless",
+          "web"
+        ]
+      },
+      "notes": "需本机有 pnpm（dsh plugin 依赖它）。装完在 profile 目录跑 pnpm exec dsh-agnes-paseo-setup --key sk-... 完成 Agnes 凭据写入与 Paseo provider 注册，再 paseo daemon restart。Paseo 里每个 prompt 回合是一次独立的 dsh headless 运行，回合间不保留上下文。"
     }
   ]
 }
