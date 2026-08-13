@@ -1,0 +1,55 @@
+name: 🧩 提交插件
+description: 把一个 DeepSeek Harness 插件收录进 WhaleHub
+title: "[Plugin] <owner/repo>"
+labels: ["plugin-submission"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub 仓库地址
+      description: 例如 https://github.com/owner/dsh-xxx，需为公开仓库
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - web-ui（界面与皮肤）
+        - terminal（终端与桌面）
+        - vision（视觉与多模态）
+        - tools（工具与编辑器）
+        - agent（编排与工作流）
+        - integrations（集成与桥接）
+        - ecosystem（生态基础）
+        - fun（好玩与杂项）
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: 一句话描述
+      placeholder: 这个插件是干什么的？
+    validations:
+      required: true
+  - type: input
+    id: install
+    attributes:
+      label: 安装方式
+      description: npm 包名 / github:owner/repo / 其他（请说明）
+      placeholder: dsh plugin add <package>
+  - type: textarea
+    id: notes
+    attributes:
+      label: 安装注意事项（可选）
+      description: 兼容的 Profile、前置依赖、已知坑点
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 仓库公开且 README 说明了安装方式
+          required: true
+        - label: 插件为开源免费，不含恶意代码
+          required: true

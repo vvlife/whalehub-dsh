@@ -1,0 +1,28 @@
+{
+  "name": "whalehub-dsh",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "WhaleHub — the plugin marketplace for DeepSeek Harness (DSH). Discover, search and one-click install community plugins.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "sync": "node scripts/sync-registry.mjs",
+    "screenshot": "node scripts/screenshot.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright": "^1.62.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}

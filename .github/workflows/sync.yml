@@ -1,0 +1,31 @@
+name: Sync registry
+
+on:
+  schedule:
+    - cron: '17 3 * * *' # 每日 03:17 UTC（错峰）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sync registry from awesome list + GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync-registry.mjs
+      - name: Validate registry
+        run: |
+          npm install --no-audit --no-fund
+          npm test
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(registry): daily sync from awesome list'
+          file_pattern: 'registry/plugins.json'
