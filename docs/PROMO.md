@@ -2,7 +2,7 @@
 
 **一句话：打开一个网站，搜索插件，复制一条命令，粘贴，重启 —— DSH 插件安装从此不用再翻仓库。**
 
-👉 在线体验：https://whalehub-dsh.vercel.app
+👉 在线体验：https://whalehub-dsh.vercel.app （国内备用：https://vvlife.github.io/whalehub-dsh/ ）
 👉 源码：https://github.com/vvlife/whalehub-dsh
 
 ---

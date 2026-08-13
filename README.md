@@ -9,7 +9,7 @@
 [![Plugins](https://img.shields.io/badge/plugins-66-38bdf8)](https://github.com/vvlife/whalehub-dsh/blob/main/registry/plugins.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**[🌐 在线访问 WhaleHub](https://whalehub-dsh.vercel.app)** · [提交插件](https://github.com/vvlife/whalehub-dsh/issues/new?template=submit-plugin.yml) · [PRD](docs/PRD.md)
+**[🌐 在线访问 WhaleHub](https://whalehub-dsh.vercel.app)**（国内备用镜像：[GitHub Pages](https://vvlife.github.io/whalehub-dsh/)） · [提交插件](https://github.com/vvlife/whalehub-dsh/issues/new?template=submit-plugin.yml) · [PRD](docs/PRD.md)
 
 </div>
 
@@ -54,7 +54,7 @@ WhaleHub 把整个生态聚到一个页面里：打开网站 → 搜索/浏览 �
 ## 🚀 快速开始（用户）
 
 1. 装好 DSH（`dsh web` 能打开 http://127.0.0.1:3080）
-2. 打开 **[WhaleHub](https://whalehub-dsh.vercel.app)**，找到想要的插件
+2. 打开 **[WhaleHub](https://whalehub-dsh.vercel.app)**（国内可用 [GitHub Pages 镜像](https://vvlife.github.io/whalehub-dsh/)），找到想要的插件
 3. 点进详情页，选你的 Profile（一般是 `web`），点 **一键复制**
 4. 粘贴进终端执行，例如：
 
