@@ -1,44 +1,54 @@
+import rules from '../../registry/submit-rules.json'
+
+/**
+ * 提交规则页：内容单一来源是 registry/submit-rules.json（同文件经
+ * prepare-public 暴露为 /submit-rules.json，供 whalehub-market 插件实时拉取）。
+ */
 export function Submit() {
   return (
     <main className="page prose">
-      <h1>📮 提交你的插件</h1>
-      <p>
-        WhaleHub 的注册表由 Git 仓库托管，<strong>提交流程 = 一次 Issue 或 PR</strong>，无需注册账号、无需等待复杂审核。
-      </p>
+      <h1>{rules.title}</h1>
+      <p>{rules.intro}</p>
 
-      <h2>方式一：提 Issue（推荐，1 分钟）</h2>
-      <ol>
-        <li>
-          打开{' '}
-          <a href="https://github.com/vvlife/whalehub-dsh/issues/new?template=submit-plugin.yml" target="_blank" rel="noreferrer">
-            提交插件 Issue 表单
-          </a>
-        </li>
-        <li>填写仓库地址、分类、一句话描述</li>
-        <li>维护者审核后合并，次日同步即上线</li>
-      </ol>
-
-      <h2>方式二：直接 PR（适合批量/急上架）</h2>
-      <ol>
-        <li>Fork 本仓库，编辑 <code>registry/plugins.json</code>（或 awesome 列表源）</li>
-        <li>确保 <code>npm test</code> 的注册表校验通过</li>
-        <li>提交 PR，审核通过后自动部署</li>
-      </ol>
+      {rules.methods.map((m) => (
+        <section key={m.name}>
+          <h2>{m.name}</h2>
+          <ol>
+            {m.steps.map((s) => (
+              <li key={s}>{renderText(s)}</li>
+            ))}
+          </ol>
+          {m.link && (
+            <p>
+              <a href={m.link.url} target="_blank" rel="noreferrer">
+                {m.link.label}
+              </a>
+            </p>
+          )}
+        </section>
+      ))}
 
       <h2>提交前自检清单</h2>
       <ul>
-        <li>✅ 仓库是公开的，README 写清了安装方式</li>
-        <li>✅ 给仓库打上 <code>dsh-plugin</code> topic，方便生态索引</li>
-        <li>✅ 声明兼容的 DSH Profile（web / headless / 自定义）</li>
-        <li>✅ 如果是 npm 包，确认 <code>dsh plugin add &lt;包名&gt;</code> 可直接安装</li>
+        {rules.checklist.map((c) => (
+          <li key={c}>✅ {renderText(c)}</li>
+        ))}
       </ul>
 
       <h2>审核标准</h2>
-      <p>
-        只收录开源免费插件；拒绝恶意代码、付费墙与纯广告条目。审核通常在 24 小时内完成。
-      </p>
+      <p>{rules.review}</p>
     </main>
   )
+}
+
+/** 把规则文本里的 <包名> / dsh-plugin 等片段渲染为 code（保持原页面的排版语义）。 */
+function renderText(text: string) {
+  const parts = text.split(/(`[^`]+`|<[^>]+>)/g)
+  return parts.map((part, i) => {
+    if (part.startsWith('`') && part.endsWith('`')) return <code key={i}>{part.slice(1, -1)}</code>
+    if (part.startsWith('<') && part.endsWith('>')) return <code key={i}>{part}</code>
+    return part
+  })
 }
 
 export function About() {

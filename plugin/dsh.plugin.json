@@ -1,0 +1,16 @@
+{
+  "id": "vvlife/whalehub-market",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "description": "WhaleHub 插件市场：在 DSH Web 内浏览、搜索、一键安装社区插件",
+  "engines": {
+    "dsh": ">=0.0.1"
+  },
+  "contributes": {
+    "tools": [],
+    "skills": []
+  },
+  "client": {
+    "main": "./lib/client-registry.js"
+  }
+}

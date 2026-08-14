@@ -5,9 +5,10 @@
   "type": "module",
   "description": "WhaleHub — the plugin marketplace for DeepSeek Harness (DSH). Discover, search and one-click install community plugins.",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "dev": "npm run prepare && vite",
+    "build": "npm run prepare && tsc --noEmit && vite build",
     "preview": "vite preview",
+    "prepare": "node scripts/prepare-public.mjs",
     "test": "vitest run",
     "sync": "node scripts/sync-registry.mjs",
     "screenshot": "node scripts/screenshot.mjs"

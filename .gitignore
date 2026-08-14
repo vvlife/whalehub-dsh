@@ -5,3 +5,6 @@ dist/
 *.log
 .env*
 dist-ghpages/
+
+# 由 prepare-public.mjs 在 build 时生成，部署平台会自动执行，不需要提交
+public/*.json

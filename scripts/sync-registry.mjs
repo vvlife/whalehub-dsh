@@ -25,6 +25,15 @@ const AWESOME_URL =
   'https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md'
 const NO_API = process.argv.includes('--no-api')
 
+/** awesome 列表之外的本地补充条目（WhaleHub 自身等） */
+const EXTRA_ENTRIES = [
+  {
+    fullName: 'vvlife/whalehub-dsh',
+    category: 'ecosystem',
+    tagline: 'WhaleHub 插件市场：Web 版 + DSH Web 内嵌市场（Settings → Plugins → 🐋 插件市场），一键安装社区插件。',
+  },
+]
+
 /** awesome 列表章节标题 → WhaleHub 分类 */
 const CATEGORY_MAP = {
   'Web UI & Skins': 'web-ui',
@@ -118,6 +127,17 @@ const OVERRIDES = {
   'Lum1104/dsh-browser': { tags: ['browser', 'chrome'] },
   'hanelalo/browser-bridge': { tags: ['browser', 'automation'] },
   'Chinesezjc/dsh-interconnect': { tags: ['interop', 'events'] },
+  'vvlife/whalehub-dsh': {
+    featured: true,
+    tags: ['marketplace', 'plugin-manager', 'web-ui'],
+    install: {
+      type: 'github',
+      profiles: ['web'],
+      command: 'dsh plugin --profile web add "github:vvlife/whalehub-dsh#main&path:/plugin"',
+    },
+    notes:
+      'DSH Web 内嵌市场：dsh plugin --profile web add "github:vvlife/whalehub-dsh#main&path:/plugin"，重启 dsh web 后 Settings → Plugins 出现「🐋 插件市场」Tab。网页版：https://whalehub-dsh.vercel.app',
+  },
 }
 
 const TAG_RULES = [
@@ -186,7 +206,7 @@ async function fetchRepoMeta(fullName, token) {
 
 async function main() {
   const md = await (await fetch(AWESOME_URL)).text()
-  const parsed = parseAwesome(md)
+  const parsed = [...parseAwesome(md), ...EXTRA_ENTRIES]
   console.log(`parsed ${parsed.length} repos from awesome list`)
   if (parsed.length < 40) throw new Error('parse result suspiciously small — awesome list format may have changed')
 
@@ -234,7 +254,11 @@ async function main() {
   }
   mkdirSync(dirname(OUT), { recursive: true })
   writeFileSync(OUT, JSON.stringify(registry, null, 2) + '\n')
-  console.log(`wrote ${OUT} with ${plugins.length} plugins`)
+  // 插件内嵌快照（host 半 /whalehub/api/registry 离线可读；随插件包分发）
+  const pluginSnapshot = join(ROOT, 'plugin', 'registry', 'plugins.json')
+  mkdirSync(dirname(pluginSnapshot), { recursive: true })
+  writeFileSync(pluginSnapshot, JSON.stringify(registry, null, 2) + '\n')
+  console.log(`wrote ${OUT} with ${plugins.length} plugins (+ plugin/registry snapshot)`)
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {

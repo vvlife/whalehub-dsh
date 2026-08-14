@@ -52,3 +52,30 @@ describe('registry schema', () => {
     }
   })
 })
+
+describe('submit-rules（提交规则，插件市场实时拉取）', () => {
+  const rules = JSON.parse(
+    readFileSync(join(__dirname, '..', 'registry', 'submit-rules.json'), 'utf8'),
+  ) as {
+    title: string
+    intro: string
+    methods: { name: string; steps: string[]; link?: { label: string; url: string } }[]
+    checklist: string[]
+    review: string
+    marketUrl: string
+  }
+
+  it('字段完整且合法', () => {
+    expect(rules.title.length).toBeGreaterThan(0)
+    expect(rules.intro.length).toBeGreaterThan(0)
+    expect(rules.methods.length).toBeGreaterThan(0)
+    for (const m of rules.methods) {
+      expect(m.name.length).toBeGreaterThan(0)
+      expect(m.steps.length).toBeGreaterThan(0)
+      if (m.link) expect(m.link.url).toMatch(/^https:\/\//)
+    }
+    expect(rules.checklist.length).toBeGreaterThan(0)
+    expect(rules.review.length).toBeGreaterThan(0)
+    expect(rules.marketUrl).toMatch(/^https:\/\//)
+  })
+})

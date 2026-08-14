@@ -51,6 +51,19 @@ WhaleHub 把整个生态聚到一个页面里：打开网站 → 搜索/浏览 �
 
 <img src="docs/screenshots/07-mobile-home.png" width="320" alt="移动端首页" />
 
+## 📦 更进一步：把 WhaleHub 装进 DSH Web
+
+装上 `whalehub-market` 插件后，连"复制命令"都省了——DSH Web 的 **Settings → Plugins** 会多出「🐋 插件市场」Tab，浏览、搜索、**点一下就装好**（host 半直接执行 `dsh plugin add`，装完重启生效）：
+
+```sh
+dsh plugin --profile web add "github:vvlife/whalehub-dsh#main&path:/plugin"
+# 重启 dsh web → Settings → Plugins → 🐋 插件市场
+```
+
+![DSH Web 内的 WhaleHub 市场](docs/screenshots/08-dsh-web-market.png)
+
+实现参考了官方 `ui-settings-plugin-inventory`（`settings.plugins.tab` slot 贡献）与 `dsh-better-sidebar`（双半包构建、`ctx.webServer` 路由、Host 头信任围栏）。详见 [plugin/README.md](plugin/README.md)。
+
 ## 🚀 快速开始（用户）
 
 1. 装好 DSH（`dsh web` 能打开 http://127.0.0.1:3080）

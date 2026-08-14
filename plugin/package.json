@@ -1,0 +1,55 @@
+{
+  "name": "whalehub-market",
+  "version": "1.0.0",
+  "description": "WhaleHub 插件市场 for DSH Web：在 Settings → Plugins 里直接浏览、搜索、一键安装社区插件",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vvlife/whalehub-dsh",
+    "directory": "plugin"
+  },
+  "homepage": "https://whalehub-dsh.vercel.app",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib/",
+    "registry/",
+    "cordis.patch.yml",
+    "dsh.plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "test": "vitest run"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tsdown": "^0.22.14",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  }
+}

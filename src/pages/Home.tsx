@@ -74,6 +74,24 @@ export function Home() {
         </div>
       </section>
 
+      <section className="section">
+        <h2>📦 把 WhaleHub 装进 DSH Web</h2>
+        <p className="muted" style={{ marginTop: -8 }}>
+          装上 whalehub-market 插件后，DSH Web 的 <strong>Settings → Plugins</strong> 里会多出
+          「🐋 插件市场」Tab：浏览、搜索、点一下就直接装好，连复制都不用。
+        </p>
+        <div className="copy-block">
+          <div className="copy-label">在终端执行一次</div>
+          <pre><code>dsh plugin --profile web add "github:vvlife/whalehub-dsh#main&path:/plugin"</code></pre>
+        </div>
+        <p className="muted">
+          重启 <code>dsh web</code> 生效 ·{' '}
+          <a href="https://github.com/vvlife/whalehub-dsh/tree/main/plugin" target="_blank" rel="noreferrer">
+            插件源码与说明 →
+          </a>
+        </p>
+      </section>
+
       <section className="section note">
         <p>
           数据快照：{registry.generatedAt.slice(0, 10)} · 来源{' '}

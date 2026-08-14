@@ -50,6 +50,18 @@ DeepSeek Harness（DSH）发布开发者预览才一天，社区就炸了：皮�
 
 不用注册、不用后端账号：填一个 GitHub Issue 表单（仓库地址 + 分类 + 一句话描述），审核通过后次日自动同步上线。着急的话直接 PR 改 `registry/plugins.json`，CI 自动校验 schema。
 
+### 📦 还能装进 DSH Web 里
+
+如果你连"复制命令"都嫌麻烦，WhaleHub 自己也是一个 DSH 插件：
+
+```sh
+dsh plugin --profile web add "github:vvlife/whalehub-dsh#main&path:/plugin"
+```
+
+重启 `dsh web`，**Settings → Plugins** 里会多出「🐋 插件市场」Tab——在 DSH 里浏览插件、点一下直接安装，装完重启生效。这是真正的"市场内一键安装"：
+
+![DSH Web 内的 WhaleHub 市场 Tab](docs/screenshots/08-dsh-web-market.png)
+
 ## 技术上有意思的地方
 
 **零后端架构**。没有数据库、没有服务器、没有账号系统：
