@@ -39,6 +39,10 @@ const CATEGORY_MAP = {
 
 /** 已知插件的安装方式与实测笔记（来自 awesome 列表 Hands-on Notes 与仓库 README） */
 const OVERRIDES = {
+  'vvlife/dsh-agnes-paseo': {
+    tags: ['llm', 'agnes-ai', 'paseo', 'acp', 'provider'],
+    install: { type: 'github', profiles: ['headless', 'web'] },
+  },
   'zhu1090093659/dsh-web-ui': {
     featured: true,
     tags: ['skin', 'task-board', 'mobile', 'ssh'],
