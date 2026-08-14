@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-14T01:53:07.920Z",
+  "generatedAt": "2026-08-14T05:07:04.282Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 67,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 666,
+      "stars": 971,
       "license": null,
-      "updatedAt": "2026-08-14T01:52:52Z",
+      "updatedAt": "2026-08-14T04:48:27Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -46,9 +46,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 301,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-14T01:51:31Z",
+      "stars": 514,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T05:02:15Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -74,7 +74,7 @@
         "editor",
         "tui"
       ],
-      "stars": 213,
+      "stars": 401,
       "license": "MIT",
       "updatedAt": "2026-08-13T17:05:21Z",
       "install": {
@@ -86,6 +86,28 @@
       },
       "notes": "装完重启 DSH 并硬刷新（Cmd/Ctrl+Shift+R）。pnpm 11 若拦截 node-pty 构建，先 pnpm approve-builds --all。也可用仓库 scripts/install.sh 一键脚本。",
       "featured": true
+    },
+    {
+      "slug": "small-tailqwq-dsh-deep-whale",
+      "name": "dsh-deep-whale",
+      "displayName": "deep whale",
+      "description": "\"Whale-girl\" skin series (maid-atelier), CC BY-NC-SA 4.0.",
+      "author": "Small-tailqwq",
+      "repoUrl": "https://github.com/Small-tailqwq/dsh-deep-whale",
+      "category": "web-ui",
+      "tags": [
+        "skin"
+      ],
+      "stars": 266,
+      "license": null,
+      "updatedAt": "2026-08-14T04:26:18Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      },
+      "notes": "CC BY-NC-SA 4.0 许可，注意非商业限制。"
     },
     {
       "slug": "anionex-dsh-vision-toolkit",
@@ -100,7 +122,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 182,
+      "stars": 240,
       "license": "MIT",
       "updatedAt": "2026-08-13T18:33:48Z",
       "install": {
@@ -116,28 +138,6 @@
       "private": true
     },
     {
-      "slug": "small-tailqwq-dsh-deep-whale",
-      "name": "dsh-deep-whale",
-      "displayName": "deep whale",
-      "description": "\"Whale-girl\" skin series (maid-atelier), CC BY-NC-SA 4.0.",
-      "author": "Small-tailqwq",
-      "repoUrl": "https://github.com/Small-tailqwq/dsh-deep-whale",
-      "category": "web-ui",
-      "tags": [
-        "skin"
-      ],
-      "stars": 162,
-      "license": null,
-      "updatedAt": "2026-08-13T20:31:08Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      },
-      "notes": "CC BY-NC-SA 4.0 许可，注意非商业限制。"
-    },
-    {
       "slug": "nagi-ovo-dsh-ads",
       "name": "dsh-ads",
       "displayName": "ads",
@@ -148,7 +148,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 138,
+      "stars": 209,
       "license": null,
       "updatedAt": "2026-08-14T01:18:40Z",
       "install": {
@@ -170,9 +170,9 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 101,
+      "stars": 152,
       "license": null,
-      "updatedAt": "2026-08-13T14:39:24Z",
+      "updatedAt": "2026-08-14T03:20:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -181,27 +181,6 @@
       },
       "notes": "多 Agent 团队协作插件；同类主题另见 dsh_workflow（可治理 Workflow 层）。安装到 web profile 后重启生效。",
       "featured": true
-    },
-    {
-      "slug": "huiliyi37-dsh-tianshu-tui",
-      "name": "dsh-tianshu-tui",
-      "displayName": "tianshu tui",
-      "description": "DSH terminal UI.",
-      "author": "huiliyi37",
-      "repoUrl": "https://github.com/huiliyi37/dsh-tianshu-tui",
-      "category": "terminal",
-      "tags": [
-        "tui"
-      ],
-      "stars": 80,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-08-14T01:50:08Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
     },
     {
       "slug": "hust-open-atom-club-oh-dsh-desktop",
@@ -216,9 +195,52 @@
         "macos",
         "sidebar"
       ],
-      "stars": 76,
+      "stars": 97,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-14T01:43:15Z",
+      "updatedAt": "2026-08-14T04:39:25Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "huiliyi37-dsh-tianshu-tui",
+      "name": "dsh-tianshu-tui",
+      "displayName": "tianshu tui",
+      "description": "DSH terminal UI.",
+      "author": "huiliyi37",
+      "repoUrl": "https://github.com/huiliyi37/dsh-tianshu-tui",
+      "category": "terminal",
+      "tags": [
+        "tui"
+      ],
+      "stars": 94,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-08-14T04:51:58Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "vlln-whale-girl",
+      "name": "whale-girl",
+      "displayName": "whale girl",
+      "description": "Desktop-pet plugin (QQ-pet style): draggable, feedable, accumulative companion.",
+      "author": "vlln",
+      "repoUrl": "https://github.com/vlln/whale-girl",
+      "category": "web-ui",
+      "tags": [
+        "skin",
+        "desktop"
+      ],
+      "stars": 65,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T14:22:20Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -238,7 +260,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 39,
+      "stars": 65,
       "license": "MIT",
       "updatedAt": "2026-08-13T14:12:44Z",
       "install": {
@@ -249,19 +271,19 @@
       }
     },
     {
-      "slug": "btspoony-mstar-harness",
-      "name": "mstar-harness",
-      "displayName": "mstar harness",
-      "description": "Skill-driven Harness / Loop Engineering Workflow Agent Plugin.",
-      "author": "btspoony",
-      "repoUrl": "https://github.com/btspoony/mstar-harness",
-      "category": "agent",
+      "slug": "nagi-ovo-dsh-find-plugins",
+      "name": "dsh-find-plugins",
+      "displayName": "find plugins",
+      "description": "In-app plugin finder.",
+      "author": "Nagi-ovo",
+      "repoUrl": "https://github.com/Nagi-ovo/dsh-find-plugins",
+      "category": "integrations",
       "tags": [
-        "workflow"
+        "plugin-finder"
       ],
-      "stars": 39,
-      "license": "MIT",
-      "updatedAt": "2026-08-14T01:46:14Z",
+      "stars": 54,
+      "license": null,
+      "updatedAt": "2026-08-14T01:42:38Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -281,9 +303,33 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 38,
+      "stars": 53,
       "license": null,
       "updatedAt": "2026-08-14T01:18:39Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "lum1104-dsh-browser",
+      "name": "dsh-browser",
+      "displayName": "browser",
+      "description": "Chrome sidebar extension so DSH operates your browser directly, no vision needed.",
+      "author": "Lum1104",
+      "repoUrl": "https://github.com/Lum1104/dsh-browser",
+      "category": "terminal",
+      "tags": [
+        "browser",
+        "chrome",
+        "vision",
+        "sidebar"
+      ],
+      "stars": 50,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T04:27:30Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -300,30 +346,9 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 38,
+      "stars": 46,
       "license": "MIT",
       "updatedAt": "2026-08-13T14:54:25Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "nagi-ovo-dsh-find-plugins",
-      "name": "dsh-find-plugins",
-      "displayName": "find plugins",
-      "description": "In-app plugin finder.",
-      "author": "Nagi-ovo",
-      "repoUrl": "https://github.com/Nagi-ovo/dsh-find-plugins",
-      "category": "integrations",
-      "tags": [
-        "plugin-finder"
-      ],
-      "stars": 38,
-      "license": null,
-      "updatedAt": "2026-08-14T01:42:38Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -344,7 +369,7 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 37,
+      "stars": 44,
       "license": "MIT",
       "updatedAt": "2026-08-13T23:53:40Z",
       "install": {
@@ -356,74 +381,6 @@
       "notes": "私有仓库（dsh-external），github: 安装需读取权限；需 Node >=22.19。装完用 dsh --profile web --dump-config 验证出现 dsh-external-workflow 后重启。/workflow create 不接受 --wait。",
       "featured": true,
       "private": true
-    },
-    {
-      "slug": "lum1104-dsh-browser",
-      "name": "dsh-browser",
-      "displayName": "browser",
-      "description": "Chrome sidebar extension so DSH operates your browser directly, no vision needed.",
-      "author": "Lum1104",
-      "repoUrl": "https://github.com/Lum1104/dsh-browser",
-      "category": "terminal",
-      "tags": [
-        "browser",
-        "chrome",
-        "vision",
-        "sidebar"
-      ],
-      "stars": 34,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-13T14:03:40Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "omdsh-dev-dsh-open-in-vscode",
-      "name": "dsh-open-in-vscode",
-      "displayName": "open in vscode",
-      "description": "Open workspace directories in VS Code directly from the web GUI.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode",
-      "category": "integrations",
-      "tags": [
-        "vscode",
-        "editor"
-      ],
-      "stars": 33,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T16:13:51Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "vlln-whale-girl",
-      "name": "whale-girl",
-      "displayName": "whale girl",
-      "description": "Desktop-pet plugin (QQ-pet style): draggable, feedable, accumulative companion.",
-      "author": "vlln",
-      "repoUrl": "https://github.com/vlln/whale-girl",
-      "category": "web-ui",
-      "tags": [
-        "skin",
-        "desktop"
-      ],
-      "stars": 32,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T14:22:20Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
     },
     {
       "slug": "ruler4396-dsh-launcher",
@@ -438,9 +395,124 @@
         "launcher",
         "desktop"
       ],
-      "stars": 28,
+      "stars": 42,
       "license": "MIT",
-      "updatedAt": "2026-08-14T01:52:40Z",
+      "updatedAt": "2026-08-14T05:06:39Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "btspoony-mstar-harness",
+      "name": "mstar-harness",
+      "displayName": "mstar harness",
+      "description": "Skill-driven Harness / Loop Engineering Workflow Agent Plugin.",
+      "author": "btspoony",
+      "repoUrl": "https://github.com/btspoony/mstar-harness",
+      "category": "agent",
+      "tags": [
+        "workflow"
+      ],
+      "stars": 41,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T01:46:14Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-genui",
+      "name": "dsh-genui",
+      "displayName": "genui",
+      "description": "GenUI: interactive components (layout, charts, mermaid, 3D) rendered inline via the `dsh-ui` fence.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-genui",
+      "category": "web-ui",
+      "tags": [
+        "genui",
+        "charts",
+        "mermaid"
+      ],
+      "stars": 40,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T15:22:57Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      },
+      "notes": "通过 `dsh-ui` 代码围栏在会话里内联渲染布局、图表、mermaid 与 3D 组件；安装到 web profile 后重启 dsh web 生效。",
+      "featured": true
+    },
+    {
+      "slug": "omdsh-dev-dsh-open-in-vscode",
+      "name": "dsh-open-in-vscode",
+      "displayName": "open in vscode",
+      "description": "Open workspace directories in VS Code directly from the web GUI.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode",
+      "category": "integrations",
+      "tags": [
+        "vscode",
+        "editor"
+      ],
+      "stars": 35,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T16:13:51Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "laplaceyoung-oh-my-dsh",
+      "name": "oh-my-dsh",
+      "displayName": "oh my dsh",
+      "description": "Plugin ecosystem: 700+ plugins wired only through extension seams, no agent-loop changes.",
+      "author": "LaplaceYoung",
+      "repoUrl": "https://github.com/LaplaceYoung/oh-my-dsh",
+      "category": "ecosystem",
+      "tags": [
+        "capability-library",
+        "seams"
+      ],
+      "stars": 29,
+      "license": null,
+      "updatedAt": "2026-08-13T13:04:56Z",
+      "install": {
+        "type": "manual",
+        "profiles": [
+          "web"
+        ],
+        "command": "git clone https://github.com/LaplaceYoung/oh-my-dsh.git && cd oh-my-dsh && pnpm install && pnpm test"
+      },
+      "notes": "这是插件源码库/能力库（687 个插件按 plugins/<gap-id>/ 组织），不是一条命令装全家桶；按需挑选单个插件安装。e2e 需要 DEEPSEEK_API_KEY。",
+      "featured": true
+    },
+    {
+      "slug": "omdsh-dev-dsh-notification",
+      "name": "dsh-notification",
+      "displayName": "notification",
+      "description": "Desktop notifications for turn completions, with per-outcome controls and include/exclude keyword rules.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-notification",
+      "category": "integrations",
+      "tags": [
+        "notification",
+        "desktop"
+      ],
+      "stars": 27,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T15:28:50Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -468,51 +540,26 @@
       }
     },
     {
-      "slug": "omdsh-dev-dsh-notification",
-      "name": "dsh-notification",
-      "displayName": "notification",
-      "description": "Desktop notifications for turn completions, with per-outcome controls and include/exclude keyword rules.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-notification",
-      "category": "integrations",
+      "slug": "anionex-dsh-turn-rewind",
+      "name": "dsh-turn-rewind",
+      "displayName": "turn rewind",
+      "description": "Rewind conversation + workspace state via a persistent Change Ledger.",
+      "author": "Anionex",
+      "repoUrl": "https://github.com/Anionex/dsh-turn-rewind",
+      "category": "tools",
       "tags": [
-        "notification",
-        "desktop"
+        "rewind",
+        "checkpoint"
       ],
-      "stars": 25,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T15:28:50Z",
+      "stars": 26,
+      "license": "BSD-3-Clause",
+      "updatedAt": "2026-08-13T12:37:02Z",
       "install": {
         "type": "github",
         "profiles": [
           "web"
         ]
       }
-    },
-    {
-      "slug": "laplaceyoung-oh-my-dsh",
-      "name": "oh-my-dsh",
-      "displayName": "oh my dsh",
-      "description": "Plugin ecosystem: 700+ plugins wired only through extension seams, no agent-loop changes.",
-      "author": "LaplaceYoung",
-      "repoUrl": "https://github.com/LaplaceYoung/oh-my-dsh",
-      "category": "ecosystem",
-      "tags": [
-        "capability-library",
-        "seams"
-      ],
-      "stars": 25,
-      "license": null,
-      "updatedAt": "2026-08-13T13:04:56Z",
-      "install": {
-        "type": "manual",
-        "profiles": [
-          "web"
-        ],
-        "command": "git clone https://github.com/LaplaceYoung/oh-my-dsh.git && cd oh-my-dsh && pnpm install && pnpm test"
-      },
-      "notes": "这是插件源码库/能力库（687 个插件按 plugins/<gap-id>/ 组织），不是一条命令装全家桶；按需挑选单个插件安装。e2e 需要 DEEPSEEK_API_KEY。",
-      "featured": true
     },
     {
       "slug": "hanelalo-browser-bridge",
@@ -527,31 +574,9 @@
         "automation",
         "bridge"
       ],
-      "stars": 24,
+      "stars": 25,
       "license": null,
       "updatedAt": "2026-08-10T13:37:41Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "anionex-dsh-turn-rewind",
-      "name": "dsh-turn-rewind",
-      "displayName": "turn rewind",
-      "description": "Rewind conversation + workspace state via a persistent Change Ledger.",
-      "author": "Anionex",
-      "repoUrl": "https://github.com/Anionex/dsh-turn-rewind",
-      "category": "tools",
-      "tags": [
-        "rewind",
-        "checkpoint"
-      ],
-      "stars": 23,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-13T12:37:02Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -568,7 +593,7 @@
       "repoUrl": "https://github.com/alingalingling/ui-status-label",
       "category": "web-ui",
       "tags": [],
-      "stars": 21,
+      "stars": 24,
       "license": null,
       "updatedAt": "2026-08-13T16:17:36Z",
       "install": {
@@ -579,31 +604,6 @@
       }
     },
     {
-      "slug": "omdsh-dev-dsh-genui",
-      "name": "dsh-genui",
-      "displayName": "genui",
-      "description": "GenUI: interactive components (layout, charts, mermaid, 3D) rendered inline via the `dsh-ui` fence.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-genui",
-      "category": "web-ui",
-      "tags": [
-        "genui",
-        "charts",
-        "mermaid"
-      ],
-      "stars": 20,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T15:22:57Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      },
-      "notes": "通过 `dsh-ui` 代码围栏在会话里内联渲染布局、图表、mermaid 与 3D 组件；安装到 web profile 后重启 dsh web 生效。",
-      "featured": true
-    },
-    {
       "slug": "omdsh-dev-dsh-annotation",
       "name": "dsh-annotation",
       "displayName": "annotation",
@@ -612,33 +612,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 19,
+      "stars": 24,
       "license": "MIT",
       "updatedAt": "2026-08-13T15:09:15Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "omdsh-dev-dsh-custom-tool",
-      "name": "dsh-custom-tool",
-      "displayName": "custom tool",
-      "description": "Create & manage sandboxed JavaScript tools with a Monaco editor and model-driven tool lifecycle.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-custom-tool",
-      "category": "tools",
-      "tags": [
-        "tools",
-        "monaco",
-        "sandbox",
-        "editor"
-      ],
-      "stars": 18,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T15:11:37Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -655,7 +631,7 @@
       "repoUrl": "https://github.com/vlln/plugin-registry",
       "category": "ecosystem",
       "tags": [],
-      "stars": 18,
+      "stars": 23,
       "license": "MIT",
       "updatedAt": "2026-08-13T14:22:05Z",
       "install": {
@@ -677,9 +653,73 @@
         "interop",
         "events"
       ],
-      "stars": 16,
+      "stars": 20,
       "license": "MIT",
-      "updatedAt": "2026-08-13T14:47:44Z",
+      "updatedAt": "2026-08-14T03:11:29Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-custom-tool",
+      "name": "dsh-custom-tool",
+      "displayName": "custom tool",
+      "description": "Create & manage sandboxed JavaScript tools with a Monaco editor and model-driven tool lifecycle.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-custom-tool",
+      "category": "tools",
+      "tags": [
+        "tools",
+        "monaco",
+        "sandbox",
+        "editor"
+      ],
+      "stars": 19,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T15:11:37Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "whiteguo233-dsh-openbiliclaw",
+      "name": "dsh-openbiliclaw",
+      "displayName": "openbiliclaw",
+      "description": "Bilibili integration for DSH.",
+      "author": "whiteguo233",
+      "repoUrl": "https://github.com/whiteguo233/dsh-openbiliclaw",
+      "category": "terminal",
+      "tags": [
+        "bridge"
+      ],
+      "stars": 16,
+      "license": "BSD-3-Clause",
+      "updatedAt": "2026-08-13T19:06:56Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "anionex-dsh-computer-use",
+      "name": "dsh-computer-use",
+      "displayName": "computer use",
+      "description": "Computer-use plugin for DSH.",
+      "author": "Anionex",
+      "repoUrl": "https://github.com/Anionex/dsh-computer-use",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 14,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T12:54:35Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -699,28 +739,9 @@
         "editing",
         "branch"
       ],
-      "stars": 13,
+      "stars": 14,
       "license": null,
       "updatedAt": "2026-08-13T10:21:06Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "anionex-dsh-computer-use",
-      "name": "dsh-computer-use",
-      "displayName": "computer use",
-      "description": "Computer-use plugin for DSH.",
-      "author": "Anionex",
-      "repoUrl": "https://github.com/Anionex/dsh-computer-use",
-      "category": "web-ui",
-      "tags": [],
-      "stars": 12,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T12:54:35Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -737,7 +758,7 @@
       "repoUrl": "https://github.com/LoserFox/distill",
       "category": "agent",
       "tags": [],
-      "stars": 12,
+      "stars": 13,
       "license": null,
       "updatedAt": "2026-08-13T13:11:31Z",
       "install": {
@@ -748,17 +769,17 @@
       }
     },
     {
-      "slug": "senmuuuuw-dsh-group-photo",
-      "name": "dsh-group-photo",
-      "displayName": "group photo",
-      "description": "Internal-test group-photo wall (GitHub OAuth, frozen allowlist).",
-      "author": "SenmuuuuW",
-      "repoUrl": "https://github.com/SenmuuuuW/dsh-group-photo",
-      "category": "fun",
+      "slug": "vibeinging-dsh-work",
+      "name": "dsh-work",
+      "displayName": "work",
+      "description": "Work plugin.",
+      "author": "vibeinging",
+      "repoUrl": "https://github.com/vibeinging/dsh-work",
+      "category": "agent",
       "tags": [],
-      "stars": 12,
+      "stars": 13,
       "license": "MIT",
-      "updatedAt": "2026-08-14T01:28:10Z",
+      "updatedAt": "2026-08-13T12:27:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -777,7 +798,7 @@
       "tags": [
         "vision"
       ],
-      "stars": 11,
+      "stars": 12,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-11T17:22:26Z",
       "install": {
@@ -788,17 +809,17 @@
       }
     },
     {
-      "slug": "vibeinging-dsh-work",
-      "name": "dsh-work",
-      "displayName": "work",
-      "description": "Work plugin.",
-      "author": "vibeinging",
-      "repoUrl": "https://github.com/vibeinging/dsh-work",
-      "category": "agent",
+      "slug": "senmuuuuw-dsh-group-photo",
+      "name": "dsh-group-photo",
+      "displayName": "group photo",
+      "description": "Internal-test group-photo wall (GitHub OAuth, frozen allowlist).",
+      "author": "SenmuuuuW",
+      "repoUrl": "https://github.com/SenmuuuuW/dsh-group-photo",
+      "category": "fun",
       "tags": [],
-      "stars": 11,
+      "stars": 12,
       "license": "MIT",
-      "updatedAt": "2026-08-13T12:27:31Z",
+      "updatedAt": "2026-08-14T01:54:26Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -807,19 +828,17 @@
       }
     },
     {
-      "slug": "whiteguo233-dsh-openbiliclaw",
-      "name": "dsh-openbiliclaw",
-      "displayName": "openbiliclaw",
-      "description": "Bilibili integration for DSH.",
-      "author": "whiteguo233",
-      "repoUrl": "https://github.com/whiteguo233/dsh-openbiliclaw",
-      "category": "terminal",
-      "tags": [
-        "bridge"
-      ],
-      "stars": 10,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-13T19:06:56Z",
+      "slug": "omdsh-dev-dsh-gomoku",
+      "name": "dsh-gomoku",
+      "displayName": "gomoku",
+      "description": "Gomoku game plugin.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-gomoku",
+      "category": "agent",
+      "tags": [],
+      "stars": 8,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T16:22:04Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -847,17 +866,19 @@
       }
     },
     {
-      "slug": "omdsh-dev-dsh-gomoku",
-      "name": "dsh-gomoku",
-      "displayName": "gomoku",
-      "description": "Gomoku game plugin.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-gomoku",
-      "category": "agent",
-      "tags": [],
+      "slug": "chen-001-dsh-grok-tui",
+      "name": "dsh-grok-tui",
+      "displayName": "grok tui",
+      "description": "Grok-style TUI.",
+      "author": "chen-001",
+      "repoUrl": "https://github.com/chen-001/dsh-grok-tui",
+      "category": "terminal",
+      "tags": [
+        "tui"
+      ],
       "stars": 7,
       "license": "MIT",
-      "updatedAt": "2026-08-13T16:22:04Z",
+      "updatedAt": "2026-08-13T14:52:00Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -885,19 +906,17 @@
       }
     },
     {
-      "slug": "chen-001-dsh-grok-tui",
-      "name": "dsh-grok-tui",
-      "displayName": "grok tui",
-      "description": "Grok-style TUI.",
-      "author": "chen-001",
-      "repoUrl": "https://github.com/chen-001/dsh-grok-tui",
-      "category": "terminal",
-      "tags": [
-        "tui"
-      ],
-      "stars": 6,
+      "slug": "omdsh-dev-dsh-plugin-skills",
+      "name": "dsh-plugin-skills",
+      "displayName": "plugin skills",
+      "description": "Skills plugin.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-plugin-skills",
+      "category": "tools",
+      "tags": [],
+      "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-08-13T14:52:00Z",
+      "updatedAt": "2026-08-11T06:39:42Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -925,17 +944,17 @@
       }
     },
     {
-      "slug": "omdsh-dev-dsh-plugin-skills",
-      "name": "dsh-plugin-skills",
-      "displayName": "plugin skills",
-      "description": "Skills plugin.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-plugin-skills",
+      "slug": "electricitysheep-dsh-tool-turbo",
+      "name": "dsh-tool-turbo",
+      "displayName": "tool turbo",
+      "description": "Tool turbo.",
+      "author": "Electricitysheep",
+      "repoUrl": "https://github.com/Electricitysheep/dsh-tool-turbo",
       "category": "tools",
       "tags": [],
       "stars": 4,
-      "license": "MIT",
-      "updatedAt": "2026-08-11T06:39:42Z",
+      "license": null,
+      "updatedAt": "2026-08-13T15:08:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -963,25 +982,6 @@
       }
     },
     {
-      "slug": "electricitysheep-dsh-tool-turbo",
-      "name": "dsh-tool-turbo",
-      "displayName": "tool turbo",
-      "description": "Tool turbo.",
-      "author": "Electricitysheep",
-      "repoUrl": "https://github.com/Electricitysheep/dsh-tool-turbo",
-      "category": "tools",
-      "tags": [],
-      "stars": 3,
-      "license": null,
-      "updatedAt": "2026-08-13T15:08:49Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "fakechris-dsh-track",
       "name": "dsh-track",
       "displayName": "track",
@@ -992,7 +992,7 @@
       "tags": [],
       "stars": 3,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-13T07:32:12Z",
+      "updatedAt": "2026-08-14T02:48:23Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1011,7 +1011,7 @@
       "tags": [],
       "stars": 3,
       "license": "MIT",
-      "updatedAt": "2026-08-13T19:19:35Z",
+      "updatedAt": "2026-08-14T04:05:26Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1071,6 +1071,27 @@
       "stars": 2,
       "license": "MIT",
       "updatedAt": "2026-08-13T15:46:01Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "sjscy05-deepseek-harness-vision-plugin",
+      "name": "deepseek-harness-vision-plugin",
+      "displayName": "deepseek harness vision plugin",
+      "description": "Vision plugin for DSH.",
+      "author": "sjscy05",
+      "repoUrl": "https://github.com/sjscy05/deepseek-harness-vision-plugin",
+      "category": "vision",
+      "tags": [
+        "vision"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T15:40:40Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1230,7 +1251,7 @@
       "tags": [],
       "stars": 2,
       "license": "MIT",
-      "updatedAt": "2026-08-13T14:32:43Z",
+      "updatedAt": "2026-08-14T04:15:05Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1249,7 +1270,7 @@
       "tags": [],
       "stars": 2,
       "license": "MIT",
-      "updatedAt": "2026-08-14T01:42:36Z",
+      "updatedAt": "2026-08-14T04:49:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1315,19 +1336,17 @@
       }
     },
     {
-      "slug": "sjscy05-deepseek-harness-vision-plugin",
-      "name": "deepseek-harness-vision-plugin",
-      "displayName": "deepseek harness vision plugin",
-      "description": "Vision plugin for DSH.",
-      "author": "sjscy05",
-      "repoUrl": "https://github.com/sjscy05/deepseek-harness-vision-plugin",
-      "category": "vision",
-      "tags": [
-        "vision"
-      ],
-      "stars": 1,
+      "slug": "syy-shark-dsh-music-plugin",
+      "name": "dsh-music-plugin",
+      "displayName": "music plugin",
+      "description": "Music plugin.",
+      "author": "syy-shark",
+      "repoUrl": "https://github.com/syy-shark/dsh-music-plugin",
+      "category": "fun",
+      "tags": [],
+      "stars": 2,
       "license": "MIT",
-      "updatedAt": "2026-08-13T15:40:40Z",
+      "updatedAt": "2026-08-14T03:01:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1368,26 +1387,7 @@
       "tags": [],
       "stars": 1,
       "license": "MIT",
-      "updatedAt": "2026-08-13T14:24:04Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "syy-shark-dsh-music-plugin",
-      "name": "dsh-music-plugin",
-      "displayName": "music plugin",
-      "description": "Music plugin.",
-      "author": "syy-shark",
-      "repoUrl": "https://github.com/syy-shark/dsh-music-plugin",
-      "category": "fun",
-      "tags": [],
-      "stars": 1,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T14:50:51Z",
+      "updatedAt": "2026-08-14T04:07:47Z",
       "install": {
         "type": "github",
         "profiles": [
