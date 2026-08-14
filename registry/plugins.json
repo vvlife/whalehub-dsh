@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "generatedAt": "2026-08-14T05:07:04.282Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 67,
+  "pluginCount": 68,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -1422,6 +1422,33 @@
         ]
       },
       "notes": "需本机有 pnpm（dsh plugin 依赖它）。装完在 profile 目录跑 pnpm exec dsh-agnes-paseo-setup --key sk-... 完成 Agnes 凭据写入与 Paseo provider 注册，再 paseo daemon restart。Paseo 里每个 prompt 回合是一次独立的 dsh headless 运行，回合间不保留上下文。"
+    },
+    {
+      "slug": "zhaoyilun-dsh-preset-flash-director",
+      "name": "dsh-preset-flash-director",
+      "displayName": "flash-director",
+      "description": "Token-economical DSH agent preset: a flash-model orchestrator plus pro-model (deepseek-v4-pro) expert subagents, with an enforced delegation protocol — curated briefs, a hard per-task budget, and no delegation chains.",
+      "author": "zhaoyilun",
+      "repoUrl": "https://github.com/zhaoyilun/dsh-preset-flash-director",
+      "category": "agent",
+      "tags": [
+        "preset",
+        "orchestration",
+        "subagent",
+        "token-economy"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T08:36:21Z",
+      "install": {
+        "type": "npm",
+        "package": "dsh-preset-flash-director",
+        "profiles": [
+          "web"
+        ]
+      },
+      "notes": "预设（agent preset）而非 cordis 插件。安装：npx dsh-preset-flash-director install；新开会话选「Flash 主控 · Pro 专家」预设并把会话模型切到 deepseek-v4-flash。",
+      "featured": false
     }
   ]
 }
