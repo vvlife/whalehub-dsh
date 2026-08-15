@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-14T05:07:04.282Z",
+  "generatedAt": "2026-08-15T03:56:50.091Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 68,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 971,
-      "license": null,
-      "updatedAt": "2026-08-14T04:48:27Z",
+      "stars": 2055,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-08-15T03:48:18Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -46,9 +46,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 514,
+      "stars": 949,
       "license": "MIT",
-      "updatedAt": "2026-08-14T05:02:15Z",
+      "updatedAt": "2026-08-15T03:24:23Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -74,9 +74,9 @@
         "editor",
         "tui"
       ],
-      "stars": 401,
+      "stars": 828,
       "license": "MIT",
-      "updatedAt": "2026-08-13T17:05:21Z",
+      "updatedAt": "2026-08-15T03:23:20Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 266,
+      "stars": 641,
       "license": null,
-      "updatedAt": "2026-08-14T04:26:18Z",
+      "updatedAt": "2026-08-14T18:24:45Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -122,9 +122,9 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 240,
+      "stars": 357,
       "license": "MIT",
-      "updatedAt": "2026-08-13T18:33:48Z",
+      "updatedAt": "2026-08-14T18:44:08Z",
       "install": {
         "type": "manual",
         "profiles": [
@@ -148,9 +148,9 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 209,
-      "license": null,
-      "updatedAt": "2026-08-14T01:18:40Z",
+      "stars": 354,
+      "license": "BSD-3-Clause",
+      "updatedAt": "2026-08-14T23:22:57Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -170,9 +170,9 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 152,
-      "license": null,
-      "updatedAt": "2026-08-14T03:20:31Z",
+      "stars": 261,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T21:06:35Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -195,52 +195,9 @@
         "macos",
         "sidebar"
       ],
-      "stars": 97,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-14T04:39:25Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "huiliyi37-dsh-tianshu-tui",
-      "name": "dsh-tianshu-tui",
-      "displayName": "tianshu tui",
-      "description": "DSH terminal UI.",
-      "author": "huiliyi37",
-      "repoUrl": "https://github.com/huiliyi37/dsh-tianshu-tui",
-      "category": "terminal",
-      "tags": [
-        "tui"
-      ],
-      "stars": 94,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-08-14T04:51:58Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "vlln-whale-girl",
-      "name": "whale-girl",
-      "displayName": "whale girl",
-      "description": "Desktop-pet plugin (QQ-pet style): draggable, feedable, accumulative companion.",
-      "author": "vlln",
-      "repoUrl": "https://github.com/vlln/whale-girl",
-      "category": "web-ui",
-      "tags": [
-        "skin",
-        "desktop"
-      ],
-      "stars": 65,
+      "stars": 173,
       "license": "MIT",
-      "updatedAt": "2026-08-13T14:22:20Z",
+      "updatedAt": "2026-08-15T00:44:57Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -260,9 +217,9 @@
         "editor",
         "mentions"
       ],
-      "stars": 65,
+      "stars": 145,
       "license": "MIT",
-      "updatedAt": "2026-08-13T14:12:44Z",
+      "updatedAt": "2026-08-14T16:15:06Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -271,41 +228,41 @@
       }
     },
     {
-      "slug": "nagi-ovo-dsh-find-plugins",
-      "name": "dsh-find-plugins",
-      "displayName": "find plugins",
-      "description": "In-app plugin finder.",
-      "author": "Nagi-ovo",
-      "repoUrl": "https://github.com/Nagi-ovo/dsh-find-plugins",
-      "category": "integrations",
-      "tags": [
-        "plugin-finder"
-      ],
-      "stars": 54,
-      "license": null,
-      "updatedAt": "2026-08-14T01:42:38Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "nagi-ovo-dsh-visualize",
-      "name": "dsh-visualize",
-      "displayName": "visualize",
-      "description": "Generative UI: the model draws interactive HTML cards straight into the chat stream.",
-      "author": "Nagi-ovo",
-      "repoUrl": "https://github.com/Nagi-ovo/dsh-visualize",
+      "slug": "vlln-whale-girl",
+      "name": "whale-girl",
+      "displayName": "whale girl",
+      "description": "Desktop-pet plugin (QQ-pet style): draggable, feedable, accumulative companion.",
+      "author": "vlln",
+      "repoUrl": "https://github.com/vlln/whale-girl",
       "category": "web-ui",
       "tags": [
-        "genui",
-        "generative-ui"
+        "skin",
+        "desktop"
       ],
-      "stars": 53,
-      "license": null,
-      "updatedAt": "2026-08-14T01:18:39Z",
+      "stars": 137,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T14:22:20Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "huiliyi37-dsh-tianshu-tui",
+      "name": "dsh-tianshu-tui",
+      "displayName": "tianshu tui",
+      "description": "DSH terminal UI.",
+      "author": "huiliyi37",
+      "repoUrl": "https://github.com/huiliyi37/dsh-tianshu-tui",
+      "category": "terminal",
+      "tags": [
+        "tui"
+      ],
+      "stars": 137,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-08-15T03:36:16Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -327,9 +284,9 @@
         "vision",
         "sidebar"
       ],
-      "stars": 50,
+      "stars": 99,
       "license": "MIT",
-      "updatedAt": "2026-08-14T04:27:30Z",
+      "updatedAt": "2026-08-15T03:56:18Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -338,87 +295,20 @@
       }
     },
     {
-      "slug": "zseven-w-dsh-openpencil",
-      "name": "dsh-openpencil",
-      "displayName": "openpencil",
-      "description": "OpenPencil design preview & editing plugin.",
-      "author": "ZSeven-W",
-      "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
+      "slug": "nagi-ovo-dsh-visualize",
+      "name": "dsh-visualize",
+      "displayName": "visualize",
+      "description": "Generative UI: the model draws interactive HTML cards straight into the chat stream.",
+      "author": "Nagi-ovo",
+      "repoUrl": "https://github.com/Nagi-ovo/dsh-visualize",
       "category": "web-ui",
-      "tags": [],
-      "stars": 46,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T14:54:25Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "icetomoyo-dsh-workflow",
-      "name": "dsh_workflow",
-      "displayName": "dsh_workflow",
-      "description": "Brings Claude Code's UltraCode to DSH; turns one-shot multi-agent dispatch into a generatable / savable / governable / observable / recoverable Workflow layer.",
-      "author": "icetomoyo",
-      "repoUrl": "https://github.com/icetomoyo/dsh_workflow",
-      "category": "agent",
       "tags": [
-        "workflow",
-        "multi-agent",
-        "governance"
+        "genui",
+        "generative-ui"
       ],
-      "stars": 44,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T23:53:40Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      },
-      "notes": "私有仓库（dsh-external），github: 安装需读取权限；需 Node >=22.19。装完用 dsh --profile web --dump-config 验证出现 dsh-external-workflow 后重启。/workflow create 不接受 --wait。",
-      "featured": true,
-      "private": true
-    },
-    {
-      "slug": "ruler4396-dsh-launcher",
-      "name": "dsh-launcher",
-      "displayName": "launcher",
-      "description": "Lightweight Windows launcher: silent logon autostart + a minimal WebView2 window instead of a full browser.",
-      "author": "Ruler4396",
-      "repoUrl": "https://github.com/Ruler4396/dsh-launcher",
-      "category": "terminal",
-      "tags": [
-        "windows",
-        "launcher",
-        "desktop"
-      ],
-      "stars": 42,
-      "license": "MIT",
-      "updatedAt": "2026-08-14T05:06:39Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "btspoony-mstar-harness",
-      "name": "mstar-harness",
-      "displayName": "mstar harness",
-      "description": "Skill-driven Harness / Loop Engineering Workflow Agent Plugin.",
-      "author": "btspoony",
-      "repoUrl": "https://github.com/btspoony/mstar-harness",
-      "category": "agent",
-      "tags": [
-        "workflow"
-      ],
-      "stars": 41,
-      "license": "MIT",
-      "updatedAt": "2026-08-14T01:46:14Z",
+      "stars": 86,
+      "license": "BSD-3-Clause",
+      "updatedAt": "2026-08-14T23:22:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -439,9 +329,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 40,
+      "stars": 81,
       "license": "MIT",
-      "updatedAt": "2026-08-13T15:22:57Z",
+      "updatedAt": "2026-08-14T21:31:14Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -452,26 +342,93 @@
       "featured": true
     },
     {
-      "slug": "omdsh-dev-dsh-open-in-vscode",
-      "name": "dsh-open-in-vscode",
-      "displayName": "open in vscode",
-      "description": "Open workspace directories in VS Code directly from the web GUI.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode",
-      "category": "integrations",
+      "slug": "ruler4396-dsh-launcher",
+      "name": "dsh-launcher",
+      "displayName": "launcher",
+      "description": "Lightweight Windows launcher: silent logon autostart + a minimal WebView2 window instead of a full browser.",
+      "author": "Ruler4396",
+      "repoUrl": "https://github.com/Ruler4396/dsh-launcher",
+      "category": "terminal",
       "tags": [
-        "vscode",
-        "editor"
+        "windows",
+        "launcher",
+        "desktop"
       ],
-      "stars": 35,
+      "stars": 81,
       "license": "MIT",
-      "updatedAt": "2026-08-13T16:13:51Z",
+      "updatedAt": "2026-08-15T03:53:24Z",
       "install": {
         "type": "github",
         "profiles": [
           "web"
         ]
       }
+    },
+    {
+      "slug": "nagi-ovo-dsh-find-plugins",
+      "name": "dsh-find-plugins",
+      "displayName": "find plugins",
+      "description": "In-app plugin finder.",
+      "author": "Nagi-ovo",
+      "repoUrl": "https://github.com/Nagi-ovo/dsh-find-plugins",
+      "category": "integrations",
+      "tags": [
+        "plugin-finder"
+      ],
+      "stars": 74,
+      "license": "BSD-3-Clause",
+      "updatedAt": "2026-08-14T23:22:59Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "zseven-w-dsh-openpencil",
+      "name": "dsh-openpencil",
+      "displayName": "openpencil",
+      "description": "OpenPencil design preview & editing plugin.",
+      "author": "ZSeven-W",
+      "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 66,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T14:36:17Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "icetomoyo-dsh-workflow",
+      "name": "dsh_workflow",
+      "displayName": "dsh_workflow",
+      "description": "Brings Claude Code's UltraCode to DSH; turns one-shot multi-agent dispatch into a generatable / savable / governable / observable / recoverable Workflow layer.",
+      "author": "icetomoyo",
+      "repoUrl": "https://github.com/icetomoyo/dsh_workflow",
+      "category": "agent",
+      "tags": [
+        "workflow",
+        "multi-agent",
+        "governance"
+      ],
+      "stars": 54,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T23:53:40Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      },
+      "notes": "私有仓库（dsh-external），github: 安装需读取权限；需 Node >=22.19。装完用 dsh --profile web --dump-config 验证出现 dsh-external-workflow 后重启。/workflow create 不接受 --wait。",
+      "featured": true,
+      "private": true
     },
     {
       "slug": "laplaceyoung-oh-my-dsh",
@@ -485,7 +442,7 @@
         "capability-library",
         "seams"
       ],
-      "stars": 29,
+      "stars": 45,
       "license": null,
       "updatedAt": "2026-08-13T13:04:56Z",
       "install": {
@@ -499,6 +456,68 @@
       "featured": true
     },
     {
+      "slug": "anionex-dsh-turn-rewind",
+      "name": "dsh-turn-rewind",
+      "displayName": "turn rewind",
+      "description": "Rewind conversation + workspace state via a persistent Change Ledger.",
+      "author": "Anionex",
+      "repoUrl": "https://github.com/Anionex/dsh-turn-rewind",
+      "category": "tools",
+      "tags": [
+        "rewind",
+        "checkpoint"
+      ],
+      "stars": 43,
+      "license": "BSD-3-Clause",
+      "updatedAt": "2026-08-14T14:59:21Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "btspoony-mstar-harness",
+      "name": "mstar-harness",
+      "displayName": "mstar harness",
+      "description": "Skill-driven Harness / Loop Engineering Workflow Agent Plugin.",
+      "author": "btspoony",
+      "repoUrl": "https://github.com/btspoony/mstar-harness",
+      "category": "agent",
+      "tags": [
+        "workflow"
+      ],
+      "stars": 43,
+      "license": "MIT",
+      "updatedAt": "2026-08-15T03:06:33Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-annotation",
+      "name": "dsh-annotation",
+      "displayName": "annotation",
+      "description": "Select text → annotate → send as a message; bubble-hidden annotation blocks.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 42,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T15:17:21Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "omdsh-dev-dsh-notification",
       "name": "dsh-notification",
       "displayName": "notification",
@@ -510,9 +529,92 @@
         "notification",
         "desktop"
       ],
-      "stars": 27,
+      "stars": 41,
       "license": "MIT",
       "updatedAt": "2026-08-13T15:28:50Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-open-in-vscode",
+      "name": "dsh-open-in-vscode",
+      "displayName": "open in vscode",
+      "description": "Open workspace directories in VS Code directly from the web GUI.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode",
+      "category": "integrations",
+      "tags": [
+        "vscode",
+        "editor"
+      ],
+      "stars": 40,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T16:13:51Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "vlln-plugin-registry",
+      "name": "plugin-registry",
+      "displayName": "plugin registry",
+      "description": "Plugin registry.",
+      "author": "vlln",
+      "repoUrl": "https://github.com/vlln/plugin-registry",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 38,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T14:22:05Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "hanelalo-browser-bridge",
+      "name": "browser-bridge",
+      "displayName": "browser bridge",
+      "description": "Let your agent drive your real browser window like you would.",
+      "author": "hanelalo",
+      "repoUrl": "https://github.com/hanelalo/browser-bridge",
+      "category": "terminal",
+      "tags": [
+        "browser",
+        "automation",
+        "bridge"
+      ],
+      "stars": 36,
+      "license": "MIT",
+      "updatedAt": "2026-08-15T03:14:35Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "alingalingling-ui-status-label",
+      "name": "ui-status-label",
+      "displayName": "ui status label",
+      "description": "Customize the \"deep diving\" thinking-status label however you like.",
+      "author": "alingalingling",
+      "repoUrl": "https://github.com/alingalingling/ui-status-label",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 31,
+      "license": null,
+      "updatedAt": "2026-08-14T18:36:32Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -540,100 +642,17 @@
       }
     },
     {
-      "slug": "anionex-dsh-turn-rewind",
-      "name": "dsh-turn-rewind",
-      "displayName": "turn rewind",
-      "description": "Rewind conversation + workspace state via a persistent Change Ledger.",
-      "author": "Anionex",
-      "repoUrl": "https://github.com/Anionex/dsh-turn-rewind",
-      "category": "tools",
-      "tags": [
-        "rewind",
-        "checkpoint"
-      ],
+      "slug": "vibeinging-dsh-work",
+      "name": "dsh-work",
+      "displayName": "work",
+      "description": "Work plugin.",
+      "author": "vibeinging",
+      "repoUrl": "https://github.com/vibeinging/dsh-work",
+      "category": "agent",
+      "tags": [],
       "stars": 26,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-13T12:37:02Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "hanelalo-browser-bridge",
-      "name": "browser-bridge",
-      "displayName": "browser bridge",
-      "description": "Let your agent drive your real browser window like you would.",
-      "author": "hanelalo",
-      "repoUrl": "https://github.com/hanelalo/browser-bridge",
-      "category": "terminal",
-      "tags": [
-        "browser",
-        "automation",
-        "bridge"
-      ],
-      "stars": 25,
-      "license": null,
-      "updatedAt": "2026-08-10T13:37:41Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "alingalingling-ui-status-label",
-      "name": "ui-status-label",
-      "displayName": "ui status label",
-      "description": "Customize the \"deep diving\" thinking-status label however you like.",
-      "author": "alingalingling",
-      "repoUrl": "https://github.com/alingalingling/ui-status-label",
-      "category": "web-ui",
-      "tags": [],
-      "stars": 24,
-      "license": null,
-      "updatedAt": "2026-08-13T16:17:36Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "omdsh-dev-dsh-annotation",
-      "name": "dsh-annotation",
-      "displayName": "annotation",
-      "description": "Select text → annotate → send as a message; bubble-hidden annotation blocks.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
-      "category": "web-ui",
-      "tags": [],
-      "stars": 24,
       "license": "MIT",
-      "updatedAt": "2026-08-13T15:09:15Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "vlln-plugin-registry",
-      "name": "plugin-registry",
-      "displayName": "plugin registry",
-      "description": "Plugin registry.",
-      "author": "vlln",
-      "repoUrl": "https://github.com/vlln/plugin-registry",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 23,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T14:22:05Z",
+      "updatedAt": "2026-08-14T12:45:35Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -653,9 +672,30 @@
         "interop",
         "events"
       ],
-      "stars": 20,
+      "stars": 26,
       "license": "MIT",
-      "updatedAt": "2026-08-14T03:11:29Z",
+      "updatedAt": "2026-08-14T06:32:47Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "whiteguo233-dsh-openbiliclaw",
+      "name": "dsh-openbiliclaw",
+      "displayName": "openbiliclaw",
+      "description": "Bilibili integration for DSH.",
+      "author": "whiteguo233",
+      "repoUrl": "https://github.com/whiteguo233/dsh-openbiliclaw",
+      "category": "terminal",
+      "tags": [
+        "bridge"
+      ],
+      "stars": 24,
+      "license": "BSD-3-Clause",
+      "updatedAt": "2026-08-14T18:48:43Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -677,30 +717,9 @@
         "sandbox",
         "editor"
       ],
-      "stars": 19,
+      "stars": 23,
       "license": "MIT",
       "updatedAt": "2026-08-13T15:11:37Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "whiteguo233-dsh-openbiliclaw",
-      "name": "dsh-openbiliclaw",
-      "displayName": "openbiliclaw",
-      "description": "Bilibili integration for DSH.",
-      "author": "whiteguo233",
-      "repoUrl": "https://github.com/whiteguo233/dsh-openbiliclaw",
-      "category": "terminal",
-      "tags": [
-        "bridge"
-      ],
-      "stars": 16,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-13T19:06:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -717,9 +736,9 @@
       "repoUrl": "https://github.com/Anionex/dsh-computer-use",
       "category": "web-ui",
       "tags": [],
-      "stars": 14,
+      "stars": 18,
       "license": "MIT",
-      "updatedAt": "2026-08-13T12:54:35Z",
+      "updatedAt": "2026-08-14T12:53:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -739,9 +758,28 @@
         "editing",
         "branch"
       ],
-      "stars": 14,
+      "stars": 18,
       "license": null,
-      "updatedAt": "2026-08-13T10:21:06Z",
+      "updatedAt": "2026-08-14T06:12:15Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-mnemon",
+      "name": "dsh-mnemon",
+      "displayName": "mnemon",
+      "description": "Mnemonics plugin.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
+      "category": "tools",
+      "tags": [],
+      "stars": 18,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T23:49:21Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -758,28 +796,9 @@
       "repoUrl": "https://github.com/LoserFox/distill",
       "category": "agent",
       "tags": [],
-      "stars": 13,
+      "stars": 15,
       "license": null,
       "updatedAt": "2026-08-13T13:11:31Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "vibeinging-dsh-work",
-      "name": "dsh-work",
-      "displayName": "work",
-      "description": "Work plugin.",
-      "author": "vibeinging",
-      "repoUrl": "https://github.com/vibeinging/dsh-work",
-      "category": "agent",
-      "tags": [],
-      "stars": 13,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T12:27:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -798,7 +817,7 @@
       "tags": [
         "vision"
       ],
-      "stars": 12,
+      "stars": 14,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-11T17:22:26Z",
       "install": {
@@ -817,7 +836,7 @@
       "repoUrl": "https://github.com/SenmuuuuW/dsh-group-photo",
       "category": "fun",
       "tags": [],
-      "stars": 12,
+      "stars": 14,
       "license": "MIT",
       "updatedAt": "2026-08-14T01:54:26Z",
       "install": {
@@ -836,28 +855,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-gomoku",
       "category": "agent",
       "tags": [],
-      "stars": 8,
+      "stars": 13,
       "license": "MIT",
       "updatedAt": "2026-08-13T16:22:04Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "hxs996-beep-deepact",
-      "name": "deepAct",
-      "displayName": "deepAct",
-      "description": "deepAct.",
-      "author": "hxs996-beep",
-      "repoUrl": "https://github.com/hxs996-beep/deepAct",
-      "category": "fun",
-      "tags": [],
-      "stars": 8,
-      "license": "MIT",
-      "updatedAt": "2026-08-08T03:16:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -876,9 +876,28 @@
       "tags": [
         "tui"
       ],
+      "stars": 8,
+      "license": "MIT",
+      "updatedAt": "2026-08-15T03:00:46Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-plugin-skills",
+      "name": "dsh-plugin-skills",
+      "displayName": "plugin skills",
+      "description": "Skills plugin.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-plugin-skills",
+      "category": "tools",
+      "tags": [],
       "stars": 7,
       "license": "MIT",
-      "updatedAt": "2026-08-13T14:52:00Z",
+      "updatedAt": "2026-08-11T06:39:42Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -897,7 +916,7 @@
       "tags": [],
       "stars": 7,
       "license": null,
-      "updatedAt": "2026-08-13T16:03:07Z",
+      "updatedAt": "2026-08-14T18:54:01Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -906,17 +925,57 @@
       }
     },
     {
-      "slug": "omdsh-dev-dsh-plugin-skills",
-      "name": "dsh-plugin-skills",
-      "displayName": "plugin skills",
-      "description": "Skills plugin.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-plugin-skills",
+      "slug": "hxs996-beep-deepact",
+      "name": "deepAct",
+      "displayName": "deepAct",
+      "description": "deepAct.",
+      "author": "hxs996-beep",
+      "repoUrl": "https://github.com/hxs996-beep/deepAct",
+      "category": "fun",
+      "tags": [],
+      "stars": 7,
+      "license": "MIT",
+      "updatedAt": "2026-08-08T03:16:24Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "fakechris-dsh-track",
+      "name": "dsh-track",
+      "displayName": "track",
+      "description": "Tracking helper.",
+      "author": "fakechris",
+      "repoUrl": "https://github.com/fakechris/dsh-track",
       "category": "tools",
       "tags": [],
+      "stars": 6,
+      "license": "BSD-3-Clause",
+      "updatedAt": "2026-08-14T13:57:38Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "yytbit-dsh-plugin-claude-bridge",
+      "name": "dsh-plugin-claude-bridge",
+      "displayName": "plugin claude bridge",
+      "description": "Bridge to Claude.",
+      "author": "YYTbit",
+      "repoUrl": "https://github.com/YYTbit/dsh-plugin-claude-bridge",
+      "category": "integrations",
+      "tags": [
+        "bridge"
+      ],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-08-11T06:39:42Z",
+      "updatedAt": "2026-08-14T07:48:33Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -935,7 +994,7 @@
       "tags": [],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-08-13T15:39:43Z",
+      "updatedAt": "2026-08-14T18:52:22Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -963,6 +1022,44 @@
       }
     },
     {
+      "slug": "titanwings-dsh-plannotator",
+      "name": "dsh-plannotator",
+      "displayName": "plannotator",
+      "description": "Plan annotator.",
+      "author": "titanwings",
+      "repoUrl": "https://github.com/titanwings/dsh-plannotator",
+      "category": "agent",
+      "tags": [],
+      "stars": 4,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T16:20:46Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "hacksing-dsh-plugins",
+      "name": "dsh-plugins",
+      "displayName": "plugins",
+      "description": "Plugin collections.",
+      "author": "HackSing",
+      "repoUrl": "https://github.com/HackSing/dsh-plugins",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 4,
+      "license": "CC-BY-4.0",
+      "updatedAt": "2026-08-15T03:33:48Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "good-boy4069-deepseek-omnimodal",
       "name": "Deepseek-omnimodal",
       "displayName": "Deepseek omnimodal",
@@ -982,36 +1079,17 @@
       }
     },
     {
-      "slug": "fakechris-dsh-track",
-      "name": "dsh-track",
-      "displayName": "track",
-      "description": "Tracking helper.",
-      "author": "fakechris",
-      "repoUrl": "https://github.com/fakechris/dsh-track",
-      "category": "tools",
-      "tags": [],
-      "stars": 3,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-14T02:48:23Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "omdsh-dev-dsh-mnemon",
-      "name": "dsh-mnemon",
-      "displayName": "mnemon",
-      "description": "Mnemonics plugin.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
+      "slug": "linglambda-dsh-undo",
+      "name": "dsh-undo",
+      "displayName": "undo",
+      "description": "Undo support.",
+      "author": "LingLambda",
+      "repoUrl": "https://github.com/LingLambda/dsh-undo",
       "category": "tools",
       "tags": [],
       "stars": 3,
       "license": "MIT",
-      "updatedAt": "2026-08-14T04:05:26Z",
+      "updatedAt": "2026-08-13T18:36:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1039,6 +1117,65 @@
       }
     },
     {
+      "slug": "yytbit-dsh-plugin-opencode-bridge",
+      "name": "dsh-plugin-opencode-bridge",
+      "displayName": "plugin opencode bridge",
+      "description": "Bridge to OpenCode.",
+      "author": "YYTbit",
+      "repoUrl": "https://github.com/YYTbit/dsh-plugin-opencode-bridge",
+      "category": "integrations",
+      "tags": [
+        "bridge"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T07:49:51Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "kingjly-dsh-plugin-builder",
+      "name": "dsh-plugin-builder",
+      "displayName": "plugin builder",
+      "description": "Plugin builder scaffolding.",
+      "author": "kingjly",
+      "repoUrl": "https://github.com/kingjly/dsh-plugin-builder",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 3,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T06:04:50Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "yihong89-dsh-plugins",
+      "name": "dsh-plugins",
+      "displayName": "plugins",
+      "description": "Plugin collections.",
+      "author": "Yihong89",
+      "repoUrl": "https://github.com/Yihong89/dsh-plugins",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 3,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T08:24:28Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "coppynight-dsh-doctor",
       "name": "dsh-doctor",
       "displayName": "doctor",
@@ -1056,6 +1193,71 @@
           "web"
         ]
       }
+    },
+    {
+      "slug": "yyh-001-dsh-expression",
+      "name": "dsh-expression",
+      "displayName": "expression",
+      "description": "Expression plugin.",
+      "author": "yyh-001",
+      "repoUrl": "https://github.com/yyh-001/dsh-expression",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 3,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T10:57:36Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "syy-shark-dsh-music-plugin",
+      "name": "dsh-music-plugin",
+      "displayName": "music plugin",
+      "description": "Music plugin.",
+      "author": "syy-shark",
+      "repoUrl": "https://github.com/syy-shark/dsh-music-plugin",
+      "category": "fun",
+      "tags": [],
+      "stars": 3,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T15:47:13Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "vvlife-whalehub-dsh",
+      "name": "whalehub-dsh",
+      "displayName": "whalehub dsh",
+      "description": "WhaleHub 插件市场：Web 版 + DSH Web 内嵌市场（Settings → Plugins → 🐋 插件市场），一键安装社区插件。",
+      "author": "vvlife",
+      "repoUrl": "https://github.com/vvlife/whalehub-dsh",
+      "category": "ecosystem",
+      "tags": [
+        "marketplace",
+        "plugin-manager",
+        "web-ui",
+        "skin"
+      ],
+      "stars": 3,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T13:51:43Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ],
+        "command": "dsh plugin --profile web add \"github:vvlife/whalehub-dsh#main&path:/plugin\""
+      },
+      "notes": "DSH Web 内嵌市场：dsh plugin --profile web add \"github:vvlife/whalehub-dsh#main&path:/plugin\"，重启 dsh web 后 Settings → Plugins 出现「🐋 插件市场」Tab。网页版：https://whalehub-dsh.vercel.app",
+      "featured": true
     },
     {
       "slug": "bittersmilezzz-dsh-mac-desktop",
@@ -1100,65 +1302,6 @@
       }
     },
     {
-      "slug": "linglambda-dsh-undo",
-      "name": "dsh-undo",
-      "displayName": "undo",
-      "description": "Undo support.",
-      "author": "LingLambda",
-      "repoUrl": "https://github.com/LingLambda/dsh-undo",
-      "category": "tools",
-      "tags": [],
-      "stars": 2,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T18:36:09Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "titanwings-dsh-plannotator",
-      "name": "dsh-plannotator",
-      "displayName": "plannotator",
-      "description": "Plan annotator.",
-      "author": "titanwings",
-      "repoUrl": "https://github.com/titanwings/dsh-plannotator",
-      "category": "agent",
-      "tags": [],
-      "stars": 2,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T16:20:46Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "yytbit-dsh-plugin-claude-bridge",
-      "name": "dsh-plugin-claude-bridge",
-      "displayName": "plugin claude bridge",
-      "description": "Bridge to Claude.",
-      "author": "YYTbit",
-      "repoUrl": "https://github.com/YYTbit/dsh-plugin-claude-bridge",
-      "category": "integrations",
-      "tags": [
-        "bridge"
-      ],
-      "stars": 2,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T14:54:56Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "yytbit-dsh-plugin-codex-bridge",
       "name": "dsh-plugin-codex-bridge",
       "displayName": "plugin codex bridge",
@@ -1171,7 +1314,7 @@
       ],
       "stars": 2,
       "license": "MIT",
-      "updatedAt": "2026-08-13T14:55:00Z",
+      "updatedAt": "2026-08-14T07:48:38Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1192,28 +1335,7 @@
       ],
       "stars": 2,
       "license": "MIT",
-      "updatedAt": "2026-08-13T14:55:14Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "yytbit-dsh-plugin-opencode-bridge",
-      "name": "dsh-plugin-opencode-bridge",
-      "displayName": "plugin opencode bridge",
-      "description": "Bridge to OpenCode.",
-      "author": "YYTbit",
-      "repoUrl": "https://github.com/YYTbit/dsh-plugin-opencode-bridge",
-      "category": "integrations",
-      "tags": [
-        "bridge"
-      ],
-      "stars": 2,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T14:55:05Z",
+      "updatedAt": "2026-08-14T07:48:51Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1252,101 +1374,6 @@
       "stars": 2,
       "license": "MIT",
       "updatedAt": "2026-08-14T04:15:05Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "kingjly-dsh-plugin-builder",
-      "name": "dsh-plugin-builder",
-      "displayName": "plugin builder",
-      "description": "Plugin builder scaffolding.",
-      "author": "kingjly",
-      "repoUrl": "https://github.com/kingjly/dsh-plugin-builder",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 2,
-      "license": "MIT",
-      "updatedAt": "2026-08-14T04:49:09Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "hacksing-dsh-plugins",
-      "name": "dsh-plugins",
-      "displayName": "plugins",
-      "description": "Plugin collections.",
-      "author": "HackSing",
-      "repoUrl": "https://github.com/HackSing/dsh-plugins",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 2,
-      "license": "CC-BY-4.0",
-      "updatedAt": "2026-08-13T16:16:20Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "yihong89-dsh-plugins",
-      "name": "dsh-plugins",
-      "displayName": "plugins",
-      "description": "Plugin collections.",
-      "author": "Yihong89",
-      "repoUrl": "https://github.com/Yihong89/dsh-plugins",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 2,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T15:32:01Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "yyh-001-dsh-expression",
-      "name": "dsh-expression",
-      "displayName": "expression",
-      "description": "Expression plugin.",
-      "author": "yyh-001",
-      "repoUrl": "https://github.com/yyh-001/dsh-expression",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 2,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T16:00:33Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "syy-shark-dsh-music-plugin",
-      "name": "dsh-music-plugin",
-      "displayName": "music plugin",
-      "description": "Music plugin.",
-      "author": "syy-shark",
-      "repoUrl": "https://github.com/syy-shark/dsh-music-plugin",
-      "category": "fun",
-      "tags": [],
-      "stars": 2,
-      "license": "MIT",
-      "updatedAt": "2026-08-14T03:01:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1422,33 +1449,6 @@
         ]
       },
       "notes": "需本机有 pnpm（dsh plugin 依赖它）。装完在 profile 目录跑 pnpm exec dsh-agnes-paseo-setup --key sk-... 完成 Agnes 凭据写入与 Paseo provider 注册，再 paseo daemon restart。Paseo 里每个 prompt 回合是一次独立的 dsh headless 运行，回合间不保留上下文。"
-    },
-    {
-      "slug": "zhaoyilun-dsh-preset-flash-director",
-      "name": "dsh-preset-flash-director",
-      "displayName": "flash-director",
-      "description": "Token-economical DSH agent preset: a flash-model orchestrator plus pro-model (deepseek-v4-pro) expert subagents, with an enforced delegation protocol — curated briefs, a hard per-task budget, and no delegation chains.",
-      "author": "zhaoyilun",
-      "repoUrl": "https://github.com/zhaoyilun/dsh-preset-flash-director",
-      "category": "agent",
-      "tags": [
-        "preset",
-        "orchestration",
-        "subagent",
-        "token-economy"
-      ],
-      "stars": 0,
-      "license": "MIT",
-      "updatedAt": "2026-08-14T08:36:21Z",
-      "install": {
-        "type": "npm",
-        "package": "dsh-preset-flash-director",
-        "profiles": [
-          "web"
-        ]
-      },
-      "notes": "预设（agent preset）而非 cordis 插件。安装：npx dsh-preset-flash-director install；新开会话选「Flash 主控 · Pro 专家」预设并把会话模型切到 deepseek-v4-flash。",
-      "featured": false
     }
   ]
 }
