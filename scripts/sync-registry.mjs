@@ -57,6 +57,12 @@ const OVERRIDES = {
     tags: ['llm', 'agnes-ai', 'paseo', 'acp', 'provider'],
     install: { type: 'github', profiles: ['headless', 'web'] },
   },
+  'vvlife/dsh-paseo-mobile': {
+    tags: ['mobile', 'paseo', 'acp', 'bridge', 'remote'],
+    install: { type: 'github', profiles: ['headless'] },
+    notes:
+      '模型无关，不改 dsh 模型配置（与 dsh-agnes-paseo 互补）。装完在 profile 目录跑 pnpm exec dsh-paseo-mobile-setup --restart-daemon：复制 ACP 桥、探测当前默认模型写 provider.json、注册 Paseo provider；然后 paseo daemon pair 出二维码，手机 Paseo App 扫码即连。dsh web 会话可在 Paseo 导入镜像到手机，追问带上下文注入；Paseo 新建 agent 的回合间不保留上下文。',
+  },
   'vvlife/dsh-deploy-share': {
     tags: ['html', 'deploy', 'share', 'hosting', 'sidebar'],
     install: { type: 'github', profiles: ['web'] },

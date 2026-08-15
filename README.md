@@ -64,6 +64,8 @@ dsh plugin --profile web add "github:vvlife/whalehub-dsh#main&path:/plugin"
 
 实现参考了官方 `ui-settings-plugin-inventory`（`settings.plugins.tab` slot 贡献）与 `dsh-better-sidebar`（双半包构建、`ctx.webServer` 路由、Host 头信任围栏）。详见 [plugin/README.md](plugin/README.md)。
 
+> 💡 **连 dsh 都还没装？** 试试 [DeepSeek Harness Desktop](https://github.com/vvlife/deepseek-harness-desktop)：自包含 macOS APP（内置 Node + dsh + Paseo），拖进「应用程序」即用，插件市场一条命令接入。宣传站：[dsh-desktop.vercel.app](https://dsh-desktop.vercel.app)
+
 ## 🚀 快速开始（用户）
 
 1. 装好 DSH（`dsh web` 能打开 http://127.0.0.1:3080）

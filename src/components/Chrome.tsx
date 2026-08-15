@@ -48,6 +48,13 @@ export function Footer() {
         </a>{' '}
         与 GitHub API，每日自动同步
       </p>
+      <p>
+        一键体验：{' '}
+        <a href="https://dsh-desktop.vercel.app" target="_blank" rel="noreferrer">
+          DeepSeek Harness Desktop
+        </a>
+        （自包含 macOS APP，内置 dsh + 插件市场）
+      </p>
       <p>插件版权归各自作者所有 · MIT License</p>
     </footer>
   )
