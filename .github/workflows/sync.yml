@@ -24,6 +24,8 @@ jobs:
         run: |
           npm install --no-audit --no-fund
           npm test
+      - name: Validate plugins are real DSH plugins
+        run: node scripts/validate-plugins.mjs
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

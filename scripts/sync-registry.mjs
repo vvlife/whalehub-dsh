@@ -18,12 +18,37 @@ import { execSync } from 'node:child_process'
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
+import { isRealDshPlugin, fullNameFromRepoUrl } from './verify-plugin.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const OUT = join(ROOT, 'registry', 'plugins.json')
 const AWESOME_URL =
   'https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md'
 const NO_API = process.argv.includes('--no-api')
+
+/**
+ * 永久封禁名单：即使 awesome 列表里有，也绝不收录（典型：被误当成 DSH 插件的
+ * agent-skills 元包 / 普通依赖，缺少 dsh.bundle.patch，dsh 永远不会真正加载）。
+ * 也用于把已下架的条目从每日同步里剔除。
+ */
+const EXCLUDE = new Set([
+  // 已确认「有 package.json 但无 dsh.bundle.patch」的假插件：dsh 装了也不会加载
+  // （多为 agent-skills 元包 / 普通依赖）。经 scripts/validate-plugins.mjs 校验判定。
+  'omdsh-dev/dsh-plugin-skills', // agent-skills 元包
+  'lum1104/dsh-browser',
+  'btspoony/mstar-harness',
+  'whiteguo233/dsh-openbiliclaw',
+  'vibeinging/dsh-work',
+  'zhouwumu2-lab/dsh-vision-fix',
+  'senmuuuuw/dsh-group-photo',
+  'chen-001/dsh-grok-tui',
+  'electricitysheep/dsh-tool-turbo',
+  'yyh-001/dsh-companion',
+  'sjscy05/deepseek-harness-vision-plugin',
+  'yihong89/dsh-plugins',
+  'artificialnotimbecile/dsh-context-taxonomy',
+  'zhaoyilun/dsh-preset-flash-director',
+])
 
 /** awesome 列表之外的本地补充条目（WhaleHub 自身等） */
 const EXTRA_ENTRIES = [
@@ -239,6 +264,27 @@ async function main() {
     const prevEntry = prev.find((p) => p.slug === slug)
     const meta = NO_API ? null : await fetchRepoMeta(fullName, token).catch(() => null)
     const override = OVERRIDES[fullName] ?? {}
+
+    // 永久封禁：即使 awesome 列表里有也绝不收录（大小写不敏感）
+    if (EXCLUDE.has(fullName.toLowerCase())) {
+      console.log(`  exclude (blocklist): ${fullName}`)
+      continue
+    }
+
+    const install = override.install ?? { type: 'github', profiles: ['web'] }
+    // 准入闸门：仅对「从未收录过」且非私有的 github/npm 新条目做真插件校验，
+    // 防止 agent-skills 元包 / 普通依赖被误当 DSH 插件收进市场。
+    // 仅当「成功拉到 manifest 且确实无 dsh.bundle」时跳过；网络/私有仓库拉取
+    // 失败一律保留，避免每日同步因瞬时故障误删真实插件。
+    const isNew = !prevEntry
+    if (isNew && !override.private && (install.type === 'github' || install.type === 'npm')) {
+      const v = await isRealDshPlugin(fullName, install)
+      if (v.status === 'fail') {
+        console.log(`  skip (not a real DSH plugin): ${fullName} — ${v.reason}`)
+        continue
+      }
+    }
+
     const name = fullName.split('/')[1]
     const autoTags = TAG_RULES.filter(([re]) => re.test(tagline) || re.test(name)).map(([, t]) => t)
     plugins.push({
@@ -253,7 +299,7 @@ async function main() {
       stars: meta?.stars ?? prevEntry?.stars ?? 0,
       license: meta?.license ?? prevEntry?.license ?? null,
       updatedAt: meta?.updatedAt ?? prevEntry?.updatedAt ?? null,
-      install: override.install ?? { type: 'github', profiles: ['web'] },
+      install,
       ...(override.notes ?? prevEntry?.notes ? { notes: override.notes ?? prevEntry?.notes } : {}),
       ...(override.featured ?? prevEntry?.featured ? { featured: true } : {}),
       ...(override.private ?? prevEntry?.private ? { private: true } : {}),

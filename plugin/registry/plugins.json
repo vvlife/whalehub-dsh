@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "generatedAt": "2026-08-13T18:18:23.438Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 66,
+  "pluginCount": 53,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -227,27 +227,6 @@
       "featured": true
     },
     {
-      "slug": "btspoony-mstar-harness",
-      "name": "mstar-harness",
-      "displayName": "mstar harness",
-      "description": "Skill-driven Harness / Loop Engineering Workflow Agent Plugin.",
-      "author": "btspoony",
-      "repoUrl": "https://github.com/btspoony/mstar-harness",
-      "category": "agent",
-      "tags": [
-        "workflow"
-      ],
-      "stars": 38,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T13:35:48Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "icetomoyo-dsh-workflow",
       "name": "dsh_workflow",
       "displayName": "dsh_workflow",
@@ -441,30 +420,6 @@
       }
     },
     {
-      "slug": "lum1104-dsh-browser",
-      "name": "dsh-browser",
-      "displayName": "browser",
-      "description": "Chrome sidebar extension so DSH operates your browser directly, no vision needed.",
-      "author": "Lum1104",
-      "repoUrl": "https://github.com/Lum1104/dsh-browser",
-      "category": "terminal",
-      "tags": [
-        "browser",
-        "chrome",
-        "vision",
-        "sidebar"
-      ],
-      "stars": 18,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-13T14:03:40Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "omdsh-dev-dsh-custom-tool",
       "name": "dsh-custom-tool",
       "displayName": "custom tool",
@@ -647,46 +602,6 @@
       }
     },
     {
-      "slug": "senmuuuuw-dsh-group-photo",
-      "name": "dsh-group-photo",
-      "displayName": "group photo",
-      "description": "Internal-test group-photo wall (GitHub OAuth, frozen allowlist).",
-      "author": "SenmuuuuW",
-      "repoUrl": "https://github.com/SenmuuuuW/dsh-group-photo",
-      "category": "fun",
-      "tags": [],
-      "stars": 11,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T12:33:47Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "zhouwumu2-lab-dsh-vision-fix",
-      "name": "dsh-vision-fix",
-      "displayName": "vision fix",
-      "description": "Vision fix / repair helper.",
-      "author": "zhouwumu2-lab",
-      "repoUrl": "https://github.com/zhouwumu2-lab/dsh-vision-fix",
-      "category": "vision",
-      "tags": [
-        "vision"
-      ],
-      "stars": 10,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-11T17:22:26Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "omdsh-dev-dsh-annotation",
       "name": "dsh-annotation",
       "displayName": "annotation",
@@ -807,48 +722,6 @@
       }
     },
     {
-      "slug": "whiteguo233-dsh-openbiliclaw",
-      "name": "dsh-openbiliclaw",
-      "displayName": "openbiliclaw",
-      "description": "Bilibili integration for DSH.",
-      "author": "whiteguo233",
-      "repoUrl": "https://github.com/whiteguo233/dsh-openbiliclaw",
-      "category": "terminal",
-      "tags": [
-        "bridge"
-      ],
-      "stars": 6,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-13T14:49:58Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "chen-001-dsh-grok-tui",
-      "name": "dsh-grok-tui",
-      "displayName": "grok tui",
-      "description": "Grok-style TUI.",
-      "author": "chen-001",
-      "repoUrl": "https://github.com/chen-001/dsh-grok-tui",
-      "category": "terminal",
-      "tags": [
-        "tui"
-      ],
-      "stars": 5,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T14:52:00Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "omdsh-dev-dsh-gomoku",
       "name": "dsh-gomoku",
       "displayName": "gomoku",
@@ -887,25 +760,6 @@
       }
     },
     {
-      "slug": "vibeinging-dsh-work",
-      "name": "dsh-work",
-      "displayName": "work",
-      "description": "Work plugin.",
-      "author": "vibeinging",
-      "repoUrl": "https://github.com/vibeinging/dsh-work",
-      "category": "agent",
-      "tags": [],
-      "stars": 4,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T12:27:31Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "unknowbug-anchorlaw",
       "name": "anchorlaw",
       "displayName": "anchorlaw",
@@ -936,25 +790,6 @@
       "stars": 2,
       "license": "MIT",
       "updatedAt": "2026-08-10T03:38:53Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "yyh-001-dsh-companion",
-      "name": "dsh-companion",
-      "displayName": "companion",
-      "description": "Companion plugin.",
-      "author": "yyh-001",
-      "repoUrl": "https://github.com/yyh-001/dsh-companion",
-      "category": "agent",
-      "tags": [],
-      "stars": 2,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T16:00:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1003,25 +838,6 @@
       }
     },
     {
-      "slug": "electricitysheep-dsh-tool-turbo",
-      "name": "dsh-tool-turbo",
-      "displayName": "tool turbo",
-      "description": "Tool turbo.",
-      "author": "Electricitysheep",
-      "repoUrl": "https://github.com/Electricitysheep/dsh-tool-turbo",
-      "category": "tools",
-      "tags": [],
-      "stars": 1,
-      "license": null,
-      "updatedAt": "2026-08-13T15:08:49Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "linglambda-dsh-undo",
       "name": "dsh-undo",
       "displayName": "undo",
@@ -1052,25 +868,6 @@
       "stars": 1,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-13T07:32:12Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "omdsh-dev-dsh-plugin-skills",
-      "name": "dsh-plugin-skills",
-      "displayName": "plugin skills",
-      "description": "Skills plugin.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-plugin-skills",
-      "category": "tools",
-      "tags": [],
-      "stars": 1,
-      "license": "MIT",
-      "updatedAt": "2026-08-11T06:39:42Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1258,25 +1055,6 @@
       }
     },
     {
-      "slug": "yihong89-dsh-plugins",
-      "name": "dsh-plugins",
-      "displayName": "plugins",
-      "description": "Plugin collections.",
-      "author": "Yihong89",
-      "repoUrl": "https://github.com/Yihong89/dsh-plugins",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 1,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T15:32:01Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "yyh-001-dsh-expression",
       "name": "dsh-expression",
       "displayName": "expression",
@@ -1288,27 +1066,6 @@
       "stars": 1,
       "license": "MIT",
       "updatedAt": "2026-08-13T16:00:33Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "sjscy05-deepseek-harness-vision-plugin",
-      "name": "deepseek-harness-vision-plugin",
-      "displayName": "deepseek harness vision plugin",
-      "description": "Vision plugin for DSH.",
-      "author": "sjscy05",
-      "repoUrl": "https://github.com/sjscy05/deepseek-harness-vision-plugin",
-      "category": "vision",
-      "tags": [
-        "vision"
-      ],
-      "stars": 0,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T15:40:40Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1331,25 +1088,6 @@
       "stars": 0,
       "license": "MIT",
       "updatedAt": "2026-08-13T15:07:11Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "artificialnotimbecile-dsh-context-taxonomy",
-      "name": "dsh-context-taxonomy",
-      "displayName": "context taxonomy",
-      "description": "Context taxonomy.",
-      "author": "ArtificialNotImbecile",
-      "repoUrl": "https://github.com/ArtificialNotImbecile/dsh-context-taxonomy",
-      "category": "tools",
-      "tags": [],
-      "stars": 0,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T14:24:04Z",
       "install": {
         "type": "github",
         "profiles": [
