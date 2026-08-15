@@ -32,6 +32,11 @@ const EXTRA_ENTRIES = [
     category: 'ecosystem',
     tagline: 'WhaleHub 插件市场：Web 版 + DSH Web 内嵌市场（Settings → Plugins → 🐋 插件市场），一键安装社区插件。',
   },
+  {
+    fullName: 'vvlife/dsh-deploy-share',
+    category: 'web-ui',
+    tagline: 'HTML preview deploy & share buttons: one-click deploy to free account-less anonymous hosting and copy the live link.',
+  },
 ]
 
 /** awesome 列表章节标题 → WhaleHub 分类 */
@@ -51,6 +56,11 @@ const OVERRIDES = {
   'vvlife/dsh-agnes-paseo': {
     tags: ['llm', 'agnes-ai', 'paseo', 'acp', 'provider'],
     install: { type: 'github', profiles: ['headless', 'web'] },
+  },
+  'vvlife/dsh-deploy-share': {
+    tags: ['html', 'deploy', 'share', 'hosting', 'sidebar'],
+    install: { type: 'github', profiles: ['web'] },
+    notes: '依赖 dsh-better-sidebar（经 ctx.betterSidebar 注册高优先级 HTML viewer）。部署经插件 host 路由 /deploy-share/upload 转发免账号托管（html.cafe → catbox.moe → envs.sh），上传后回读校验 text/html + CSP 放行内联脚本 + 响应体含内容标记，失败自动换下一家。装完重启 dsh web。',
   },
   'zhu1090093659/dsh-web-ui': {
     featured: true,
