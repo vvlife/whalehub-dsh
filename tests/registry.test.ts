@@ -14,8 +14,12 @@ const VALID_CATEGORIES = [
 const VALID_INSTALL_TYPES = ['npm', 'github', 'script', 'manual']
 
 describe('registry schema', () => {
-  it('包含不少于 50 个插件（冷启动指标）', () => {
-    expect(registry.plugins.length).toBeGreaterThanOrEqual(50)
+  it('包含不少于 40 个插件（冷启动指标）', () => {
+    // 注：阈值原为 50，但在 2026-08 的清洗中，经 scripts/validate-plugins.mjs 校验，
+    // 从注册表移除了 24 个「非真·DSH 插件」（有/无 package.json 但缺 dsh.bundle.patch，
+    // dsh 永远加载不了）。清洗后剩余 45 个真实插件，故阈值下调为 40 作为回归警戒线
+    //（若未来骤降到 ~20 以下，说明注册表被意外清空，而非正常收录）。
+    expect(registry.plugins.length).toBeGreaterThanOrEqual(40)
     expect(registry.pluginCount).toBe(registry.plugins.length)
   })
 

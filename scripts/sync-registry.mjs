@@ -48,6 +48,18 @@ const EXCLUDE = new Set([
   'yihong89/dsh-plugins',
   'artificialnotimbecile/dsh-context-taxonomy',
   'zhaoyilun/dsh-preset-flash-director',
+  // —— 以下 10 条由 CI 校验门 (validate-plugins.mjs) 在 run 31893823351 判定为「非 DSH 插件」——
+  // 要么仓库里根本没有任何 package.json（无法作为 dsh 插件安装），要么有 package.json 但不声明 dsh.bundle.patch。
+  'nagi-ovo/dsh-find-plugins', // 仓库无 package.json
+  'ruler4396/dsh-launcher', // 仓库无 package.json
+  'dekrych/dshell-plugins', // 仓库无 package.json
+  'hanelalo/browser-bridge', // package.json 无 dsh.bundle.patch [extension/package.json]
+  'hxs996/beep-deepact', // 仓库无 package.json
+  'unknowbug/re-framework', // 仓库无 package.json
+  'unknowbug/anchorlaw', // package.json 无 dsh.bundle.patch [typescript/anchorlaw-scanner/package.json]
+  'good-boy4069/deepseek-omnimodal', // 仓库无 package.json
+  'coppynight/dsh-doctor', // package.json 无 dsh.bundle.patch [.dsh-plugin/package.json]
+  'hacksing/dsh-plugins', // 仓库无 package.json
 ])
 
 /** awesome 列表之外的本地补充条目（WhaleHub 自身等） */

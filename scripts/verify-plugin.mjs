@@ -39,17 +39,24 @@ function withTimeout(ms) {
   return { signal: ac.signal, clear: () => clearTimeout(t) }
 }
 
-async function fetchJson(url, { headers = {} } = {}) {
-  const { signal, clear } = withTimeout(TIMEOUT_MS)
-  try {
-    const res = await fetch(url, { signal, headers: { 'User-Agent': 'whalehub-verify', ...headers } })
-    if (!res.ok) return { ok: false, status: res.status, body: null }
-    return { ok: true, status: res.status, body: await res.json() }
-  } catch (e) {
-    return { ok: false, status: 0, body: null, error: String(e?.message ?? e) }
-  } finally {
-    clear()
+async function fetchJson(url, { headers = {} } = {}, retries = 3) {
+  let last
+  for (let i = 0; i < retries; i++) {
+    const { signal, clear } = withTimeout(TIMEOUT_MS)
+    try {
+      const res = await fetch(url, { signal, headers: { 'User-Agent': 'whalehub-verify', ...headers } })
+      if (res.ok) return { ok: true, status: res.status, body: await res.json() }
+      // 404/403 是确定性结果，不重试
+      if (res.status === 404 || res.status === 403) return { ok: false, status: res.status, body: null }
+      last = { ok: false, status: res.status, body: null }
+    } catch (e) {
+      last = { ok: false, status: 0, body: null, error: String(e?.message ?? e) }
+    } finally {
+      clear()
+    }
+    if (i < retries - 1) await new Promise((r) => setTimeout(r, 800 * (i + 1)))
   }
+  return last
 }
 
 function ghToken() {
