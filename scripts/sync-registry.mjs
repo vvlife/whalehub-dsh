@@ -76,6 +76,31 @@ const EXTRA_ENTRIES = [
   },
 ]
 
+/** 社区提交队列（GitHub Issue 表单）：维护者审核后入册，仅收录通过"真·DSH 插件"校验的条目。
+ *  每条含 fullName / category / tagline；install · notes · tags 由下方 OVERRIDES 补充。
+ *  未通过校验的提交（无 dsh.bundle.patch）不会被 sync 收录，需作者补全后重新提交。 */
+const SUBMISSIONS = [
+  { fullName: 'tuogusa/dsh-plugin-toggle', category: 'tools', tagline: 'DSH 插件开关/删除管理器：设置页直接启用停用、删除插件，支持 bundle 整组开关' },
+  { fullName: 'tuogusa/dsh-skill-manager', category: 'tools', tagline: 'DSH 技能管理器：设置页浏览/搜索/删除用户技能，显示来源与标记' },
+  { fullName: 'tuogusa/dsh-session-tags', category: 'tools', tagline: 'DSH 会话标签：给会话打标签并按 tag 搜索管理' },
+  { fullName: 'tuogusa/dsh-whale-background', category: 'web-ui', tagline: '壁纸 + 半透明磨砂应用表面' },
+  { fullName: 'tuogusa/dsh-session-nav', category: 'web-ui', tagline: '会话对话快捷导航：右侧悬浮按钮，hover 弹出完整历史提问列表，点击快速跳转' },
+  { fullName: 'bpc-oss/dsh-web-billing', category: 'web-ui', tagline: '人民币/美元 token 计费插件：官方政策自动计价、逐条消息记账、账号余额、本地模型节省统计（界面语言自动切换 ¥/$）' },
+  { fullName: 'MatsMQ/dsh-deepseek-balance', category: 'web-ui', tagline: '实时显示 DeepSeek 开发平台余额' },
+  { fullName: 'omdsh-plugins/omdsh-code', category: 'terminal', tagline: 'Code 模式：以 harness 自带终端作为中间列，在会话工作区里运行' },
+  { fullName: 'omdsh-plugins/omdsh-sidepanel', category: 'web-ui', tagline: 'Work 模式下的右侧文件树与底部终端侧栏' },
+  { fullName: 'omdsh-plugins/omdsh-sidechat', category: 'web-ui', tagline: '侧边对话：锚定当前浏览内容，在独立会话中提问，不打扰主会话' },
+  { fullName: 'omdsh-plugins/omdsh-usage', category: 'web-ui', tagline: '会话/项目花费与账户余额一览' },
+  { fullName: 'omdsh-plugins/omdsh-editor', category: 'tools', tagline: '在会话头部一键用本机编辑器/终端/文件管理器打开项目目录' },
+  { fullName: 'omdsh-plugins/omdsh-remdev', category: 'integrations', tagline: '远程开发：把工作区接到 SSH 服务器，文件、终端与智能体都在远端运行' },
+  { fullName: 'omdsh-plugins/omdsh-remctrl', category: 'integrations', tagline: '远程控制：独立端口的第二入口，设备配对 + 分级方法白名单' },
+  { fullName: 'omdsh-plugins/omdsh-justchat', category: 'agent', tagline: 'Chat 模式：免选项目目录直接开聊，会话统一收纳在托管工作区' },
+  { fullName: 'omdsh-plugins/omdsh-shortcuts', category: 'tools', tagline: '一键绑定命令的快捷键系统，桌面菜单与网页共用一份配置' },
+  { fullName: 'peterliucius/dsh-prompt-optimize', category: 'tools', tagline: '对 composer 当前草稿做辅助 LLM 改写；点击只替换草稿，不发送消息、不开回合' },
+  { fullName: 'omdsh-plugins/omdsh-base', category: 'ecosystem', tagline: 'DeepSeek Harness Web GUI 的会话模式系统：模式注册表、模式切换器与侧边栏圆点，自带 Work 模式' },
+  { fullName: 'omdsh-plugins/omdsh-plughub', category: 'ecosystem', tagline: 'omdsh 插件中心：在设置页里安装、移除并配置整套 omdsh 插件' },
+]
+
 /** awesome 列表章节标题 → WhaleHub 分类 */
 const CATEGORY_MAP = {
   'Web UI & Skins': 'web-ui',
@@ -191,6 +216,68 @@ const OVERRIDES = {
     notes:
       'DSH Web 内嵌市场：dsh plugin --profile web add "github:vvlife/whalehub-dsh#main&path:/plugin"，重启 dsh web 后 Settings → Plugins 出现「🐋 插件市场」Tab。网页版：https://whalehub-dsh.vercel.app',
   },
+  // —— 社区提交队列（Issue 表单）经审核入册 ——
+  'tuogusa/dsh-plugin-toggle': { tags: ['plugin-manager', 'toggle', 'settings'], install: { type: 'github', profiles: ['web'] } },
+  'tuogusa/dsh-skill-manager': { tags: ['skills', 'manager', 'settings'], install: { type: 'github', profiles: ['web'] } },
+  'tuogusa/dsh-session-tags': { tags: ['session', 'tags', 'search'], install: { type: 'github', profiles: ['web'] } },
+  'tuogusa/dsh-whale-background': { tags: ['wallpaper', 'skin', 'ui'], install: { type: 'github', profiles: ['web'] } },
+  'tuogusa/dsh-session-nav': {
+    tags: ['session', 'navigation', 'sidebar'],
+    install: { type: 'github', profiles: ['web'] },
+    notes: '兼容 Profile: web；git 安装需在 profile 的 pnpm-workspace.yaml 添加 allowBuilds；装完重启 + Ctrl+Shift+R',
+  },
+  'bpc-oss/dsh-web-billing': {
+    tags: ['billing', 'token', 'cost', 'cn'],
+    install: { type: 'github', profiles: ['web'] },
+    notes: 'Bundle 插件：dsh plugin add 会自动把 dsh-web-billing 加入 dsh.profile.bundles 后重启 dsh web。可选配置 localProviders（如 dgx-spark-vllm）启用本地模型节省统计。只读端点 /billing/state、/billing/session/<id> 默认仅回环地址可访问。',
+  },
+  'MatsMQ/dsh-deepseek-balance': { tags: ['balance', 'api', 'cn'], install: { type: 'github', profiles: ['web'] } },
+  'omdsh-plugins/omdsh-code': {
+    tags: ['code', 'terminal', 'mode'],
+    install: { type: 'github', profiles: ['web'] },
+    notes: '依赖 omdsh-base 的模式切换器；终端运行在独立 profile（默认 omdsh-tui，需按该仓库说明安装）。',
+  },
+  'omdsh-plugins/omdsh-sidepanel': {
+    tags: ['sidebar', 'filetree', 'terminal', 'panel'],
+    install: { type: 'github', profiles: ['web'] },
+    notes: '仅 Work 模式显示；可选依赖 omdsh-remdev（远程开发服务）。',
+  },
+  'omdsh-plugins/omdsh-sidechat': { tags: ['sidechat', 'chat', 'panel'], install: { type: 'github', profiles: ['web'] } },
+  'omdsh-plugins/omdsh-usage': { tags: ['usage', 'billing', 'cost'], install: { type: 'github', profiles: ['web'] } },
+  'omdsh-plugins/omdsh-editor': { tags: ['editor', 'vscode', 'open'], install: { type: 'github', profiles: ['web'] } },
+  'omdsh-plugins/omdsh-remdev': {
+    tags: ['remote', 'ssh', 'dev'],
+    install: { type: 'github', profiles: ['web'] },
+    notes: '需目标服务器可 SSH 登录；自动安装 Node/pnpm 与 Code 终端 profile。',
+  },
+  'omdsh-plugins/omdsh-remctrl': {
+    tags: ['remote', 'control', 'mobile'],
+    install: { type: 'github', profiles: ['web'] },
+    notes: '当前为 M0（门与锁）；面向 tailnet 内手机远程查看会话与审批。',
+  },
+  'omdsh-plugins/omdsh-justchat': {
+    tags: ['chat', 'mode', 'workspace'],
+    install: { type: 'github', profiles: ['web'] },
+    notes: '提供 Chat 与 Work 两种模式。',
+  },
+  'omdsh-plugins/omdsh-shortcuts': { tags: ['shortcuts', 'keybinding'], install: { type: 'github', profiles: ['web'] } },
+  'peterliucius/dsh-prompt-optimize': {
+    tags: ['prompt', 'optimize', 'composer'],
+    install: { type: 'github', profiles: ['web'] },
+    notes: '兼容 Profile: web（占用 conversation.input.right，需要已有 web Client Remote gateway）；不兼容默认 headless（无 composer UI）。Windows 上若 git 依赖 symlink 报 EPERM，可在 pnpm-workspace.yaml 加 packageImportMethod: copy。',
+  },
+  'omdsh-plugins/omdsh-base': {
+    featured: false,
+    tags: ['ecosystem', 'mode', 'base'],
+    install: { type: 'npm', package: '@omdsh-plugins/omdsh-base', profiles: ['web'] },
+    notes: '需要全局 dsh CLI 与 web profile；安装后重启 dsh web 生效。配合 omdsh-justchat / omdsh-code 可组成 Chat/Work/Code 模式切换。',
+  },
+  'omdsh-plugins/omdsh-plughub': {
+    featured: false,
+    tags: ['ecosystem', 'hub', 'manager'],
+    install: { type: 'npm', package: '@omdsh-plugins/omdsh-plughub', profiles: ['web'] },
+    notes: 'npm 已发布；安装后重启生效，Settings → Plugins → OMDSH Plugins 中可安装其余插件。',
+  },
 }
 
 const TAG_RULES = [
@@ -259,8 +346,16 @@ async function fetchRepoMeta(fullName, token) {
 
 async function main() {
   const md = await (await fetch(AWESOME_URL)).text()
-  const parsed = [...parseAwesome(md), ...EXTRA_ENTRIES]
-  console.log(`parsed ${parsed.length} repos from awesome list`)
+  // 社区提交队列（Issue 表单）并入解析结果；按 fullName 去重，避免与 awesome 列表重复收录
+  const SUBMISSIONS_ALL = [...parseAwesome(md), ...EXTRA_ENTRIES, ...SUBMISSIONS]
+  const seenFull = new Set()
+  const parsed = SUBMISSIONS_ALL.filter((e) => {
+    const k = e.fullName.toLowerCase()
+    if (seenFull.has(k)) return false
+    seenFull.add(k)
+    return true
+  })
+  console.log(`parsed ${parsed.length} repos (awesome + extra + submissions, deduped)`)
   if (parsed.length < 40) throw new Error('parse result suspiciously small — awesome list format may have changed')
 
   const token = NO_API ? null : ghToken()
