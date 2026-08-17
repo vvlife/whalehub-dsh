@@ -1,0 +1,38 @@
+{
+  "title": "📮 提交你的插件",
+  "intro": "WhaleHub 的注册表由 Git 仓库托管，提交流程 = 一次 Issue 或 PR，无需注册账号、无需等待复杂审核。",
+  "methods": [
+    {
+      "name": "方式一：提 Issue（推荐，1 分钟）",
+      "steps": [
+        "打开「提交插件 Issue 表单」",
+        "填写仓库地址、分类、一句话描述",
+        "维护者审核后合并，次日同步即上线"
+      ],
+      "link": {
+        "label": "提交插件 Issue 表单 ↗",
+        "url": "https://github.com/vvlife/whalehub-dsh/issues/new?template=submit-plugin.yml"
+      }
+    },
+    {
+      "name": "方式二：直接 PR（适合批量/急上架）",
+      "steps": [
+        "Fork 本仓库，编辑 registry/plugins.json（或 awesome 列表源）",
+        "确保 npm test 的注册表校验通过",
+        "提交 PR，审核通过后自动部署"
+      ],
+      "link": {
+        "label": "Fork whalehub-dsh ↗",
+        "url": "https://github.com/vvlife/whalehub-dsh/fork"
+      }
+    }
+  ],
+  "checklist": [
+    "仓库是公开的，README 写清了安装方式",
+    "给仓库打上 dsh-plugin topic，方便生态索引",
+    "声明兼容的 DSH Profile（web / headless / 自定义）",
+    "如果是 npm 包，确认 dsh plugin add <包名> 可直接安装"
+  ],
+  "review": "只收录开源免费插件；拒绝恶意代码、付费墙与纯广告条目。审核通常在 24 小时内完成。",
+  "marketUrl": "https://whalehub-dsh.vercel.app"
+}
