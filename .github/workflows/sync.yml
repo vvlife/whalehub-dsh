@@ -1,15 +1,23 @@
-name: Sync registry
+name: Sync registry & deploy
 
 on:
   schedule:
     - cron: '17 3 * * *' # 每日 03:17 UTC（错峰）
   workflow_dispatch:
+  push:
+    branches: [main]
 
+# 同步提交与部署都需要写仓库内容（gh-pages 推送、registry 提交）
 permissions:
   contents: write
 
+# 避免每日定时与 push 并发部署互相踩踏
+concurrency:
+  group: deploy-whalehub
+  cancel-in-progress: false
+
 jobs:
-  sync:
+  sync-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,8 +34,29 @@ jobs:
           npm test
       - name: Validate plugins are real DSH plugins
         run: node scripts/validate-plugins.mjs
-      - name: Commit changes
+      - name: Commit registry changes (if any)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore(registry): daily sync from awesome list'
           file_pattern: 'registry/plugins.json'
+
+      # ---------- 部署 ----------
+      - name: Build site (bundles registry/plugins.json into JS)
+        run: npm run build
+
+      - name: Deploy to GitHub Pages (国内备用镜像)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
+
+      - name: Deploy to Vercel (production)
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-args: '--prod'
