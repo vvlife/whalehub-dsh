@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-18T00:47:43.123Z",
+  "generatedAt": "2026-08-18T04:01:39.403Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 76,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 4108,
+      "stars": 4227,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-18T00:44:58Z",
+      "updatedAt": "2026-08-18T03:55:05Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,7 +47,7 @@
         "editor",
         "tui"
       ],
-      "stars": 1948,
+      "stars": 2011,
       "license": "MIT",
       "updatedAt": "2026-08-17T17:22:30Z",
       "install": {
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 1814,
+      "stars": 1856,
       "license": "MIT",
-      "updatedAt": "2026-08-18T00:35:23Z",
+      "updatedAt": "2026-08-18T03:51:31Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,7 +98,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 1253,
+      "stars": 1271,
       "license": null,
       "updatedAt": "2026-08-17T11:10:30Z",
       "install": {
@@ -122,7 +122,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 617,
+      "stars": 643,
       "license": "MIT",
       "updatedAt": "2026-08-17T19:57:06Z",
       "install": {
@@ -149,7 +149,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 491,
+      "stars": 504,
       "license": "MIT",
       "updatedAt": "2026-08-17T12:58:33Z",
       "install": {
@@ -172,9 +172,9 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 482,
+      "stars": 485,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-18T00:43:14Z",
+      "updatedAt": "2026-08-18T01:28:47Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 330,
+      "stars": 344,
       "license": "MIT",
       "updatedAt": "2026-08-17T12:04:07Z",
       "install": {
@@ -217,9 +217,9 @@
         "macos",
         "sidebar"
       ],
-      "stars": 238,
+      "stars": 245,
       "license": "MIT",
-      "updatedAt": "2026-08-17T23:19:38Z",
+      "updatedAt": "2026-08-18T03:27:35Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -239,7 +239,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 222,
+      "stars": 226,
       "license": "MIT",
       "updatedAt": "2026-08-17T09:23:59Z",
       "install": {
@@ -260,7 +260,7 @@
       "tags": [
         "tui"
       ],
-      "stars": 203,
+      "stars": 208,
       "license": "Apache-2.0",
       "updatedAt": "2026-08-17T13:28:11Z",
       "install": {
@@ -283,7 +283,7 @@
         "charts",
         "mermaid"
       ],
-      "stars": 185,
+      "stars": 195,
       "license": "MIT",
       "updatedAt": "2026-08-17T23:07:58Z",
       "install": {
@@ -307,7 +307,7 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 169,
+      "stars": 170,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-17T16:27:54Z",
       "install": {
@@ -326,7 +326,7 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 109,
+      "stars": 113,
       "license": "MIT",
       "updatedAt": "2026-08-16T17:24:40Z",
       "install": {
@@ -348,9 +348,28 @@
         "rewind",
         "checkpoint"
       ],
-      "stars": 76,
+      "stars": 77,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-16T17:17:17Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-mnemon",
+      "name": "dsh-mnemon",
+      "displayName": "mnemon",
+      "description": "Mnemonics plugin.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
+      "category": "tools",
+      "tags": [],
+      "stars": 76,
+      "license": "MIT",
+      "updatedAt": "2026-08-17T19:23:33Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -385,25 +404,6 @@
       "private": true
     },
     {
-      "slug": "omdsh-dev-dsh-mnemon",
-      "name": "dsh-mnemon",
-      "displayName": "mnemon",
-      "description": "Mnemonics plugin.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
-      "category": "tools",
-      "tags": [],
-      "stars": 73,
-      "license": "MIT",
-      "updatedAt": "2026-08-17T19:23:33Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "omdsh-dev-dsh-annotation",
       "name": "dsh-annotation",
       "displayName": "annotation",
@@ -412,7 +412,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 69,
+      "stars": 72,
       "license": "MIT",
       "updatedAt": "2026-08-17T21:18:17Z",
       "install": {
@@ -434,7 +434,7 @@
         "notification",
         "desktop"
       ],
-      "stars": 57,
+      "stars": 59,
       "license": "MIT",
       "updatedAt": "2026-08-16T05:24:57Z",
       "install": {
@@ -584,7 +584,7 @@
       ],
       "stars": 30,
       "license": "MIT",
-      "updatedAt": "2026-08-17T12:31:07Z",
+      "updatedAt": "2026-08-18T03:24:47Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -729,7 +729,7 @@
       ],
       "stars": 9,
       "license": "MIT",
-      "updatedAt": "2026-08-17T19:19:13Z",
+      "updatedAt": "2026-08-18T03:42:00Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -817,6 +817,25 @@
       }
     },
     {
+      "slug": "yoke233-dsh-openai-codex-auth",
+      "name": "dsh-openai-codex-auth",
+      "displayName": "openai codex auth",
+      "description": "OpenAI Codex auth.",
+      "author": "yoke233",
+      "repoUrl": "https://github.com/yoke233/dsh-openai-codex-auth",
+      "category": "integrations",
+      "tags": [],
+      "stars": 6,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T04:15:05Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "vvlife-whalehub-dsh",
       "name": "whalehub-dsh",
       "displayName": "whalehub dsh",
@@ -832,7 +851,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-08-18T00:46:56Z",
+      "updatedAt": "2026-08-18T00:48:39Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -863,25 +882,6 @@
       }
     },
     {
-      "slug": "yoke233-dsh-openai-codex-auth",
-      "name": "dsh-openai-codex-auth",
-      "displayName": "openai codex auth",
-      "description": "OpenAI Codex auth.",
-      "author": "yoke233",
-      "repoUrl": "https://github.com/yoke233/dsh-openai-codex-auth",
-      "category": "integrations",
-      "tags": [],
-      "stars": 5,
-      "license": "MIT",
-      "updatedAt": "2026-08-14T04:15:05Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "yyh-001-dsh-expression",
       "name": "dsh-expression",
       "displayName": "expression",
@@ -892,7 +892,7 @@
       "tags": [],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-08-17T13:14:57Z",
+      "updatedAt": "2026-08-18T03:42:21Z",
       "install": {
         "type": "github",
         "profiles": [
