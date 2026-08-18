@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-18T00:44:00.148Z",
+  "generatedAt": "2026-08-18T00:47:43.123Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 76,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 4106,
+      "stars": 4108,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-18T00:26:11Z",
+      "updatedAt": "2026-08-18T00:44:58Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -98,7 +98,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 1252,
+      "stars": 1253,
       "license": null,
       "updatedAt": "2026-08-17T11:10:30Z",
       "install": {
@@ -122,7 +122,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 616,
+      "stars": 617,
       "license": "MIT",
       "updatedAt": "2026-08-17T19:57:06Z",
       "install": {
@@ -808,7 +808,7 @@
       "tags": [],
       "stars": 6,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-17T13:45:47Z",
+      "updatedAt": "2026-08-18T00:46:52Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -832,7 +832,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-08-18T00:43:28Z",
+      "updatedAt": "2026-08-18T00:46:56Z",
       "install": {
         "type": "github",
         "profiles": [
