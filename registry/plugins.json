@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-18T04:01:39.403Z",
+  "generatedAt": "2026-08-19T04:02:47.881Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 76,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 4227,
+      "stars": 4653,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-18T03:55:05Z",
+      "updatedAt": "2026-08-19T03:43:41Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,9 +47,9 @@
         "editor",
         "tui"
       ],
-      "stars": 2011,
+      "stars": 2211,
       "license": "MIT",
-      "updatedAt": "2026-08-17T17:22:30Z",
+      "updatedAt": "2026-08-18T17:15:13Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 1856,
+      "stars": 2006,
       "license": "MIT",
-      "updatedAt": "2026-08-18T03:51:31Z",
+      "updatedAt": "2026-08-19T03:58:23Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 1271,
+      "stars": 1400,
       "license": null,
-      "updatedAt": "2026-08-17T11:10:30Z",
+      "updatedAt": "2026-08-19T03:49:45Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -122,9 +122,9 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 643,
+      "stars": 711,
       "license": "MIT",
-      "updatedAt": "2026-08-17T19:57:06Z",
+      "updatedAt": "2026-08-18T19:23:29Z",
       "install": {
         "type": "manual",
         "profiles": [
@@ -149,7 +149,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 504,
+      "stars": 571,
       "license": "MIT",
       "updatedAt": "2026-08-17T12:58:33Z",
       "install": {
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 485,
+      "stars": 501,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-18T01:28:47Z",
       "install": {
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 344,
+      "stars": 393,
       "license": "MIT",
       "updatedAt": "2026-08-17T12:04:07Z",
       "install": {
@@ -217,9 +217,9 @@
         "macos",
         "sidebar"
       ],
-      "stars": 245,
+      "stars": 252,
       "license": "MIT",
-      "updatedAt": "2026-08-18T03:27:35Z",
+      "updatedAt": "2026-08-19T04:01:39Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -239,30 +239,9 @@
         "skin",
         "desktop"
       ],
-      "stars": 226,
+      "stars": 240,
       "license": "MIT",
-      "updatedAt": "2026-08-17T09:23:59Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "huiliyi37-dsh-tianshu-tui",
-      "name": "dsh-tianshu-tui",
-      "displayName": "tianshu tui",
-      "description": "DSH terminal UI.",
-      "author": "huiliyi37",
-      "repoUrl": "https://github.com/huiliyi37/dsh-tianshu-tui",
-      "category": "terminal",
-      "tags": [
-        "tui"
-      ],
-      "stars": 208,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-08-17T13:28:11Z",
+      "updatedAt": "2026-08-18T13:08:18Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -283,7 +262,7 @@
         "charts",
         "mermaid"
       ],
-      "stars": 195,
+      "stars": 224,
       "license": "MIT",
       "updatedAt": "2026-08-17T23:07:58Z",
       "install": {
@@ -294,6 +273,27 @@
       },
       "notes": "通过 `dsh-ui` 代码围栏在会话里内联渲染布局、图表、mermaid 与 3D 组件；安装到 web profile 后重启 dsh web 生效。",
       "featured": true
+    },
+    {
+      "slug": "huiliyi37-dsh-tianshu-tui",
+      "name": "dsh-tianshu-tui",
+      "displayName": "tianshu tui",
+      "description": "DSH terminal UI.",
+      "author": "huiliyi37",
+      "repoUrl": "https://github.com/huiliyi37/dsh-tianshu-tui",
+      "category": "terminal",
+      "tags": [
+        "tui"
+      ],
+      "stars": 217,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-08-18T15:08:12Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
     },
     {
       "slug": "nagi-ovo-dsh-visualize",
@@ -307,7 +307,7 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 170,
+      "stars": 180,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-17T16:27:54Z",
       "install": {
@@ -326,9 +326,28 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 113,
+      "stars": 119,
       "license": "MIT",
       "updatedAt": "2026-08-16T17:24:40Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-mnemon",
+      "name": "dsh-mnemon",
+      "displayName": "mnemon",
+      "description": "Mnemonics plugin.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
+      "category": "tools",
+      "tags": [],
+      "stars": 109,
+      "license": "MIT",
+      "updatedAt": "2026-08-17T19:23:33Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -348,28 +367,9 @@
         "rewind",
         "checkpoint"
       ],
-      "stars": 77,
+      "stars": 83,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-16T17:17:17Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "omdsh-dev-dsh-mnemon",
-      "name": "dsh-mnemon",
-      "displayName": "mnemon",
-      "description": "Mnemonics plugin.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
-      "category": "tools",
-      "tags": [],
-      "stars": 76,
-      "license": "MIT",
-      "updatedAt": "2026-08-17T19:23:33Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -390,7 +390,7 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 76,
+      "stars": 82,
       "license": "MIT",
       "updatedAt": "2026-08-13T23:53:40Z",
       "install": {
@@ -412,9 +412,28 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 72,
+      "stars": 76,
       "license": "MIT",
-      "updatedAt": "2026-08-17T21:18:17Z",
+      "updatedAt": "2026-08-18T20:30:27Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "nwflower-dsh-chat-import",
+      "name": "dsh-chat-import",
+      "displayName": "chat import",
+      "description": "Import Claude Code / Codex / ChatGPT / Cursor chat histories as resumable DeepSeek Harness sessions.",
+      "author": "Nwflower",
+      "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
+      "category": "integrations",
+      "tags": [],
+      "stars": 71,
+      "license": "MIT",
+      "updatedAt": "2026-08-18T14:54:28Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -434,28 +453,9 @@
         "notification",
         "desktop"
       ],
-      "stars": 59,
+      "stars": 61,
       "license": "MIT",
       "updatedAt": "2026-08-16T05:24:57Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "nwflower-dsh-chat-import",
-      "name": "dsh-chat-import",
-      "displayName": "chat import",
-      "description": "Import Claude Code / Codex / ChatGPT / Cursor chat histories as resumable DeepSeek Harness sessions.",
-      "author": "Nwflower",
-      "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
-      "category": "integrations",
-      "tags": [],
-      "stars": 57,
-      "license": "MIT",
-      "updatedAt": "2026-08-17T13:07:14Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -472,9 +472,31 @@
       "repoUrl": "https://github.com/vlln/plugin-registry",
       "category": "ecosystem",
       "tags": [],
-      "stars": 54,
+      "stars": 55,
       "license": "MIT",
-      "updatedAt": "2026-08-17T07:36:52Z",
+      "updatedAt": "2026-08-18T13:27:45Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-open-in-vscode",
+      "name": "dsh-open-in-vscode",
+      "displayName": "open in vscode",
+      "description": "Open workspace directories in VS Code directly from the web GUI.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode",
+      "category": "integrations",
+      "tags": [
+        "vscode",
+        "editor"
+      ],
+      "stars": 50,
+      "license": "MIT",
+      "updatedAt": "2026-08-16T05:24:58Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -508,28 +530,6 @@
       "featured": true
     },
     {
-      "slug": "omdsh-dev-dsh-open-in-vscode",
-      "name": "dsh-open-in-vscode",
-      "displayName": "open in vscode",
-      "description": "Open workspace directories in VS Code directly from the web GUI.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode",
-      "category": "integrations",
-      "tags": [
-        "vscode",
-        "editor"
-      ],
-      "stars": 49,
-      "license": "MIT",
-      "updatedAt": "2026-08-16T05:24:58Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "alingalingling-ui-status-label",
       "name": "ui-status-label",
       "displayName": "ui status label",
@@ -549,28 +549,6 @@
       }
     },
     {
-      "slug": "moeblack-dsh-message-edit",
-      "name": "dsh-message-edit",
-      "displayName": "message edit",
-      "description": "Branch-based message editing, reroll, retry, version timeline.",
-      "author": "Moeblack",
-      "repoUrl": "https://github.com/Moeblack/dsh-message-edit",
-      "category": "tools",
-      "tags": [
-        "editing",
-        "branch"
-      ],
-      "stars": 30,
-      "license": null,
-      "updatedAt": "2026-08-16T11:33:37Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "chinesezjc-dsh-interconnect",
       "name": "dsh-interconnect",
       "displayName": "interconnect",
@@ -582,9 +560,31 @@
         "interop",
         "events"
       ],
-      "stars": 30,
+      "stars": 34,
       "license": "MIT",
-      "updatedAt": "2026-08-18T03:24:47Z",
+      "updatedAt": "2026-08-18T08:01:58Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "moeblack-dsh-message-edit",
+      "name": "dsh-message-edit",
+      "displayName": "message edit",
+      "description": "Branch-based message editing, reroll, retry, version timeline.",
+      "author": "Moeblack",
+      "repoUrl": "https://github.com/Moeblack/dsh-message-edit",
+      "category": "tools",
+      "tags": [
+        "editing",
+        "branch"
+      ],
+      "stars": 32,
+      "license": null,
+      "updatedAt": "2026-08-16T11:33:37Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -625,7 +625,7 @@
       "repoUrl": "https://github.com/Anionex/dsh-computer-use",
       "category": "web-ui",
       "tags": [],
-      "stars": 21,
+      "stars": 22,
       "license": "MIT",
       "updatedAt": "2026-08-14T12:53:56Z",
       "install": {
@@ -655,25 +655,6 @@
       }
     },
     {
-      "slug": "omdsh-dev-dsh-gomoku",
-      "name": "dsh-gomoku",
-      "displayName": "gomoku",
-      "description": "Gomoku game plugin.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-gomoku",
-      "category": "agent",
-      "tags": [],
-      "stars": 13,
-      "license": "MIT",
-      "updatedAt": "2026-08-15T05:42:26Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "tommy00748-dsh-theme-cyberpunk2077",
       "name": "dsh-theme-cyberpunk2077",
       "displayName": "theme cyberpunk2077",
@@ -684,9 +665,28 @@
       "tags": [
         "skin"
       ],
-      "stars": 12,
+      "stars": 14,
       "license": null,
       "updatedAt": "2026-08-16T09:41:08Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-gomoku",
+      "name": "dsh-gomoku",
+      "displayName": "gomoku",
+      "description": "Gomoku game plugin.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-gomoku",
+      "category": "agent",
+      "tags": [],
+      "stars": 14,
+      "license": "MIT",
+      "updatedAt": "2026-08-15T05:42:26Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -705,7 +705,7 @@
       "tags": [],
       "stars": 12,
       "license": "MIT",
-      "updatedAt": "2026-08-18T00:12:35Z",
+      "updatedAt": "2026-08-19T03:30:39Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -727,9 +727,9 @@
         "cost",
         "cn"
       ],
-      "stars": 9,
+      "stars": 11,
       "license": "MIT",
-      "updatedAt": "2026-08-18T03:42:00Z",
+      "updatedAt": "2026-08-18T14:21:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -749,7 +749,7 @@
       "tags": [
         "bridge"
       ],
-      "stars": 8,
+      "stars": 9,
       "license": "MIT",
       "updatedAt": "2026-08-14T07:48:33Z",
       "install": {
@@ -808,7 +808,7 @@
       "tags": [],
       "stars": 6,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-18T00:46:52Z",
+      "updatedAt": "2026-08-18T13:56:23Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -851,7 +851,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-08-18T00:48:39Z",
+      "updatedAt": "2026-08-18T04:02:32Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -861,6 +861,25 @@
       },
       "notes": "DSH Web 内嵌市场：dsh plugin --profile web add \"github:vvlife/whalehub-dsh#main&path:/plugin\"，重启 dsh web 后 Settings → Plugins 出现「🐋 插件市场」Tab。网页版：https://whalehub-dsh.vercel.app",
       "featured": true
+    },
+    {
+      "slug": "leechen298-code2skill",
+      "name": "Code2Skill",
+      "displayName": "Code2Skill",
+      "description": "Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle.",
+      "author": "leechen298",
+      "repoUrl": "https://github.com/leechen298/Code2Skill",
+      "category": "tools",
+      "tags": [],
+      "stars": 5,
+      "license": "MIT",
+      "updatedAt": "2026-08-18T08:49:48Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
     },
     {
       "slug": "labmimors-dsh-mcp-lens",
@@ -892,7 +911,7 @@
       "tags": [],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-08-18T03:42:21Z",
+      "updatedAt": "2026-08-18T13:47:03Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -912,25 +931,6 @@
       "stars": 4,
       "license": "MIT",
       "updatedAt": "2026-08-15T16:18:14Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "leechen298-code2skill",
-      "name": "Code2Skill",
-      "displayName": "Code2Skill",
-      "description": "Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle.",
-      "author": "leechen298",
-      "repoUrl": "https://github.com/leechen298/Code2Skill",
-      "category": "tools",
-      "tags": [],
-      "stars": 4,
-      "license": "MIT",
-      "updatedAt": "2026-08-15T01:25:54Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -974,7 +974,7 @@
       ],
       "stars": 4,
       "license": "MIT",
-      "updatedAt": "2026-08-15T14:50:52Z",
+      "updatedAt": "2026-08-19T02:16:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1200,7 +1200,7 @@
       ],
       "stars": 1,
       "license": "MIT",
-      "updatedAt": "2026-08-15T14:50:48Z",
+      "updatedAt": "2026-08-19T02:16:23Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1246,13 +1246,37 @@
       ],
       "stars": 1,
       "license": "MIT",
-      "updatedAt": "2026-08-15T14:51:02Z",
+      "updatedAt": "2026-08-19T03:23:19Z",
       "install": {
         "type": "github",
         "profiles": [
           "web"
         ]
       }
+    },
+    {
+      "slug": "omdsh-plugins-omdsh-justchat",
+      "name": "omdsh-justchat",
+      "displayName": "omdsh justchat",
+      "description": "Chat 模式：免选项目目录直接开聊，会话统一收纳在托管工作区",
+      "author": "omdsh-plugins",
+      "repoUrl": "https://github.com/omdsh-plugins/omdsh-justchat",
+      "category": "agent",
+      "tags": [
+        "chat",
+        "mode",
+        "workspace"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updatedAt": "2026-08-18T10:06:37Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      },
+      "notes": "提供 Chat 与 Work 两种模式。"
     },
     {
       "slug": "omdsh-plugins-omdsh-base",
@@ -1283,7 +1307,7 @@
       "slug": "nortejiang-tech-dsh-req-miner",
       "name": "dsh-req-miner",
       "displayName": "req miner",
-      "description": "Requirements-mining sidebar plugin: per-session floating interview window driven by a continuable subagent (decision tree + frontier questions), reads the bound session's workspace and recent context, one-click return of the summarized requirement prompt to the composer.",
+      "description": "Requirements-mining sidebar plugin: per-session floating interview window driven by a continuable subagent (decision tree + frontier questions), reads the bound session's workspace and recent context, one-click return of the summarized requirement prompt to the composer. Install: `github:nortejiang-tech/dsh-req-miner`.",
       "author": "nortejiang-tech",
       "repoUrl": "https://github.com/nortejiang-tech/dsh-req-miner",
       "category": "agent",
@@ -1442,7 +1466,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-17T05:47:46Z",
+      "updatedAt": "2026-08-18T10:06:35Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1467,7 +1491,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-17T05:48:05Z",
+      "updatedAt": "2026-08-18T10:06:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1491,7 +1515,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-17T05:48:02Z",
+      "updatedAt": "2026-08-18T10:06:32Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1514,7 +1538,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-17T05:48:10Z",
+      "updatedAt": "2026-08-18T10:06:51Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1537,7 +1561,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-17T05:47:49Z",
+      "updatedAt": "2026-08-18T10:06:41Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1560,7 +1584,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-17T05:47:58Z",
+      "updatedAt": "2026-08-18T10:07:05Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1584,7 +1608,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-17T02:51:49Z",
+      "updatedAt": "2026-08-18T10:07:02Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1592,30 +1616,6 @@
         ]
       },
       "notes": "当前为 M0（门与锁）；面向 tailnet 内手机远程查看会话与审批。"
-    },
-    {
-      "slug": "omdsh-plugins-omdsh-justchat",
-      "name": "omdsh-justchat",
-      "displayName": "omdsh justchat",
-      "description": "Chat 模式：免选项目目录直接开聊，会话统一收纳在托管工作区",
-      "author": "omdsh-plugins",
-      "repoUrl": "https://github.com/omdsh-plugins/omdsh-justchat",
-      "category": "agent",
-      "tags": [
-        "chat",
-        "mode",
-        "workspace"
-      ],
-      "stars": 0,
-      "license": "MIT",
-      "updatedAt": "2026-08-17T05:47:44Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      },
-      "notes": "提供 Chat 与 Work 两种模式。"
     },
     {
       "slug": "omdsh-plugins-omdsh-shortcuts",
@@ -1631,7 +1631,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-17T05:48:00Z",
+      "updatedAt": "2026-08-18T10:49:00Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1678,7 +1678,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-17T06:03:36Z",
+      "updatedAt": "2026-08-18T10:06:46Z",
       "install": {
         "type": "npm",
         "package": "@omdsh-plugins/omdsh-plughub",
