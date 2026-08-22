@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-22T14:52:09.915Z",
+  "generatedAt": "2026-08-22T14:54:00.651Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 279,
   "plugins": [
@@ -19,7 +19,7 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 5545,
+      "stars": 5546,
       "license": "Apache-2.0",
       "updatedAt": "2026-08-22T14:48:00Z",
       "install": {
@@ -47,7 +47,7 @@
         "editor",
         "tui"
       ],
-      "stars": 2636,
+      "stars": 2637,
       "license": "MIT",
       "updatedAt": "2026-08-22T14:50:15Z",
       "install": {
@@ -149,7 +149,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 802,
+      "stars": 803,
       "license": "MIT",
       "updatedAt": "2026-08-22T09:08:52Z",
       "install": {
@@ -241,7 +241,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 266,
+      "stars": 267,
       "license": "MIT",
       "updatedAt": "2026-08-19T21:18:20Z",
       "install": {
@@ -889,7 +889,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-08-21T04:07:43Z",
+      "updatedAt": "2026-08-22T14:52:34Z",
       "install": {
         "type": "github",
         "profiles": [
