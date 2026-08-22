@@ -313,7 +313,13 @@ export function parseAwesome(md) {
     if (!links.length) continue
     const desc = (line.split('—')[1] ?? line.split(' - ')[1] ?? '').trim()
     for (const m of links) {
-      const fullName = m[2].replace('https://github.com/', '').replace(/\/$/, '')
+      // 归一化：awesome 列表里 monorepo 子目录链接形如
+      // github.com/owner/repo/tree/<branch>/packages/xxx 或 /blob/<branch>/...，
+      // 必须剥掉子路径，统一成 github.com/owner/repo，否则生成的 repoUrl
+      // 不满足注册表格式（^https://github.com/[^/]+/[^/]+$），且 fetchRepoMeta /
+      // isRealDshPlugin 会拿错误路径去打 GitHub API 而 404。
+      const rootUrl = m[2].replace(/^(https:\/\/github\.com\/[^/]+\/[^/]+)(?:\/.*)?$/, '$1')
+      const fullName = rootUrl.replace('https://github.com/', '').replace(/\/$/, '')
       entries.push({ fullName, category, tagline: desc })
     }
   }
