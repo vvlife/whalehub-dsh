@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-21T04:05:21.243Z",
+  "generatedAt": "2026-08-22T14:54:00.651Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 277,
+  "pluginCount": 279,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 5213,
+      "stars": 5546,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-21T03:15:17Z",
+      "updatedAt": "2026-08-22T14:48:00Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,9 +47,9 @@
         "editor",
         "tui"
       ],
-      "stars": 2490,
+      "stars": 2637,
       "license": "MIT",
-      "updatedAt": "2026-08-20T17:58:41Z",
+      "updatedAt": "2026-08-22T14:50:15Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 2199,
+      "stars": 2300,
       "license": "MIT",
-      "updatedAt": "2026-08-21T03:58:06Z",
+      "updatedAt": "2026-08-22T14:48:54Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 1518,
+      "stars": 1588,
       "license": null,
-      "updatedAt": "2026-08-21T03:58:03Z",
+      "updatedAt": "2026-08-22T14:42:42Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -122,9 +122,9 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 794,
+      "stars": 808,
       "license": "MIT",
-      "updatedAt": "2026-08-20T20:50:05Z",
+      "updatedAt": "2026-08-21T16:32:09Z",
       "install": {
         "type": "manual",
         "profiles": [
@@ -149,9 +149,9 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 702,
+      "stars": 803,
       "license": "MIT",
-      "updatedAt": "2026-08-21T03:10:50Z",
+      "updatedAt": "2026-08-22T09:08:52Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 522,
+      "stars": 538,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-18T01:28:47Z",
       "install": {
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 441,
+      "stars": 454,
       "license": "MIT",
       "updatedAt": "2026-08-20T15:35:45Z",
       "install": {
@@ -217,9 +217,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 272,
+      "stars": 295,
       "license": "MIT",
-      "updatedAt": "2026-08-20T17:05:05Z",
+      "updatedAt": "2026-08-22T04:51:37Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -241,7 +241,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 255,
+      "stars": 267,
       "license": "MIT",
       "updatedAt": "2026-08-19T21:18:20Z",
       "install": {
@@ -264,9 +264,9 @@
         "macos",
         "sidebar"
       ],
-      "stars": 255,
+      "stars": 258,
       "license": "MIT",
-      "updatedAt": "2026-08-21T03:48:18Z",
+      "updatedAt": "2026-08-22T09:15:59Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -285,9 +285,9 @@
       "tags": [
         "tui"
       ],
-      "stars": 223,
+      "stars": 231,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-20T10:49:27Z",
+      "updatedAt": "2026-08-22T10:35:10Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -307,7 +307,7 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 194,
+      "stars": 203,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-17T16:27:54Z",
       "install": {
@@ -326,9 +326,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 142,
+      "stars": 174,
       "license": "MIT",
-      "updatedAt": "2026-08-21T03:57:51Z",
+      "updatedAt": "2026-08-21T13:48:52Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -345,31 +345,9 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 132,
+      "stars": 142,
       "license": "MIT",
-      "updatedAt": "2026-08-20T13:01:52Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "anionex-dsh-turn-rewind",
-      "name": "dsh-turn-rewind",
-      "displayName": "turn rewind",
-      "description": "Rewind conversation + workspace state via a persistent Change Ledger.",
-      "author": "Anionex",
-      "repoUrl": "https://github.com/Anionex/dsh-turn-rewind",
-      "category": "tools",
-      "tags": [
-        "rewind",
-        "checkpoint"
-      ],
-      "stars": 93,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-16T17:17:17Z",
+      "updatedAt": "2026-08-21T14:32:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -390,7 +368,7 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 91,
+      "stars": 95,
       "license": "MIT",
       "updatedAt": "2026-08-13T23:53:40Z",
       "install": {
@@ -404,6 +382,28 @@
       "private": true
     },
     {
+      "slug": "anionex-dsh-turn-rewind",
+      "name": "dsh-turn-rewind",
+      "displayName": "turn rewind",
+      "description": "Rewind conversation + workspace state via a persistent Change Ledger.",
+      "author": "Anionex",
+      "repoUrl": "https://github.com/Anionex/dsh-turn-rewind",
+      "category": "tools",
+      "tags": [
+        "rewind",
+        "checkpoint"
+      ],
+      "stars": 94,
+      "license": "BSD-3-Clause",
+      "updatedAt": "2026-08-21T17:31:57Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "omdsh-dev-dsh-annotation",
       "name": "dsh-annotation",
       "displayName": "annotation",
@@ -412,9 +412,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 86,
+      "stars": 89,
       "license": "MIT",
-      "updatedAt": "2026-08-20T10:59:49Z",
+      "updatedAt": "2026-08-22T04:51:44Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -431,9 +431,9 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 86,
+      "stars": 88,
       "license": "MIT",
-      "updatedAt": "2026-08-20T07:41:02Z",
+      "updatedAt": "2026-08-21T07:49:30Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -453,7 +453,7 @@
         "notification",
         "desktop"
       ],
-      "stars": 70,
+      "stars": 71,
       "license": "MIT",
       "updatedAt": "2026-08-19T07:12:27Z",
       "install": {
@@ -472,7 +472,7 @@
       "repoUrl": "https://github.com/vlln/plugin-registry",
       "category": "ecosystem",
       "tags": [],
-      "stars": 57,
+      "stars": 56,
       "license": "MIT",
       "updatedAt": "2026-08-19T21:18:35Z",
       "install": {
@@ -530,6 +530,25 @@
       "featured": true
     },
     {
+      "slug": "yyh-001-dsh-expression",
+      "name": "dsh-expression",
+      "displayName": "expression",
+      "description": "Expression plugin.",
+      "author": "yyh-001",
+      "repoUrl": "https://github.com/yyh-001/dsh-expression",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 42,
+      "license": "MIT",
+      "updatedAt": "2026-08-20T14:27:08Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "alingalingling-ui-status-label",
       "name": "ui-status-label",
       "displayName": "ui status label",
@@ -560,7 +579,7 @@
         "editing",
         "branch"
       ],
-      "stars": 35,
+      "stars": 37,
       "license": null,
       "updatedAt": "2026-08-16T11:33:37Z",
       "install": {
@@ -593,25 +612,6 @@
       }
     },
     {
-      "slug": "yyh-001-dsh-expression",
-      "name": "dsh-expression",
-      "displayName": "expression",
-      "description": "Expression plugin.",
-      "author": "yyh-001",
-      "repoUrl": "https://github.com/yyh-001/dsh-expression",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 33,
-      "license": "MIT",
-      "updatedAt": "2026-08-20T14:27:08Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "anionex-dsh-computer-use",
       "name": "dsh-computer-use",
       "displayName": "computer use",
@@ -622,7 +622,7 @@
       "tags": [],
       "stars": 26,
       "license": "MIT",
-      "updatedAt": "2026-08-14T12:53:56Z",
+      "updatedAt": "2026-08-22T14:38:27Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -655,25 +655,6 @@
       }
     },
     {
-      "slug": "loserfox-distill",
-      "name": "distill",
-      "displayName": "distill",
-      "description": "Automatic conversation distillation: background subagent reflection + skill create/update.",
-      "author": "LoserFox",
-      "repoUrl": "https://github.com/LoserFox/distill",
-      "category": "agent",
-      "tags": [],
-      "stars": 20,
-      "license": null,
-      "updatedAt": "2026-08-17T10:32:04Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "tommy00748-dsh-theme-cyberpunk2077",
       "name": "dsh-theme-cyberpunk2077",
       "displayName": "theme cyberpunk2077",
@@ -684,7 +665,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 18,
+      "stars": 22,
       "license": null,
       "updatedAt": "2026-08-16T09:41:08Z",
       "install": {
@@ -695,17 +676,17 @@
       }
     },
     {
-      "slug": "zk-andy-dsh-continual-evolve",
-      "name": "dsh-continual-evolve",
-      "displayName": "continual evolve",
-      "description": "Continual self-evolution: versioned, auditable, rollback-safe harness state (prompt notes, memories, skills, subagent specs) refined from session trajectories.",
-      "author": "ZK-Andy",
-      "repoUrl": "https://github.com/ZK-Andy/dsh-continual-evolve",
+      "slug": "loserfox-distill",
+      "name": "distill",
+      "displayName": "distill",
+      "description": "Automatic conversation distillation: background subagent reflection + skill create/update.",
+      "author": "LoserFox",
+      "repoUrl": "https://github.com/LoserFox/distill",
       "category": "agent",
       "tags": [],
-      "stars": 15,
-      "license": "MIT",
-      "updatedAt": "2026-08-19T03:30:39Z",
+      "stars": 21,
+      "license": null,
+      "updatedAt": "2026-08-17T10:32:04Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -733,6 +714,25 @@
       }
     },
     {
+      "slug": "zk-andy-dsh-continual-evolve",
+      "name": "dsh-continual-evolve",
+      "displayName": "continual evolve",
+      "description": "Continual self-evolution: versioned, auditable, rollback-safe harness state (prompt notes, memories, skills, subagent specs) refined from session trajectories.",
+      "author": "ZK-Andy",
+      "repoUrl": "https://github.com/ZK-Andy/dsh-continual-evolve",
+      "category": "agent",
+      "tags": [],
+      "stars": 14,
+      "license": "MIT",
+      "updatedAt": "2026-08-22T01:30:19Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "bpc-oss-dsh-web-billing",
       "name": "dsh-web-billing",
       "displayName": "web billing",
@@ -748,7 +748,7 @@
       ],
       "stars": 11,
       "license": "MIT",
-      "updatedAt": "2026-08-20T14:45:47Z",
+      "updatedAt": "2026-08-22T10:09:58Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -789,7 +789,26 @@
       "tags": [],
       "stars": 9,
       "license": "MIT",
-      "updatedAt": "2026-08-14T04:15:05Z",
+      "updatedAt": "2026-08-21T06:52:54Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "titanwings-dsh-plannotator",
+      "name": "dsh-plannotator",
+      "displayName": "plannotator",
+      "description": "Plan annotator.",
+      "author": "titanwings",
+      "repoUrl": "https://github.com/titanwings/dsh-plannotator",
+      "category": "agent",
+      "tags": [],
+      "stars": 8,
+      "license": "MIT",
+      "updatedAt": "2026-08-13T16:20:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -817,25 +836,6 @@
       }
     },
     {
-      "slug": "titanwings-dsh-plannotator",
-      "name": "dsh-plannotator",
-      "displayName": "plannotator",
-      "description": "Plan annotator.",
-      "author": "titanwings",
-      "repoUrl": "https://github.com/titanwings/dsh-plannotator",
-      "category": "agent",
-      "tags": [],
-      "stars": 7,
-      "license": "MIT",
-      "updatedAt": "2026-08-13T16:20:46Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "zhangbo-cn-dsh-voice-input-plugin",
       "name": "dsh-voice-input-plugin",
       "displayName": "voice input plugin",
@@ -846,7 +846,7 @@
       "tags": [],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-08-20T16:07:27Z",
+      "updatedAt": "2026-08-22T04:23:28Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -889,7 +889,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-08-20T04:07:54Z",
+      "updatedAt": "2026-08-22T14:52:34Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -911,7 +911,7 @@
       "tags": [],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-08-16T02:15:54Z",
+      "updatedAt": "2026-08-21T18:24:51Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1184,6 +1184,25 @@
       }
     },
     {
+      "slug": "delef-dsh-free-web-search",
+      "name": "dsh-free-web-search",
+      "displayName": "free web search",
+      "description": "Free web search with 10 engines (Bing/DuckDuckGo/SearXNG/AnySearch free + Exa/Tavily/Keenable/Perplexity/DeepSeek paid), automatic fallback chain, time-filtered advanced search, platform search (GitHub/Reddit), web page fetching, LRU caching, and a settings UI. No API keys required.",
+      "author": "delef",
+      "repoUrl": "https://github.com/delef/dsh-free-web-search",
+      "category": "tools",
+      "tags": [],
+      "stars": 1,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-08-21T14:19:19Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "satan9394-dsh-skill-creator",
       "name": "dsh-skill-creator",
       "displayName": "skill creator",
@@ -1214,6 +1233,25 @@
       "stars": 1,
       "license": "MIT",
       "updatedAt": "2026-08-19T20:44:00Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "satan9394-dsh-game-development",
+      "name": "dsh-game-development",
+      "displayName": "game development",
+      "description": "Game development patterns: Godot 4 scenes/signals/state machines & GDScript, Unity ECS (DOTS/Jobs/Burst), performance optimization.",
+      "author": "satan9394",
+      "repoUrl": "https://github.com/satan9394/dsh-game-development",
+      "category": "agent",
+      "tags": [],
+      "stars": 1,
+      "license": "MIT",
+      "updatedAt": "2026-08-19T21:00:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1271,6 +1309,27 @@
       "stars": 1,
       "license": "MIT",
       "updatedAt": "2026-08-19T22:19:44Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "satan9394-dsh-cad-modeling",
+      "name": "dsh-cad-modeling",
+      "displayName": "cad modeling",
+      "description": "Parametric CAD modeling: STEP-first (build123d Python source or direct STEP import), natural-language specs / reference images / 2D drawings, assemblies with source-level joints & mating datums, geometry checks, STL/3MF/GLB exports.",
+      "author": "satan9394",
+      "repoUrl": "https://github.com/satan9394/dsh-cad-modeling",
+      "category": "agent",
+      "tags": [
+        "vision"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updatedAt": "2026-08-19T23:33:37Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1494,6 +1553,44 @@
         ]
       },
       "notes": "需要全局 dsh CLI 与 web profile；安装后重启 dsh web 生效。配合 omdsh-justchat / omdsh-code 可组成 Chat/Work/Code 模式切换。"
+    },
+    {
+      "slug": "bpc-oss-dsh-routed-subagent",
+      "name": "dsh-routed-subagent",
+      "displayName": "routed subagent",
+      "description": "Run a one-shot subagent fully mounted on any agent preset from any session, with per-call model/provider override, model pre-check, and external CLI engines (codex / claude / codebuddy) with background jobs, live progress, kill, and continuable sessions.",
+      "author": "bpc-oss",
+      "repoUrl": "https://github.com/bpc-oss/dsh-routed-subagent",
+      "category": "agent",
+      "tags": [],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-08-21T15:02:49Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "bpc-oss-dsh-fork-to-preset",
+      "name": "dsh-fork-to-preset",
+      "displayName": "fork to preset",
+      "description": "Fork any session into a different agent preset from the conversation header: a preset picker creates a new child session mounted on the chosen preset, inheriting the source session's completed turns.",
+      "author": "bpc-oss",
+      "repoUrl": "https://github.com/bpc-oss/dsh-fork-to-preset",
+      "category": "agent",
+      "tags": [],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-08-22T01:45:48Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
     },
     {
       "slug": "satan9394-dsh-grill-me",
@@ -2909,25 +3006,6 @@
       "stars": 0,
       "license": "MIT",
       "updatedAt": "2026-08-19T20:57:26Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "satan9394-dsh-game-development",
-      "name": "dsh-game-development",
-      "displayName": "game development",
-      "description": "Game development patterns: Godot 4 scenes/signals/state machines & GDScript, Unity ECS (DOTS/Jobs/Burst), performance optimization.",
-      "author": "satan9394",
-      "repoUrl": "https://github.com/satan9394/dsh-game-development",
-      "category": "agent",
-      "tags": [],
-      "stars": 0,
-      "license": "MIT",
-      "updatedAt": "2026-08-19T21:00:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -4356,27 +4434,6 @@
       }
     },
     {
-      "slug": "satan9394-dsh-cad-modeling",
-      "name": "dsh-cad-modeling",
-      "displayName": "cad modeling",
-      "description": "Parametric CAD modeling: STEP-first (build123d Python source or direct STEP import), natural-language specs / reference images / 2D drawings, assemblies with source-level joints & mating datums, geometry checks, STL/3MF/GLB exports.",
-      "author": "satan9394",
-      "repoUrl": "https://github.com/satan9394/dsh-cad-modeling",
-      "category": "agent",
-      "tags": [
-        "vision"
-      ],
-      "stars": 0,
-      "license": "MIT",
-      "updatedAt": "2026-08-19T23:33:37Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "satan9394-dsh-cli-anything",
       "name": "dsh-cli-anything",
       "displayName": "cli anything",
@@ -5210,27 +5267,6 @@
         ]
       },
       "notes": "需本机有 pnpm（dsh plugin 依赖它）。装完在 profile 目录跑 pnpm exec dsh-agnes-paseo-setup --key sk-... 完成 Agnes 凭据写入与 Paseo provider 注册，再 paseo daemon restart。Paseo 里每个 prompt 回合是一次独立的 dsh headless 运行，回合间不保留上下文。"
-    },
-    {
-      "slug": "nickhelion-dsh-qwen-token-plan-cn-responses",
-      "name": "dsh-qwen-token-plan-cn-responses",
-      "displayName": "qwen token plan cn responses",
-      "description": "Qwen Token Plan CN Personal Responses API provider: official model/tool catalog sync, server-side web/code/extraction/image tools, DSH local functions, and image input.",
-      "author": "nickhelion",
-      "repoUrl": "https://github.com/nickhelion/dsh-qwen-token-plan-cn-responses",
-      "category": "integrations",
-      "tags": [
-        "vision"
-      ],
-      "stars": 0,
-      "license": "MIT",
-      "updatedAt": "2026-08-20T14:44:44Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
     },
     {
       "slug": "vvlife-dsh-paseo-mobile",
