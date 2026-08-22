@@ -7,9 +7,11 @@ on:
   push:
     branches: [main]
 
-# 同步提交与部署都需要写仓库内容（gh-pages 推送、registry 提交）
+# 同步提交与部署都需要写仓库内容（gh-pages 推送、registry 提交）；
+# 处理提交 issue 需要写 issues（留言 + 关闭）
 permissions:
   contents: write
+  issues: write
 
 # 避免每日定时与 push 并发部署互相踩踏
 concurrency:
@@ -24,6 +26,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Process plugin submission issues (accept → registry, reject → comment + close)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/process-issues.mjs
       - name: Sync registry from awesome list + GitHub API
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -37,8 +43,8 @@ jobs:
       - name: Commit registry changes (if any)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore(registry): daily sync from awesome list'
-          file_pattern: 'registry/plugins.json'
+          commit_message: 'chore(registry): daily sync from awesome list + issue submissions'
+          file_pattern: 'registry/plugins.json plugin/registry/plugins.json scripts/issue-submissions.json'
 
       # ---------- 部署 ----------
       - name: Build site (bundles registry/plugins.json into JS)

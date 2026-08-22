@@ -353,7 +353,10 @@ async function fetchRepoMeta(fullName, token) {
 async function main() {
   const md = await (await fetch(AWESOME_URL)).text()
   // 社区提交队列（Issue 表单）并入解析结果；按 fullName 去重，避免与 awesome 列表重复收录
-  const SUBMISSIONS_ALL = [...parseAwesome(md), ...EXTRA_ENTRIES, ...SUBMISSIONS]
+  // issueSubs：每日 CI 经 scripts/process-issues.mjs 自动收录的 issue 插件（已通过真插件校验）
+  let issueSubs = []
+  try { issueSubs = JSON.parse(readFileSync(join(ROOT, 'scripts', 'issue-submissions.json'), 'utf8')) } catch {}
+  const SUBMISSIONS_ALL = [...parseAwesome(md), ...EXTRA_ENTRIES, ...SUBMISSIONS, ...issueSubs]
   const seenFull = new Set()
   const parsed = SUBMISSIONS_ALL.filter((e) => {
     const k = e.fullName.toLowerCase()
