@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "fullName": "Renzic-Stone/DSH-EasyRewrite",
+    "category": "web-ui",
+    "tagline": "DSH Web 内目前最无感的消息撤回、重编辑插件。",
+    "install": {
+      "type": "npm",
+      "package": "dsh-easyrewrite",
+      "profiles": [
+        "web"
+      ]
+    }
+  },
+  {
+    "fullName": "zyfgood/dsh-feishu-bot",
+    "category": "integrations",
+    "tagline": "把飞书/Lark 机器人接入 DSH：WebSocket 长连接免公网回调，agent 模式流式回复，任务执行中可随时提问，/attach 可接管 GUI 会话",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "- 兼容 profile：web（llm / agent 模式均可，agent 模式为每个飞书会话自动创建专属 DSH agent）\n- 前置依赖：飞书开放平台自建应用（appId/appSecret），发布版本 + 长连接订阅方式\n- 密钥建议 env:VAR 形式读取，勿写明文\n- 群聊需 @机器人才回复（requireMention 默认 true，可配）\n- 已内置飞书会话管理命令 /new /sessions /attach /detach"
+  },
+  {
+    "fullName": "lak321/dsh-voice-chat",
+    "category": "web-ui",
+    "tagline": "语音对话：语音输入（Web SpeechRecognition）+ 朗读回复（TTS），支持语速/音调调节，纯本地无 API Key",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "纯 client UI（最小 Node entry + dsh.bundle.patch）；需浏览器支持 Web Speech；安装后重启 DSH"
+  },
+  {
+    "fullName": "lak321/dsh-screen-agent",
+    "category": "terminal",
+    "tagline": "桌面与屏幕自动化：全屏截图、Windows OCR、鼠标点击/拖拽、键盘输入、窗口激活，以及画图工具自动化（加速度补偿/画布定位/多段绘制）",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "纯 Host 插件（dsh.bundle.patch），零第三方依赖；安装后重启 DSH 生效；多显示器副屏负坐标支持；画图操作见 README 踩坑记录"
+  },
+  {
+    "fullName": "lak321/dsh-filetree",
+    "category": "web-ui",
+    "tagline": "工作区文件树：在 DSH 会话中添加\"文件\"页签，浏览/编辑当前工作区代码（VSCode 风格编辑器，C/C++ 语法高亮）",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "无第三方依赖（官方包由 DSH profile 闭包自动注入）"
+  },
+  {
+    "fullName": "SwainGao/dsh-plugin-ai-bridge",
+    "category": "integrations",
+    "tagline": "把代码审查 / 复杂任务委托给外部 AI 模型（Codex / Claude / GPT / 任意 OpenAI 兼容中转站）的桥接插件",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "需在 cordis.patch.yml 配 baseUrl/apiKey；\n支持 4 种 provider；\n/bridge review 无参审"
+  }
+]
