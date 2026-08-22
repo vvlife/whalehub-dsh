@@ -99,6 +99,7 @@ const SUBMISSIONS = [
   { fullName: 'peterliucius/dsh-prompt-optimize', category: 'tools', tagline: '对 composer 当前草稿做辅助 LLM 改写；点击只替换草稿，不发送消息、不开回合' },
   { fullName: 'omdsh-plugins/omdsh-base', category: 'ecosystem', tagline: 'DeepSeek Harness Web GUI 的会话模式系统：模式注册表、模式切换器与侧边栏圆点，自带 Work 模式' },
   { fullName: 'omdsh-plugins/omdsh-plughub', category: 'ecosystem', tagline: 'omdsh 插件中心：在设置页里安装、移除并配置整套 omdsh 插件' },
+  { fullName: 'zyfgood/dsh-feishu-bot', category: 'integrations', tagline: '飞书/Lark 机器人接入 DSH：WebSocket 长连接免公网回调，agent 模式流式回复、任务执行中可提问、/attach 接管 GUI 会话，附 feishu_* 出站工具' },
 ]
 
 /** awesome 列表章节标题 → WhaleHub 分类 */
@@ -115,6 +116,11 @@ const CATEGORY_MAP = {
 
 /** 已知插件的安装方式与实测笔记（来自 awesome 列表 Hands-on Notes 与仓库 README） */
 const OVERRIDES = {
+  'zyfgood/dsh-feishu-bot': {
+    tags: ['feishu', 'lark', 'bot', 'agent', 'messaging'],
+    install: { type: 'github', profiles: ['web'] },
+    notes: '需飞书自建应用凭证（FEISHU_APP_ID/FEISHU_APP_SECRET 环境变量，密钥不落盘）；事件订阅用长连接模式；pnpm 10/11 需在 profile 的 pnpm-workspace.yaml 放行 protobufjs（README FAQ）。已声明 dsh.bundle.patch，dsh plugin add 一条命令安装即挂载。',
+  },
   'vvlife/dsh-agnes-paseo': {
     tags: ['llm', 'agnes-ai', 'paseo', 'acp', 'provider'],
     install: { type: 'github', profiles: ['headless', 'web'] },
