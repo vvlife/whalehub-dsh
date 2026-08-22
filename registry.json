@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-22T14:54:00.651Z",
+  "generatedAt": "2026-08-22T15:10:50.639Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 279,
+  "pluginCount": 284,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -19,7 +19,7 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 5546,
+      "stars": 5554,
       "license": "Apache-2.0",
       "updatedAt": "2026-08-22T14:48:00Z",
       "install": {
@@ -47,9 +47,9 @@
         "editor",
         "tui"
       ],
-      "stars": 2637,
+      "stars": 2641,
       "license": "MIT",
-      "updatedAt": "2026-08-22T14:50:15Z",
+      "updatedAt": "2026-08-22T15:09:58Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 2300,
+      "stars": 2301,
       "license": "MIT",
-      "updatedAt": "2026-08-22T14:48:54Z",
+      "updatedAt": "2026-08-22T15:08:48Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,7 +98,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 1588,
+      "stars": 1589,
       "license": null,
       "updatedAt": "2026-08-22T14:42:42Z",
       "install": {
@@ -122,7 +122,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 808,
+      "stars": 809,
       "license": "MIT",
       "updatedAt": "2026-08-21T16:32:09Z",
       "install": {
@@ -149,7 +149,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 803,
+      "stars": 806,
       "license": "MIT",
       "updatedAt": "2026-08-22T09:08:52Z",
       "install": {
@@ -217,7 +217,7 @@
         "charts",
         "mermaid"
       ],
-      "stars": 295,
+      "stars": 296,
       "license": "MIT",
       "updatedAt": "2026-08-22T04:51:37Z",
       "install": {
@@ -326,7 +326,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 174,
+      "stars": 175,
       "license": "MIT",
       "updatedAt": "2026-08-21T13:48:52Z",
       "install": {
@@ -560,6 +560,25 @@
       "stars": 39,
       "license": "MIT",
       "updatedAt": "2026-08-15T08:57:01Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "renzic-stone-dsh-easyrewrite",
+      "name": "DSH-EasyRewrite",
+      "displayName": "DSH EasyRewrite",
+      "description": "DSH Web 内目前最无感的消息撤回、重编辑插件。",
+      "author": "Renzic-Stone",
+      "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 38,
+      "license": "MIT",
+      "updatedAt": "2026-08-20T19:25:08Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -889,7 +908,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-08-22T14:52:34Z",
+      "updatedAt": "2026-08-22T15:09:13Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1154,6 +1173,27 @@
       "stars": 2,
       "license": "MIT",
       "updatedAt": "2026-08-14T07:48:51Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "lak321-dsh-filetree",
+      "name": "dsh-filetree",
+      "displayName": "filetree",
+      "description": "工作区文件树：在 DSH 会话中添加\"文件\"页签，浏览/编辑当前工作区代码（VSCode 风格编辑器，C/C++ 语法高亮）",
+      "author": "lak321",
+      "repoUrl": "https://github.com/lak321/dsh-filetree",
+      "category": "web-ui",
+      "tags": [
+        "editor"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updatedAt": "2026-08-17T15:19:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -5624,6 +5664,66 @@
         ]
       },
       "notes": "npm 已发布；安装后重启生效，Settings → Plugins → OMDSH Plugins 中可安装其余插件。"
+    },
+    {
+      "slug": "zyfgood-dsh-feishu-bot",
+      "name": "dsh-feishu-bot",
+      "displayName": "feishu bot",
+      "description": "把飞书/Lark 机器人接入 DSH：WebSocket 长连接免公网回调，agent 模式流式回复，任务执行中可随时提问，/attach 可接管 GUI 会话",
+      "author": "zyfgood",
+      "repoUrl": "https://github.com/zyfgood/dsh-feishu-bot",
+      "category": "integrations",
+      "tags": [],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-08-22T03:12:15Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "lak321-dsh-voice-chat",
+      "name": "dsh-voice-chat",
+      "displayName": "voice chat",
+      "description": "语音对话：语音输入（Web SpeechRecognition）+ 朗读回复（TTS），支持语速/音调调节，纯本地无 API Key",
+      "author": "lak321",
+      "repoUrl": "https://github.com/lak321/dsh-voice-chat",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-08-17T15:39:40Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "lak321-dsh-screen-agent",
+      "name": "dsh-screen-agent",
+      "displayName": "screen agent",
+      "description": "桌面与屏幕自动化：全屏截图、Windows OCR、鼠标点击/拖拽、键盘输入、窗口激活，以及画图工具自动化（加速度补偿/画布定位/多段绘制）",
+      "author": "lak321",
+      "repoUrl": "https://github.com/lak321/dsh-screen-agent",
+      "category": "terminal",
+      "tags": [
+        "vision",
+        "desktop"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-08-17T15:39:37Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
     }
   ]
 }
