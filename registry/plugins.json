@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "generatedAt": "2026-08-21T04:05:21.243Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 277,
+  "pluginCount": 278,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -5588,6 +5588,32 @@
         ]
       },
       "notes": "npm 已发布；安装后重启生效，Settings → Plugins → OMDSH Plugins 中可安装其余插件。"
+    },
+    {
+      "slug": "zyfgood-dsh-feishu-bot",
+      "name": "dsh-feishu-bot",
+      "displayName": "feishu bot",
+      "description": "飞书/Lark 机器人接入 DSH：WebSocket 长连接免公网回调，agent 模式流式回复、任务执行中可提问、/attach 接管 GUI 会话，附 feishu_* 出站工具",
+      "author": "zyfgood",
+      "repoUrl": "https://github.com/zyfgood/dsh-feishu-bot",
+      "category": "integrations",
+      "tags": [
+        "feishu",
+        "lark",
+        "bot",
+        "agent",
+        "messaging"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-08-22T03:14:22Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      },
+      "notes": "需飞书自建应用凭证（FEISHU_APP_ID/FEISHU_APP_SECRET 环境变量，密钥不落盘）；事件订阅用长连接模式；pnpm 10/11 需在 profile 的 pnpm-workspace.yaml 放行 protobufjs（README FAQ）。已声明 dsh.bundle.patch，dsh plugin add 一条命令安装即挂载。"
     }
   ]
 }
