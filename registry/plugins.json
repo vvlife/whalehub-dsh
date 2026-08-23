@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-22T15:10:50.639Z",
+  "generatedAt": "2026-08-23T04:05:30.080Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 284,
+  "pluginCount": 285,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 5554,
+      "stars": 5612,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-22T14:48:00Z",
+      "updatedAt": "2026-08-23T03:03:35Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,9 +47,9 @@
         "editor",
         "tui"
       ],
-      "stars": 2641,
+      "stars": 2667,
       "license": "MIT",
-      "updatedAt": "2026-08-22T15:09:58Z",
+      "updatedAt": "2026-08-22T16:26:44Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 2301,
+      "stars": 2322,
       "license": "MIT",
-      "updatedAt": "2026-08-22T15:08:48Z",
+      "updatedAt": "2026-08-23T03:59:56Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,7 +98,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 1589,
+      "stars": 1602,
       "license": null,
       "updatedAt": "2026-08-22T14:42:42Z",
       "install": {
@@ -108,6 +108,30 @@
         ]
       },
       "notes": "CC BY-NC-SA 4.0 许可，注意非商业限制。"
+    },
+    {
+      "slug": "nanmicoder-dsh-agent-teams",
+      "name": "dsh-agent-teams",
+      "displayName": "agent teams",
+      "description": "AgentTeams plugin for DSH.",
+      "author": "NanmiCoder",
+      "repoUrl": "https://github.com/NanmiCoder/dsh-agent-teams",
+      "category": "agent",
+      "tags": [
+        "multi-agent",
+        "teams"
+      ],
+      "stars": 843,
+      "license": "MIT",
+      "updatedAt": "2026-08-22T19:01:20Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      },
+      "notes": "多 Agent 团队协作插件；同类主题另见 dsh_workflow（可治理 Workflow 层）。安装到 web profile 后重启生效。",
+      "featured": true
     },
     {
       "slug": "anionex-dsh-vision-toolkit",
@@ -138,30 +162,6 @@
       "private": true
     },
     {
-      "slug": "nanmicoder-dsh-agent-teams",
-      "name": "dsh-agent-teams",
-      "displayName": "agent teams",
-      "description": "AgentTeams plugin for DSH.",
-      "author": "NanmiCoder",
-      "repoUrl": "https://github.com/NanmiCoder/dsh-agent-teams",
-      "category": "agent",
-      "tags": [
-        "multi-agent",
-        "teams"
-      ],
-      "stars": 806,
-      "license": "MIT",
-      "updatedAt": "2026-08-22T09:08:52Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      },
-      "notes": "多 Agent 团队协作插件；同类主题另见 dsh_workflow（可治理 Workflow 层）。安装到 web profile 后重启生效。",
-      "featured": true
-    },
-    {
       "slug": "nagi-ovo-dsh-ads",
       "name": "dsh-ads",
       "displayName": "ads",
@@ -172,9 +172,9 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 538,
+      "stars": 542,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-18T01:28:47Z",
+      "updatedAt": "2026-08-22T20:59:04Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -194,9 +194,9 @@
         "editor",
         "mentions"
       ],
-      "stars": 454,
+      "stars": 458,
       "license": "MIT",
-      "updatedAt": "2026-08-20T15:35:45Z",
+      "updatedAt": "2026-08-22T16:48:38Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -217,7 +217,7 @@
         "charts",
         "mermaid"
       ],
-      "stars": 296,
+      "stars": 298,
       "license": "MIT",
       "updatedAt": "2026-08-22T04:51:37Z",
       "install": {
@@ -264,7 +264,7 @@
         "macos",
         "sidebar"
       ],
-      "stars": 258,
+      "stars": 257,
       "license": "MIT",
       "updatedAt": "2026-08-22T09:15:59Z",
       "install": {
@@ -307,9 +307,9 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 203,
+      "stars": 205,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-17T16:27:54Z",
+      "updatedAt": "2026-08-22T20:59:11Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -326,9 +326,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 175,
+      "stars": 181,
       "license": "MIT",
-      "updatedAt": "2026-08-21T13:48:52Z",
+      "updatedAt": "2026-08-22T21:40:43Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -345,9 +345,31 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 142,
+      "stars": 148,
       "license": "MIT",
       "updatedAt": "2026-08-21T14:32:24Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "anionex-dsh-turn-rewind",
+      "name": "dsh-turn-rewind",
+      "displayName": "turn rewind",
+      "description": "Rewind conversation + workspace state via a persistent Change Ledger.",
+      "author": "Anionex",
+      "repoUrl": "https://github.com/Anionex/dsh-turn-rewind",
+      "category": "tools",
+      "tags": [
+        "rewind",
+        "checkpoint"
+      ],
+      "stars": 96,
+      "license": "BSD-3-Clause",
+      "updatedAt": "2026-08-21T17:31:57Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -382,28 +404,6 @@
       "private": true
     },
     {
-      "slug": "anionex-dsh-turn-rewind",
-      "name": "dsh-turn-rewind",
-      "displayName": "turn rewind",
-      "description": "Rewind conversation + workspace state via a persistent Change Ledger.",
-      "author": "Anionex",
-      "repoUrl": "https://github.com/Anionex/dsh-turn-rewind",
-      "category": "tools",
-      "tags": [
-        "rewind",
-        "checkpoint"
-      ],
-      "stars": 94,
-      "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-21T17:31:57Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "omdsh-dev-dsh-annotation",
       "name": "dsh-annotation",
       "displayName": "annotation",
@@ -412,7 +412,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 89,
+      "stars": 91,
       "license": "MIT",
       "updatedAt": "2026-08-22T04:51:44Z",
       "install": {
@@ -431,7 +431,7 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 88,
+      "stars": 90,
       "license": "MIT",
       "updatedAt": "2026-08-21T07:49:30Z",
       "install": {
@@ -474,7 +474,7 @@
       "tags": [],
       "stars": 56,
       "license": "MIT",
-      "updatedAt": "2026-08-19T21:18:35Z",
+      "updatedAt": "2026-08-22T16:00:29Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -494,7 +494,7 @@
         "vscode",
         "editor"
       ],
-      "stars": 53,
+      "stars": 54,
       "license": "MIT",
       "updatedAt": "2026-08-16T05:24:58Z",
       "install": {
@@ -538,9 +538,28 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 42,
+      "stars": 45,
       "license": "MIT",
       "updatedAt": "2026-08-20T14:27:08Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "renzic-stone-dsh-easyrewrite",
+      "name": "DSH-EasyRewrite",
+      "displayName": "DSH EasyRewrite",
+      "description": "DSH Web 内目前最无感的消息撤回、重编辑插件。",
+      "author": "Renzic-Stone",
+      "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 43,
+      "license": "MIT",
+      "updatedAt": "2026-08-23T02:02:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -568,25 +587,6 @@
       }
     },
     {
-      "slug": "renzic-stone-dsh-easyrewrite",
-      "name": "DSH-EasyRewrite",
-      "displayName": "DSH EasyRewrite",
-      "description": "DSH Web 内目前最无感的消息撤回、重编辑插件。",
-      "author": "Renzic-Stone",
-      "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
-      "category": "web-ui",
-      "tags": [],
-      "stars": 38,
-      "license": "MIT",
-      "updatedAt": "2026-08-20T19:25:08Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "moeblack-dsh-message-edit",
       "name": "dsh-message-edit",
       "displayName": "message edit",
@@ -598,7 +598,7 @@
         "editing",
         "branch"
       ],
-      "stars": 37,
+      "stars": 38,
       "license": null,
       "updatedAt": "2026-08-16T11:33:37Z",
       "install": {
@@ -908,7 +908,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-08-22T15:09:13Z",
+      "updatedAt": "2026-08-22T15:13:27Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1560,7 +1560,7 @@
       ],
       "stars": 1,
       "license": "MIT",
-      "updatedAt": "2026-08-20T05:36:37Z",
+      "updatedAt": "2026-08-23T03:31:27Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -5443,7 +5443,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-20T04:00:02Z",
+      "updatedAt": "2026-08-23T03:31:29Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -5468,7 +5468,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-20T13:30:55Z",
+      "updatedAt": "2026-08-23T03:31:48Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -5492,7 +5492,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-20T04:00:19Z",
+      "updatedAt": "2026-08-23T03:31:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -5515,7 +5515,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-20T04:00:27Z",
+      "updatedAt": "2026-08-23T03:31:53Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -5538,7 +5538,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-20T04:00:07Z",
+      "updatedAt": "2026-08-23T03:31:34Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -5561,7 +5561,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-20T04:00:14Z",
+      "updatedAt": "2026-08-23T03:31:41Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -5585,7 +5585,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-20T04:00:12Z",
+      "updatedAt": "2026-08-23T03:31:39Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -5608,7 +5608,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-20T04:00:17Z",
+      "updatedAt": "2026-08-23T03:31:44Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -5655,7 +5655,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-20T04:00:09Z",
+      "updatedAt": "2026-08-23T03:31:37Z",
       "install": {
         "type": "npm",
         "package": "@omdsh-plugins/omdsh-plughub",
@@ -5718,6 +5718,25 @@
       "stars": 0,
       "license": "MIT",
       "updatedAt": "2026-08-17T15:39:37Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "lastplayer82-dsh-tanqi",
+      "name": "dsh-tanqi",
+      "displayName": "tanqi",
+      "description": "探奇（英文名 Curio）：AI 动态生成不重复的冷知识与奇妙事实，每次包含大公司病/产品决策困局/行业潜规则类内容，每条可深入两层并联想类似知识点，历史全部保留在本地。",
+      "author": "lastplayer82",
+      "repoUrl": "https://github.com/lastplayer82/dsh-tanqi",
+      "category": "fun",
+      "tags": [],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-08-21T11:23:56Z",
       "install": {
         "type": "github",
         "profiles": [
