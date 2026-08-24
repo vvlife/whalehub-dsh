@@ -82,5 +82,16 @@
       ]
     },
     "notes": "- 0.2.0 起生成内容语言跟随 DSH UI 语言设置（zh/en，英文界面按钮显示 Curio）\n- 生成消耗模型额度（复用 DSH 已配置的模型通道，无通道时可在面板填 DeepSeek API Key 兜底）\n- 历史数据双写：浏览器 localStorage + 宿主文件（DSH 重启不丢）"
+  },
+  {
+    "fullName": "chidaic/dsh-light-memory",
+    "category": "tools",
+    "tagline": "chidaic/dsh-light-memory — DSH 插件",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    }
   }
 ]
