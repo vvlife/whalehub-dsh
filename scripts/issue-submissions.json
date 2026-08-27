@@ -93,5 +93,17 @@
         "web"
       ]
     }
+  },
+  {
+    "fullName": "lastplayer82/dsh-sticky-notes",
+    "category": "tools",
+    "tagline": "灵感便签（Sticky Notes）：AI 思考/运行时随手记想法，一键或合并发送/转发到任意对话——走官方排队通道，目标 AI 忙碌时自动排队、不打断；数据 localStorage+宿主文件双写，重启不丢；支持导出 TXT/JSON/MD；界面语言跟随 DSH（zh/en 双语）。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "- 发送/转发走排队通道：目标会话 AI 忙碌时消息自动入队、当前轮结束后处理，不打断 AI\n- 数据双写：浏览器 localStorage + 宿主文件（DSH 重启/换端口不丢）\n- 入口：输入框上方 dock 快捷按钮 + 侧边栏「灵感便签」双入口（Ctrl+Shift+N 呼出）\n- UI 语言跟随 DSH 界面设置自动切换（zh/en），英文界面显示 Sticky Notes"
   }
 ]
