@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-27T14:17:53.354Z",
+  "generatedAt": "2026-08-29T10:11:01.783Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 89,
+  "pluginCount": 90,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 6261,
+      "stars": 6420,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-27T13:16:35Z",
+      "updatedAt": "2026-08-29T06:11:30Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,9 +47,9 @@
         "editor",
         "tui"
       ],
-      "stars": 3010,
+      "stars": 3085,
       "license": "MIT",
-      "updatedAt": "2026-08-27T13:44:32Z",
+      "updatedAt": "2026-08-29T09:10:19Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 2618,
+      "stars": 2675,
       "license": "MIT",
-      "updatedAt": "2026-08-27T13:06:32Z",
+      "updatedAt": "2026-08-29T09:37:18Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 1766,
+      "stars": 1804,
       "license": null,
-      "updatedAt": "2026-08-25T14:11:29Z",
+      "updatedAt": "2026-08-28T14:46:17Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1109,
+      "stars": 1171,
       "license": "MIT",
       "updatedAt": "2026-08-27T03:37:39Z",
       "install": {
@@ -146,9 +146,9 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 837,
+      "stars": 839,
       "license": "MIT",
-      "updatedAt": "2026-08-27T07:19:43Z",
+      "updatedAt": "2026-08-27T19:09:47Z",
       "install": {
         "type": "manual",
         "profiles": [
@@ -172,9 +172,9 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 574,
+      "stars": 582,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-22T20:59:04Z",
+      "updatedAt": "2026-08-27T21:32:38Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -194,9 +194,9 @@
         "editor",
         "mentions"
       ],
-      "stars": 485,
+      "stars": 492,
       "license": "MIT",
-      "updatedAt": "2026-08-22T16:48:38Z",
+      "updatedAt": "2026-08-29T07:21:48Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -217,9 +217,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 356,
+      "stars": 364,
       "license": "MIT",
-      "updatedAt": "2026-08-27T13:23:55Z",
+      "updatedAt": "2026-08-28T20:35:47Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -241,7 +241,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 289,
+      "stars": 297,
       "license": "MIT",
       "updatedAt": "2026-08-27T08:49:20Z",
       "install": {
@@ -264,9 +264,9 @@
         "macos",
         "sidebar"
       ],
-      "stars": 286,
+      "stars": 291,
       "license": "MIT",
-      "updatedAt": "2026-08-27T09:32:10Z",
+      "updatedAt": "2026-08-29T07:57:25Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -283,9 +283,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 251,
+      "stars": 285,
       "license": "MIT",
-      "updatedAt": "2026-08-27T14:02:51Z",
+      "updatedAt": "2026-08-28T06:20:10Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -304,9 +304,9 @@
       "tags": [
         "tui"
       ],
-      "stars": 240,
+      "stars": 247,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-27T13:49:36Z",
+      "updatedAt": "2026-08-28T23:38:42Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -326,9 +326,9 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 223,
+      "stars": 225,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-22T20:59:11Z",
+      "updatedAt": "2026-08-27T21:36:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -347,7 +347,7 @@
       "tags": [],
       "stars": 154,
       "license": "MIT",
-      "updatedAt": "2026-08-26T15:33:14Z",
+      "updatedAt": "2026-08-29T07:48:59Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -364,9 +364,9 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 114,
+      "stars": 120,
       "license": "MIT",
-      "updatedAt": "2026-08-27T05:16:52Z",
+      "updatedAt": "2026-08-29T04:32:08Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -387,7 +387,7 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 108,
+      "stars": 109,
       "license": "MIT",
       "updatedAt": "2026-08-13T23:53:40Z",
       "install": {
@@ -412,9 +412,9 @@
         "rewind",
         "checkpoint"
       ],
-      "stars": 104,
+      "stars": 105,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-26T05:26:45Z",
+      "updatedAt": "2026-08-29T04:53:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -431,9 +431,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 101,
+      "stars": 102,
       "license": "MIT",
-      "updatedAt": "2026-08-26T18:44:04Z",
+      "updatedAt": "2026-08-28T20:49:37Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -450,7 +450,7 @@
       "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
       "category": "web-ui",
       "tags": [],
-      "stars": 92,
+      "stars": 96,
       "license": "MIT",
       "updatedAt": "2026-08-26T01:45:04Z",
       "install": {
@@ -472,7 +472,7 @@
         "notification",
         "desktop"
       ],
-      "stars": 77,
+      "stars": 76,
       "license": "MIT",
       "updatedAt": "2026-08-19T07:12:27Z",
       "install": {
@@ -491,7 +491,7 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 61,
+      "stars": 65,
       "license": "MIT",
       "updatedAt": "2026-08-20T14:27:08Z",
       "install": {
@@ -521,31 +521,6 @@
       }
     },
     {
-      "slug": "laplaceyoung-oh-my-dsh",
-      "name": "oh-my-dsh",
-      "displayName": "oh my dsh",
-      "description": "Plugin ecosystem: 700+ plugins wired only through extension seams, no agent-loop changes.",
-      "author": "LaplaceYoung",
-      "repoUrl": "https://github.com/LaplaceYoung/oh-my-dsh",
-      "category": "ecosystem",
-      "tags": [
-        "capability-library",
-        "seams"
-      ],
-      "stars": 55,
-      "license": null,
-      "updatedAt": "2026-08-15T07:29:10Z",
-      "install": {
-        "type": "manual",
-        "profiles": [
-          "web"
-        ],
-        "command": "git clone https://github.com/LaplaceYoung/oh-my-dsh.git && cd oh-my-dsh && pnpm install && pnpm test"
-      },
-      "notes": "这是插件源码库/能力库（687 个插件按 plugins/<gap-id>/ 组织），不是一条命令装全家桶；按需挑选单个插件安装。e2e 需要 DEEPSEEK_API_KEY。",
-      "featured": true
-    },
-    {
       "slug": "omdsh-dev-dsh-open-in-vscode",
       "name": "dsh-open-in-vscode",
       "displayName": "open in vscode",
@@ -566,6 +541,31 @@
           "web"
         ]
       }
+    },
+    {
+      "slug": "laplaceyoung-oh-my-dsh",
+      "name": "oh-my-dsh",
+      "displayName": "oh my dsh",
+      "description": "Plugin ecosystem: 700+ plugins wired only through extension seams, no agent-loop changes.",
+      "author": "LaplaceYoung",
+      "repoUrl": "https://github.com/LaplaceYoung/oh-my-dsh",
+      "category": "ecosystem",
+      "tags": [
+        "capability-library",
+        "seams"
+      ],
+      "stars": 54,
+      "license": null,
+      "updatedAt": "2026-08-15T07:29:10Z",
+      "install": {
+        "type": "manual",
+        "profiles": [
+          "web"
+        ],
+        "command": "git clone https://github.com/LaplaceYoung/oh-my-dsh.git && cd oh-my-dsh && pnpm install && pnpm test"
+      },
+      "notes": "这是插件源码库/能力库（687 个插件按 plugins/<gap-id>/ 组织），不是一条命令装全家桶；按需挑选单个插件安装。e2e 需要 DEEPSEEK_API_KEY。",
+      "featured": true
     },
     {
       "slug": "moeblack-dsh-message-edit",
@@ -620,7 +620,7 @@
         "interop",
         "events"
       ],
-      "stars": 34,
+      "stars": 35,
       "license": "MIT",
       "updatedAt": "2026-08-25T03:31:23Z",
       "install": {
@@ -639,7 +639,7 @@
       "repoUrl": "https://github.com/Anionex/dsh-computer-use",
       "category": "web-ui",
       "tags": [],
-      "stars": 33,
+      "stars": 34,
       "license": "MIT",
       "updatedAt": "2026-08-22T14:38:27Z",
       "install": {
@@ -660,33 +660,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 25,
+      "stars": 26,
       "license": null,
       "updatedAt": "2026-08-16T09:41:08Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "omdsh-dev-dsh-custom-tool",
-      "name": "dsh-custom-tool",
-      "displayName": "custom tool",
-      "description": "Create & manage sandboxed JavaScript tools with a Monaco editor and model-driven tool lifecycle.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-custom-tool",
-      "category": "tools",
-      "tags": [
-        "tools",
-        "monaco",
-        "sandbox",
-        "editor"
-      ],
-      "stars": 24,
-      "license": "MIT",
-      "updatedAt": "2026-08-16T05:24:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -714,17 +690,22 @@
       }
     },
     {
-      "slug": "zk-andy-dsh-continual-evolve",
-      "name": "dsh-continual-evolve",
-      "displayName": "continual evolve",
-      "description": "Continual self-evolution: versioned, auditable, rollback-safe harness state (prompt notes, memories, skills, subagent specs) refined from session trajectories.",
-      "author": "ZK-Andy",
-      "repoUrl": "https://github.com/ZK-Andy/dsh-continual-evolve",
-      "category": "agent",
-      "tags": [],
-      "stars": 16,
+      "slug": "omdsh-dev-dsh-custom-tool",
+      "name": "dsh-custom-tool",
+      "displayName": "custom tool",
+      "description": "Create & manage sandboxed JavaScript tools with a Monaco editor and model-driven tool lifecycle.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-custom-tool",
+      "category": "tools",
+      "tags": [
+        "tools",
+        "monaco",
+        "sandbox",
+        "editor"
+      ],
+      "stars": 23,
       "license": "MIT",
-      "updatedAt": "2026-08-25T05:49:12Z",
+      "updatedAt": "2026-08-16T05:24:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -741,9 +722,28 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-gomoku",
       "category": "agent",
       "tags": [],
-      "stars": 15,
+      "stars": 16,
       "license": "MIT",
       "updatedAt": "2026-08-15T05:42:26Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "zk-andy-dsh-continual-evolve",
+      "name": "dsh-continual-evolve",
+      "displayName": "continual evolve",
+      "description": "Continual self-evolution: versioned, auditable, rollback-safe harness state (prompt notes, memories, skills, subagent specs) refined from session trajectories.",
+      "author": "ZK-Andy",
+      "repoUrl": "https://github.com/ZK-Andy/dsh-continual-evolve",
+      "category": "agent",
+      "tags": [],
+      "stars": 16,
+      "license": "MIT",
+      "updatedAt": "2026-08-29T02:15:53Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -785,7 +785,7 @@
       "repoUrl": "https://github.com/yoke233/dsh-openai-codex-auth",
       "category": "integrations",
       "tags": [],
-      "stars": 11,
+      "stars": 12,
       "license": "MIT",
       "updatedAt": "2026-08-26T01:40:10Z",
       "install": {
@@ -901,9 +901,9 @@
       "repoUrl": "https://github.com/labmimors/dsh-mcp-lens",
       "category": "integrations",
       "tags": [],
-      "stars": 5,
+      "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-08-24T04:48:41Z",
+      "updatedAt": "2026-08-29T01:42:23Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -927,7 +927,7 @@
       ],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-08-26T04:09:55Z",
+      "updatedAt": "2026-08-27T14:18:41Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -994,6 +994,44 @@
       "stars": 4,
       "license": "MIT",
       "updatedAt": "2026-08-14T07:49:51Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "sandbaseai-dsh-plugin-store",
+      "name": "dsh-plugin-store",
+      "displayName": "plugin store",
+      "description": "Native Store for DSH Settings: live catalog search, tag filters, ranking, runtime-verified installation, and installed-plugin inventory.",
+      "author": "sandbaseai",
+      "repoUrl": "https://github.com/sandbaseai/dsh-plugin-store",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 4,
+      "license": "MIT",
+      "updatedAt": "2026-08-20T04:25:16Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "syy-shark-dsh-music-plugin",
+      "name": "dsh-music-plugin",
+      "displayName": "music plugin",
+      "description": "Music plugin.",
+      "author": "syy-shark",
+      "repoUrl": "https://github.com/syy-shark/dsh-music-plugin",
+      "category": "fun",
+      "tags": [],
+      "stars": 4,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T15:47:13Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1080,25 +1118,6 @@
       }
     },
     {
-      "slug": "sandbaseai-dsh-plugin-store",
-      "name": "dsh-plugin-store",
-      "displayName": "plugin store",
-      "description": "Native Store for DSH Settings: live catalog search, tag filters, ranking, runtime-verified installation, and installed-plugin inventory.",
-      "author": "sandbaseai",
-      "repoUrl": "https://github.com/sandbaseai/dsh-plugin-store",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 3,
-      "license": "MIT",
-      "updatedAt": "2026-08-20T04:25:16Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "kingjly-dsh-plugin-builder",
       "name": "dsh-plugin-builder",
       "displayName": "plugin builder",
@@ -1110,25 +1129,6 @@
       "stars": 3,
       "license": "MIT",
       "updatedAt": "2026-08-14T06:04:50Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "syy-shark-dsh-music-plugin",
-      "name": "dsh-music-plugin",
-      "displayName": "music plugin",
-      "description": "Music plugin.",
-      "author": "syy-shark",
-      "repoUrl": "https://github.com/syy-shark/dsh-music-plugin",
-      "category": "fun",
-      "tags": [],
-      "stars": 3,
-      "license": "MIT",
-      "updatedAt": "2026-08-14T15:47:13Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1350,6 +1350,28 @@
       "stars": 2,
       "license": "MIT",
       "updatedAt": "2026-08-15T11:41:46Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "fengb3-dsh-theme-aurum",
+      "name": "dsh-theme-aurum",
+      "displayName": "theme aurum",
+      "description": "Gilded \"aurum\" theme: oklch gold dual scheme, dot-matrix canvas, floating-card sidebar; full takeover of sessions / conversation / composer / tool cards with official registrations preserved (disable = stock UI back). Zero-build loader format.",
+      "author": "fengb3",
+      "repoUrl": "https://github.com/fengb3/dsh-theme-aurum",
+      "category": "web-ui",
+      "tags": [
+        "skin",
+        "sidebar"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updatedAt": "2026-08-28T12:50:14Z",
       "install": {
         "type": "github",
         "profiles": [
