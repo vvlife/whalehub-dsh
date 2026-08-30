@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-29T10:11:01.783Z",
+  "generatedAt": "2026-08-30T09:18:58.518Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 90,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 6420,
+      "stars": 6481,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-29T06:11:30Z",
+      "updatedAt": "2026-08-30T09:09:47Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,9 +47,9 @@
         "editor",
         "tui"
       ],
-      "stars": 3085,
+      "stars": 3110,
       "license": "MIT",
-      "updatedAt": "2026-08-29T09:10:19Z",
+      "updatedAt": "2026-08-30T07:48:55Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 2675,
+      "stars": 2700,
       "license": "MIT",
-      "updatedAt": "2026-08-29T09:37:18Z",
+      "updatedAt": "2026-08-30T09:09:34Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 1804,
+      "stars": 1829,
       "license": null,
-      "updatedAt": "2026-08-28T14:46:17Z",
+      "updatedAt": "2026-08-30T04:45:40Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1171,
+      "stars": 1192,
       "license": "MIT",
       "updatedAt": "2026-08-27T03:37:39Z",
       "install": {
@@ -146,9 +146,9 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 839,
+      "stars": 842,
       "license": "MIT",
-      "updatedAt": "2026-08-27T19:09:47Z",
+      "updatedAt": "2026-08-29T12:05:58Z",
       "install": {
         "type": "manual",
         "profiles": [
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 582,
+      "stars": 586,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:32:38Z",
       "install": {
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 492,
+      "stars": 498,
       "license": "MIT",
       "updatedAt": "2026-08-29T07:21:48Z",
       "install": {
@@ -217,9 +217,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 364,
+      "stars": 370,
       "license": "MIT",
-      "updatedAt": "2026-08-28T20:35:47Z",
+      "updatedAt": "2026-08-29T14:38:30Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -241,9 +241,28 @@
         "skin",
         "desktop"
       ],
-      "stars": 297,
+      "stars": 300,
       "license": "MIT",
       "updatedAt": "2026-08-27T08:49:20Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-mnemon",
+      "name": "dsh-mnemon",
+      "displayName": "mnemon",
+      "description": "Mnemonics plugin.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
+      "category": "tools",
+      "tags": [],
+      "stars": 292,
+      "license": "MIT",
+      "updatedAt": "2026-08-29T11:41:07Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -266,26 +285,7 @@
       ],
       "stars": 291,
       "license": "MIT",
-      "updatedAt": "2026-08-29T07:57:25Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "omdsh-dev-dsh-mnemon",
-      "name": "dsh-mnemon",
-      "displayName": "mnemon",
-      "description": "Mnemonics plugin.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
-      "category": "tools",
-      "tags": [],
-      "stars": 285,
-      "license": "MIT",
-      "updatedAt": "2026-08-28T06:20:10Z",
+      "updatedAt": "2026-08-30T09:16:08Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -304,9 +304,9 @@
       "tags": [
         "tui"
       ],
-      "stars": 247,
+      "stars": 248,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-28T23:38:42Z",
+      "updatedAt": "2026-08-29T20:00:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -326,7 +326,7 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 225,
+      "stars": 230,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:36:31Z",
       "install": {
@@ -345,7 +345,7 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 154,
+      "stars": 155,
       "license": "MIT",
       "updatedAt": "2026-08-29T07:48:59Z",
       "install": {
@@ -364,9 +364,9 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 120,
+      "stars": 123,
       "license": "MIT",
-      "updatedAt": "2026-08-29T04:32:08Z",
+      "updatedAt": "2026-08-29T16:04:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -387,7 +387,7 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 109,
+      "stars": 110,
       "license": "MIT",
       "updatedAt": "2026-08-13T23:53:40Z",
       "install": {
@@ -414,7 +414,7 @@
       ],
       "stars": 105,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-29T04:53:46Z",
+      "updatedAt": "2026-08-29T13:54:57Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -431,9 +431,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 102,
+      "stars": 104,
       "license": "MIT",
-      "updatedAt": "2026-08-28T20:49:37Z",
+      "updatedAt": "2026-08-29T14:38:29Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -452,7 +452,7 @@
       "tags": [],
       "stars": 96,
       "license": "MIT",
-      "updatedAt": "2026-08-26T01:45:04Z",
+      "updatedAt": "2026-08-30T02:54:59Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -491,7 +491,7 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 65,
+      "stars": 66,
       "license": "MIT",
       "updatedAt": "2026-08-20T14:27:08Z",
       "install": {
@@ -532,7 +532,7 @@
         "vscode",
         "editor"
       ],
-      "stars": 54,
+      "stars": 55,
       "license": "MIT",
       "updatedAt": "2026-08-16T05:24:58Z",
       "install": {
@@ -579,7 +579,7 @@
         "editing",
         "branch"
       ],
-      "stars": 44,
+      "stars": 46,
       "license": null,
       "updatedAt": "2026-08-16T11:33:37Z",
       "install": {
@@ -804,7 +804,7 @@
       "repoUrl": "https://github.com/titanwings/dsh-plannotator",
       "category": "agent",
       "tags": [],
-      "stars": 10,
+      "stars": 11,
       "license": "MIT",
       "updatedAt": "2026-08-25T07:50:25Z",
       "install": {
@@ -927,7 +927,7 @@
       ],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-08-27T14:18:41Z",
+      "updatedAt": "2026-08-29T10:12:07Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1013,6 +1013,25 @@
       "stars": 4,
       "license": "MIT",
       "updatedAt": "2026-08-20T04:25:16Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "kingjly-dsh-plugin-builder",
+      "name": "dsh-plugin-builder",
+      "displayName": "plugin builder",
+      "description": "Plugin builder scaffolding.",
+      "author": "kingjly",
+      "repoUrl": "https://github.com/kingjly/dsh-plugin-builder",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 4,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T06:04:50Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1118,25 +1137,6 @@
       }
     },
     {
-      "slug": "kingjly-dsh-plugin-builder",
-      "name": "dsh-plugin-builder",
-      "displayName": "plugin builder",
-      "description": "Plugin builder scaffolding.",
-      "author": "kingjly",
-      "repoUrl": "https://github.com/kingjly/dsh-plugin-builder",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 3,
-      "license": "MIT",
-      "updatedAt": "2026-08-14T06:04:50Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "tuogusa-dsh-whale-background",
       "name": "dsh-whale-background",
       "displayName": "whale background",
@@ -1213,6 +1213,25 @@
       "stars": 2,
       "license": "Apache-2.0",
       "updatedAt": "2026-08-21T14:19:19Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "bpc-oss-dsh-routed-subagent",
+      "name": "dsh-routed-subagent",
+      "displayName": "routed subagent",
+      "description": "Run a one-shot subagent fully mounted on any agent preset from any session, with per-call model/provider override, model pre-check, and external CLI engines (codex / claude / codebuddy) with background jobs, live progress, kill, and continuable sessions.",
+      "author": "bpc-oss",
+      "repoUrl": "https://github.com/bpc-oss/dsh-routed-subagent",
+      "category": "agent",
+      "tags": [],
+      "stars": 2,
+      "license": "MIT",
+      "updatedAt": "2026-08-21T15:02:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1394,25 +1413,6 @@
       "stars": 1,
       "license": "MIT",
       "updatedAt": "2026-08-13T15:07:11Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "bpc-oss-dsh-routed-subagent",
-      "name": "dsh-routed-subagent",
-      "displayName": "routed subagent",
-      "description": "Run a one-shot subagent fully mounted on any agent preset from any session, with per-call model/provider override, model pre-check, and external CLI engines (codex / claude / codebuddy) with background jobs, live progress, kill, and continuable sessions.",
-      "author": "bpc-oss",
-      "repoUrl": "https://github.com/bpc-oss/dsh-routed-subagent",
-      "category": "agent",
-      "tags": [],
-      "stars": 1,
-      "license": "MIT",
-      "updatedAt": "2026-08-21T15:02:49Z",
       "install": {
         "type": "github",
         "profiles": [
