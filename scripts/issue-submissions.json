@@ -105,5 +105,29 @@
       ]
     },
     "notes": "- 发送/转发走排队通道：目标会话 AI 忙碌时消息自动入队、当前轮结束后处理，不打断 AI\n- 数据双写：浏览器 localStorage + 宿主文件（DSH 重启/换端口不丢）\n- 入口：输入框上方 dock 快捷按钮 + 侧边栏「灵感便签」双入口（Ctrl+Shift+N 呼出）\n- UI 语言跟随 DSH 界面设置自动切换（zh/en），英文界面显示 Sticky Notes"
+  },
+  {
+    "fullName": "Ei-Ayw/dsh-upload",
+    "category": "tools",
+    "tagline": "给 DeepSeek Harness Web 加真正的上传按钮:点 📎 选本地文件,字节落盘到会话工作区 .uploads/<会话ID>/,绝对路径追加进输入框(AI 用 fs 工具直接读取)。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "- 浏览器端:composer 工具行左端出现 📎 按钮(conversation.input.left slot)\n- Host 路由 /dsh-upload/upload,仅同源,默认 50MB 上限\n- 与 dsh-word-docs 搭配 = 上传→处理→产出正式 Word 文档"
+  },
+  {
+    "fullName": "Ei-Ayw/dsh-word-docs",
+    "category": "tools",
+    "tagline": "DeepSeek Harness 的 Word 文档工具:生成、编辑、提取、统计、转 PDF .docx,纯 Python 标准库实现,零依赖。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "- 注册 word_docs 工具与 word-docs 技能\n- 本地 link: 安装需软链 ~/.dsh/profiles/node_modules/@deepseek-ai(见 README)\n- 转 PDF 需本机装 LibreOffice 或 pandoc"
   }
 ]

@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-30T09:18:58.518Z",
+  "generatedAt": "2026-08-31T09:52:02.129Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 90,
+  "pluginCount": 92,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 6481,
+      "stars": 6560,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-30T09:09:47Z",
+      "updatedAt": "2026-08-31T06:13:30Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,9 +47,9 @@
         "editor",
         "tui"
       ],
-      "stars": 3110,
+      "stars": 3163,
       "license": "MIT",
-      "updatedAt": "2026-08-30T07:48:55Z",
+      "updatedAt": "2026-08-30T17:31:32Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 2700,
+      "stars": 2737,
       "license": "MIT",
-      "updatedAt": "2026-08-30T09:09:34Z",
+      "updatedAt": "2026-08-31T09:19:17Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 1829,
+      "stars": 1847,
       "license": null,
-      "updatedAt": "2026-08-30T04:45:40Z",
+      "updatedAt": "2026-08-31T04:59:04Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,9 +121,9 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1192,
+      "stars": 1224,
       "license": "MIT",
-      "updatedAt": "2026-08-27T03:37:39Z",
+      "updatedAt": "2026-08-31T09:12:22Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -146,7 +146,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 842,
+      "stars": 846,
       "license": "MIT",
       "updatedAt": "2026-08-29T12:05:58Z",
       "install": {
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 586,
+      "stars": 593,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:32:38Z",
       "install": {
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 498,
+      "stars": 499,
       "license": "MIT",
       "updatedAt": "2026-08-29T07:21:48Z",
       "install": {
@@ -217,7 +217,7 @@
         "charts",
         "mermaid"
       ],
-      "stars": 370,
+      "stars": 380,
       "license": "MIT",
       "updatedAt": "2026-08-29T14:38:30Z",
       "install": {
@@ -228,6 +228,25 @@
       },
       "notes": "通过 `dsh-ui` 代码围栏在会话里内联渲染布局、图表、mermaid 与 3D 组件；安装到 web profile 后重启 dsh web 生效。",
       "featured": true
+    },
+    {
+      "slug": "omdsh-dev-dsh-mnemon",
+      "name": "dsh-mnemon",
+      "displayName": "mnemon",
+      "description": "Mnemonics plugin.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
+      "category": "tools",
+      "tags": [],
+      "stars": 302,
+      "license": "MIT",
+      "updatedAt": "2026-08-31T04:10:35Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
     },
     {
       "slug": "vlln-whale-girl",
@@ -243,26 +262,7 @@
       ],
       "stars": 300,
       "license": "MIT",
-      "updatedAt": "2026-08-27T08:49:20Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "omdsh-dev-dsh-mnemon",
-      "name": "dsh-mnemon",
-      "displayName": "mnemon",
-      "description": "Mnemonics plugin.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
-      "category": "tools",
-      "tags": [],
-      "stars": 292,
-      "license": "MIT",
-      "updatedAt": "2026-08-29T11:41:07Z",
+      "updatedAt": "2026-08-31T09:40:54Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -283,7 +283,7 @@
         "macos",
         "sidebar"
       ],
-      "stars": 291,
+      "stars": 294,
       "license": "MIT",
       "updatedAt": "2026-08-30T09:16:08Z",
       "install": {
@@ -304,7 +304,7 @@
       "tags": [
         "tui"
       ],
-      "stars": 248,
+      "stars": 250,
       "license": "Apache-2.0",
       "updatedAt": "2026-08-29T20:00:46Z",
       "install": {
@@ -326,7 +326,7 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 230,
+      "stars": 233,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:36:31Z",
       "install": {
@@ -345,7 +345,7 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 155,
+      "stars": 156,
       "license": "MIT",
       "updatedAt": "2026-08-29T07:48:59Z",
       "install": {
@@ -364,7 +364,7 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 123,
+      "stars": 125,
       "license": "MIT",
       "updatedAt": "2026-08-29T16:04:24Z",
       "install": {
@@ -412,7 +412,7 @@
         "rewind",
         "checkpoint"
       ],
-      "stars": 105,
+      "stars": 106,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-29T13:54:57Z",
       "install": {
@@ -431,7 +431,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 104,
+      "stars": 105,
       "license": "MIT",
       "updatedAt": "2026-08-29T14:38:29Z",
       "install": {
@@ -450,7 +450,7 @@
       "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
       "category": "web-ui",
       "tags": [],
-      "stars": 96,
+      "stars": 98,
       "license": "MIT",
       "updatedAt": "2026-08-30T02:54:59Z",
       "install": {
@@ -472,7 +472,7 @@
         "notification",
         "desktop"
       ],
-      "stars": 76,
+      "stars": 78,
       "license": "MIT",
       "updatedAt": "2026-08-19T07:12:27Z",
       "install": {
@@ -491,9 +491,9 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 66,
+      "stars": 68,
       "license": "MIT",
-      "updatedAt": "2026-08-20T14:27:08Z",
+      "updatedAt": "2026-08-31T01:03:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -510,9 +510,9 @@
       "repoUrl": "https://github.com/vlln/plugin-registry",
       "category": "ecosystem",
       "tags": [],
-      "stars": 57,
+      "stars": 58,
       "license": "MIT",
-      "updatedAt": "2026-08-27T08:37:51Z",
+      "updatedAt": "2026-08-30T15:14:45Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -660,7 +660,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 26,
+      "stars": 27,
       "license": null,
       "updatedAt": "2026-08-16T09:41:08Z",
       "install": {
@@ -927,7 +927,7 @@
       ],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-08-29T10:12:07Z",
+      "updatedAt": "2026-08-30T09:20:08Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1059,6 +1059,29 @@
       }
     },
     {
+      "slug": "tuogusa-dsh-whale-background",
+      "name": "dsh-whale-background",
+      "displayName": "whale background",
+      "description": "壁纸 + 半透明磨砂应用表面",
+      "author": "tuogusa",
+      "repoUrl": "https://github.com/tuogusa/dsh-whale-background",
+      "category": "web-ui",
+      "tags": [
+        "wallpaper",
+        "skin",
+        "ui"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updatedAt": "2026-08-19T03:23:19Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "vvlife-deepseek-harness-desktop",
       "name": "deepseek-harness-desktop",
       "displayName": "deepseek harness desktop",
@@ -1137,29 +1160,6 @@
       }
     },
     {
-      "slug": "tuogusa-dsh-whale-background",
-      "name": "dsh-whale-background",
-      "displayName": "whale background",
-      "description": "壁纸 + 半透明磨砂应用表面",
-      "author": "tuogusa",
-      "repoUrl": "https://github.com/tuogusa/dsh-whale-background",
-      "category": "web-ui",
-      "tags": [
-        "wallpaper",
-        "skin",
-        "ui"
-      ],
-      "stars": 3,
-      "license": "MIT",
-      "updatedAt": "2026-08-19T03:23:19Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "lak321-dsh-filetree",
       "name": "dsh-filetree",
       "displayName": "filetree",
@@ -1212,7 +1212,7 @@
       "tags": [],
       "stars": 2,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-21T14:19:19Z",
+      "updatedAt": "2026-08-30T16:57:41Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1473,7 +1473,7 @@
       ],
       "stars": 1,
       "license": "MIT",
-      "updatedAt": "2026-08-24T07:57:56Z",
+      "updatedAt": "2026-08-31T08:40:16Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1959,6 +1959,44 @@
       "stars": 0,
       "license": "Apache-2.0",
       "updatedAt": "2026-08-27T13:19:41Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "ei-ayw-dsh-upload",
+      "name": "dsh-upload",
+      "displayName": "upload",
+      "description": "给 DeepSeek Harness Web 加真正的上传按钮:点 📎 选本地文件,字节落盘到会话工作区 .uploads/<会话ID>/,绝对路径追加进输入框(AI 用 fs 工具直接读取)。",
+      "author": "Ei-Ayw",
+      "repoUrl": "https://github.com/Ei-Ayw/dsh-upload",
+      "category": "tools",
+      "tags": [],
+      "stars": 0,
+      "license": null,
+      "updatedAt": "2026-08-31T06:32:22Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "ei-ayw-dsh-word-docs",
+      "name": "dsh-word-docs",
+      "displayName": "word docs",
+      "description": "DeepSeek Harness 的 Word 文档工具:生成、编辑、提取、统计、转 PDF .docx,纯 Python 标准库实现,零依赖。",
+      "author": "Ei-Ayw",
+      "repoUrl": "https://github.com/Ei-Ayw/dsh-word-docs",
+      "category": "tools",
+      "tags": [],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-08-31T04:41:23Z",
       "install": {
         "type": "github",
         "profiles": [
