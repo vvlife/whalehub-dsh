@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-08-31T09:52:02.129Z",
+  "generatedAt": "2026-09-01T08:44:09.925Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 92,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 6560,
+      "stars": 6629,
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-31T06:13:30Z",
+      "updatedAt": "2026-09-01T07:33:43Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,9 +47,9 @@
         "editor",
         "tui"
       ],
-      "stars": 3163,
+      "stars": 3196,
       "license": "MIT",
-      "updatedAt": "2026-08-30T17:31:32Z",
+      "updatedAt": "2026-09-01T08:07:50Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 2737,
+      "stars": 2758,
       "license": "MIT",
-      "updatedAt": "2026-08-31T09:19:17Z",
+      "updatedAt": "2026-09-01T08:41:56Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,7 +98,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 1847,
+      "stars": 1868,
       "license": null,
       "updatedAt": "2026-08-31T04:59:04Z",
       "install": {
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1224,
+      "stars": 1243,
       "license": "MIT",
       "updatedAt": "2026-08-31T09:12:22Z",
       "install": {
@@ -146,9 +146,9 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 846,
+      "stars": 847,
       "license": "MIT",
-      "updatedAt": "2026-08-29T12:05:58Z",
+      "updatedAt": "2026-08-31T16:49:12Z",
       "install": {
         "type": "manual",
         "profiles": [
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 593,
+      "stars": 596,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:32:38Z",
       "install": {
@@ -194,9 +194,9 @@
         "editor",
         "mentions"
       ],
-      "stars": 499,
+      "stars": 500,
       "license": "MIT",
-      "updatedAt": "2026-08-29T07:21:48Z",
+      "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -217,9 +217,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 380,
+      "stars": 384,
       "license": "MIT",
-      "updatedAt": "2026-08-29T14:38:30Z",
+      "updatedAt": "2026-09-01T04:00:07Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -238,9 +238,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 302,
+      "stars": 306,
       "license": "MIT",
-      "updatedAt": "2026-08-31T04:10:35Z",
+      "updatedAt": "2026-08-31T17:36:45Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -260,7 +260,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 300,
+      "stars": 301,
       "license": "MIT",
       "updatedAt": "2026-08-31T09:40:54Z",
       "install": {
@@ -283,7 +283,7 @@
         "macos",
         "sidebar"
       ],
-      "stars": 294,
+      "stars": 298,
       "license": "MIT",
       "updatedAt": "2026-08-30T09:16:08Z",
       "install": {
@@ -304,7 +304,7 @@
       "tags": [
         "tui"
       ],
-      "stars": 250,
+      "stars": 252,
       "license": "Apache-2.0",
       "updatedAt": "2026-08-29T20:00:46Z",
       "install": {
@@ -326,7 +326,7 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 233,
+      "stars": 238,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:36:31Z",
       "install": {
@@ -364,9 +364,9 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 125,
+      "stars": 127,
       "license": "MIT",
-      "updatedAt": "2026-08-29T16:04:24Z",
+      "updatedAt": "2026-09-01T04:35:22Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -387,7 +387,7 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 110,
+      "stars": 112,
       "license": "MIT",
       "updatedAt": "2026-08-13T23:53:40Z",
       "install": {
@@ -412,7 +412,7 @@
         "rewind",
         "checkpoint"
       ],
-      "stars": 106,
+      "stars": 108,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-29T13:54:57Z",
       "install": {
@@ -433,7 +433,7 @@
       "tags": [],
       "stars": 105,
       "license": "MIT",
-      "updatedAt": "2026-08-29T14:38:29Z",
+      "updatedAt": "2026-09-01T03:55:13Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -452,7 +452,7 @@
       "tags": [],
       "stars": 98,
       "license": "MIT",
-      "updatedAt": "2026-08-30T02:54:59Z",
+      "updatedAt": "2026-08-31T17:25:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -474,7 +474,7 @@
       ],
       "stars": 78,
       "license": "MIT",
-      "updatedAt": "2026-08-19T07:12:27Z",
+      "updatedAt": "2026-09-01T01:00:44Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -491,7 +491,7 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 68,
+      "stars": 71,
       "license": "MIT",
       "updatedAt": "2026-08-31T01:03:24Z",
       "install": {
@@ -510,7 +510,7 @@
       "repoUrl": "https://github.com/vlln/plugin-registry",
       "category": "ecosystem",
       "tags": [],
-      "stars": 58,
+      "stars": 59,
       "license": "MIT",
       "updatedAt": "2026-08-30T15:14:45Z",
       "install": {
@@ -579,7 +579,7 @@
         "editing",
         "branch"
       ],
-      "stars": 46,
+      "stars": 48,
       "license": null,
       "updatedAt": "2026-08-16T11:33:37Z",
       "install": {
@@ -598,9 +598,28 @@
       "repoUrl": "https://github.com/alingalingling/ui-status-label",
       "category": "web-ui",
       "tags": [],
-      "stars": 42,
+      "stars": 43,
       "license": "MIT",
       "updatedAt": "2026-08-15T08:57:01Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "anionex-dsh-computer-use",
+      "name": "dsh-computer-use",
+      "displayName": "computer use",
+      "description": "Computer-use plugin for DSH.",
+      "author": "Anionex",
+      "repoUrl": "https://github.com/Anionex/dsh-computer-use",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 35,
+      "license": "MIT",
+      "updatedAt": "2026-08-22T14:38:27Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -622,26 +641,7 @@
       ],
       "stars": 35,
       "license": "MIT",
-      "updatedAt": "2026-08-25T03:31:23Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "anionex-dsh-computer-use",
-      "name": "dsh-computer-use",
-      "displayName": "computer use",
-      "description": "Computer-use plugin for DSH.",
-      "author": "Anionex",
-      "repoUrl": "https://github.com/Anionex/dsh-computer-use",
-      "category": "web-ui",
-      "tags": [],
-      "stars": 34,
-      "license": "MIT",
-      "updatedAt": "2026-08-22T14:38:27Z",
+      "updatedAt": "2026-09-01T04:06:59Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -927,7 +927,7 @@
       ],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-08-30T09:20:08Z",
+      "updatedAt": "2026-08-31T09:53:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1473,7 +1473,7 @@
       ],
       "stars": 1,
       "license": "MIT",
-      "updatedAt": "2026-08-31T08:40:16Z",
+      "updatedAt": "2026-08-31T09:58:24Z",
       "install": {
         "type": "github",
         "profiles": [
