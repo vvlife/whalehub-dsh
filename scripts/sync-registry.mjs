@@ -115,6 +115,10 @@ const CATEGORY_MAP = {
 
 /** 已知插件的安装方式与实测笔记（来自 awesome 列表 Hands-on Notes 与仓库 README） */
 const OVERRIDES = {
+  'zyfgood/dsh-feishu-bot': {
+    tags: ['feishu', 'lark', 'bot', 'agent', 'messaging'],
+    notes: '需飞书自建应用凭证（FEISHU_APP_ID/FEISHU_APP_SECRET 环境变量，密钥不落盘）；事件订阅用长连接模式；pnpm 10/11 需在 profile 的 pnpm-workspace.yaml 放行 protobufjs（README FAQ）。已声明 dsh.bundle.patch，dsh plugin add 一条命令安装即挂载；群聊需 @机器人，/attach 可接管 GUI 会话。',
+  },
   'vvlife/dsh-agnes-paseo': {
     tags: ['llm', 'agnes-ai', 'paseo', 'acp', 'provider'],
     install: { type: 'github', profiles: ['headless', 'web'] },
