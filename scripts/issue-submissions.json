@@ -129,5 +129,49 @@
       ]
     },
     "notes": "- 注册 word_docs 工具与 word-docs 技能\n- 本地 link: 安装需软链 ~/.dsh/profiles/node_modules/@deepseek-ai(见 README)\n- 转 PDF 需本机装 LibreOffice 或 pandoc"
+  },
+  {
+    "fullName": "PerryLink/dsh-auto-review",
+    "category": "tools",
+    "tagline": "PerryLink/dsh-auto-review — DSH 插件",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    }
+  },
+  {
+    "fullName": "PerryLink/dsh-permission-rules",
+    "category": "tools",
+    "tagline": "PerryLink/dsh-permission-rules — DSH 插件",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    }
+  },
+  {
+    "fullName": "PerryLink/dsh-memento",
+    "category": "tools",
+    "tagline": "PerryLink/dsh-memento — DSH 插件",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    }
+  },
+  {
+    "fullName": "PerryLink/dsh-mcp-panel",
+    "category": "tools",
+    "tagline": "PerryLink/dsh-mcp-panel — DSH 插件",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    }
   }
 ]
