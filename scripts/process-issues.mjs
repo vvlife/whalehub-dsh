@@ -17,7 +17,7 @@
  *   GH_TOKEN=... node scripts/process-issues.mjs            # 真实处理（留言+关闭+写文件）
  *   GH_TOKEN=... node scripts/process-issues.mjs --dry-run  # 只打印将要做什么，不改动
  */
-import { execSync } from 'node:child_process'
+import { execFileSync } from 'node:child_process'
 import { readFileSync, writeFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -29,8 +29,17 @@ const REPO = process.env.GITHUB_REPOSITORY || 'vvlife/whalehub-dsh'
 const DRY = process.argv.includes('--dry-run')
 const GH_TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN
 
+/**
+ * 调用 gh CLI。
+ *
+ * 必须走 execFileSync + 参数数组，不能用 execSync 拼字符串：
+ * `gh issue close N --reason not planned` 里的 "not planned" 含空格，
+ * 走 shell 会被拆成两个参数 → `invalid argument "not" for "-r, --reason"`。
+ * 参数数组还顺带避免了 issue 正文/仓库名里的 shell 元字符注入。
+ */
 function gh(args) {
-  return execSync(`gh ${args}`, {
+  const arr = Array.isArray(args) ? args : String(args).trim().split(/\s+/)
+  return execFileSync('gh', arr, {
     stdio: ['ignore', 'pipe', 'pipe'],
     env: { ...process.env, GH_TOKEN },
   }).toString()
@@ -132,17 +141,19 @@ function saveSubs(arr) {
 function commentIssue(number, body) {
   const f = '/tmp/whalehub_issue_comment.txt'
   writeFileSync(f, body, 'utf8')
-  gh(`issue comment ${number} --repo ${REPO} --body-file ${f}`)
+  gh(['issue', 'comment', String(number), '--repo', REPO, '--body-file', f])
 }
 function closeIssue(number, reason) {
-  gh(`issue close ${number} --repo ${REPO}${reason ? ` --reason ${reason}` : ''}`)
+  const args = ['issue', 'close', String(number), '--repo', REPO]
+  if (reason) args.push('--reason', reason)
+  gh(args)
 }
 
 async function main() {
   if (!GH_TOKEN) { console.error('GH_TOKEN not set — cannot talk to GitHub'); process.exit(1) }
   console.log(`process-issues: repo=${REPO} dry-run=${DRY}`)
 
-  const raw = gh('issue list --repo ' + REPO + ' --state open --json number,title,body --limit 100')
+  const raw = gh(['issue', 'list', '--repo', REPO, '--state', 'open', '--json', 'number,title,body', '--limit', '100'])
   const issues = JSON.parse(raw)
   const targets = issues.filter((i) => /^\[Plugin\]/i.test(i.title))
   console.log(`open plugin-submission issues: ${targets.length}`)
