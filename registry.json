@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-09-01T08:44:09.925Z",
+  "generatedAt": "2026-09-04T01:28:15.982Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 92,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 6629,
+      "stars": 6793,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-01T07:33:43Z",
+      "updatedAt": "2026-09-04T01:21:30Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,9 +47,9 @@
         "editor",
         "tui"
       ],
-      "stars": 3196,
+      "stars": 3302,
       "license": "MIT",
-      "updatedAt": "2026-09-01T08:07:50Z",
+      "updatedAt": "2026-09-03T13:21:24Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 2758,
+      "stars": 2812,
       "license": "MIT",
-      "updatedAt": "2026-09-01T08:41:56Z",
+      "updatedAt": "2026-09-04T00:08:03Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 1868,
+      "stars": 1906,
       "license": null,
-      "updatedAt": "2026-08-31T04:59:04Z",
+      "updatedAt": "2026-09-03T14:45:48Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1243,
+      "stars": 1331,
       "license": "MIT",
       "updatedAt": "2026-08-31T09:12:22Z",
       "install": {
@@ -146,9 +146,9 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 847,
+      "stars": 850,
       "license": "MIT",
-      "updatedAt": "2026-08-31T16:49:12Z",
+      "updatedAt": "2026-09-03T10:44:10Z",
       "install": {
         "type": "manual",
         "profiles": [
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 596,
+      "stars": 604,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:32:38Z",
       "install": {
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 500,
+      "stars": 503,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
@@ -217,9 +217,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 384,
+      "stars": 400,
       "license": "MIT",
-      "updatedAt": "2026-09-01T04:00:07Z",
+      "updatedAt": "2026-09-03T01:11:05Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -238,9 +238,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 306,
+      "stars": 320,
       "license": "MIT",
-      "updatedAt": "2026-08-31T17:36:45Z",
+      "updatedAt": "2026-09-04T01:27:51Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -260,7 +260,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 301,
+      "stars": 309,
       "license": "MIT",
       "updatedAt": "2026-08-31T09:40:54Z",
       "install": {
@@ -283,30 +283,9 @@
         "macos",
         "sidebar"
       ],
-      "stars": 298,
+      "stars": 302,
       "license": "MIT",
-      "updatedAt": "2026-08-30T09:16:08Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "huiliyi37-dsh-tianshu-tui",
-      "name": "dsh-tianshu-tui",
-      "displayName": "tianshu tui",
-      "description": "DSH terminal UI.",
-      "author": "huiliyi37",
-      "repoUrl": "https://github.com/huiliyi37/dsh-tianshu-tui",
-      "category": "terminal",
-      "tags": [
-        "tui"
-      ],
-      "stars": 252,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-08-29T20:00:46Z",
+      "updatedAt": "2026-09-03T15:28:39Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -326,9 +305,30 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 238,
+      "stars": 254,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:36:31Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "huiliyi37-dsh-tianshu-tui",
+      "name": "dsh-tianshu-tui",
+      "displayName": "tianshu tui",
+      "description": "DSH terminal UI.",
+      "author": "huiliyi37",
+      "repoUrl": "https://github.com/huiliyi37/dsh-tianshu-tui",
+      "category": "terminal",
+      "tags": [
+        "tui"
+      ],
+      "stars": 251,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-08-29T20:00:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -345,7 +345,7 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 156,
+      "stars": 162,
       "license": "MIT",
       "updatedAt": "2026-08-29T07:48:59Z",
       "install": {
@@ -364,7 +364,7 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 127,
+      "stars": 132,
       "license": "MIT",
       "updatedAt": "2026-09-01T04:35:22Z",
       "install": {
@@ -387,7 +387,7 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 112,
+      "stars": 114,
       "license": "MIT",
       "updatedAt": "2026-08-13T23:53:40Z",
       "install": {
@@ -412,9 +412,9 @@
         "rewind",
         "checkpoint"
       ],
-      "stars": 108,
+      "stars": 111,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-08-29T13:54:57Z",
+      "updatedAt": "2026-09-03T10:44:06Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -431,7 +431,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 105,
+      "stars": 109,
       "license": "MIT",
       "updatedAt": "2026-09-01T03:55:13Z",
       "install": {
@@ -450,7 +450,7 @@
       "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
       "category": "web-ui",
       "tags": [],
-      "stars": 98,
+      "stars": 102,
       "license": "MIT",
       "updatedAt": "2026-08-31T17:25:49Z",
       "install": {
@@ -472,7 +472,7 @@
         "notification",
         "desktop"
       ],
-      "stars": 78,
+      "stars": 80,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:44Z",
       "install": {
@@ -491,7 +491,7 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 71,
+      "stars": 75,
       "license": "MIT",
       "updatedAt": "2026-08-31T01:03:24Z",
       "install": {
@@ -554,7 +554,7 @@
         "capability-library",
         "seams"
       ],
-      "stars": 54,
+      "stars": 55,
       "license": null,
       "updatedAt": "2026-08-15T07:29:10Z",
       "install": {
@@ -579,7 +579,7 @@
         "editing",
         "branch"
       ],
-      "stars": 48,
+      "stars": 49,
       "license": null,
       "updatedAt": "2026-08-16T11:33:37Z",
       "install": {
@@ -617,9 +617,9 @@
       "repoUrl": "https://github.com/Anionex/dsh-computer-use",
       "category": "web-ui",
       "tags": [],
-      "stars": 35,
+      "stars": 36,
       "license": "MIT",
-      "updatedAt": "2026-08-22T14:38:27Z",
+      "updatedAt": "2026-09-03T10:44:02Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -722,7 +722,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-gomoku",
       "category": "agent",
       "tags": [],
-      "stars": 16,
+      "stars": 17,
       "license": "MIT",
       "updatedAt": "2026-08-15T05:42:26Z",
       "install": {
@@ -874,6 +874,25 @@
       }
     },
     {
+      "slug": "labmimors-dsh-mcp-lens",
+      "name": "dsh-mcp-lens",
+      "displayName": "mcp lens",
+      "description": "Progressive-disclosure MCP gateway for DSH: search remote tools, inspect exact input schemas on demand, then call an explicit server/tool pair.",
+      "author": "labmimors",
+      "repoUrl": "https://github.com/labmimors/dsh-mcp-lens",
+      "category": "integrations",
+      "tags": [],
+      "stars": 7,
+      "license": "MIT",
+      "updatedAt": "2026-08-29T01:42:23Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "zhangbo-cn-dsh-voice-input-plugin",
       "name": "dsh-voice-input-plugin",
       "displayName": "voice input plugin",
@@ -885,25 +904,6 @@
       "stars": 6,
       "license": "MIT",
       "updatedAt": "2026-08-25T16:01:57Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "labmimors-dsh-mcp-lens",
-      "name": "dsh-mcp-lens",
-      "displayName": "mcp lens",
-      "description": "Progressive-disclosure MCP gateway for DSH: search remote tools, inspect exact input schemas on demand, then call an explicit server/tool pair.",
-      "author": "labmimors",
-      "repoUrl": "https://github.com/labmimors/dsh-mcp-lens",
-      "category": "integrations",
-      "tags": [],
-      "stars": 6,
-      "license": "MIT",
-      "updatedAt": "2026-08-29T01:42:23Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -927,7 +927,7 @@
       ],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-08-31T09:53:09Z",
+      "updatedAt": "2026-09-04T01:26:51Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1103,6 +1103,25 @@
       }
     },
     {
+      "slug": "delef-dsh-free-web-search",
+      "name": "dsh-free-web-search",
+      "displayName": "free web search",
+      "description": "Free web search with 10 engines (Bing/DuckDuckGo/SearXNG/AnySearch free + Exa/Tavily/Keenable/Perplexity/DeepSeek paid), automatic fallback chain, time-filtered advanced search, platform search (GitHub/Reddit), web page fetching, LRU caching, and a settings UI. No API keys required.",
+      "author": "delef",
+      "repoUrl": "https://github.com/delef/dsh-free-web-search",
+      "category": "tools",
+      "tags": [],
+      "stars": 3,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-08-30T16:57:41Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "chidaic-dsh-light-memory",
       "name": "dsh-light-memory",
       "displayName": "light memory",
@@ -1114,6 +1133,25 @@
       "stars": 3,
       "license": "MIT",
       "updatedAt": "2026-08-23T17:20:48Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "bpc-oss-dsh-routed-subagent",
+      "name": "dsh-routed-subagent",
+      "displayName": "routed subagent",
+      "description": "Run a one-shot subagent fully mounted on any agent preset from any session, with per-call model/provider override, model pre-check, and external CLI engines (codex / claude / codebuddy) with background jobs, live progress, kill, and continuable sessions.",
+      "author": "bpc-oss",
+      "repoUrl": "https://github.com/bpc-oss/dsh-routed-subagent",
+      "category": "agent",
+      "tags": [],
+      "stars": 3,
+      "license": "MIT",
+      "updatedAt": "2026-08-21T15:02:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1194,44 +1232,6 @@
       "stars": 2,
       "license": "MIT",
       "updatedAt": "2026-08-13T15:46:01Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "delef-dsh-free-web-search",
-      "name": "dsh-free-web-search",
-      "displayName": "free web search",
-      "description": "Free web search with 10 engines (Bing/DuckDuckGo/SearXNG/AnySearch free + Exa/Tavily/Keenable/Perplexity/DeepSeek paid), automatic fallback chain, time-filtered advanced search, platform search (GitHub/Reddit), web page fetching, LRU caching, and a settings UI. No API keys required.",
-      "author": "delef",
-      "repoUrl": "https://github.com/delef/dsh-free-web-search",
-      "category": "tools",
-      "tags": [],
-      "stars": 2,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-08-30T16:57:41Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "bpc-oss-dsh-routed-subagent",
-      "name": "dsh-routed-subagent",
-      "displayName": "routed subagent",
-      "description": "Run a one-shot subagent fully mounted on any agent preset from any session, with per-call model/provider override, model pre-check, and external CLI engines (codex / claude / codebuddy) with background jobs, live progress, kill, and continuable sessions.",
-      "author": "bpc-oss",
-      "repoUrl": "https://github.com/bpc-oss/dsh-routed-subagent",
-      "category": "agent",
-      "tags": [],
-      "stars": 2,
-      "license": "MIT",
-      "updatedAt": "2026-08-21T15:02:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1469,17 +1469,23 @@
       "repoUrl": "https://github.com/zyfgood/dsh-feishu-bot",
       "category": "integrations",
       "tags": [
+        "feishu",
+        "lark",
+        "bot",
+        "agent",
+        "messaging",
         "bridge"
       ],
       "stars": 1,
       "license": "MIT",
-      "updatedAt": "2026-08-31T09:58:24Z",
+      "updatedAt": "2026-09-03T10:34:41Z",
       "install": {
         "type": "github",
         "profiles": [
           "web"
         ]
-      }
+      },
+      "notes": "需飞书自建应用凭证（FEISHU_APP_ID/FEISHU_APP_SECRET 环境变量，密钥不落盘）；事件订阅用长连接模式；pnpm 10/11 需在 profile 的 pnpm-workspace.yaml 放行 protobufjs（README FAQ）。已声明 dsh.bundle.patch，dsh plugin add 一条命令安装即挂载；群聊需 @机器人，/attach 可接管 GUI 会话。"
     },
     {
       "slug": "aga-j-dsh-mini-games",
@@ -1706,7 +1712,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-23T03:31:29Z",
+      "updatedAt": "2026-09-03T15:40:53Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1731,7 +1737,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-23T03:31:48Z",
+      "updatedAt": "2026-09-03T16:45:51Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1755,7 +1761,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-23T03:31:46Z",
+      "updatedAt": "2026-09-03T16:45:54Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1778,7 +1784,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-23T03:31:53Z",
+      "updatedAt": "2026-09-03T16:45:45Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1801,7 +1807,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-23T03:31:34Z",
+      "updatedAt": "2026-09-03T16:45:57Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1824,7 +1830,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-23T03:31:41Z",
+      "updatedAt": "2026-09-03T16:46:03Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1848,7 +1854,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-23T03:31:39Z",
+      "updatedAt": "2026-09-03T16:46:00Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1872,7 +1878,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-23T03:31:27Z",
+      "updatedAt": "2026-09-03T15:40:50Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1895,7 +1901,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-23T03:31:44Z",
+      "updatedAt": "2026-09-03T15:41:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1918,7 +1924,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-08-23T03:31:37Z",
+      "updatedAt": "2026-09-03T15:41:01Z",
       "install": {
         "type": "npm",
         "package": "@omdsh-plugins/omdsh-plughub",
