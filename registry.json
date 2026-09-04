@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-09-04T01:36:50.792Z",
+  "generatedAt": "2026-09-04T01:48:28.950Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 96,
   "plugins": [
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1331,
+      "stars": 1332,
       "license": "MIT",
       "updatedAt": "2026-08-31T09:12:22Z",
       "install": {
@@ -238,9 +238,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 320,
+      "stars": 321,
       "license": "MIT",
-      "updatedAt": "2026-09-04T01:27:51Z",
+      "updatedAt": "2026-09-04T01:44:02Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1005,7 +1005,7 @@
       ],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-09-04T01:33:32Z",
+      "updatedAt": "2026-09-04T01:37:27Z",
       "install": {
         "type": "github",
         "profiles": [
