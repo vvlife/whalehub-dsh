@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-09-04T01:48:28.950Z",
+  "generatedAt": "2026-09-04T08:03:10.655Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 96,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 6794,
+      "stars": 6819,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-04T01:30:05Z",
+      "updatedAt": "2026-09-04T07:42:55Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,7 +47,7 @@
         "editor",
         "tui"
       ],
-      "stars": 3303,
+      "stars": 3318,
       "license": "MIT",
       "updatedAt": "2026-09-03T13:21:24Z",
       "install": {
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 2812,
+      "stars": 2823,
       "license": "MIT",
-      "updatedAt": "2026-09-04T00:08:03Z",
+      "updatedAt": "2026-09-04T07:34:43Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 1906,
+      "stars": 1913,
       "license": null,
-      "updatedAt": "2026-09-03T14:45:48Z",
+      "updatedAt": "2026-09-04T06:37:25Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1332,
+      "stars": 1346,
       "license": "MIT",
       "updatedAt": "2026-08-31T09:12:22Z",
       "install": {
@@ -146,7 +146,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 850,
+      "stars": 852,
       "license": "MIT",
       "updatedAt": "2026-09-03T10:44:10Z",
       "install": {
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 604,
+      "stars": 606,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:32:38Z",
       "install": {
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 503,
+      "stars": 502,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
@@ -217,7 +217,7 @@
         "charts",
         "mermaid"
       ],
-      "stars": 400,
+      "stars": 402,
       "license": "MIT",
       "updatedAt": "2026-09-03T01:11:05Z",
       "install": {
@@ -238,9 +238,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 321,
+      "stars": 324,
       "license": "MIT",
-      "updatedAt": "2026-09-04T01:44:02Z",
+      "updatedAt": "2026-09-04T02:40:48Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -260,7 +260,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 309,
+      "stars": 310,
       "license": "MIT",
       "updatedAt": "2026-08-31T09:40:54Z",
       "install": {
@@ -285,7 +285,7 @@
       ],
       "stars": 302,
       "license": "MIT",
-      "updatedAt": "2026-09-03T15:28:39Z",
+      "updatedAt": "2026-09-04T07:51:54Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -326,7 +326,7 @@
       "tags": [
         "tui"
       ],
-      "stars": 251,
+      "stars": 254,
       "license": "Apache-2.0",
       "updatedAt": "2026-08-29T20:00:46Z",
       "install": {
@@ -356,6 +356,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-auto-review",
+      "name": "dsh-auto-review",
+      "displayName": "auto review",
+      "description": "PerryLink/dsh-auto-review — DSH 插件",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-auto-review",
+      "category": "tools",
+      "tags": [],
+      "stars": 133,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-03T15:30:17Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "nwflower-dsh-chat-import",
       "name": "dsh-chat-import",
       "displayName": "chat import",
@@ -367,25 +386,6 @@
       "stars": 132,
       "license": "MIT",
       "updatedAt": "2026-09-01T04:35:22Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-auto-review",
-      "name": "dsh-auto-review",
-      "displayName": "auto review",
-      "description": "PerryLink/dsh-auto-review — DSH 插件",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-auto-review",
-      "category": "tools",
-      "tags": [],
-      "stars": 132,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-03T15:30:17Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -507,7 +507,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-memento",
       "category": "tools",
       "tags": [],
-      "stars": 87,
+      "stars": 90,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-03T15:30:30Z",
       "install": {
@@ -529,7 +529,7 @@
         "notification",
         "desktop"
       ],
-      "stars": 80,
+      "stars": 81,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:44Z",
       "install": {
@@ -637,7 +637,7 @@
       ],
       "stars": 52,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-03T15:32:37Z",
+      "updatedAt": "2026-09-04T04:55:16Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -819,7 +819,7 @@
       "repoUrl": "https://github.com/ZK-Andy/dsh-continual-evolve",
       "category": "agent",
       "tags": [],
-      "stars": 16,
+      "stars": 17,
       "license": "MIT",
       "updatedAt": "2026-08-29T02:15:53Z",
       "install": {
@@ -863,9 +863,9 @@
       "repoUrl": "https://github.com/yoke233/dsh-openai-codex-auth",
       "category": "integrations",
       "tags": [],
-      "stars": 12,
+      "stars": 13,
       "license": "MIT",
-      "updatedAt": "2026-08-26T01:40:10Z",
+      "updatedAt": "2026-09-04T04:47:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1005,7 +1005,7 @@
       ],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-09-04T01:37:27Z",
+      "updatedAt": "2026-09-04T01:49:04Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1790,7 +1790,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-09-03T15:40:53Z",
+      "updatedAt": "2026-09-04T07:32:21Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1839,7 +1839,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-09-03T16:45:54Z",
+      "updatedAt": "2026-09-04T07:26:47Z",
       "install": {
         "type": "github",
         "profiles": [
