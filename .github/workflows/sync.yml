@@ -40,6 +40,19 @@ jobs:
           npm test
       - name: Validate plugins are real DSH plugins
         run: node scripts/validate-plugins.mjs
+
+      # 本 job 从 checkout 到 commit 之间会跑好几分钟，期间 main 可能已被推进
+      # （合并 PR、手动推送、另一次 workflow run）。此时直接 push 会被
+      # non-fast-forward 拒绝 —— 而这步失败意味着上面已经关闭的插件提交 issue
+      # 所对应的 issue-submissions.json 改动全部丢失（issue 已关，下次不会再处理）。
+      # 所以提交前先把自己 rebase 到最新 main：--autostash 会把尚未提交的
+      # registry 改动临时收起，rebase 完再放回。
+      - name: Rebase onto latest main before committing
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git fetch origin main
+          git pull --rebase --autostash origin main
+
       - name: Commit registry changes (if any)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

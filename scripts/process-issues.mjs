@@ -16,6 +16,15 @@
  * 用法：
  *   GH_TOKEN=... node scripts/process-issues.mjs            # 真实处理（留言+关闭+写文件）
  *   GH_TOKEN=... node scripts/process-issues.mjs --dry-run  # 只打印将要做什么，不改动
+ *   GH_TOKEN=... node scripts/process-issues.mjs --backfill 41,42,43   # 回填，见下
+ *
+ * --backfill（事故救急用）：
+ *   正常流程是「先关 issue，再等 CI 把 issue-submissions.json 提交上去」。若 CI 的
+ *   提交/推送那一步失败（例如 push 撞上 non-fast-forward 被拒），就会出现
+ *   issue 已关闭、但插件条目从未落盘的静默丢失 —— 因为下次只扫 open issue，
+ *   这批插件永远不会被重新处理。
+ *   --backfill 按编号重新解析指定的 issue，只把缺失的条目补回
+ *   issue-submissions.json，不留言、不关闭、不改动任何外部状态。
  */
 import { execFileSync } from 'node:child_process'
 import { readFileSync, writeFileSync } from 'node:fs'
@@ -28,6 +37,22 @@ const SUB_FILE = join(ROOT, 'scripts', 'issue-submissions.json')
 const REPO = process.env.GITHUB_REPOSITORY || 'vvlife/whalehub-dsh'
 const DRY = process.argv.includes('--dry-run')
 const GH_TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN
+
+/** --backfill 41,42,43 → [41,42,43]；未指定则为 null */
+function parseBackfill() {
+  const i = process.argv.indexOf('--backfill')
+  if (i === -1) return null
+  const nums = (process.argv[i + 1] || '')
+    .split(',')
+    .map((s) => parseInt(s.trim(), 10))
+    .filter((n) => Number.isInteger(n) && n > 0)
+  if (!nums.length) {
+    console.error('--backfill 需要至少一个 issue 编号，例如 --backfill 41,42,43')
+    process.exit(1)
+  }
+  return nums
+}
+const BACKFILL = parseBackfill()
 
 /**
  * 调用 gh CLI。
@@ -151,12 +176,21 @@ function closeIssue(number, reason) {
 
 async function main() {
   if (!GH_TOKEN) { console.error('GH_TOKEN not set — cannot talk to GitHub'); process.exit(1) }
-  console.log(`process-issues: repo=${REPO} dry-run=${DRY}`)
+  console.log(`process-issues: repo=${REPO} dry-run=${DRY}${BACKFILL ? ` backfill=[${BACKFILL}]` : ''}`)
 
-  const raw = gh(['issue', 'list', '--repo', REPO, '--state', 'open', '--json', 'number,title,body', '--limit', '100'])
-  const issues = JSON.parse(raw)
-  const targets = issues.filter((i) => /^\[Plugin\]/i.test(i.title))
-  console.log(`open plugin-submission issues: ${targets.length}`)
+  let targets
+  if (BACKFILL) {
+    // 按编号逐个取，不区分 open/closed —— 要救的就是已被关闭的那批
+    targets = BACKFILL.map((n) =>
+      JSON.parse(gh(['issue', 'view', String(n), '--repo', REPO, '--json', 'number,title,body']))
+    )
+    console.log(`backfill: ${targets.length} 个指定 issue（只补文件，不留言/不关闭）`)
+  } else {
+    const raw = gh(['issue', 'list', '--repo', REPO, '--state', 'open', '--json', 'number,title,body', '--limit', '100'])
+    const issues = JSON.parse(raw)
+    targets = issues.filter((i) => /^\[Plugin\]/i.test(i.title))
+    console.log(`open plugin-submission issues: ${targets.length}`)
+  }
 
   const subs = loadSubs()
   let changed = false
@@ -190,9 +224,14 @@ async function main() {
         '',
         '将在下次每日同步构建后自动上线（Vercel 主站 + GitHub Pages 国内镜像）。感谢贡献！🐋',
       ].join('\n')
-      if (DRY) { console.log('  [dry-run] ACCEPT + close\n' + body) }
-      else { commentIssue(iss.number, body); closeIssue(iss.number, 'completed') }
+      if (BACKFILL) {
+        // 回填模式：只补文件，绝不碰 issue 状态
+        console.log(already ? `  已在册，跳过：${fullName}` : `  回填：${fullName}`)
+      } else if (DRY) {
+        console.log('  [dry-run] ACCEPT + close\n' + body)
+      } else { commentIssue(iss.number, body); closeIssue(iss.number, 'completed') }
     } else if (verdict.status === 'fail') {
+      if (BACKFILL) { console.log('  不回填：校验 fail'); continue }
       const body = [
         '⚠️ 抱歉，这个提交未通过 WhaleHub 的收录校验，已关闭本 issue。',
         '',
