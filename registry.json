@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-09-04T08:03:10.655Z",
+  "generatedAt": "2026-09-05T07:45:07.893Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 96,
+  "pluginCount": 129,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 6819,
+      "stars": 6903,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-04T07:42:55Z",
+      "updatedAt": "2026-09-05T05:43:20Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,9 +47,9 @@
         "editor",
         "tui"
       ],
-      "stars": 3318,
+      "stars": 3343,
       "license": "MIT",
-      "updatedAt": "2026-09-03T13:21:24Z",
+      "updatedAt": "2026-09-04T15:04:58Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 2823,
+      "stars": 2838,
       "license": "MIT",
-      "updatedAt": "2026-09-04T07:34:43Z",
+      "updatedAt": "2026-09-05T05:42:00Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,7 +98,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 1913,
+      "stars": 1929,
       "license": null,
       "updatedAt": "2026-09-04T06:37:25Z",
       "install": {
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1346,
+      "stars": 1375,
       "license": "MIT",
       "updatedAt": "2026-08-31T09:12:22Z",
       "install": {
@@ -148,7 +148,7 @@
       ],
       "stars": 852,
       "license": "MIT",
-      "updatedAt": "2026-09-03T10:44:10Z",
+      "updatedAt": "2026-09-04T17:30:32Z",
       "install": {
         "type": "manual",
         "profiles": [
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 502,
+      "stars": 503,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
@@ -217,9 +217,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 402,
+      "stars": 405,
       "license": "MIT",
-      "updatedAt": "2026-09-03T01:11:05Z",
+      "updatedAt": "2026-09-05T01:20:05Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -238,9 +238,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 324,
+      "stars": 331,
       "license": "MIT",
-      "updatedAt": "2026-09-04T02:40:48Z",
+      "updatedAt": "2026-09-05T03:17:21Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -260,7 +260,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 310,
+      "stars": 312,
       "license": "MIT",
       "updatedAt": "2026-08-31T09:40:54Z",
       "install": {
@@ -283,9 +283,30 @@
         "macos",
         "sidebar"
       ],
-      "stars": 302,
+      "stars": 303,
       "license": "MIT",
-      "updatedAt": "2026-09-04T07:51:54Z",
+      "updatedAt": "2026-09-04T08:17:43Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "huiliyi37-dsh-tianshu-tui",
+      "name": "dsh-tianshu-tui",
+      "displayName": "tianshu tui",
+      "description": "DSH terminal UI.",
+      "author": "huiliyi37",
+      "repoUrl": "https://github.com/huiliyi37/dsh-tianshu-tui",
+      "category": "terminal",
+      "tags": [
+        "tui"
+      ],
+      "stars": 261,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-08-29T20:00:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -305,30 +326,9 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 254,
+      "stars": 256,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:36:31Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "huiliyi37-dsh-tianshu-tui",
-      "name": "dsh-tianshu-tui",
-      "displayName": "tianshu tui",
-      "description": "DSH terminal UI.",
-      "author": "huiliyi37",
-      "repoUrl": "https://github.com/huiliyi37/dsh-tianshu-tui",
-      "category": "terminal",
-      "tags": [
-        "tui"
-      ],
-      "stars": 254,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-08-29T20:00:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -356,25 +356,6 @@
       }
     },
     {
-      "slug": "perrylink-dsh-auto-review",
-      "name": "dsh-auto-review",
-      "displayName": "auto review",
-      "description": "PerryLink/dsh-auto-review — DSH 插件",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-auto-review",
-      "category": "tools",
-      "tags": [],
-      "stars": 133,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-03T15:30:17Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "nwflower-dsh-chat-import",
       "name": "dsh-chat-import",
       "displayName": "chat import",
@@ -383,9 +364,28 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 132,
+      "stars": 135,
       "license": "MIT",
-      "updatedAt": "2026-09-01T04:35:22Z",
+      "updatedAt": "2026-09-04T12:19:21Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-auto-review",
+      "name": "dsh-auto-review",
+      "displayName": "auto review",
+      "description": "PerryLink/dsh-auto-review — DSH 插件",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-auto-review",
+      "category": "tools",
+      "tags": [],
+      "stars": 134,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-05T00:55:28Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -406,9 +406,9 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 114,
+      "stars": 115,
       "license": "MIT",
-      "updatedAt": "2026-08-13T23:53:40Z",
+      "updatedAt": "2026-09-05T04:10:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -418,6 +418,25 @@
       "notes": "私有仓库（dsh-external），github: 安装需读取权限；需 Node >=22.19。装完用 dsh --profile web --dump-config 验证出现 dsh-external-workflow 后重启。/workflow create 不接受 --wait。",
       "featured": true,
       "private": true
+    },
+    {
+      "slug": "perrylink-dsh-permission-rules",
+      "name": "dsh-permission-rules",
+      "displayName": "permission rules",
+      "description": "PerryLink/dsh-permission-rules — DSH 插件",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-permission-rules",
+      "category": "tools",
+      "tags": [],
+      "stars": 113,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:00:25Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
     },
     {
       "slug": "anionex-dsh-turn-rewind",
@@ -431,28 +450,9 @@
         "rewind",
         "checkpoint"
       ],
-      "stars": 111,
+      "stars": 112,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-09-03T10:44:06Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-permission-rules",
-      "name": "dsh-permission-rules",
-      "displayName": "permission rules",
-      "description": "PerryLink/dsh-permission-rules — DSH 插件",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-permission-rules",
-      "category": "tools",
-      "tags": [],
-      "stars": 110,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-03T15:32:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -469,9 +469,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 109,
+      "stars": 108,
       "license": "MIT",
-      "updatedAt": "2026-09-01T03:55:13Z",
+      "updatedAt": "2026-09-05T01:19:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -507,9 +507,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-memento",
       "category": "tools",
       "tags": [],
-      "stars": 90,
+      "stars": 95,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-03T15:30:30Z",
+      "updatedAt": "2026-09-04T14:01:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -578,20 +578,17 @@
       }
     },
     {
-      "slug": "omdsh-dev-dsh-open-in-vscode",
-      "name": "dsh-open-in-vscode",
-      "displayName": "open in vscode",
-      "description": "Open workspace directories in VS Code directly from the web GUI.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode",
-      "category": "integrations",
-      "tags": [
-        "vscode",
-        "editor"
-      ],
-      "stars": 55,
-      "license": "MIT",
-      "updatedAt": "2026-08-16T05:24:58Z",
+      "slug": "perrylink-dsh-industry-research",
+      "name": "dsh-industry-research",
+      "displayName": "industry research",
+      "description": "Industry and company research domain pack for DeepSeek Harness: methodology skills, industry chain mapping, public-source policy/news tracking, company research cards, and auditable research reports. Research only - not investment advice.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-industry-research",
+      "category": "tools",
+      "tags": [],
+      "stars": 58,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:02:51Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -611,7 +608,7 @@
         "capability-library",
         "seams"
       ],
-      "stars": 55,
+      "stars": 57,
       "license": null,
       "updatedAt": "2026-08-15T07:29:10Z",
       "install": {
@@ -623,6 +620,47 @@
       },
       "notes": "这是插件源码库/能力库（687 个插件按 plugins/<gap-id>/ 组织），不是一条命令装全家桶；按需挑选单个插件安装。e2e 需要 DEEPSEEK_API_KEY。",
       "featured": true
+    },
+    {
+      "slug": "perrylink-dsh-research-report",
+      "name": "dsh-research-report",
+      "displayName": "research report",
+      "description": "Verifiable research-report engine for DeepSeek Harness: content-addressed evidence ledger (claim-snapshot binding, tamper-evident) plus versioned sealed reports with per-claim verification verdicts and a manifest-sealed directory.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-research-report",
+      "category": "tools",
+      "tags": [],
+      "stars": 57,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:02:11Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-open-in-vscode",
+      "name": "dsh-open-in-vscode",
+      "displayName": "open in vscode",
+      "description": "Open workspace directories in VS Code directly from the web GUI.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-open-in-vscode",
+      "category": "integrations",
+      "tags": [
+        "vscode",
+        "editor"
+      ],
+      "stars": 54,
+      "license": "MIT",
+      "updatedAt": "2026-08-16T05:24:58Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
     },
     {
       "slug": "perrylink-dsh-mcp-panel",
@@ -637,7 +675,7 @@
       ],
       "stars": 52,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-04T04:55:16Z",
+      "updatedAt": "2026-09-04T14:15:45Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -728,6 +766,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-plugin-guide",
+      "name": "dsh-plugin-guide",
+      "displayName": "plugin guide",
+      "description": "Installable DSH bundle: the dsh-plugin-guide plugin-development knowledge base as an on-demand agent skill. Official docs archive (EN/ZH), Cordis primer, 114-repo community archive, 1654 archived Discussions, 20+ battle-tested pitfalls.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-plugin-guide",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 34,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:02:19Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "tommy00748-dsh-theme-cyberpunk2077",
       "name": "dsh-theme-cyberpunk2077",
       "displayName": "theme cyberpunk2077",
@@ -792,6 +849,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-fund-research",
+      "name": "dsh-fund-research",
+      "displayName": "fund research",
+      "description": "DeepSeek Harness plugin: deterministic research reports for Chinese public mutual funds",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-fund-research",
+      "category": "tools",
+      "tags": [],
+      "stars": 23,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:37:02Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "omdsh-dev-dsh-gomoku",
       "name": "dsh-gomoku",
       "displayName": "gomoku",
@@ -800,7 +876,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-gomoku",
       "category": "agent",
       "tags": [],
-      "stars": 17,
+      "stars": 18,
       "license": "MIT",
       "updatedAt": "2026-08-15T05:42:26Z",
       "install": {
@@ -819,9 +895,85 @@
       "repoUrl": "https://github.com/ZK-Andy/dsh-continual-evolve",
       "category": "agent",
       "tags": [],
-      "stars": 17,
+      "stars": 18,
       "license": "MIT",
-      "updatedAt": "2026-08-29T02:15:53Z",
+      "updatedAt": "2026-09-04T19:11:01Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-lsp-actions",
+      "name": "dsh-lsp-actions",
+      "displayName": "lsp actions",
+      "description": "LSP action surface for DeepSeek Harness: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints, and rename tools over language servers",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-lsp-actions",
+      "category": "tools",
+      "tags": [],
+      "stars": 16,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:02:57Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-doublecheck",
+      "name": "dsh-doublecheck",
+      "displayName": "doublecheck",
+      "description": "Double-check before you ship: grill the requirements, test the implementation, prove the delivery. An engineering-discipline bundle for DeepSeek Harness.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-doublecheck",
+      "category": "agent",
+      "tags": [],
+      "stars": 15,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:02:38Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-checkpoint-rewind",
+      "name": "dsh-checkpoint-rewind",
+      "displayName": "checkpoint rewind",
+      "description": "Claude Code /rewind for DeepSeek Harness — git-first workspace snapshots before every mutation, turn-boundary session forks, one-shot /rewind restore. A dsh-plugin capability seam.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+      "category": "tools",
+      "tags": [],
+      "stars": 15,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:02:27Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-claude-move",
+      "name": "dsh-claude-move",
+      "displayName": "claude move",
+      "description": "Four-source migration wizard for DeepSeek Harness: move Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DSH (/move wizard + resumable sessions, approval-gated, idempotent).",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-claude-move",
+      "category": "integrations",
+      "tags": [],
+      "stars": 15,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-05T02:21:30Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -874,6 +1026,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-data-quality",
+      "name": "dsh-data-quality",
+      "displayName": "data quality",
+      "description": "DeepSeek Harness plugin: deterministic data profiling, cleaning, and verification (dsh-data-quality)",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-data-quality",
+      "category": "tools",
+      "tags": [],
+      "stars": 12,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:37:05Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "titanwings-dsh-plannotator",
       "name": "dsh-plannotator",
       "displayName": "plannotator",
@@ -885,6 +1056,48 @@
       "stars": 11,
       "license": "MIT",
       "updatedAt": "2026-08-25T07:50:25Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-composer-history",
+      "name": "dsh-composer-history",
+      "displayName": "composer history",
+      "description": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace recall - and sliding-context awareness (compaction summaries in recall/search, compaction notice with one-click /compact fill).",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-composer-history",
+      "category": "web-ui",
+      "tags": [
+        "tui"
+      ],
+      "stars": 10,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:04:01Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-background-agents",
+      "name": "dsh-background-agents",
+      "displayName": "background agents",
+      "description": "Interactive long-session background agents for DeepSeek Harness: start a durable continuable child agent, watch its progress in the Web UI sidebar, message it any time, and interrupt it - all through the official subagent seam.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-background-agents",
+      "category": "agent",
+      "tags": [
+        "sidebar"
+      ],
+      "stars": 10,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:38:53Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -914,6 +1127,27 @@
       }
     },
     {
+      "slug": "perrylink-dsh-skill-pack-security",
+      "name": "dsh-skill-pack-security",
+      "displayName": "skill pack security",
+      "description": "Security-audit skill pack + plugin_vet supply-chain gate for DeepSeek Harness (dsh): 8 bilingual agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vuln intel, incident response) plus the plugin_vet automated pre-install scanner. Apache-2.0.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-skill-pack-security",
+      "category": "ecosystem",
+      "tags": [
+        "workflow"
+      ],
+      "stars": 9,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:34:43Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "leechen298-code2skill",
       "name": "Code2Skill",
       "displayName": "Code2Skill",
@@ -925,6 +1159,44 @@
       "stars": 8,
       "license": "MIT",
       "updatedAt": "2026-08-27T07:20:29Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "labmimors-dsh-mcp-lens",
+      "name": "dsh-mcp-lens",
+      "displayName": "mcp lens",
+      "description": "Progressive-disclosure MCP gateway for DSH: search remote tools, inspect exact input schemas on demand, then call an explicit server/tool pair.",
+      "author": "labmimors",
+      "repoUrl": "https://github.com/labmimors/dsh-mcp-lens",
+      "category": "integrations",
+      "tags": [],
+      "stars": 8,
+      "license": "MIT",
+      "updatedAt": "2026-08-29T01:42:23Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-talk",
+      "name": "dsh-talk",
+      "displayName": "talk",
+      "description": "Voice-first session loop for DeepSeek Harness: a composer microphone button with browser/local speech-to-text (Web Speech, FunASR, whisper.cpp), a speak tool for text-to-speech replies (browser, edge-tts, piper), event announcements with mute, and speak-to-interrupt.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-talk",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 8,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:40:23Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -952,17 +1224,38 @@
       }
     },
     {
-      "slug": "labmimors-dsh-mcp-lens",
-      "name": "dsh-mcp-lens",
-      "displayName": "mcp lens",
-      "description": "Progressive-disclosure MCP gateway for DSH: search remote tools, inspect exact input schemas on demand, then call an explicit server/tool pair.",
-      "author": "labmimors",
-      "repoUrl": "https://github.com/labmimors/dsh-mcp-lens",
-      "category": "integrations",
+      "slug": "perrylink-dsh-session-pin",
+      "name": "dsh-session-pin",
+      "displayName": "session pin",
+      "description": "Pin sessions and workspaces to the top of the DeepSeek Harness sidebar with per-pin row colors - a dual-face (host + client) dsh plugin.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-session-pin",
+      "category": "web-ui",
+      "tags": [
+        "sidebar"
+      ],
+      "stars": 7,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:01:48Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-library",
+      "name": "dsh-library",
+      "displayName": "library",
+      "description": "Local document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking, relevance filtering and lost-in-the-middle avoidance, citation-aware injection, library_cite_check and library_diagnose — SQLite-backed index via the storage domain, local embedding, zero model downloads.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-library",
+      "category": "tools",
       "tags": [],
       "stars": 7,
-      "license": "MIT",
-      "updatedAt": "2026-08-29T01:42:23Z",
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:37:54Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -990,6 +1283,46 @@
       }
     },
     {
+      "slug": "perrylink-dsh-local-ai",
+      "name": "dsh-local-ai",
+      "displayName": "local ai",
+      "description": "Local-model (Ollama) integration for DeepSeek Harness: discover, pull, remove, and inspect local models, route requests to them by task type or keyword with automatic fallback to the cloud, and get a one-shot status overview via /ollama.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-local-ai",
+      "category": "integrations",
+      "tags": [
+        "bridge"
+      ],
+      "stars": 6,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:02:03Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-defend",
+      "name": "dsh-defend",
+      "displayName": "defend",
+      "description": "Prompt-injection, jailbreak, and secret-leak defense for DeepSeek Harness: Aho-Corasick detection with allow/ask/block interception and sanitized audit events",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-defend",
+      "category": "tools",
+      "tags": [],
+      "stars": 6,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:40:57Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "vvlife-whalehub-dsh",
       "name": "whalehub-dsh",
       "displayName": "whalehub dsh",
@@ -1005,7 +1338,7 @@
       ],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-09-04T01:49:04Z",
+      "updatedAt": "2026-09-04T08:04:25Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1032,6 +1365,125 @@
       "stars": 5,
       "license": "MIT",
       "updatedAt": "2026-08-19T02:16:24Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-observe",
+      "name": "dsh-observe",
+      "displayName": "observe",
+      "description": "OpenTelemetry and Langfuse observability exporter for DeepSeek Harness: turn/step/tool/LLM spans, token and cost metrics, sanitized prompt/completion capture, async batching, bounded offline buffering, retry with backoff",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-observe",
+      "category": "integrations",
+      "tags": [],
+      "stars": 5,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:47:21Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-draw",
+      "name": "dsh-draw",
+      "displayName": "draw",
+      "description": "Unified static-image generation router for DeepSeek Harness: one image_generate tool with standard parameters, config-driven engine routing (OpenAI Images, Zhipu CogView, and any compatible endpoint) with health-aware fallback, durable workspace attachments, per-session quota accounting, and a Plugins settings panel",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-draw",
+      "category": "vision",
+      "tags": [
+        "vision",
+        "sidebar"
+      ],
+      "stars": 5,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:15:09Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-translate",
+      "name": "dsh-translate",
+      "displayName": "translate",
+      "description": "Vendor parameter translation and deterministic JSON repair for DeepSeek Harness: /translate maps temperature/top_p/max_tokens/stop/system across 11 vendors, and the post-execute repair layer (plus fix_json) fixes broken JSON tool output without ever fabricating data",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-translate",
+      "category": "tools",
+      "tags": [],
+      "stars": 5,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:01:51Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-session-sync",
+      "name": "dsh-session-sync",
+      "displayName": "session sync",
+      "description": "Cross-device DeepSeek Harness session sync: a dedicated git mirror with append-only keep-both conflict resolution (fork files, never silently overwritten), /sync command and sync_* tools",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-session-sync",
+      "category": "tools",
+      "tags": [],
+      "stars": 5,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:40:43Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-output-styles",
+      "name": "dsh-output-styles",
+      "displayName": "output styles",
+      "description": "Claude Code outputStyles for DeepSeek Harness - session-scoped, durable, runtime-switchable model output styles (/style command, output_style storage domain, systemPrompt injection)",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-output-styles",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 5,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:49:49Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-mask",
+      "name": "dsh-mask",
+      "displayName": "mask",
+      "description": "PII masking middleware for DeepSeek Harness: anonymize names, phones, emails, ID cards, bank cards, keys, and addresses to placeholders before they reach the model, restore them at the display layer, keep the restore table only in memory and a controlled storage domain, never log plaintext, and expose /mask and the mask_test tool",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-mask",
+      "category": "tools",
+      "tags": [
+        "skin"
+      ],
+      "stars": 5,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:03:00Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1160,6 +1612,103 @@
       }
     },
     {
+      "slug": "perrylink-dsh-budget",
+      "name": "dsh-budget",
+      "displayName": "budget",
+      "description": "Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, a Settings budget tab, and the /budget command",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-budget",
+      "category": "tools",
+      "tags": [],
+      "stars": 4,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:01:43Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-fast",
+      "name": "dsh-fast",
+      "displayName": "fast",
+      "description": "Read-only performance diagnostics for DeepSeek Harness: session load/restore timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via /fast, persisted as reconstructable session events with async sampling off the model path.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-fast",
+      "category": "tools",
+      "tags": [],
+      "stars": 4,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:34:14Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-click",
+      "name": "dsh-click",
+      "displayName": "click",
+      "description": "Cross-platform native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read, click/type/scroll/key, app_list/app_launch - approval-gated, never stealing foreground focus",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-click",
+      "category": "terminal",
+      "tags": [
+        "desktop"
+      ],
+      "stars": 4,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:35:56Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-github",
+      "name": "dsh-github",
+      "displayName": "github",
+      "description": "Official-grade GitHub CI for DeepSeek Harness: composite action.yml, PR review bot with idempotent inline comments and a status-check gate, plus PR/issues tools with every write gated by human approval (Apache-2.0, dsh-plugin).",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-github",
+      "category": "integrations",
+      "tags": [],
+      "stars": 4,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T14:02:48Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-score",
+      "name": "dsh-score",
+      "displayName": "score",
+      "description": "Multi-dimensional quality scoring for DeepSeek Harness plugins: scores a repo or npm package across install success (consuming dsh-test-drive results), maintenance activity, documentation completeness, security scan, and protocol compliance — every conclusion backed by real CLI evidence with audit timestamps.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-score",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 4,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:38:32Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "vvlife-deepseek-harness-desktop",
       "name": "deepseek-harness-desktop",
       "displayName": "deepseek harness desktop",
@@ -1248,7 +1797,7 @@
       "tags": [],
       "stars": 3,
       "license": "MIT",
-      "updatedAt": "2026-08-17T11:03:17Z",
+      "updatedAt": "2026-09-05T07:27:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1289,6 +1838,25 @@
       "stars": 3,
       "license": "MIT",
       "updatedAt": "2026-08-17T15:19:24Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-test-drive",
+      "name": "dsh-test-drive",
+      "displayName": "test drive",
+      "description": "Isolated install-and-smoke test drives for DeepSeek Harness plugins: installs a repo or npm package into a throwaway DSH_HOME profile, verifies the bundle patch layer and boot logs, records a structured pass/fail result matrix (JSON/Markdown) for scoring pipelines, and quarantines every temp directory it owns",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-test-drive",
+      "category": "tools",
+      "tags": [],
+      "stars": 3,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-04T16:39:10Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1556,7 +2124,7 @@
       ],
       "stars": 1,
       "license": "MIT",
-      "updatedAt": "2026-09-03T10:34:41Z",
+      "updatedAt": "2026-09-04T15:35:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1790,7 +2358,7 @@
       ],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-09-04T07:32:21Z",
+      "updatedAt": "2026-09-04T10:01:36Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2081,6 +2649,87 @@
       "stars": 0,
       "license": "MIT",
       "updatedAt": "2026-08-31T04:41:23Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-wechat",
+      "name": "dsh-wechat",
+      "displayName": "wechat",
+      "description": "DSH插件，将微信私聊消息桥接到DSH，支持文本、图片、文件、音视频的双向传输。目标是在微信端还原DSH的原生体验",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-wechat",
+      "category": "integrations",
+      "tags": [],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-09-05T02:20:12Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-ticktick",
+      "name": "dsh-ticktick",
+      "displayName": "ticktick",
+      "description": "TickTick (Dida365) task bridge for DeepSeek Harness: Session-header task panel (list filter, undone/completed views, search, drag reorder), 11 curated agent tools, settings card, over the official TickTick MCP endpoint.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-ticktick",
+      "category": "integrations",
+      "tags": [
+        "bridge",
+        "sidebar"
+      ],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-05T02:15:24Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-reach",
+      "name": "dsh-reach",
+      "displayName": "reach",
+      "description": "Multi-channel decision & remote-control bridge for DeepSeek Harness: pushes any workspace approval/question cards to IM channels (WeChat iLink first) and answers them from chat, with a session console, per-channel security, and an open push service.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-reach",
+      "category": "integrations",
+      "tags": [
+        "bridge"
+      ],
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-05T02:15:20Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-personal-directive",
+      "name": "dsh-personal-directive",
+      "displayName": "personal directive",
+      "description": "harness 破甲插件安装即用",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-personal-directive",
+      "category": "tools",
+      "tags": [],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-09-03T11:03:30Z",
       "install": {
         "type": "github",
         "profiles": [
