@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-09-07T08:24:58.404Z",
+  "generatedAt": "2026-09-08T08:10:00.244Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 138,
+  "pluginCount": 139,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 7058,
+      "stars": 7132,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-07T08:08:29Z",
+      "updatedAt": "2026-09-08T01:51:24Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,7 +47,7 @@
         "editor",
         "tui"
       ],
-      "stars": 3393,
+      "stars": 3422,
       "license": "MIT",
       "updatedAt": "2026-09-07T08:06:27Z",
       "install": {
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 2872,
+      "stars": 2884,
       "license": "MIT",
-      "updatedAt": "2026-09-07T07:42:30Z",
+      "updatedAt": "2026-09-08T08:07:36Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 1954,
+      "stars": 1974,
       "license": null,
-      "updatedAt": "2026-09-06T07:40:07Z",
+      "updatedAt": "2026-09-07T17:11:35Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1420,
+      "stars": 1444,
       "license": "MIT",
       "updatedAt": "2026-09-05T18:08:52Z",
       "install": {
@@ -146,7 +146,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 855,
+      "stars": 858,
       "license": "MIT",
       "updatedAt": "2026-09-04T17:30:32Z",
       "install": {
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 610,
+      "stars": 613,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:32:38Z",
       "install": {
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 504,
+      "stars": 505,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
@@ -217,9 +217,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 417,
+      "stars": 427,
       "license": "MIT",
-      "updatedAt": "2026-09-06T05:33:02Z",
+      "updatedAt": "2026-09-07T14:01:18Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -238,9 +238,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 344,
+      "stars": 347,
       "license": "MIT",
-      "updatedAt": "2026-09-07T01:08:01Z",
+      "updatedAt": "2026-09-08T05:15:17Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -283,9 +283,9 @@
         "macos",
         "sidebar"
       ],
-      "stars": 304,
+      "stars": 305,
       "license": "MIT",
-      "updatedAt": "2026-09-05T12:01:51Z",
+      "updatedAt": "2026-09-08T06:22:02Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -304,7 +304,7 @@
       "tags": [
         "tui"
       ],
-      "stars": 264,
+      "stars": 265,
       "license": "Apache-2.0",
       "updatedAt": "2026-08-29T20:00:46Z",
       "install": {
@@ -326,7 +326,7 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 257,
+      "stars": 258,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-08-27T21:36:31Z",
       "install": {
@@ -345,7 +345,7 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 163,
+      "stars": 167,
       "license": "MIT",
       "updatedAt": "2026-08-29T07:48:59Z",
       "install": {
@@ -364,9 +364,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-auto-review",
       "category": "tools",
       "tags": [],
-      "stars": 142,
+      "stars": 146,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:32:22Z",
+      "updatedAt": "2026-09-07T14:44:54Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -383,9 +383,9 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 137,
+      "stars": 140,
       "license": "MIT",
-      "updatedAt": "2026-09-07T08:03:16Z",
+      "updatedAt": "2026-09-07T15:56:17Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -452,7 +452,7 @@
       "tags": [],
       "stars": 113,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:55Z",
+      "updatedAt": "2026-09-07T13:21:25Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -469,9 +469,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 110,
+      "stars": 112,
       "license": "MIT",
-      "updatedAt": "2026-09-05T01:19:31Z",
+      "updatedAt": "2026-09-07T13:59:10Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -488,7 +488,7 @@
       "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
       "category": "web-ui",
       "tags": [],
-      "stars": 103,
+      "stars": 104,
       "license": "MIT",
       "updatedAt": "2026-09-06T18:27:34Z",
       "install": {
@@ -507,9 +507,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-memento",
       "category": "tools",
       "tags": [],
-      "stars": 97,
+      "stars": 101,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:44Z",
+      "updatedAt": "2026-09-07T13:21:17Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -567,9 +567,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-research-report",
       "category": "tools",
       "tags": [],
-      "stars": 68,
+      "stars": 74,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:34:09Z",
+      "updatedAt": "2026-09-07T13:21:33Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -586,9 +586,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-industry-research",
       "category": "tools",
       "tags": [],
-      "stars": 64,
+      "stars": 69,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:23Z",
+      "updatedAt": "2026-09-07T13:21:00Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -673,9 +673,9 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 52,
+      "stars": 53,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:41Z",
+      "updatedAt": "2026-09-07T13:21:14Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -714,7 +714,7 @@
       "repoUrl": "https://github.com/alingalingling/ui-status-label",
       "category": "web-ui",
       "tags": [],
-      "stars": 43,
+      "stars": 44,
       "license": "MIT",
       "updatedAt": "2026-08-15T08:57:01Z",
       "install": {
@@ -733,7 +733,7 @@
       "repoUrl": "https://github.com/Anionex/dsh-computer-use",
       "category": "web-ui",
       "tags": [],
-      "stars": 38,
+      "stars": 39,
       "license": "MIT",
       "updatedAt": "2026-09-03T10:44:02Z",
       "install": {
@@ -776,7 +776,7 @@
       "tags": [],
       "stars": 34,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:58Z",
+      "updatedAt": "2026-09-07T13:21:28Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -816,7 +816,7 @@
       "tags": [],
       "stars": 25,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:17Z",
+      "updatedAt": "2026-09-07T13:20:55Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -876,7 +876,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-gomoku",
       "category": "agent",
       "tags": [],
-      "stars": 21,
+      "stars": 22,
       "license": "MIT",
       "updatedAt": "2026-08-15T05:42:26Z",
       "install": {
@@ -895,9 +895,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-doublecheck",
       "category": "agent",
       "tags": [],
-      "stars": 20,
+      "stars": 22,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:06Z",
+      "updatedAt": "2026-09-07T13:19:47Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -925,6 +925,44 @@
       }
     },
     {
+      "slug": "perrylink-dsh-claude-move",
+      "name": "dsh-claude-move",
+      "displayName": "claude move",
+      "description": "Four-source migration wizard for DeepSeek Harness: move Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DSH (/move wizard + resumable sessions, approval-gated, idempotent).",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-claude-move",
+      "category": "integrations",
+      "tags": [],
+      "stars": 18,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-07T13:19:37Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-data-quality",
+      "name": "dsh-data-quality",
+      "displayName": "data quality",
+      "description": "DeepSeek Harness plugin: deterministic data profiling, cleaning, and verification (dsh-data-quality)",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-data-quality",
+      "category": "tools",
+      "tags": [],
+      "stars": 17,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-07T12:05:30Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-lsp-actions",
       "name": "dsh-lsp-actions",
       "displayName": "lsp actions",
@@ -935,7 +973,7 @@
       "tags": [],
       "stars": 17,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:34Z",
+      "updatedAt": "2026-09-07T13:21:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -954,45 +992,7 @@
       "tags": [],
       "stars": 16,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:32:32Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-claude-move",
-      "name": "dsh-claude-move",
-      "displayName": "claude move",
-      "description": "Four-source migration wizard for DeepSeek Harness: move Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DSH (/move wizard + resumable sessions, approval-gated, idempotent).",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-claude-move",
-      "category": "integrations",
-      "tags": [],
-      "stars": 16,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:32:36Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-data-quality",
-      "name": "dsh-data-quality",
-      "displayName": "data quality",
-      "description": "DeepSeek Harness plugin: deterministic data profiling, cleaning, and verification (dsh-data-quality)",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-data-quality",
-      "category": "tools",
-      "tags": [],
-      "stars": 15,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:32:46Z",
+      "updatedAt": "2026-09-07T13:19:34Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1076,7 +1076,7 @@
       ],
       "stars": 11,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:32:43Z",
+      "updatedAt": "2026-09-07T13:19:42Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1095,9 +1095,9 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 10,
+      "stars": 11,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:32:25Z",
+      "updatedAt": "2026-09-07T13:19:26Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1127,6 +1127,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-talk",
+      "name": "dsh-talk",
+      "displayName": "talk",
+      "description": "Voice-first session loop for DeepSeek Harness: a composer microphone button with browser/local speech-to-text (Web Speech, FunASR, whisper.cpp), a speak tool for text-to-speech replies (browser, edge-tts, piper), event announcements with mute, and speak-to-interrupt.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-talk",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 9,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-07T13:21:46Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-skill-pack-security",
       "name": "dsh-skill-pack-security",
       "displayName": "skill pack security",
@@ -1139,7 +1158,7 @@
       ],
       "stars": 9,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:34:22Z",
+      "updatedAt": "2026-09-07T13:37:30Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1186,17 +1205,19 @@
       }
     },
     {
-      "slug": "perrylink-dsh-talk",
-      "name": "dsh-talk",
-      "displayName": "talk",
-      "description": "Voice-first session loop for DeepSeek Harness: a composer microphone button with browser/local speech-to-text (Web Speech, FunASR, whisper.cpp), a speak tool for text-to-speech replies (browser, edge-tts, piper), event announcements with mute, and speak-to-interrupt.",
+      "slug": "perrylink-dsh-local-ai",
+      "name": "dsh-local-ai",
+      "displayName": "local ai",
+      "description": "Local-model (Ollama) integration for DeepSeek Harness: discover, pull, remove, and inspect local models, route requests to them by task type or keyword with automatic fallback to the cloud, and get a one-shot status overview via /ollama.",
       "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-talk",
-      "category": "web-ui",
-      "tags": [],
+      "repoUrl": "https://github.com/PerryLink/dsh-local-ai",
+      "category": "integrations",
+      "tags": [
+        "bridge"
+      ],
       "stars": 8,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:34:26Z",
+      "updatedAt": "2026-09-07T13:21:06Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1236,7 +1257,26 @@
       ],
       "stars": 7,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:34:16Z",
+      "updatedAt": "2026-09-07T13:21:38Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-defend",
+      "name": "dsh-defend",
+      "displayName": "defend",
+      "description": "Prompt-injection, jailbreak, and secret-leak defense for DeepSeek Harness: Aho-Corasick detection with allow/ask/block interception and sanitized audit events",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-defend",
+      "category": "tools",
+      "tags": [],
+      "stars": 7,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-07T13:19:45Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1255,7 +1295,7 @@
       "tags": [],
       "stars": 7,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:27Z",
+      "updatedAt": "2026-09-07T13:21:03Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1283,6 +1323,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-budget",
+      "name": "dsh-budget",
+      "displayName": "budget",
+      "description": "Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, a Settings budget tab, and the /budget command",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-budget",
+      "category": "tools",
+      "tags": [],
+      "stars": 6,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-07T13:19:28Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-github",
       "name": "dsh-github",
       "displayName": "github",
@@ -1293,7 +1352,26 @@
       "tags": [],
       "stars": 6,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:20Z",
+      "updatedAt": "2026-09-07T13:20:58Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-session-sync",
+      "name": "dsh-session-sync",
+      "displayName": "session sync",
+      "description": "Cross-device DeepSeek Harness session sync: a dedicated git mirror with append-only keep-both conflict resolution (fork files, never silently overwritten), /sync command and sync_* tools",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-session-sync",
+      "category": "tools",
+      "tags": [],
+      "stars": 6,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-07T13:21:41Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1314,47 +1392,7 @@
       ],
       "stars": 6,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:37Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-local-ai",
-      "name": "dsh-local-ai",
-      "displayName": "local ai",
-      "description": "Local-model (Ollama) integration for DeepSeek Harness: discover, pull, remove, and inspect local models, route requests to them by task type or keyword with automatic fallback to the cloud, and get a one-shot status overview via /ollama.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-local-ai",
-      "category": "integrations",
-      "tags": [
-        "bridge"
-      ],
-      "stars": 6,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:30Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-defend",
-      "name": "dsh-defend",
-      "displayName": "defend",
-      "description": "Prompt-injection, jailbreak, and secret-leak defense for DeepSeek Harness: Aho-Corasick detection with allow/ask/block interception and sanitized audit events",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-defend",
-      "category": "tools",
-      "tags": [],
-      "stars": 6,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:35:04Z",
+      "updatedAt": "2026-09-07T13:21:12Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1378,7 +1416,7 @@
       ],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-09-06T07:59:44Z",
+      "updatedAt": "2026-09-07T08:26:15Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1423,26 +1461,7 @@
       "tags": [],
       "stars": 5,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:48Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-budget",
-      "name": "dsh-budget",
-      "displayName": "budget",
-      "description": "Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, a Settings budget tab, and the /budget command",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-budget",
-      "category": "tools",
-      "tags": [],
-      "stars": 5,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:32:29Z",
+      "updatedAt": "2026-09-07T13:21:20Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1464,7 +1483,7 @@
       ],
       "stars": 5,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:10Z",
+      "updatedAt": "2026-09-07T13:20:10Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1485,7 +1504,7 @@
       ],
       "stars": 5,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:32:39Z",
+      "updatedAt": "2026-09-07T13:19:39Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1504,26 +1523,7 @@
       "tags": [],
       "stars": 5,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:34:36Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-session-sync",
-      "name": "dsh-session-sync",
-      "displayName": "session sync",
-      "description": "Cross-device DeepSeek Harness session sync: a dedicated git mirror with append-only keep-both conflict resolution (fork files, never silently overwritten), /sync command and sync_* tools",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-session-sync",
-      "category": "tools",
-      "tags": [],
-      "stars": 5,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:34:19Z",
+      "updatedAt": "2026-09-07T13:22:15Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1542,7 +1542,7 @@
       "tags": [],
       "stars": 5,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:51Z",
+      "updatedAt": "2026-09-07T13:21:23Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1681,7 +1681,7 @@
       "tags": [],
       "stars": 4,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:33:13Z",
+      "updatedAt": "2026-09-07T13:20:32Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1700,7 +1700,7 @@
       "tags": [],
       "stars": 4,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:34:12Z",
+      "updatedAt": "2026-09-07T13:21:36Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1835,7 +1835,7 @@
       "tags": [],
       "stars": 3,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:34:29Z",
+      "updatedAt": "2026-09-07T13:21:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1878,6 +1878,25 @@
       "stars": 2,
       "license": "MIT",
       "updatedAt": "2026-08-17T13:17:36Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "weibaohui-dsh-tasks",
+      "name": "dsh-tasks",
+      "displayName": "tasks",
+      "description": "Scheduled tasks: run a prompt on cron schedules, each run opens a new agent session to do the work, with workspace binding, manual run, session auto-naming, and a fullscreen task management page.",
+      "author": "weibaohui",
+      "repoUrl": "https://github.com/weibaohui/dsh-tasks",
+      "category": "agent",
+      "tags": [],
+      "stars": 2,
+      "license": null,
+      "updatedAt": "2026-09-08T06:24:52Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2117,26 +2136,7 @@
       "tags": [],
       "stars": 1,
       "license": null,
-      "updatedAt": "2026-09-03T04:04:42Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "weibaohui-dsh-tasks",
-      "name": "dsh-tasks",
-      "displayName": "tasks",
-      "description": "Scheduled tasks: run a prompt on cron schedules, each run opens a new agent session to do the work, with workspace binding, manual run, session auto-naming, and a fullscreen task management page.",
-      "author": "weibaohui",
-      "repoUrl": "https://github.com/weibaohui/dsh-tasks",
-      "category": "agent",
-      "tags": [],
-      "stars": 1,
-      "license": null,
-      "updatedAt": "2026-09-05T12:27:34Z",
+      "updatedAt": "2026-09-08T06:25:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2182,7 +2182,7 @@
       "tags": [],
       "stars": 1,
       "license": null,
-      "updatedAt": "2026-09-03T07:06:55Z",
+      "updatedAt": "2026-09-08T06:25:00Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2362,7 +2362,7 @@
       ],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-09-06T14:10:19Z",
+      "updatedAt": "2026-09-08T06:24:44Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2381,7 +2381,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-09-07T07:29:14Z",
+      "updatedAt": "2026-09-08T07:36:15Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2403,7 +2403,7 @@
       ],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-09-02T09:56:32Z",
+      "updatedAt": "2026-09-08T06:24:34Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2422,7 +2422,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-09-07T01:32:37Z",
+      "updatedAt": "2026-09-08T06:24:57Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2441,7 +2441,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-09-03T03:05:01Z",
+      "updatedAt": "2026-09-08T06:24:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2476,6 +2476,25 @@
       "notes": "模型无关，不改 dsh 模型配置（与 dsh-agnes-paseo 互补）。装完在 profile 目录跑 pnpm exec dsh-paseo-mobile-setup --restart-daemon：复制 ACP 桥、探测当前默认模型写 provider.json、注册 Paseo provider；然后 paseo daemon pair 出二维码，手机 Paseo App 扫码即连。dsh web 会话可在 Paseo 导入镜像到手机，追问带上下文注入；Paseo 新建 agent 的回合间不保留上下文。"
     },
     {
+      "slug": "weibaohui-dsh-smart-title",
+      "name": "dsh-smart-title",
+      "displayName": "smart title",
+      "description": "Smart session titles for DSH: after each conversation turn an independent auxiliary LLM call summarizes the full user+assistant transcript into a title that follows the session's real topic instead of echoing the first message; the first message is titled instantly, failed built-in titles auto-retry on later turns, manual renames are never overwritten, and subagent/fork sessions are skipped.",
+      "author": "weibaohui",
+      "repoUrl": "https://github.com/weibaohui/dsh-smart-title",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 0,
+      "license": null,
+      "updatedAt": "2026-09-08T06:24:46Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "weibaohui-dsh-xiuxian",
       "name": "dsh-xiuxian",
       "displayName": "xiuxian",
@@ -2488,7 +2507,7 @@
       ],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-09-05T12:29:13Z",
+      "updatedAt": "2026-09-08T06:24:54Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2846,7 +2865,7 @@
       "tags": [],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-09-06T12:34:39Z",
+      "updatedAt": "2026-09-07T12:43:21Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2868,7 +2887,7 @@
       ],
       "stars": 0,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-07T04:28:43Z",
+      "updatedAt": "2026-09-07T13:22:13Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2889,7 +2908,7 @@
       ],
       "stars": 0,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-06T12:34:05Z",
+      "updatedAt": "2026-09-07T13:43:25Z",
       "install": {
         "type": "github",
         "profiles": [
