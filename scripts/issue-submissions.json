@@ -569,5 +569,17 @@
       ]
     },
     "notes": "_No response_"
+  },
+  {
+    "fullName": "mrRisega/dsh-remote",
+    "category": "integrations",
+    "tagline": "隧道模式远程控制 dsh web：手机浏览器经 HTTPS 隧道全功能操作电脑上的 DeepSeek Harness（HTTP/WebSocket 全量透传，PWA + 实时设备列表 + 可选配额），支持开源自建与官方托管云两种模式，一条命令安装。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ],
+      "command": "github:mrRisega/dsh-remote#main&path:/packages/dsh-remote-web"
+    }
   }
 ]
