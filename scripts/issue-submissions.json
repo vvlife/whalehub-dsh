@@ -581,5 +581,17 @@
       ],
       "command": "github:mrRisega/dsh-remote#main&path:/packages/dsh-remote-web"
     }
+  },
+  {
+    "fullName": "Jovan1666/dsh-commandcode-quota",
+    "category": "web-ui",
+    "tagline": "在 DSH 侧边栏「设置」上方显示 Command Code 套餐额度：5 小时 / 每周 / 月度三条窗口的已用百分比、进度条与重置倒计时。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "仓库根目录即插件包，声明 dsh.bundle.patch；用 `dsh plugin --profile web add` 安装后，还需在 profile 的 cordis.patch.yml 加一行 insert（README 里有原文）。无构建步骤，无运行时依赖，仅用前端静态模块表里的 react。另附零依赖命令行 `node cli/cli.mjs`。"
   }
 ]
