@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-09-21T09:03:56.489Z",
+  "generatedAt": "2026-09-22T08:38:17.173Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 155,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 7884,
+      "stars": 7923,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T08:34:05Z",
+      "updatedAt": "2026-09-22T03:08:43Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,9 +47,9 @@
         "editor",
         "tui"
       ],
-      "stars": 3694,
+      "stars": 3706,
       "license": "MIT",
-      "updatedAt": "2026-09-21T03:59:30Z",
+      "updatedAt": "2026-09-21T10:13:02Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 3128,
+      "stars": 3145,
       "license": "MIT",
-      "updatedAt": "2026-09-21T09:02:54Z",
+      "updatedAt": "2026-09-22T08:15:37Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 2166,
+      "stars": 2177,
       "license": null,
-      "updatedAt": "2026-09-21T06:51:49Z",
+      "updatedAt": "2026-09-21T15:17:32Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1756,
+      "stars": 1766,
       "license": "MIT",
       "updatedAt": "2026-09-17T06:12:31Z",
       "install": {
@@ -146,7 +146,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 883,
+      "stars": 884,
       "license": "MIT",
       "updatedAt": "2026-09-16T14:45:56Z",
       "install": {
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 630,
+      "stars": 631,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-09-18T23:09:29Z",
       "install": {
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 511,
+      "stars": 512,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
@@ -217,9 +217,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 470,
+      "stars": 472,
       "license": "MIT",
-      "updatedAt": "2026-09-21T09:00:07Z",
+      "updatedAt": "2026-09-22T07:36:33Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -238,9 +238,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 390,
+      "stars": 394,
       "license": "MIT",
-      "updatedAt": "2026-09-19T13:36:31Z",
+      "updatedAt": "2026-09-22T06:11:42Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -283,7 +283,7 @@
         "macos",
         "sidebar"
       ],
-      "stars": 320,
+      "stars": 321,
       "license": "MIT",
       "updatedAt": "2026-09-12T13:58:15Z",
       "install": {
@@ -304,7 +304,7 @@
       "tags": [
         "tui"
       ],
-      "stars": 281,
+      "stars": 282,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-19T15:53:03Z",
       "install": {
@@ -345,9 +345,9 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 191,
+      "stars": 194,
       "license": "MIT",
-      "updatedAt": "2026-09-20T07:31:23Z",
+      "updatedAt": "2026-09-22T02:43:32Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -364,9 +364,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-auto-review",
       "category": "agent",
       "tags": [],
-      "stars": 189,
+      "stars": 192,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:17:50Z",
+      "updatedAt": "2026-09-21T16:46:04Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -383,28 +383,9 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 175,
+      "stars": 176,
       "license": "MIT",
       "updatedAt": "2026-09-17T09:39:03Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-industry-research",
-      "name": "dsh-industry-research",
-      "displayName": "industry research",
-      "description": "Industry and company research pack: chain mapping, policy and news tracking, research cards and auditable reports.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-industry-research",
-      "category": "tools",
-      "tags": [],
-      "stars": 144,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -421,9 +402,28 @@
       "repoUrl": "https://github.com/PerryLink/dsh-research-report",
       "category": "tools",
       "tags": [],
-      "stars": 144,
+      "stars": 151,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:20:04Z",
+      "updatedAt": "2026-09-21T16:48:44Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-industry-research",
+      "name": "dsh-industry-research",
+      "displayName": "industry research",
+      "description": "Industry and company research pack: chain mapping, policy and news tracking, research cards and auditable reports.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-industry-research",
+      "category": "tools",
+      "tags": [],
+      "stars": 150,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-21T16:48:32Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -444,7 +444,7 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 130,
+      "stars": 129,
       "license": "MIT",
       "updatedAt": "2026-09-05T04:10:09Z",
       "install": {
@@ -507,7 +507,7 @@
       "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
       "category": "web-ui",
       "tags": [],
-      "stars": 115,
+      "stars": 116,
       "license": "MIT",
       "updatedAt": "2026-09-21T03:31:50Z",
       "install": {
@@ -526,9 +526,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-permission-rules",
       "category": "agent",
       "tags": [],
-      "stars": 113,
+      "stars": 114,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:47Z",
+      "updatedAt": "2026-09-21T16:46:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -547,7 +547,7 @@
       "tags": [],
       "stars": 108,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:39Z",
+      "updatedAt": "2026-09-21T16:46:20Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -564,7 +564,7 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 97,
+      "stars": 99,
       "license": "MIT",
       "updatedAt": "2026-09-14T09:43:20Z",
       "install": {
@@ -607,9 +607,9 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 61,
+      "stars": 65,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:36Z",
+      "updatedAt": "2026-09-21T16:46:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -653,7 +653,7 @@
       "tags": [],
       "stars": 58,
       "license": "MIT",
-      "updatedAt": "2026-09-15T04:42:11Z",
+      "updatedAt": "2026-09-21T10:04:06Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -695,9 +695,28 @@
         "editing",
         "branch"
       ],
-      "stars": 50,
+      "stars": 49,
       "license": null,
       "updatedAt": "2026-08-16T11:33:37Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-fund-research",
+      "name": "dsh-fund-research",
+      "displayName": "fund research",
+      "description": "Deterministic research reports for Chinese public mutual funds, with sealed and traceable source snapshots.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-fund-research",
+      "category": "tools",
+      "tags": [],
+      "stars": 49,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-21T16:48:48Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -717,25 +736,6 @@
       "stars": 47,
       "license": "MIT",
       "updatedAt": "2026-08-15T08:57:01Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-fund-research",
-      "name": "dsh-fund-research",
-      "displayName": "fund research",
-      "description": "Deterministic research reports for Chinese public mutual funds, with sealed and traceable source snapshots.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-fund-research",
-      "category": "tools",
-      "tags": [],
-      "stars": 47,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:19Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -773,7 +773,7 @@
       "tags": [],
       "stars": 40,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:53Z",
+      "updatedAt": "2026-09-21T16:48:58Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -790,9 +790,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-doublecheck",
       "category": "tools",
       "tags": [],
-      "stars": 38,
+      "stars": 39,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:10Z",
+      "updatedAt": "2026-09-21T16:46:15Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -809,9 +809,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-data-quality",
       "category": "tools",
       "tags": [],
-      "stars": 34,
+      "stars": 35,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:04Z",
+      "updatedAt": "2026-09-21T16:47:28Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -890,9 +890,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-claude-move",
       "category": "integrations",
       "tags": [],
-      "stars": 26,
+      "stars": 27,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:18:55Z",
+      "updatedAt": "2026-09-21T16:56:11Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -954,7 +954,7 @@
       "tags": [],
       "stars": 19,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:30Z",
+      "updatedAt": "2026-09-21T16:46:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -992,7 +992,7 @@
       "tags": [],
       "stars": 18,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:18:53Z",
+      "updatedAt": "2026-09-21T16:46:25Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1013,7 +1013,7 @@
       ],
       "stars": 16,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:18:47Z",
+      "updatedAt": "2026-09-21T16:47:03Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1032,7 +1032,7 @@
       "tags": [],
       "stars": 16,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:07Z",
+      "updatedAt": "2026-09-21T16:47:44Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1053,7 +1053,7 @@
       ],
       "stars": 15,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:01Z",
+      "updatedAt": "2026-09-21T16:46:36Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1074,26 +1074,7 @@
       ],
       "stars": 15,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:21Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-skill-pack-security",
-      "name": "dsh-skill-pack-security",
-      "displayName": "skill pack security",
-      "description": "Security-audit skill pack plus the plugin_vet supply-chain scanner: secret scan, dependency audit and prompt-injection review.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-skill-pack-security",
-      "category": "tools",
-      "tags": [],
-      "stars": 14,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:20:15Z",
+      "updatedAt": "2026-09-21T16:49:04Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1112,9 +1093,49 @@
       "tags": [
         "bridge"
       ],
+      "stars": 15,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-21T16:56:23Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-skill-pack-security",
+      "name": "dsh-skill-pack-security",
+      "displayName": "skill pack security",
+      "description": "Security-audit skill pack plus the plugin_vet supply-chain scanner: secret scan, dependency audit and prompt-injection review.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-skill-pack-security",
+      "category": "tools",
+      "tags": [],
       "stars": 14,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:21:11Z",
+      "updatedAt": "2026-09-21T16:49:08Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-click",
+      "name": "dsh-click",
+      "displayName": "click",
+      "description": "Native desktop control (Windows first): screen capture, read, click, type, scroll and app launch, approval-gated and never stealing focus.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-click",
+      "category": "terminal",
+      "tags": [
+        "desktop"
+      ],
+      "stars": 13,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-21T16:48:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1148,6 +1169,25 @@
       "notes": "Bundle 插件：dsh plugin add 会自动把 dsh-web-billing 加入 dsh.profile.bundles 后重启 dsh web。可选配置 localProviders（如 dgx-spark-vllm）启用本地模型节省统计。只读端点 /billing/state、/billing/session/<id> 默认仅回环地址可访问。"
     },
     {
+      "slug": "perrylink-dsh-talk",
+      "name": "dsh-talk",
+      "displayName": "talk",
+      "description": "Voice-first session loop: a composer microphone button with speech-to-text, a speak tool for replies, and speak-to-interrupt.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-talk",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 12,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-21T16:48:16Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-library",
       "name": "dsh-library",
       "displayName": "library",
@@ -1158,7 +1198,7 @@
       "tags": [],
       "stars": 12,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:27Z",
+      "updatedAt": "2026-09-21T16:48:53Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1186,38 +1226,17 @@
       }
     },
     {
-      "slug": "perrylink-dsh-talk",
-      "name": "dsh-talk",
-      "displayName": "talk",
-      "description": "Voice-first session loop: a composer microphone button with speech-to-text, a speak tool for replies, and speak-to-interrupt.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-talk",
-      "category": "web-ui",
+      "slug": "weibaohui-skills-management",
+      "name": "skills-management",
+      "displayName": "skills management",
+      "description": "Skill marketplace and manager: manage skills from all local coding agents (10+ executors, incl. Claude Code and Codex) in one page and import them into the DSH skill library; built-in market of 6600+ skills, per-skill token-overhead stats, and model visibility control.",
+      "author": "weibaohui",
+      "repoUrl": "https://github.com/weibaohui/skills-management",
+      "category": "ecosystem",
       "tags": [],
-      "stars": 11,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:20:19Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-click",
-      "name": "dsh-click",
-      "displayName": "click",
-      "description": "Native desktop control (Windows first): screen capture, read, click, type, scroll and app launch, approval-gated and never stealing focus.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-click",
-      "category": "terminal",
-      "tags": [
-        "desktop"
-      ],
-      "stars": 11,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:18:58Z",
+      "stars": 12,
+      "license": null,
+      "updatedAt": "2026-09-15T05:13:14Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1255,26 +1274,7 @@
       "tags": [],
       "stars": 11,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:20:13Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "weibaohui-skills-management",
-      "name": "skills-management",
-      "displayName": "skills management",
-      "description": "Skill marketplace and manager: manage skills from all local coding agents (10+ executors, incl. Claude Code and Codex) in one page and import them into the DSH skill library; built-in market of 6600+ skills, per-skill token-overhead stats, and model visibility control.",
-      "author": "weibaohui",
-      "repoUrl": "https://github.com/weibaohui/skills-management",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 11,
-      "license": null,
-      "updatedAt": "2026-09-15T05:13:14Z",
+      "updatedAt": "2026-09-21T16:46:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1293,7 +1293,7 @@
       "tags": [],
       "stars": 10,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:18:50Z",
+      "updatedAt": "2026-09-21T16:47:50Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1314,7 +1314,47 @@
       ],
       "stars": 9,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:20:10Z",
+      "updatedAt": "2026-09-21T16:46:41Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-mask",
+      "name": "dsh-mask",
+      "displayName": "mask",
+      "description": "PII masking at the model boundary: names, phones, emails, cards and keys become placeholders, restored only in the display layer.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-mask",
+      "category": "tools",
+      "tags": [
+        "skin"
+      ],
+      "stars": 9,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-21T16:47:23Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-observe",
+      "name": "dsh-observe",
+      "displayName": "observe",
+      "description": "OpenTelemetry and Langfuse export: turn, step, tool and LLM spans with token and cost metrics.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-observe",
+      "category": "tools",
+      "tags": [],
+      "stars": 9,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-21T16:48:01Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1373,7 +1413,7 @@
       "tags": [],
       "stars": 9,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:21:23Z",
+      "updatedAt": "2026-09-21T16:56:32Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1394,7 +1434,7 @@
       ],
       "stars": 8,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:13Z",
+      "updatedAt": "2026-09-21T16:48:27Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1413,47 +1453,7 @@
       "tags": [],
       "stars": 8,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:20:40Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-mask",
-      "name": "dsh-mask",
-      "displayName": "mask",
-      "description": "PII masking at the model boundary: names, phones, emails, cards and keys become placeholders, restored only in the display layer.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-mask",
-      "category": "tools",
-      "tags": [
-        "skin"
-      ],
-      "stars": 8,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:33Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-observe",
-      "name": "dsh-observe",
-      "displayName": "observe",
-      "description": "OpenTelemetry and Langfuse export: turn, step, tool and LLM spans with token and cost metrics.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-observe",
-      "category": "tools",
-      "tags": [],
-      "stars": 8,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:42Z",
+      "updatedAt": "2026-09-21T16:47:12Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1472,7 +1472,7 @@
       "tags": [],
       "stars": 8,
       "license": null,
-      "updatedAt": "2026-09-15T05:13:07Z",
+      "updatedAt": "2026-09-22T03:16:13Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1491,7 +1491,7 @@
       "tags": [],
       "stars": 7,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:45Z",
+      "updatedAt": "2026-09-21T16:46:52Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1529,7 +1529,7 @@
       "tags": [],
       "stars": 7,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:20:07Z",
+      "updatedAt": "2026-09-21T16:47:34Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1567,7 +1567,7 @@
       "tags": [],
       "stars": 6,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:16Z",
+      "updatedAt": "2026-09-21T16:47:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1605,7 +1605,7 @@
       "tags": [],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-09-21T08:40:30Z",
+      "updatedAt": "2026-09-22T07:19:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1667,7 +1667,7 @@
       ],
       "stars": 5,
       "license": "MIT",
-      "updatedAt": "2026-09-20T08:42:16Z",
+      "updatedAt": "2026-09-21T09:05:52Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2252,7 +2252,7 @@
       "tags": [],
       "stars": 1,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:18:44Z",
+      "updatedAt": "2026-09-21T16:49:27Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2271,7 +2271,7 @@
       "tags": [],
       "stars": 1,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:20:48Z",
+      "updatedAt": "2026-09-21T16:49:52Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2409,7 +2409,7 @@
       ],
       "stars": 1,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:20:37Z",
+      "updatedAt": "2026-09-21T16:49:13Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2689,7 +2689,7 @@
       "tags": [],
       "stars": 0,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:21:07Z",
+      "updatedAt": "2026-09-21T16:56:42Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2708,7 +2708,7 @@
       "tags": [],
       "stars": 0,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:20:01Z",
+      "updatedAt": "2026-09-21T16:49:22Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2727,7 +2727,7 @@
       "tags": [],
       "stars": 0,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:50Z",
+      "updatedAt": "2026-09-21T16:50:01Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2746,7 +2746,7 @@
       "tags": [],
       "stars": 0,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:58Z",
+      "updatedAt": "2026-09-21T16:49:47Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2765,7 +2765,7 @@
       "tags": [],
       "stars": 0,
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-21T04:19:56Z",
+      "updatedAt": "2026-09-21T16:56:50Z",
       "install": {
         "type": "github",
         "profiles": [
