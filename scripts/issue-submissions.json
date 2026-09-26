@@ -593,5 +593,17 @@
       ]
     },
     "notes": "仓库根目录即插件包，声明 dsh.bundle.patch；用 `dsh plugin --profile web add` 安装后，还需在 profile 的 cordis.patch.yml 加一行 insert（README 里有原文）。无构建步骤，无运行时依赖，仅用前端静态模块表里的 react。另附零依赖命令行 `node cli/cli.mjs`。"
+  },
+  {
+    "fullName": "xling001/dsh-reading-companion",
+    "category": "tools",
+    "tagline": "本地 TXT 阅读器 + 不剧透的 AI 陪读：按章阅读并记住进度，陪读 AI 只能看到你读到的那一章；摘抄笔记与「背景认识」可导出到 Obsidian 之类的笔记库。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "- 需要 **DSH ≥ 0.1.5-rc.2**、**Node ≥ 22.19**。\n- ⚠️ **前置依赖 [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) ≥ 0.19.0**：本插件**自己不画侧边栏**，只是往它的右侧栏注册一个页签。缺了它，右侧栏「+」里看不到「陪读模式」，**而且控制台不报任何错**（这是最容易踩的坑）。\n- 装完**必须重启 DSH Desktop**：`dsh.profile.bundles` 只在启动时读取一次，刷新页面不够。\n- 零运行时依赖、**无构建步骤**；原书/笔记/AI 的理解**全部在本地**，不上传任何服务器。"
   }
 ]
