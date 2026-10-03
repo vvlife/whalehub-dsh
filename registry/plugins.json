@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-10-02T09:52:37.976Z",
+  "generatedAt": "2026-10-03T09:14:38.893Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 166,
+  "pluginCount": 168,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 8279,
+      "stars": 8308,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-02T09:47:56Z",
+      "updatedAt": "2026-10-03T08:01:05Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -47,7 +47,7 @@
         "editor",
         "tui"
       ],
-      "stars": 3952,
+      "stars": 3973,
       "license": "MIT",
       "updatedAt": "2026-10-01T10:41:33Z",
       "install": {
@@ -74,9 +74,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 3929,
+      "stars": 3959,
       "license": "MIT",
-      "updatedAt": "2026-10-02T09:34:09Z",
+      "updatedAt": "2026-10-03T08:39:47Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -98,7 +98,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 2350,
+      "stars": 2372,
       "license": null,
       "updatedAt": "2026-10-01T08:17:00Z",
       "install": {
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1886,
+      "stars": 1897,
       "license": "MIT",
       "updatedAt": "2026-09-29T13:47:43Z",
       "install": {
@@ -146,7 +146,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 888,
+      "stars": 887,
       "license": "MIT",
       "updatedAt": "2026-10-01T04:49:49Z",
       "install": {
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 645,
+      "stars": 646,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-09-29T13:34:29Z",
       "install": {
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 513,
+      "stars": 516,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
@@ -217,7 +217,7 @@
         "charts",
         "mermaid"
       ],
-      "stars": 503,
+      "stars": 504,
       "license": "MIT",
       "updatedAt": "2026-10-01T08:39:11Z",
       "install": {
@@ -238,9 +238,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 444,
+      "stars": 445,
       "license": "MIT",
-      "updatedAt": "2026-09-30T22:04:11Z",
+      "updatedAt": "2026-10-02T21:12:35Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -260,7 +260,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 340,
+      "stars": 341,
       "license": "MIT",
       "updatedAt": "2026-08-31T09:40:54Z",
       "install": {
@@ -305,7 +305,7 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 285,
+      "stars": 284,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-09-29T13:34:34Z",
       "install": {
@@ -326,7 +326,7 @@
       "tags": [
         "tui"
       ],
-      "stars": 285,
+      "stars": 282,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-30T11:13:01Z",
       "install": {
@@ -356,6 +356,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-research-report",
+      "name": "dsh-research-report",
+      "displayName": "research report",
+      "description": "Verifiable research reports: a content-addressed evidence ledger binds every claim to a snapshot.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-research-report",
+      "category": "tools",
+      "tags": [],
+      "stars": 208,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-25T01:36:00Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "nwflower-dsh-chat-import",
       "name": "dsh-chat-import",
       "displayName": "chat import",
@@ -375,25 +394,6 @@
       }
     },
     {
-      "slug": "perrylink-dsh-research-report",
-      "name": "dsh-research-report",
-      "displayName": "research report",
-      "description": "Verifiable research reports: a content-addressed evidence ledger binds every claim to a snapshot.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-research-report",
-      "category": "tools",
-      "tags": [],
-      "stars": 202,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-25T01:36:00Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-industry-research",
       "name": "dsh-industry-research",
       "displayName": "industry research",
@@ -402,7 +402,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-industry-research",
       "category": "tools",
       "tags": [],
-      "stars": 200,
+      "stars": 201,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-25T01:34:27Z",
       "install": {
@@ -421,7 +421,7 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 180,
+      "stars": 181,
       "license": "MIT",
       "updatedAt": "2026-10-02T03:10:38Z",
       "install": {
@@ -440,7 +440,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-memento",
       "category": "tools",
       "tags": [],
-      "stars": 134,
+      "stars": 135,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-25T01:35:00Z",
       "install": {
@@ -459,7 +459,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 133,
+      "stars": 134,
       "license": "MIT",
       "updatedAt": "2026-10-01T07:47:35Z",
       "install": {
@@ -482,7 +482,7 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 131,
+      "stars": 130,
       "license": "MIT",
       "updatedAt": "2026-09-05T04:10:09Z",
       "install": {
@@ -507,7 +507,7 @@
         "rewind",
         "checkpoint"
       ],
-      "stars": 126,
+      "stars": 127,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-10-01T04:45:58Z",
       "install": {
@@ -526,7 +526,7 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 121,
+      "stars": 127,
       "license": "MIT",
       "updatedAt": "2026-09-28T05:00:53Z",
       "install": {
@@ -587,9 +587,9 @@
         "desktop",
         "sidebar"
       ],
-      "stars": 107,
+      "stars": 109,
       "license": "MIT",
-      "updatedAt": "2026-10-01T09:36:59Z",
+      "updatedAt": "2026-10-03T09:05:06Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -630,7 +630,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 71,
+      "stars": 72,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-25T04:55:25Z",
       "install": {
@@ -649,7 +649,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-fund-research",
       "category": "tools",
       "tags": [],
-      "stars": 63,
+      "stars": 65,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-25T01:34:13Z",
       "install": {
@@ -704,6 +704,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-doublecheck",
+      "name": "dsh-doublecheck",
+      "displayName": "doublecheck",
+      "description": "Engineering-discipline guard: grill the requirements, test the implementation, prove the delivery, then decide ship or rework.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-doublecheck",
+      "category": "tools",
+      "tags": [],
+      "stars": 54,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-25T01:33:53Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "omdsh-dev-dsh-open-in-vscode",
       "name": "dsh-open-in-vscode",
       "displayName": "open in vscode",
@@ -745,6 +764,25 @@
       }
     },
     {
+      "slug": "anionex-dsh-computer-use",
+      "name": "dsh-computer-use",
+      "displayName": "computer use",
+      "description": "Computer-use plugin for DSH.",
+      "author": "Anionex",
+      "repoUrl": "https://github.com/Anionex/dsh-computer-use",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 49,
+      "license": "MIT",
+      "updatedAt": "2026-10-01T04:50:56Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "moeblack-dsh-message-edit",
       "name": "dsh-message-edit",
       "displayName": "message edit",
@@ -767,44 +805,6 @@
       }
     },
     {
-      "slug": "perrylink-dsh-doublecheck",
-      "name": "dsh-doublecheck",
-      "displayName": "doublecheck",
-      "description": "Engineering-discipline guard: grill the requirements, test the implementation, prove the delivery, then decide ship or rework.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-doublecheck",
-      "category": "tools",
-      "tags": [],
-      "stars": 49,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-25T01:33:53Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "anionex-dsh-computer-use",
-      "name": "dsh-computer-use",
-      "displayName": "computer use",
-      "description": "Computer-use plugin for DSH.",
-      "author": "Anionex",
-      "repoUrl": "https://github.com/Anionex/dsh-computer-use",
-      "category": "web-ui",
-      "tags": [],
-      "stars": 48,
-      "license": "MIT",
-      "updatedAt": "2026-10-01T04:50:56Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-data-quality",
       "name": "dsh-data-quality",
       "displayName": "data quality",
@@ -813,7 +813,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-data-quality",
       "category": "tools",
       "tags": [],
-      "stars": 48,
+      "stars": 49,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-25T01:33:40Z",
       "install": {
@@ -1026,6 +1026,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-defend",
+      "name": "dsh-defend",
+      "displayName": "defend",
+      "description": "Prompt-injection, jailbreak and secret-leak defense with allow/ask/block interception and sanitized audit events.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-defend",
+      "category": "agent",
+      "tags": [],
+      "stars": 21,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-09-25T01:33:47Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-checkpoint-rewind",
       "name": "dsh-checkpoint-rewind",
       "displayName": "checkpoint rewind",
@@ -1037,25 +1056,6 @@
       "stars": 21,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-25T01:32:57Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-defend",
-      "name": "dsh-defend",
-      "displayName": "defend",
-      "description": "Prompt-injection, jailbreak and secret-leak defense with allow/ask/block interception and sanitized audit events.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-defend",
-      "category": "agent",
-      "tags": [],
-      "stars": 20,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-09-25T01:33:47Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1254,7 +1254,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-session-sync",
       "category": "integrations",
       "tags": [],
-      "stars": 14,
+      "stars": 15,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-25T01:36:35Z",
       "install": {
@@ -1593,7 +1593,7 @@
       "tags": [],
       "stars": 7,
       "license": "MIT",
-      "updatedAt": "2026-10-02T03:45:35Z",
+      "updatedAt": "2026-10-03T07:37:50Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1729,9 +1729,9 @@
         "web-ui",
         "skin"
       ],
-      "stars": 5,
+      "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-10-01T10:16:22Z",
+      "updatedAt": "2026-10-02T09:54:20Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1873,7 +1873,7 @@
       "tags": [],
       "stars": 4,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-01T11:48:58Z",
+      "updatedAt": "2026-10-02T11:21:21Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2839,6 +2839,27 @@
       }
     },
     {
+      "slug": "mubaid-dsh-fluent-korean",
+      "name": "dsh-fluent-korean",
+      "displayName": "fluent korean",
+      "description": "Switchable Korean output styles: the plugin registers its own system-prompt section asking the model for natural Korean prose, with a second style that drops the coding guidance. The rules are snflkd/fluent-korean, carried over byte-identically under MIT. Install: `dsh plugin add mubaid/dsh-fluent-korean`.",
+      "author": "mubaid",
+      "repoUrl": "https://github.com/mubaid/dsh-fluent-korean",
+      "category": "tools",
+      "tags": [
+        "skin"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-10-02T19:29:45Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "bpc-oss-dsh-fork-to-preset",
       "name": "dsh-fork-to-preset",
       "displayName": "fork to preset",
@@ -2954,6 +2975,25 @@
       "stars": 0,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-24T13:18:09Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "mubaid-dsh-opencode-freeaccess",
+      "name": "dsh-opencode-freeaccess",
+      "displayName": "opencode freeaccess",
+      "description": "Puts the DSH conversation session id on outgoing requests so OpenCode's free tier accepts them, by listening on the `llm/stream` waterfall and injecting the session header family onto requests to opencode hosts. Non-opencode hosts are left alone; no API key needed. Install: `dsh plugin --profile web add github:mubaid/dsh-opencode-freeaccess`.",
+      "author": "mubaid",
+      "repoUrl": "https://github.com/mubaid/dsh-opencode-freeaccess",
+      "category": "integrations",
+      "tags": [],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-10-02T18:50:40Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3454,7 +3494,7 @@
       "tags": [],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-10-02T08:08:19Z",
+      "updatedAt": "2026-10-03T08:27:45Z",
       "install": {
         "type": "github",
         "profiles": [
