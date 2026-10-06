@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-10-05T10:34:50.053Z",
+  "generatedAt": "2026-10-06T10:27:14.196Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 168,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 8386,
+      "stars": 8417,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T08:31:37Z",
+      "updatedAt": "2026-10-06T07:28:26Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -46,9 +46,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 4054,
+      "stars": 4103,
       "license": "MIT",
-      "updatedAt": "2026-10-05T10:05:36Z",
+      "updatedAt": "2026-10-06T10:08:51Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -74,9 +74,9 @@
         "editor",
         "tui"
       ],
-      "stars": 3999,
+      "stars": 4013,
       "license": "MIT",
-      "updatedAt": "2026-10-05T03:32:17Z",
+      "updatedAt": "2026-10-05T17:20:50Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -98,7 +98,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 2397,
+      "stars": 2421,
       "license": null,
       "updatedAt": "2026-10-04T13:54:34Z",
       "install": {
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 1929,
+      "stars": 1943,
       "license": "MIT",
       "updatedAt": "2026-10-05T04:51:46Z",
       "install": {
@@ -146,7 +146,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 884,
+      "stars": 883,
       "license": "MIT",
       "updatedAt": "2026-10-04T18:14:34Z",
       "install": {
@@ -194,7 +194,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 515,
+      "stars": 517,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
@@ -219,7 +219,7 @@
       ],
       "stars": 514,
       "license": "MIT",
-      "updatedAt": "2026-10-05T08:22:11Z",
+      "updatedAt": "2026-10-06T06:35:23Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -238,7 +238,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 455,
+      "stars": 459,
       "license": "MIT",
       "updatedAt": "2026-10-04T02:26:51Z",
       "install": {
@@ -260,7 +260,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 344,
+      "stars": 345,
       "license": "MIT",
       "updatedAt": "2026-10-05T09:37:56Z",
       "install": {
@@ -283,7 +283,7 @@
         "macos",
         "sidebar"
       ],
-      "stars": 324,
+      "stars": 323,
       "license": "MIT",
       "updatedAt": "2026-09-12T13:58:15Z",
       "install": {
@@ -326,7 +326,7 @@
       "tags": [
         "tui"
       ],
-      "stars": 282,
+      "stars": 283,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-30T11:13:01Z",
       "install": {
@@ -345,9 +345,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-auto-review",
       "category": "agent",
       "tags": [],
-      "stars": 234,
+      "stars": 233,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:17:32Z",
+      "updatedAt": "2026-10-06T09:48:19Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -364,9 +364,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-research-report",
       "category": "tools",
       "tags": [],
-      "stars": 215,
+      "stars": 214,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:20:06Z",
+      "updatedAt": "2026-10-06T09:49:26Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -383,9 +383,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-industry-research",
       "category": "tools",
       "tags": [],
-      "stars": 212,
+      "stars": 213,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:52Z",
+      "updatedAt": "2026-10-06T09:48:51Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -404,7 +404,7 @@
       "tags": [],
       "stars": 210,
       "license": "MIT",
-      "updatedAt": "2026-10-05T08:05:11Z",
+      "updatedAt": "2026-10-05T16:34:26Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -421,9 +421,9 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 183,
+      "stars": 184,
       "license": "MIT",
-      "updatedAt": "2026-10-02T03:10:38Z",
+      "updatedAt": "2026-10-06T08:03:18Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -440,7 +440,7 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 144,
+      "stars": 146,
       "license": "MIT",
       "updatedAt": "2026-09-28T05:00:53Z",
       "install": {
@@ -461,13 +461,39 @@
       "tags": [],
       "stars": 139,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:19:24Z",
+      "updatedAt": "2026-10-06T09:49:07Z",
       "install": {
         "type": "github",
         "profiles": [
           "web"
         ]
       }
+    },
+    {
+      "slug": "icetomoyo-dsh-workflow",
+      "name": "dsh_workflow",
+      "displayName": "dsh_workflow",
+      "description": "Brings Claude Code's UltraCode to DSH; turns one-shot multi-agent dispatch into a generatable / savable / governable / observable / recoverable Workflow layer.",
+      "author": "icetomoyo",
+      "repoUrl": "https://github.com/icetomoyo/dsh_workflow",
+      "category": "agent",
+      "tags": [
+        "workflow",
+        "multi-agent",
+        "governance"
+      ],
+      "stars": 136,
+      "license": "MIT",
+      "updatedAt": "2026-09-05T04:10:09Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      },
+      "notes": "私有仓库（dsh-external），github: 安装需读取权限；需 Node >=22.19。装完用 dsh --profile web --dump-config 验证出现 dsh-external-workflow 后重启。/workflow create 不接受 --wait。",
+      "featured": true,
+      "private": true
     },
     {
       "slug": "omdsh-dev-dsh-annotation",
@@ -489,32 +515,6 @@
       }
     },
     {
-      "slug": "icetomoyo-dsh-workflow",
-      "name": "dsh_workflow",
-      "displayName": "dsh_workflow",
-      "description": "Brings Claude Code's UltraCode to DSH; turns one-shot multi-agent dispatch into a generatable / savable / governable / observable / recoverable Workflow layer.",
-      "author": "icetomoyo",
-      "repoUrl": "https://github.com/icetomoyo/dsh_workflow",
-      "category": "agent",
-      "tags": [
-        "workflow",
-        "multi-agent",
-        "governance"
-      ],
-      "stars": 133,
-      "license": "MIT",
-      "updatedAt": "2026-09-05T04:10:09Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      },
-      "notes": "私有仓库（dsh-external），github: 安装需读取权限；需 Node >=22.19。装完用 dsh --profile web --dump-config 验证出现 dsh-external-workflow 后重启。/workflow create 不接受 --wait。",
-      "featured": true,
-      "private": true
-    },
-    {
       "slug": "anionex-dsh-turn-rewind",
       "name": "dsh-turn-rewind",
       "displayName": "turn rewind",
@@ -526,7 +526,7 @@
         "rewind",
         "checkpoint"
       ],
-      "stars": 128,
+      "stars": 130,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-10-01T04:45:58Z",
       "install": {
@@ -566,7 +566,7 @@
       "tags": [],
       "stars": 118,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:19:45Z",
+      "updatedAt": "2026-10-06T09:49:15Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -587,9 +587,9 @@
         "desktop",
         "sidebar"
       ],
-      "stars": 112,
+      "stars": 113,
       "license": "MIT",
-      "updatedAt": "2026-10-05T10:20:06Z",
+      "updatedAt": "2026-10-06T10:12:02Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -630,9 +630,9 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 75,
+      "stars": 73,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:33:16Z",
+      "updatedAt": "2026-10-06T09:49:05Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -651,7 +651,7 @@
       "tags": [],
       "stars": 68,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:42Z",
+      "updatedAt": "2026-10-06T09:48:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -714,7 +714,7 @@
       "tags": [],
       "stars": 55,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:26Z",
+      "updatedAt": "2026-10-06T09:48:41Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -753,9 +753,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-data-quality",
       "category": "tools",
       "tags": [],
-      "stars": 51,
+      "stars": 52,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:16Z",
+      "updatedAt": "2026-10-06T09:48:36Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -772,7 +772,7 @@
       "repoUrl": "https://github.com/Anionex/dsh-computer-use",
       "category": "web-ui",
       "tags": [],
-      "stars": 50,
+      "stars": 51,
       "license": "MIT",
       "updatedAt": "2026-10-03T18:16:24Z",
       "install": {
@@ -791,7 +791,7 @@
       "repoUrl": "https://github.com/alingalingling/ui-status-label",
       "category": "web-ui",
       "tags": [],
-      "stars": 49,
+      "stars": 50,
       "license": "MIT",
       "updatedAt": "2026-08-15T08:57:01Z",
       "install": {
@@ -834,7 +834,7 @@
       "tags": [],
       "stars": 46,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:19:50Z",
+      "updatedAt": "2026-10-06T06:59:14Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -915,7 +915,7 @@
       "tags": [],
       "stars": 27,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:01Z",
+      "updatedAt": "2026-10-06T09:51:50Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -934,7 +934,7 @@
       "tags": [],
       "stars": 26,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:19:07Z",
+      "updatedAt": "2026-10-06T09:48:59Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -954,6 +954,25 @@
       "stars": 26,
       "license": "MIT",
       "updatedAt": "2026-10-03T15:03:59Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "weibaohui-skills-management",
+      "name": "skills-management",
+      "displayName": "skills management",
+      "description": "Skill marketplace and manager: manage skills from all local coding agents (10+ executors, incl. Claude Code and Codex) in one page and import them into the DSH skill library; built-in market of 6600+ skills, per-skill token-overhead stats, and model visibility control.",
+      "author": "weibaohui",
+      "repoUrl": "https://github.com/weibaohui/skills-management",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 24,
+      "license": null,
+      "updatedAt": "2026-10-01T04:24:27Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -996,26 +1015,7 @@
       "tags": [],
       "stars": 23,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:21Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "weibaohui-skills-management",
-      "name": "skills-management",
-      "displayName": "skills management",
-      "description": "Skill marketplace and manager: manage skills from all local coding agents (10+ executors, incl. Claude Code and Codex) in one page and import them into the DSH skill library; built-in market of 6600+ skills, per-skill token-overhead stats, and model visibility control.",
-      "author": "weibaohui",
-      "repoUrl": "https://github.com/weibaohui/skills-management",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 23,
-      "license": null,
-      "updatedAt": "2026-10-01T04:24:27Z",
+      "updatedAt": "2026-10-06T09:48:39Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1034,9 +1034,9 @@
       "tags": [
         "bridge"
       ],
-      "stars": 22,
+      "stars": 23,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:47Z",
+      "updatedAt": "2026-10-05T16:51:06Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1055,7 +1055,7 @@
       "tags": [],
       "stars": 21,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:17:56Z",
+      "updatedAt": "2026-10-06T09:48:27Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1074,7 +1074,7 @@
       "tags": [],
       "stars": 20,
       "license": "MIT",
-      "updatedAt": "2026-10-04T23:09:35Z",
+      "updatedAt": "2026-10-06T01:05:43Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1093,7 +1093,29 @@
       "tags": [],
       "stars": 19,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:20:27Z",
+      "updatedAt": "2026-10-05T17:02:50Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "siweina-dsh-novel-writer",
+      "name": "dsh-novel-writer",
+      "displayName": "novel writer",
+      "description": "A local workbench for Chinese web-novel writers: a pre-draft chapter brief gathers the previous hand-off, outline, character cards, unresolved plot threads and language rules; after drafting, a six-dimension prose baseline drives a quantified self-check and a prioritised revision plan with original line numbers; across chapters it reports plot-thread spans, characters missing too long and outline drift. All analysis runs on a bundled 24MB Chinese model on-device",
+      "author": "siweina",
+      "repoUrl": "https://github.com/siweina/dsh-novel-writer",
+      "category": "tools",
+      "tags": [
+        "vision",
+        "sidebar"
+      ],
+      "stars": 19,
+      "license": "MIT",
+      "updatedAt": "2026-10-04T15:29:10Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1114,7 +1136,7 @@
       ],
       "stars": 19,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:17:46Z",
+      "updatedAt": "2026-10-05T17:03:43Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1123,20 +1145,36 @@
       }
     },
     {
-      "slug": "siweina-dsh-novel-writer",
-      "name": "dsh-novel-writer",
-      "displayName": "novel writer",
-      "description": "A local workbench for Chinese web-novel writers: a pre-draft chapter brief gathers the previous hand-off, outline, character cards, unresolved plot threads and language rules; after drafting, a six-dimension prose baseline drives a quantified self-check and a prioritised revision plan with original line numbers; across chapters it reports plot-thread spans, characters missing too long and outline drift. All analysis runs on a bundled 24MB Chinese model on-device",
-      "author": "siweina",
-      "repoUrl": "https://github.com/siweina/dsh-novel-writer",
+      "slug": "perrylink-dsh-library",
+      "name": "dsh-library",
+      "displayName": "library",
+      "description": "Local document knowledge base: add, list and search a workspace library with hybrid semantic and keyword retrieval, diversity re-ranking and citation-aware injection over a local SQLite index, with no model downloads.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-library",
       "category": "tools",
-      "tags": [
-        "vision",
-        "sidebar"
-      ],
+      "tags": [],
       "stars": 18,
-      "license": "MIT",
-      "updatedAt": "2026-10-04T15:29:10Z",
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-06T09:48:54Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-session-sync",
+      "name": "dsh-session-sync",
+      "displayName": "session sync",
+      "description": "Cross-device session sync over a dedicated git mirror with append-only, keep-both conflict resolution.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-session-sync",
+      "category": "integrations",
+      "tags": [],
+      "stars": 18,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-06T09:49:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1157,7 +1195,7 @@
       ],
       "stars": 17,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:11Z",
+      "updatedAt": "2026-10-06T09:48:33Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1176,45 +1214,7 @@
       "tags": [],
       "stars": 17,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:20:32Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-library",
-      "name": "dsh-library",
-      "displayName": "library",
-      "description": "Local document knowledge base: add, list and search a workspace library with hybrid semantic and keyword retrieval, diversity re-ranking and citation-aware injection over a local SQLite index, with no model downloads.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-library",
-      "category": "tools",
-      "tags": [],
-      "stars": 17,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:57Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-session-sync",
-      "name": "dsh-session-sync",
-      "displayName": "session sync",
-      "description": "Cross-device session sync over a dedicated git mirror with append-only, keep-both conflict resolution.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-session-sync",
-      "category": "integrations",
-      "tags": [],
-      "stars": 17,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:20:21Z",
+      "updatedAt": "2026-10-06T09:49:34Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1235,7 +1235,7 @@
       ],
       "stars": 17,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:19:02Z",
+      "updatedAt": "2026-10-06T09:48:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1256,7 +1256,26 @@
       ],
       "stars": 16,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:06Z",
+      "updatedAt": "2026-10-06T09:48:31Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-translate",
+      "name": "dsh-translate",
+      "displayName": "translate",
+      "description": "Vendor parameter translation across eleven vendors plus deterministic repair of broken JSON tool output.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-translate",
+      "category": "tools",
+      "tags": [],
+      "stars": 14,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-06T09:49:39Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1275,26 +1294,7 @@
       "tags": [],
       "stars": 13,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:19:39Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-translate",
-      "name": "dsh-translate",
-      "displayName": "translate",
-      "description": "Vendor parameter translation across eleven vendors plus deterministic repair of broken JSON tool output.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-translate",
-      "category": "tools",
-      "tags": [],
-      "stars": 13,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:20:47Z",
+      "updatedAt": "2026-10-06T09:49:13Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1315,7 +1315,7 @@
       ],
       "stars": 13,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:19:13Z",
+      "updatedAt": "2026-10-06T09:49:02Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1334,7 +1334,7 @@
       "tags": [],
       "stars": 13,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:19:28Z",
+      "updatedAt": "2026-10-06T09:49:10Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1416,7 +1416,7 @@
       "tags": [],
       "stars": 12,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:20:11Z",
+      "updatedAt": "2026-10-06T09:49:28Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1435,7 +1435,7 @@
       "tags": [],
       "stars": 12,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-04T17:23:03Z",
+      "updatedAt": "2026-10-06T09:49:36Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1456,26 +1456,7 @@
       ],
       "stars": 11,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:20:16Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-budget",
-      "name": "dsh-budget",
-      "displayName": "budget",
-      "description": "Cost governance: token and cost metering per model, session and day, budget caps with alerts, carbon estimation and latency benchmarks.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-budget",
-      "category": "tools",
-      "tags": [],
-      "stars": 10,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:17:51Z",
+      "updatedAt": "2026-10-05T17:03:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1494,9 +1475,28 @@
       "tags": [
         "vision"
       ],
-      "stars": 9,
+      "stars": 10,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:31Z",
+      "updatedAt": "2026-10-06T09:48:44Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-budget",
+      "name": "dsh-budget",
+      "displayName": "budget",
+      "description": "Cost governance: token and cost metering per model, session and day, budget caps with alerts, carbon estimation and latency benchmarks.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-budget",
+      "category": "tools",
+      "tags": [],
+      "stars": 10,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-06T09:48:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1516,6 +1516,25 @@
       "stars": 9,
       "license": null,
       "updatedAt": "2026-09-26T15:01:07Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "zuoyunlai-lunheng-article-pipeline-dsh",
+      "name": "lunheng-article-pipeline-dsh",
+      "displayName": "lunheng article pipeline dsh",
+      "description": "Long-form writing pipeline skill bundle: 9 independent roles T1-T9 across 6 phases",
+      "author": "zuoyunlai",
+      "repoUrl": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh",
+      "category": "agent",
+      "tags": [],
+      "stars": 9,
+      "license": "MIT",
+      "updatedAt": "2026-10-06T10:10:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1593,7 +1612,7 @@
       "tags": [],
       "stars": 7,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:18:36Z",
+      "updatedAt": "2026-10-06T09:48:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1612,26 +1631,7 @@
       "tags": [],
       "stars": 7,
       "license": null,
-      "updatedAt": "2026-09-27T23:02:13Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "zuoyunlai-lunheng-article-pipeline-dsh",
-      "name": "lunheng-article-pipeline-dsh",
-      "displayName": "lunheng article pipeline dsh",
-      "description": "Long-form writing pipeline skill bundle: 9 independent roles T1-T9 across 6 phases",
-      "author": "zuoyunlai",
-      "repoUrl": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh",
-      "category": "agent",
-      "tags": [],
-      "stars": 7,
-      "license": "MIT",
-      "updatedAt": "2026-10-05T06:22:19Z",
+      "updatedAt": "2026-10-06T04:39:32Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1731,7 +1731,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-10-04T09:55:00Z",
+      "updatedAt": "2026-10-05T10:36:15Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1823,17 +1823,20 @@
       }
     },
     {
-      "slug": "perrylink-dsh-team-rooms",
-      "name": "dsh-team-rooms",
-      "displayName": "team rooms",
-      "description": "Persistent shared rooms across independent sessions: a message bus, a shared task board and a timeline.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-team-rooms",
+      "slug": "weibaohui-dsh-continue",
+      "name": "dsh-continue",
+      "displayName": "continue",
+      "description": "Auto-resume for interrupted agent sessions: rules route by failure type (rate limit, quota, auth, context overflow, crashed orphan) into backoff retry, model switch, resume-after-compaction, or stop-loss notification, with a visual rule editor.",
+      "author": "weibaohui",
+      "repoUrl": "https://github.com/weibaohui/dsh-continue",
       "category": "agent",
-      "tags": [],
+      "tags": [
+        "editor",
+        "notification"
+      ],
       "stars": 4,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:20:37Z",
+      "license": null,
+      "updatedAt": "2026-09-29T16:00:46Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1873,29 +1876,7 @@
       "tags": [],
       "stars": 4,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T09:27:58Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "weibaohui-dsh-continue",
-      "name": "dsh-continue",
-      "displayName": "continue",
-      "description": "Auto-resume for interrupted agent sessions: rules route by failure type (rate limit, quota, auth, context overflow, crashed orphan) into backoff retry, model switch, resume-after-compaction, or stop-loss notification, with a visual rule editor.",
-      "author": "weibaohui",
-      "repoUrl": "https://github.com/weibaohui/dsh-continue",
-      "category": "agent",
-      "tags": [
-        "editor",
-        "notification"
-      ],
-      "stars": 3,
-      "license": null,
-      "updatedAt": "2026-09-29T16:00:46Z",
+      "updatedAt": "2026-10-06T09:49:18Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1923,6 +1904,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-team-rooms",
+      "name": "dsh-team-rooms",
+      "displayName": "team rooms",
+      "description": "Persistent shared rooms across independent sessions: a message bus, a shared task board and a timeline.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-team-rooms",
+      "category": "agent",
+      "tags": [],
+      "stars": 3,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-05T17:29:06Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-ticktick",
       "name": "dsh-ticktick",
       "displayName": "ticktick",
@@ -1936,7 +1936,7 @@
       ],
       "stars": 3,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:20:42Z",
+      "updatedAt": "2026-10-05T17:03:08Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2193,7 +2193,7 @@
       "tags": [],
       "stars": 2,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:32:41Z",
+      "updatedAt": "2026-10-06T09:49:23Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2213,6 +2213,25 @@
       "stars": 2,
       "license": null,
       "updatedAt": "2026-09-27T23:01:23Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-plugin-upgrade",
+      "name": "dsh-plugin-upgrade",
+      "displayName": "plugin upgrade",
+      "description": "Upgrade skill for DSH plugin authors: one package carries one corridor index that reads the caller peer range and routes it to the matching closed corridor card, plus a zero-dependency seam scanner.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-plugin-upgrade",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 2,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-06T09:49:21Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2395,7 +2414,7 @@
       "tags": [],
       "stars": 1,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:17:40Z",
+      "updatedAt": "2026-10-06T09:48:21Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2542,25 +2561,6 @@
       }
     },
     {
-      "slug": "perrylink-dsh-plugin-upgrade",
-      "name": "dsh-plugin-upgrade",
-      "displayName": "plugin upgrade",
-      "description": "Upgrade skill for DSH plugin authors: one package carries one corridor index that reads the caller peer range and routes it to the matching closed corridor card, plus a zero-dependency seam scanner.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-plugin-upgrade",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 1,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T09:27:34Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-plugin-kit",
       "name": "dsh-plugin-kit",
       "displayName": "plugin kit",
@@ -2571,7 +2571,7 @@
       "tags": [],
       "stars": 1,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T10:19:55Z",
+      "updatedAt": "2026-10-05T17:02:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2974,7 +2974,7 @@
       "tags": [],
       "stars": 0,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-05T06:49:53Z",
+      "updatedAt": "2026-10-05T17:29:25Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3456,7 +3456,7 @@
       "tags": [],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-10-05T09:26:23Z",
+      "updatedAt": "2026-10-05T17:03:18Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3475,7 +3475,7 @@
       "tags": [],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-10-05T03:58:55Z",
+      "updatedAt": "2026-10-05T16:39:43Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3494,7 +3494,7 @@
       "tags": [],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-10-05T09:48:10Z",
+      "updatedAt": "2026-10-05T17:28:17Z",
       "install": {
         "type": "github",
         "profiles": [
