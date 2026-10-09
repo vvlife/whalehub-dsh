@@ -605,5 +605,17 @@
       ]
     },
     "notes": "- 需要 **DSH ≥ 0.1.5-rc.2**、**Node ≥ 22.19**。\n- ⚠️ **前置依赖 [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) ≥ 0.19.0**：本插件**自己不画侧边栏**，只是往它的右侧栏注册一个页签。缺了它，右侧栏「+」里看不到「陪读模式」，**而且控制台不报任何错**（这是最容易踩的坑）。\n- 装完**必须重启 DSH Desktop**：`dsh.profile.bundles` 只在启动时读取一次，刷新页面不够。\n- 零运行时依赖、**无构建步骤**；原书/笔记/AI 的理解**全部在本地**，不上传任何服务器。"
+  },
+  {
+    "fullName": "yijiezhong/dsh-testhud",
+    "category": "tools",
+    "tagline": "把自动测试的进度**画在被测界面之上**：一块置顶、鼠标穿透的浮层，实时显示每一步的「期待 vs 实际」，并常驻一行回答等待的人最关心的问题——**现在能不能动鼠标键盘**。agent 通过 `test_hud` 工具上报进度，任何 profile 的会话都能直接调用。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "- **浮层本体需要 macOS**（AppKit）+ Xcode 命令行工具（`swiftc`）：首次使用时按需编译到 `~/.dsh/dsh-testhud/bin/testhud`，本机约 3~4 秒，之后复用；没有 `swiftc` 时工具照样记录每一步与结论，只是如实告诉你「浮层没画出来」。进度文件与工具本身跨平台可用。\n- `peerDependencies` 声明 `@deepseek-ai/dsh-tools ~0.2.0-rc.2`：运行版本落在范围外时宿主会**拒绝加载整个 bundle**（而不是半挂上），需要时改这一行即可。\n- **不改被测应用的任何文件**：只在 `~/.dsh/test-progress.json` 写进度（朴素 JSON，任何脚本都能写）。\n- 面板**鼠标穿透、置顶、不抢焦点**，不进 Dock 也不进 ⌘Tab；只有顶部色带（拖拽把手）与内容溢出时的拖动命中层会接鼠标。\n- 界面文案**中英双语**（跟随系统语言）；面板上出现的每一个颜色都取自 Apple 色卡。"
   }
 ]
