@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-10-13T10:43:57.033Z",
+  "generatedAt": "2026-10-14T08:49:45.395Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 171,
+  "pluginCount": 178,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 8688,
+      "stars": 8724,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-13T09:09:42Z",
+      "updatedAt": "2026-10-14T04:01:30Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -46,9 +46,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 4530,
+      "stars": 4572,
       "license": "MIT",
-      "updatedAt": "2026-10-13T10:21:12Z",
+      "updatedAt": "2026-10-14T08:40:41Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -74,9 +74,9 @@
         "editor",
         "tui"
       ],
-      "stars": 4141,
+      "stars": 4158,
       "license": "MIT",
-      "updatedAt": "2026-10-12T13:02:17Z",
+      "updatedAt": "2026-10-13T15:12:18Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 2561,
+      "stars": 2575,
       "license": null,
-      "updatedAt": "2026-10-13T03:59:05Z",
+      "updatedAt": "2026-10-14T05:31:06Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 2087,
+      "stars": 2129,
       "license": "MIT",
       "updatedAt": "2026-10-11T02:28:17Z",
       "install": {
@@ -146,7 +146,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 887,
+      "stars": 892,
       "license": "MIT",
       "updatedAt": "2026-10-13T09:12:15Z",
       "install": {
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 664,
+      "stars": 665,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-09-29T13:34:29Z",
       "install": {
@@ -195,9 +195,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 568,
+      "stars": 580,
       "license": "MIT",
-      "updatedAt": "2026-10-13T06:28:36Z",
+      "updatedAt": "2026-10-14T08:00:55Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -206,6 +206,25 @@
       },
       "notes": "通过 `dsh-ui` 代码围栏在会话里内联渲染布局、图表、mermaid 与 3D 组件；安装到 web profile 后重启 dsh web 生效。",
       "featured": true
+    },
+    {
+      "slug": "omdsh-dev-dsh-mnemon",
+      "name": "dsh-mnemon",
+      "displayName": "mnemon",
+      "description": "Mnemonics plugin.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
+      "category": "tools",
+      "tags": [],
+      "stars": 533,
+      "license": "MIT",
+      "updatedAt": "2026-10-14T02:41:06Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
     },
     {
       "slug": "omdsh-dev-dsh-at-file",
@@ -222,25 +241,6 @@
       "stars": 521,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "omdsh-dev-dsh-mnemon",
-      "name": "dsh-mnemon",
-      "displayName": "mnemon",
-      "description": "Mnemonics plugin.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
-      "category": "tools",
-      "tags": [],
-      "stars": 520,
-      "license": "MIT",
-      "updatedAt": "2026-10-13T08:49:17Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -305,7 +305,7 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 303,
+      "stars": 304,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-09-29T13:34:34Z",
       "install": {
@@ -337,6 +337,25 @@
       }
     },
     {
+      "slug": "dhicoc-dsh-reverse-skill",
+      "name": "dsh-reverse-skill",
+      "displayName": "reverse skill",
+      "description": "Reverse-skill pack (88 SKILL.md) packaged as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.",
+      "author": "dhicoc",
+      "repoUrl": "https://github.com/dhicoc/dsh-reverse-skill",
+      "category": "tools",
+      "tags": [],
+      "stars": 246,
+      "license": "MIT",
+      "updatedAt": "2026-10-08T09:10:26Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-auto-review",
       "name": "dsh-auto-review",
       "displayName": "auto review",
@@ -345,7 +364,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-auto-review",
       "category": "agent",
       "tags": [],
-      "stars": 234,
+      "stars": 232,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:51:31Z",
       "install": {
@@ -375,25 +394,6 @@
       }
     },
     {
-      "slug": "perrylink-dsh-industry-research",
-      "name": "dsh-industry-research",
-      "displayName": "industry research",
-      "description": "Industry and company research pack: chain mapping, policy and news tracking, research cards and auditable reports.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-industry-research",
-      "category": "tools",
-      "tags": [],
-      "stars": 214,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:20Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-research-report",
       "name": "dsh-research-report",
       "displayName": "research report",
@@ -402,9 +402,28 @@
       "repoUrl": "https://github.com/PerryLink/dsh-research-report",
       "category": "tools",
       "tags": [],
-      "stars": 214,
+      "stars": 213,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:53:14Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-industry-research",
+      "name": "dsh-industry-research",
+      "displayName": "industry research",
+      "description": "Industry and company research pack: chain mapping, policy and news tracking, research cards and auditable reports.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-industry-research",
+      "category": "tools",
+      "tags": [],
+      "stars": 211,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T13:52:20Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -440,7 +459,7 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 179,
+      "stars": 184,
       "license": "MIT",
       "updatedAt": "2026-10-13T03:50:17Z",
       "install": {
@@ -465,7 +484,7 @@
       ],
       "stars": 143,
       "license": "MIT",
-      "updatedAt": "2026-09-05T04:10:09Z",
+      "updatedAt": "2026-10-14T01:10:07Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -477,25 +496,6 @@
       "private": true
     },
     {
-      "slug": "perrylink-dsh-memento",
-      "name": "dsh-memento",
-      "displayName": "memento",
-      "description": "Bounded, layered and approval-gated cross-session memory over a local SQLite provider, with a memory tool and snapshot injection.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-memento",
-      "category": "tools",
-      "tags": [],
-      "stars": 141,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T15:17:25Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "omdsh-dev-dsh-annotation",
       "name": "dsh-annotation",
       "displayName": "annotation",
@@ -504,9 +504,28 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 139,
+      "stars": 141,
       "license": "MIT",
-      "updatedAt": "2026-10-01T07:47:35Z",
+      "updatedAt": "2026-10-14T03:25:06Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-memento",
+      "name": "dsh-memento",
+      "displayName": "memento",
+      "description": "Bounded, layered and approval-gated cross-session memory over a local SQLite provider, with a memory tool and snapshot injection.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-memento",
+      "category": "tools",
+      "tags": [],
+      "stars": 136,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T15:17:25Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -545,7 +564,7 @@
       "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
       "category": "web-ui",
       "tags": [],
-      "stars": 126,
+      "stars": 125,
       "license": "MIT",
       "updatedAt": "2026-09-24T16:21:53Z",
       "install": {
@@ -570,7 +589,7 @@
       ],
       "stars": 124,
       "license": "MIT",
-      "updatedAt": "2026-10-13T10:29:21Z",
+      "updatedAt": "2026-10-14T08:38:05Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -630,7 +649,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 75,
+      "stars": 73,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:52:36Z",
       "install": {
@@ -649,7 +668,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-fund-research",
       "category": "tools",
       "tags": [],
-      "stars": 68,
+      "stars": 67,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:52:15Z",
       "install": {
@@ -671,6 +690,25 @@
       "stars": 58,
       "license": "MIT",
       "updatedAt": "2026-10-03T16:53:55Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "anionex-dsh-computer-use",
+      "name": "dsh-computer-use",
+      "displayName": "computer use",
+      "description": "Computer-use plugin for DSH.",
+      "author": "Anionex",
+      "repoUrl": "https://github.com/Anionex/dsh-computer-use",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 57,
+      "license": "MIT",
+      "updatedAt": "2026-10-08T04:48:13Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -702,25 +740,6 @@
       },
       "notes": "这是插件源码库/能力库（687 个插件按 plugins/<gap-id>/ 组织），不是一条命令装全家桶；按需挑选单个插件安装。e2e 需要 DEEPSEEK_API_KEY。",
       "featured": true
-    },
-    {
-      "slug": "anionex-dsh-computer-use",
-      "name": "dsh-computer-use",
-      "displayName": "computer use",
-      "description": "Computer-use plugin for DSH.",
-      "author": "Anionex",
-      "repoUrl": "https://github.com/Anionex/dsh-computer-use",
-      "category": "web-ui",
-      "tags": [],
-      "stars": 56,
-      "license": "MIT",
-      "updatedAt": "2026-10-08T04:48:13Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
     },
     {
       "slug": "perrylink-dsh-doublecheck",
@@ -832,9 +851,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-plugin-guide",
       "category": "ecosystem",
       "tags": [],
-      "stars": 50,
+      "stars": 49,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T15:16:55Z",
+      "updatedAt": "2026-10-13T14:52:19Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1003,25 +1022,6 @@
       }
     },
     {
-      "slug": "perrylink-dsh-defend",
-      "name": "dsh-defend",
-      "displayName": "defend",
-      "description": "Prompt-injection, jailbreak and secret-leak defense with allow/ask/block interception and sanitized audit events.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-defend",
-      "category": "agent",
-      "tags": [],
-      "stars": 24,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:03Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-checkpoint-rewind",
       "name": "dsh-checkpoint-rewind",
       "displayName": "checkpoint rewind",
@@ -1057,6 +1057,25 @@
       "stars": 23,
       "license": "MIT",
       "updatedAt": "2026-08-16T05:24:56Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-defend",
+      "name": "dsh-defend",
+      "displayName": "defend",
+      "description": "Prompt-injection, jailbreak and secret-leak defense with allow/ask/block interception and sanitized audit events.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-defend",
+      "category": "agent",
+      "tags": [],
+      "stars": 23,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T13:52:03Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1134,7 +1153,7 @@
       "tags": [],
       "stars": 20,
       "license": "MIT",
-      "updatedAt": "2026-10-12T15:30:04Z",
+      "updatedAt": "2026-10-14T03:06:42Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1183,27 +1202,6 @@
       }
     },
     {
-      "slug": "perrylink-dsh-click",
-      "name": "dsh-click",
-      "displayName": "click",
-      "description": "Native desktop control (Windows first): screen capture, read, click, type, scroll and app launch, approval-gated and never stealing focus.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-click",
-      "category": "terminal",
-      "tags": [
-        "desktop"
-      ],
-      "stars": 18,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:51:49Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-local-ai",
       "name": "dsh-local-ai",
       "displayName": "local ai",
@@ -1214,7 +1212,7 @@
       "tags": [
         "bridge"
       ],
-      "stars": 18,
+      "stars": 19,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:52:28Z",
       "install": {
@@ -1246,6 +1244,27 @@
       }
     },
     {
+      "slug": "perrylink-dsh-click",
+      "name": "dsh-click",
+      "displayName": "click",
+      "description": "Native desktop control (Windows first): screen capture, read, click, type, scroll and app launch, approval-gated and never stealing focus.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-click",
+      "category": "terminal",
+      "tags": [
+        "desktop"
+      ],
+      "stars": 17,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T13:51:49Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-talk",
       "name": "dsh-talk",
       "displayName": "talk",
@@ -1254,9 +1273,28 @@
       "repoUrl": "https://github.com/PerryLink/dsh-talk",
       "category": "web-ui",
       "tags": [],
-      "stars": 17,
+      "stars": 15,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:53:25Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "zuoyunlai-lunheng-article-pipeline-dsh",
+      "name": "lunheng-article-pipeline-dsh",
+      "displayName": "lunheng article pipeline dsh",
+      "description": "Long-form writing pipeline skill bundle: 9 independent roles T1-T9 across 6 phases",
+      "author": "zuoyunlai",
+      "repoUrl": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh",
+      "category": "agent",
+      "tags": [],
+      "stars": 15,
+      "license": "MIT",
+      "updatedAt": "2026-10-14T07:41:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1335,25 +1373,6 @@
       "stars": 13,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:52:42Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "zuoyunlai-lunheng-article-pipeline-dsh",
-      "name": "lunheng-article-pipeline-dsh",
-      "displayName": "lunheng article pipeline dsh",
-      "description": "Long-form writing pipeline skill bundle: 9 independent roles T1-T9 across 6 phases",
-      "author": "zuoyunlai",
-      "repoUrl": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh",
-      "category": "agent",
-      "tags": [],
-      "stars": 13,
-      "license": "MIT",
-      "updatedAt": "2026-10-13T08:59:42Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1465,6 +1484,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-fast",
+      "name": "dsh-fast",
+      "displayName": "fast",
+      "description": "Read-only performance diagnostics: load and restore timing, compaction, context-injection volume and LLM cache hit rate.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-fast",
+      "category": "tools",
+      "tags": [],
+      "stars": 11,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T13:52:12Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "titanwings-dsh-plannotator",
       "name": "dsh-plannotator",
       "displayName": "plannotator",
@@ -1495,25 +1533,6 @@
       "stars": 10,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:51:38Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-fast",
-      "name": "dsh-fast",
-      "displayName": "fast",
-      "description": "Read-only performance diagnostics: load and restore timing, compaction, context-injection volume and LLM cache hit rate.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-fast",
-      "category": "tools",
-      "tags": [],
-      "stars": 10,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:12Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1716,6 +1735,28 @@
       }
     },
     {
+      "slug": "weibaohui-dsh-continue",
+      "name": "dsh-continue",
+      "displayName": "continue",
+      "description": "Auto-resume for interrupted agent sessions: rules route by failure type (rate limit, quota, auth, context overflow, crashed orphan) into backoff retry, model switch, resume-after-compaction, or stop-loss notification, with a visual rule editor.",
+      "author": "weibaohui",
+      "repoUrl": "https://github.com/weibaohui/dsh-continue",
+      "category": "agent",
+      "tags": [
+        "editor",
+        "notification"
+      ],
+      "stars": 6,
+      "license": "MIT",
+      "updatedAt": "2026-10-10T04:59:08Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "weibaohui-dsh-smart-title",
       "name": "dsh-smart-title",
       "displayName": "smart title",
@@ -1750,7 +1791,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-10-12T11:01:45Z",
+      "updatedAt": "2026-10-13T10:45:33Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1760,28 +1801,6 @@
       },
       "notes": "DSH Web 内嵌市场：dsh plugin --profile web add \"github:vvlife/whalehub-dsh#main&path:/plugin\"，重启 dsh web 后 Settings → Plugins 出现「🐋 插件市场」Tab。网页版：https://whalehub-dsh.vercel.app",
       "featured": true
-    },
-    {
-      "slug": "weibaohui-dsh-continue",
-      "name": "dsh-continue",
-      "displayName": "continue",
-      "description": "Auto-resume for interrupted agent sessions: rules route by failure type (rate limit, quota, auth, context overflow, crashed orphan) into backoff retry, model switch, resume-after-compaction, or stop-loss notification, with a visual rule editor.",
-      "author": "weibaohui",
-      "repoUrl": "https://github.com/weibaohui/dsh-continue",
-      "category": "agent",
-      "tags": [
-        "editor",
-        "notification"
-      ],
-      "stars": 5,
-      "license": "MIT",
-      "updatedAt": "2026-10-10T04:59:08Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
     },
     {
       "slug": "weibaohui-dsh-kb",
@@ -1917,7 +1936,7 @@
       "tags": [],
       "stars": 4,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:55Z",
+      "updatedAt": "2026-10-13T12:57:20Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2590,7 +2609,7 @@
       ],
       "stars": 1,
       "license": "MIT",
-      "updatedAt": "2026-10-08T04:01:21Z",
+      "updatedAt": "2026-10-14T06:20:13Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2726,6 +2745,30 @@
           "web"
         ]
       }
+    },
+    {
+      "slug": "omdsh-plugins-omdsh-code",
+      "name": "omdsh-code",
+      "displayName": "omdsh code",
+      "description": "Code 模式：以 harness 自带终端作为中间列，在会话工作区里运行",
+      "author": "omdsh-plugins",
+      "repoUrl": "https://github.com/omdsh-plugins/omdsh-code",
+      "category": "terminal",
+      "tags": [
+        "code",
+        "terminal",
+        "mode"
+      ],
+      "stars": 1,
+      "license": "MIT",
+      "updatedAt": "2026-09-04T10:01:36Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      },
+      "notes": "依赖 omdsh-base 的模式切换器；终端运行在独立 profile（默认 omdsh-tui，需按该仓库说明安装）。"
     },
     {
       "slug": "peterliucius-dsh-prompt-optimize",
@@ -2865,7 +2908,7 @@
       "tags": [],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-10-12T08:47:21Z",
+      "updatedAt": "2026-10-14T06:20:17Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3040,6 +3083,120 @@
       }
     },
     {
+      "slug": "perrylink-dsh-hidden-risk-map",
+      "name": "dsh-hidden-risk-map",
+      "displayName": "hidden risk map",
+      "description": "Safety-hazard register to regulation mapping: cites the clause of China's major-accident hazard standard (MEM Order No. 10) behind each entry, flags differences only.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-hidden-risk-map",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 0,
+      "license": null,
+      "updatedAt": "2026-10-09T15:22:34Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-hazchem-check",
+      "name": "dsh-hazchem-check",
+      "displayName": "hazchem check",
+      "description": "Hazardous-chemical register check: recomputes stored quantity against the GB 18218-2018 threshold quantities for major-hazard installation identification, flags differences only.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-hazchem-check",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 0,
+      "license": null,
+      "updatedAt": "2026-10-09T15:22:24Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-ppap-check",
+      "name": "dsh-ppap-check",
+      "displayName": "ppap check",
+      "description": "PPAP submission check: verifies element completeness and version fields against the PPAP manual and the declared submission level, flags differences only.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-ppap-check",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 0,
+      "license": null,
+      "updatedAt": "2026-10-09T15:24:12Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-aqua-input-check",
+      "name": "dsh-aqua-input-check",
+      "displayName": "aqua input check",
+      "description": "Aquaculture input register check: verifies the register's own completeness and date arithmetic (pond and species named, quantity and use date recorded, harvest respecting the withdrawal period the record itself states, stocking records carrying source and quarantine certificate number, configured input vocabulary, unique batch numbers), flags differences only.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-aqua-input-check",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 0,
+      "license": null,
+      "updatedAt": "2026-10-09T15:20:48Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-archive-check",
+      "name": "dsh-archive-check",
+      "displayName": "archive check",
+      "description": "Filing-register check: holds a 归档登记表 to what it can be held to mechanically (configured description fields present, unique 档号, gapless 件号, 保管期限 from your own schedule, parseable 形成日期 matching the register year, items past the configured transfer deadline surfaced), flags differences only.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-archive-check",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 0,
+      "license": null,
+      "updatedAt": "2026-10-09T15:20:53Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-bid-ca-precheck",
+      "name": "dsh-bid-ca-precheck",
+      "displayName": "bid ca precheck",
+      "description": "Bid compliance pre-check: applies a versioned rule pack to a 投标符合性响应台账 and verifies every tender requirement has a recorded response, verdicts come from your configured vocabulary, clause numbers are unique, the register declares project and bidder, high-risk clauses carry evidence, and the requirement column still holds real requirements rather than template placeholders, flags differences only.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-bid-ca-precheck",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 0,
+      "license": null,
+      "updatedAt": "2026-10-09T15:20:58Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "aga-j-dsh-mini-games",
       "name": "dsh-mini-games",
       "displayName": "mini games",
@@ -3166,30 +3323,6 @@
         ]
       },
       "notes": "兼容 Profile: web；git 安装需在 profile 的 pnpm-workspace.yaml 添加 allowBuilds；装完重启 + Ctrl+Shift+R"
-    },
-    {
-      "slug": "omdsh-plugins-omdsh-code",
-      "name": "omdsh-code",
-      "displayName": "omdsh code",
-      "description": "Code 模式：以 harness 自带终端作为中间列，在会话工作区里运行",
-      "author": "omdsh-plugins",
-      "repoUrl": "https://github.com/omdsh-plugins/omdsh-code",
-      "category": "terminal",
-      "tags": [
-        "code",
-        "terminal",
-        "mode"
-      ],
-      "stars": 0,
-      "license": "MIT",
-      "updatedAt": "2026-09-04T10:01:36Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      },
-      "notes": "依赖 omdsh-base 的模式切换器；终端运行在独立 profile（默认 omdsh-tui，需按该仓库说明安装）。"
     },
     {
       "slug": "omdsh-plugins-omdsh-sidepanel",
@@ -3513,7 +3646,7 @@
       "tags": [],
       "stars": 0,
       "license": "MIT",
-      "updatedAt": "2026-10-13T04:18:42Z",
+      "updatedAt": "2026-10-13T13:30:11Z",
       "install": {
         "type": "github",
         "profiles": [
