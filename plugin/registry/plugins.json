@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-10-14T08:49:45.395Z",
+  "generatedAt": "2026-10-15T08:24:46.086Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 178,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 8724,
+      "stars": 8768,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T04:01:30Z",
+      "updatedAt": "2026-10-15T03:21:35Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -46,9 +46,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 4572,
+      "stars": 4620,
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:40:41Z",
+      "updatedAt": "2026-10-15T08:19:21Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -74,9 +74,9 @@
         "editor",
         "tui"
       ],
-      "stars": 4158,
+      "stars": 4183,
       "license": "MIT",
-      "updatedAt": "2026-10-13T15:12:18Z",
+      "updatedAt": "2026-10-14T15:43:23Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 2575,
+      "stars": 2601,
       "license": null,
-      "updatedAt": "2026-10-14T05:31:06Z",
+      "updatedAt": "2026-10-14T14:21:59Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 2129,
+      "stars": 2160,
       "license": "MIT",
       "updatedAt": "2026-10-11T02:28:17Z",
       "install": {
@@ -146,7 +146,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 892,
+      "stars": 895,
       "license": "MIT",
       "updatedAt": "2026-10-13T09:12:15Z",
       "install": {
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 665,
+      "stars": 667,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-09-29T13:34:29Z",
       "install": {
@@ -195,9 +195,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 580,
+      "stars": 596,
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:00:55Z",
+      "updatedAt": "2026-10-15T03:18:44Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -216,9 +216,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 533,
+      "stars": 544,
       "license": "MIT",
-      "updatedAt": "2026-10-14T02:41:06Z",
+      "updatedAt": "2026-10-14T16:27:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -238,7 +238,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 521,
+      "stars": 525,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
@@ -345,7 +345,7 @@
       "repoUrl": "https://github.com/dhicoc/dsh-reverse-skill",
       "category": "tools",
       "tags": [],
-      "stars": 246,
+      "stars": 250,
       "license": "MIT",
       "updatedAt": "2026-10-08T09:10:26Z",
       "install": {
@@ -383,7 +383,7 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 231,
+      "stars": 232,
       "license": "MIT",
       "updatedAt": "2026-10-13T03:40:55Z",
       "install": {
@@ -432,25 +432,6 @@
       }
     },
     {
-      "slug": "zseven-w-dsh-openpencil",
-      "name": "dsh-openpencil",
-      "displayName": "openpencil",
-      "description": "OpenPencil design preview & editing plugin.",
-      "author": "ZSeven-W",
-      "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
-      "category": "web-ui",
-      "tags": [],
-      "stars": 184,
-      "license": "MIT",
-      "updatedAt": "2026-10-06T19:56:23Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "yyh-001-dsh-expression",
       "name": "dsh-expression",
       "displayName": "expression",
@@ -459,9 +440,28 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 184,
+      "stars": 192,
       "license": "MIT",
       "updatedAt": "2026-10-13T03:50:17Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "zseven-w-dsh-openpencil",
+      "name": "dsh-openpencil",
+      "displayName": "openpencil",
+      "description": "OpenPencil design preview & editing plugin.",
+      "author": "ZSeven-W",
+      "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 185,
+      "license": "MIT",
+      "updatedAt": "2026-10-06T19:56:23Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -482,7 +482,7 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 143,
+      "stars": 144,
       "license": "MIT",
       "updatedAt": "2026-10-14T01:10:07Z",
       "install": {
@@ -504,7 +504,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 141,
+      "stars": 143,
       "license": "MIT",
       "updatedAt": "2026-10-14T03:25:06Z",
       "install": {
@@ -556,25 +556,6 @@
       }
     },
     {
-      "slug": "renzic-stone-dsh-easyrewrite",
-      "name": "DSH-EasyRewrite",
-      "displayName": "DSH EasyRewrite",
-      "description": "DSH Web 内目前最无感的消息撤回、重编辑插件。",
-      "author": "Renzic-Stone",
-      "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
-      "category": "web-ui",
-      "tags": [],
-      "stars": 125,
-      "license": "MIT",
-      "updatedAt": "2026-09-24T16:21:53Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "sutera-diffusus-dsh-whale-musume",
       "name": "dsh-whale-musume",
       "displayName": "whale musume",
@@ -587,9 +568,28 @@
         "desktop",
         "sidebar"
       ],
-      "stars": 124,
+      "stars": 127,
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:38:05Z",
+      "updatedAt": "2026-10-15T08:13:12Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "renzic-stone-dsh-easyrewrite",
+      "name": "DSH-EasyRewrite",
+      "displayName": "DSH EasyRewrite",
+      "description": "DSH Web 内目前最无感的消息撤回、重编辑插件。",
+      "author": "Renzic-Stone",
+      "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 126,
+      "license": "MIT",
+      "updatedAt": "2026-09-24T16:21:53Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -606,7 +606,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-permission-rules",
       "category": "agent",
       "tags": [],
-      "stars": 123,
+      "stars": 124,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:52:48Z",
       "install": {
@@ -679,6 +679,25 @@
       }
     },
     {
+      "slug": "anionex-dsh-computer-use",
+      "name": "dsh-computer-use",
+      "displayName": "computer use",
+      "description": "Computer-use plugin for DSH.",
+      "author": "Anionex",
+      "repoUrl": "https://github.com/Anionex/dsh-computer-use",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 58,
+      "license": "MIT",
+      "updatedAt": "2026-10-08T04:48:13Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "vlln-plugin-registry",
       "name": "plugin-registry",
       "displayName": "plugin registry",
@@ -690,25 +709,6 @@
       "stars": 58,
       "license": "MIT",
       "updatedAt": "2026-10-03T16:53:55Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "anionex-dsh-computer-use",
-      "name": "dsh-computer-use",
-      "displayName": "computer use",
-      "description": "Computer-use plugin for DSH.",
-      "author": "Anionex",
-      "repoUrl": "https://github.com/Anionex/dsh-computer-use",
-      "category": "web-ui",
-      "tags": [],
-      "stars": 57,
-      "license": "MIT",
-      "updatedAt": "2026-10-08T04:48:13Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -780,6 +780,28 @@
       }
     },
     {
+      "slug": "moeblack-dsh-message-edit",
+      "name": "dsh-message-edit",
+      "displayName": "message edit",
+      "description": "Branch-based message editing, reroll, retry, version timeline.",
+      "author": "Moeblack",
+      "repoUrl": "https://github.com/Moeblack/dsh-message-edit",
+      "category": "tools",
+      "tags": [
+        "editing",
+        "branch"
+      ],
+      "stars": 52,
+      "license": null,
+      "updatedAt": "2026-08-16T11:33:37Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "omdsh-dev-dsh-open-in-vscode",
       "name": "dsh-open-in-vscode",
       "displayName": "open in vscode",
@@ -821,28 +843,6 @@
       }
     },
     {
-      "slug": "moeblack-dsh-message-edit",
-      "name": "dsh-message-edit",
-      "displayName": "message edit",
-      "description": "Branch-based message editing, reroll, retry, version timeline.",
-      "author": "Moeblack",
-      "repoUrl": "https://github.com/Moeblack/dsh-message-edit",
-      "category": "tools",
-      "tags": [
-        "editing",
-        "branch"
-      ],
-      "stars": 51,
-      "license": null,
-      "updatedAt": "2026-08-16T11:33:37Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-plugin-guide",
       "name": "dsh-plugin-guide",
       "displayName": "plugin guide",
@@ -851,7 +851,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-plugin-guide",
       "category": "ecosystem",
       "tags": [],
-      "stars": 49,
+      "stars": 48,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-13T14:52:19Z",
       "install": {
@@ -884,6 +884,27 @@
       }
     },
     {
+      "slug": "tommy00748-dsh-theme-cyberpunk2077",
+      "name": "dsh-theme-cyberpunk2077",
+      "displayName": "theme cyberpunk2077",
+      "description": "Cyberpunk 2077 / Night City theme: NC yellow × neon cyan, CRT scanlines, Kiroshi hover lock-on, combat-state HUD, synthesized typewriter & message SFX, hidden easter eggs (relic / johnny).",
+      "author": "Tommy00748",
+      "repoUrl": "https://github.com/Tommy00748/dsh-theme-cyberpunk2077",
+      "category": "web-ui",
+      "tags": [
+        "skin"
+      ],
+      "stars": 33,
+      "license": null,
+      "updatedAt": "2026-08-16T09:41:08Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "omdsh-dev-dsh-gomoku",
       "name": "dsh-gomoku",
       "displayName": "gomoku",
@@ -895,27 +916,6 @@
       "stars": 32,
       "license": "MIT",
       "updatedAt": "2026-10-03T15:03:59Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "tommy00748-dsh-theme-cyberpunk2077",
-      "name": "dsh-theme-cyberpunk2077",
-      "displayName": "theme cyberpunk2077",
-      "description": "Cyberpunk 2077 / Night City theme: NC yellow × neon cyan, CRT scanlines, Kiroshi hover lock-on, combat-state HUD, synthesized typewriter & message SFX, hidden easter eggs (relic / johnny).",
-      "author": "Tommy00748",
-      "repoUrl": "https://github.com/Tommy00748/dsh-theme-cyberpunk2077",
-      "category": "web-ui",
-      "tags": [
-        "skin"
-      ],
-      "stars": 31,
-      "license": null,
-      "updatedAt": "2026-08-16T09:41:08Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1132,7 +1132,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-library",
       "category": "tools",
       "tags": [],
-      "stars": 20,
+      "stars": 21,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:52:25Z",
       "install": {
@@ -1153,26 +1153,7 @@
       "tags": [],
       "stars": 20,
       "license": "MIT",
-      "updatedAt": "2026-10-14T03:06:42Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-session-sync",
-      "name": "dsh-session-sync",
-      "displayName": "session sync",
-      "description": "Cross-device session sync over a dedicated git mirror with append-only, keep-both conflict resolution.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-session-sync",
-      "category": "integrations",
-      "tags": [],
-      "stars": 20,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:53:20Z",
+      "updatedAt": "2026-10-15T05:17:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1202,6 +1183,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-session-sync",
+      "name": "dsh-session-sync",
+      "displayName": "session sync",
+      "description": "Cross-device session sync over a dedicated git mirror with append-only, keep-both conflict resolution.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-session-sync",
+      "category": "integrations",
+      "tags": [],
+      "stars": 19,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T13:53:20Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-local-ai",
       "name": "dsh-local-ai",
       "displayName": "local ai",
@@ -1223,6 +1223,27 @@
       }
     },
     {
+      "slug": "perrylink-dsh-click",
+      "name": "dsh-click",
+      "displayName": "click",
+      "description": "Native desktop control (Windows first): screen capture, read, click, type, scroll and app launch, approval-gated and never stealing focus.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-click",
+      "category": "terminal",
+      "tags": [
+        "desktop"
+      ],
+      "stars": 18,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T13:51:49Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-composer-history",
       "name": "dsh-composer-history",
       "displayName": "composer history",
@@ -1236,27 +1257,6 @@
       "stars": 17,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:51:57Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-click",
-      "name": "dsh-click",
-      "displayName": "click",
-      "description": "Native desktop control (Windows first): screen capture, read, click, type, scroll and app launch, approval-gated and never stealing focus.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-click",
-      "category": "terminal",
-      "tags": [
-        "desktop"
-      ],
-      "stars": 17,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:51:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1294,7 +1294,7 @@
       "tags": [],
       "stars": 15,
       "license": "MIT",
-      "updatedAt": "2026-10-14T07:41:56Z",
+      "updatedAt": "2026-10-15T01:41:37Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1406,6 +1406,27 @@
       "notes": "Bundle 插件：dsh plugin add 会自动把 dsh-web-billing 加入 dsh.profile.bundles 后重启 dsh web。可选配置 localProviders（如 dgx-spark-vllm）启用本地模型节省统计。只读端点 /billing/state、/billing/session/<id> 默认仅回环地址可访问。"
     },
     {
+      "slug": "perrylink-dsh-session-pin",
+      "name": "dsh-session-pin",
+      "displayName": "session pin",
+      "description": "Pin sessions and workspaces to the top of the sidebar with per-pin row colors.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-session-pin",
+      "category": "web-ui",
+      "tags": [
+        "sidebar"
+      ],
+      "stars": 12,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-07T07:45:25Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "yoke233-dsh-openai-codex-auth",
       "name": "dsh-openai-codex-auth",
       "displayName": "openai codex auth",
@@ -1455,27 +1476,6 @@
       "stars": 12,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:53:29Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-session-pin",
-      "name": "dsh-session-pin",
-      "displayName": "session pin",
-      "description": "Pin sessions and workspaces to the top of the sidebar with per-pin row colors.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-session-pin",
-      "category": "web-ui",
-      "tags": [
-        "sidebar"
-      ],
-      "stars": 11,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-07T07:45:25Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1659,6 +1659,28 @@
       }
     },
     {
+      "slug": "weibaohui-dsh-continue",
+      "name": "dsh-continue",
+      "displayName": "continue",
+      "description": "Auto-resume for interrupted agent sessions: rules route by failure type (rate limit, quota, auth, context overflow, crashed orphan) into backoff retry, model switch, resume-after-compaction, or stop-loss notification, with a visual rule editor.",
+      "author": "weibaohui",
+      "repoUrl": "https://github.com/weibaohui/dsh-continue",
+      "category": "agent",
+      "tags": [
+        "editor",
+        "notification"
+      ],
+      "stars": 7,
+      "license": "MIT",
+      "updatedAt": "2026-10-10T04:59:08Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-laya",
       "name": "dsh-laya",
       "displayName": "laya",
@@ -1716,6 +1738,25 @@
       }
     },
     {
+      "slug": "weibaohui-dsh-smart-title",
+      "name": "dsh-smart-title",
+      "displayName": "smart title",
+      "description": "Smart session titles for DSH: after each conversation turn an independent auxiliary LLM call summarizes the full user+assistant transcript into a title that follows the session's real topic instead of echoing the first message; the first message is titled instantly, failed built-in titles auto-retry on later turns, manual renames are never overwritten, and subagent/fork sessions are skipped.",
+      "author": "weibaohui",
+      "repoUrl": "https://github.com/weibaohui/dsh-smart-title",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 7,
+      "license": "MIT",
+      "updatedAt": "2026-10-09T09:11:17Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "zhangbo-cn-dsh-voice-input-plugin",
       "name": "dsh-voice-input-plugin",
       "displayName": "voice input plugin",
@@ -1727,47 +1768,6 @@
       "stars": 6,
       "license": "MIT",
       "updatedAt": "2026-08-25T16:01:57Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "weibaohui-dsh-continue",
-      "name": "dsh-continue",
-      "displayName": "continue",
-      "description": "Auto-resume for interrupted agent sessions: rules route by failure type (rate limit, quota, auth, context overflow, crashed orphan) into backoff retry, model switch, resume-after-compaction, or stop-loss notification, with a visual rule editor.",
-      "author": "weibaohui",
-      "repoUrl": "https://github.com/weibaohui/dsh-continue",
-      "category": "agent",
-      "tags": [
-        "editor",
-        "notification"
-      ],
-      "stars": 6,
-      "license": "MIT",
-      "updatedAt": "2026-10-10T04:59:08Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "weibaohui-dsh-smart-title",
-      "name": "dsh-smart-title",
-      "displayName": "smart title",
-      "description": "Smart session titles for DSH: after each conversation turn an independent auxiliary LLM call summarizes the full user+assistant transcript into a title that follows the session's real topic instead of echoing the first message; the first message is titled instantly, failed built-in titles auto-retry on later turns, manual renames are never overwritten, and subagent/fork sessions are skipped.",
-      "author": "weibaohui",
-      "repoUrl": "https://github.com/weibaohui/dsh-smart-title",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 6,
-      "license": "MIT",
-      "updatedAt": "2026-10-09T09:11:17Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1791,7 +1791,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-10-13T10:45:33Z",
+      "updatedAt": "2026-10-14T08:51:41Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1936,7 +1936,7 @@
       "tags": [],
       "stars": 4,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-13T12:57:20Z",
+      "updatedAt": "2026-10-14T19:28:53Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2151,7 +2151,7 @@
       "tags": [],
       "stars": 2,
       "license": "MIT",
-      "updatedAt": "2026-10-10T08:52:44Z",
+      "updatedAt": "2026-10-15T05:22:11Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3150,7 +3150,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-09T15:20:48Z",
+      "updatedAt": "2026-10-15T05:35:39Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3169,7 +3169,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-09T15:20:53Z",
+      "updatedAt": "2026-10-15T06:35:55Z",
       "install": {
         "type": "github",
         "profiles": [
