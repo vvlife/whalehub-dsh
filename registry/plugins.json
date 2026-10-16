@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-10-15T08:24:46.086Z",
+  "generatedAt": "2026-10-16T08:16:44.345Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 178,
+  "pluginCount": 179,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 8768,
+      "stars": 8809,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-15T03:21:35Z",
+      "updatedAt": "2026-10-16T08:10:47Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -46,9 +46,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 4620,
+      "stars": 4649,
       "license": "MIT",
-      "updatedAt": "2026-10-15T08:19:21Z",
+      "updatedAt": "2026-10-16T08:11:57Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -74,9 +74,9 @@
         "editor",
         "tui"
       ],
-      "stars": 4183,
+      "stars": 4204,
       "license": "MIT",
-      "updatedAt": "2026-10-14T15:43:23Z",
+      "updatedAt": "2026-10-16T02:41:45Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -98,7 +98,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 2601,
+      "stars": 2631,
       "license": null,
       "updatedAt": "2026-10-14T14:21:59Z",
       "install": {
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 2160,
+      "stars": 2183,
       "license": "MIT",
       "updatedAt": "2026-10-11T02:28:17Z",
       "install": {
@@ -146,7 +146,7 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 895,
+      "stars": 896,
       "license": "MIT",
       "updatedAt": "2026-10-13T09:12:15Z",
       "install": {
@@ -172,7 +172,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 667,
+      "stars": 674,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-09-29T13:34:29Z",
       "install": {
@@ -195,9 +195,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 596,
+      "stars": 605,
       "license": "MIT",
-      "updatedAt": "2026-10-15T03:18:44Z",
+      "updatedAt": "2026-10-15T16:31:54Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -216,7 +216,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 544,
+      "stars": 553,
       "license": "MIT",
       "updatedAt": "2026-10-14T16:27:31Z",
       "install": {
@@ -238,7 +238,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 525,
+      "stars": 523,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
@@ -305,7 +305,7 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 304,
+      "stars": 306,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-09-29T13:34:34Z",
       "install": {
@@ -326,7 +326,7 @@
       "tags": [
         "tui"
       ],
-      "stars": 285,
+      "stars": 286,
       "license": "Apache-2.0",
       "updatedAt": "2026-09-30T11:13:01Z",
       "install": {
@@ -345,9 +345,28 @@
       "repoUrl": "https://github.com/dhicoc/dsh-reverse-skill",
       "category": "tools",
       "tags": [],
-      "stars": 250,
+      "stars": 255,
       "license": "MIT",
       "updatedAt": "2026-10-08T09:10:26Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "nwflower-dsh-chat-import",
+      "name": "dsh-chat-import",
+      "displayName": "chat import",
+      "description": "Import Claude Code / Codex / ChatGPT / Cursor chat histories as resumable DeepSeek Harness sessions.",
+      "author": "Nwflower",
+      "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
+      "category": "integrations",
+      "tags": [],
+      "stars": 235,
+      "license": "MIT",
+      "updatedAt": "2026-10-15T14:06:06Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -367,25 +386,6 @@
       "stars": 232,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:51:31Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "nwflower-dsh-chat-import",
-      "name": "dsh-chat-import",
-      "displayName": "chat import",
-      "description": "Import Claude Code / Codex / ChatGPT / Cursor chat histories as resumable DeepSeek Harness sessions.",
-      "author": "Nwflower",
-      "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
-      "category": "integrations",
-      "tags": [],
-      "stars": 232,
-      "license": "MIT",
-      "updatedAt": "2026-10-13T03:40:55Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -440,7 +440,7 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 192,
+      "stars": 206,
       "license": "MIT",
       "updatedAt": "2026-10-13T03:50:17Z",
       "install": {
@@ -459,9 +459,28 @@
       "repoUrl": "https://github.com/ZSeven-W/dsh-openpencil",
       "category": "web-ui",
       "tags": [],
-      "stars": 185,
+      "stars": 186,
       "license": "MIT",
       "updatedAt": "2026-10-06T19:56:23Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "omdsh-dev-dsh-annotation",
+      "name": "dsh-annotation",
+      "displayName": "annotation",
+      "description": "Select text → annotate → send as a message; bubble-hidden annotation blocks.",
+      "author": "omdsh-dev",
+      "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
+      "category": "web-ui",
+      "tags": [],
+      "stars": 144,
+      "license": "MIT",
+      "updatedAt": "2026-10-14T03:25:06Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -494,25 +513,6 @@
       "notes": "私有仓库（dsh-external），github: 安装需读取权限；需 Node >=22.19。装完用 dsh --profile web --dump-config 验证出现 dsh-external-workflow 后重启。/workflow create 不接受 --wait。",
       "featured": true,
       "private": true
-    },
-    {
-      "slug": "omdsh-dev-dsh-annotation",
-      "name": "dsh-annotation",
-      "displayName": "annotation",
-      "description": "Select text → annotate → send as a message; bubble-hidden annotation blocks.",
-      "author": "omdsh-dev",
-      "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
-      "category": "web-ui",
-      "tags": [],
-      "stars": 143,
-      "license": "MIT",
-      "updatedAt": "2026-10-14T03:25:06Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
     },
     {
       "slug": "perrylink-dsh-memento",
@@ -568,9 +568,9 @@
         "desktop",
         "sidebar"
       ],
-      "stars": 127,
+      "stars": 130,
       "license": "MIT",
-      "updatedAt": "2026-10-15T08:13:12Z",
+      "updatedAt": "2026-10-16T08:06:03Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -587,7 +587,7 @@
       "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
       "category": "web-ui",
       "tags": [],
-      "stars": 126,
+      "stars": 127,
       "license": "MIT",
       "updatedAt": "2026-09-24T16:21:53Z",
       "install": {
@@ -649,9 +649,9 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 73,
+      "stars": 76,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:36Z",
+      "updatedAt": "2026-10-16T04:54:05Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -687,7 +687,7 @@
       "repoUrl": "https://github.com/Anionex/dsh-computer-use",
       "category": "web-ui",
       "tags": [],
-      "stars": 58,
+      "stars": 59,
       "license": "MIT",
       "updatedAt": "2026-10-08T04:48:13Z",
       "install": {
@@ -769,7 +769,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-data-quality",
       "category": "tools",
       "tags": [],
-      "stars": 53,
+      "stars": 54,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:52:01Z",
       "install": {
@@ -932,7 +932,7 @@
       "repoUrl": "https://github.com/weibaohui/skills-management",
       "category": "ecosystem",
       "tags": [],
-      "stars": 31,
+      "stars": 32,
       "license": null,
       "updatedAt": "2026-10-09T09:42:58Z",
       "install": {
@@ -951,7 +951,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-lsp-actions",
       "category": "tools",
       "tags": [],
-      "stars": 28,
+      "stars": 29,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:52:31Z",
       "install": {
@@ -992,28 +992,6 @@
       "stars": 28,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T14:38:48Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "siweina-dsh-novel-writer",
-      "name": "dsh-novel-writer",
-      "displayName": "novel writer",
-      "description": "A local workbench for Chinese web-novel writers: a pre-draft chapter brief gathers the previous hand-off, outline, character cards, unresolved plot threads and language rules; after drafting, a six-dimension prose baseline drives a quantified self-check and a prioritised revision plan with original line numbers; across chapters it reports plot-thread spans, characters missing too long and outline drift. All analysis runs on a bundled 24MB Chinese model on-device",
-      "author": "siweina",
-      "repoUrl": "https://github.com/siweina/dsh-novel-writer",
-      "category": "tools",
-      "tags": [
-        "vision",
-        "sidebar"
-      ],
-      "stars": 24,
-      "license": "MIT",
-      "updatedAt": "2026-10-11T02:29:36Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1065,6 +1043,28 @@
       }
     },
     {
+      "slug": "siweina-dsh-novel-writer",
+      "name": "dsh-novel-writer",
+      "displayName": "novel writer",
+      "description": "A local workbench for Chinese web-novel writers: a pre-draft chapter brief gathers the previous hand-off, outline, character cards, unresolved plot threads and language rules; after drafting, a six-dimension prose baseline drives a quantified self-check and a prioritised revision plan with original line numbers; across chapters it reports plot-thread spans, characters missing too long and outline drift. All analysis runs on a bundled 24MB Chinese model on-device",
+      "author": "siweina",
+      "repoUrl": "https://github.com/siweina/dsh-novel-writer",
+      "category": "tools",
+      "tags": [
+        "vision",
+        "sidebar"
+      ],
+      "stars": 23,
+      "license": "MIT",
+      "updatedAt": "2026-10-15T11:52:33Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-defend",
       "name": "dsh-defend",
       "displayName": "defend",
@@ -1094,7 +1094,7 @@
       "tags": [],
       "stars": 22,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:53:23Z",
+      "updatedAt": "2026-10-16T06:54:39Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1153,7 +1153,49 @@
       "tags": [],
       "stars": 20,
       "license": "MIT",
-      "updatedAt": "2026-10-15T05:17:49Z",
+      "updatedAt": "2026-10-16T05:03:54Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-local-ai",
+      "name": "dsh-local-ai",
+      "displayName": "local ai",
+      "description": "Ollama integration: discover, pull and route to local models by task type, with automatic fallback to the cloud.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-local-ai",
+      "category": "integrations",
+      "tags": [
+        "bridge"
+      ],
+      "stars": 20,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T13:52:28Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-click",
+      "name": "dsh-click",
+      "displayName": "click",
+      "description": "Native desktop control (Windows first): screen capture, read, click, type, scroll and app launch, approval-gated and never stealing focus.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-click",
+      "category": "terminal",
+      "tags": [
+        "desktop"
+      ],
+      "stars": 19,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T13:51:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1194,48 +1236,6 @@
       "stars": 19,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:53:20Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-local-ai",
-      "name": "dsh-local-ai",
-      "displayName": "local ai",
-      "description": "Ollama integration: discover, pull and route to local models by task type, with automatic fallback to the cloud.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-local-ai",
-      "category": "integrations",
-      "tags": [
-        "bridge"
-      ],
-      "stars": 19,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:28Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-click",
-      "name": "dsh-click",
-      "displayName": "click",
-      "description": "Native desktop control (Windows first): screen capture, read, click, type, scroll and app launch, approval-gated and never stealing focus.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-click",
-      "category": "terminal",
-      "tags": [
-        "desktop"
-      ],
-      "stars": 18,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:51:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1294,7 +1294,7 @@
       "tags": [],
       "stars": 15,
       "license": "MIT",
-      "updatedAt": "2026-10-15T01:41:37Z",
+      "updatedAt": "2026-10-16T03:19:14Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1522,6 +1522,27 @@
       }
     },
     {
+      "slug": "perrylink-dsh-draw",
+      "name": "dsh-draw",
+      "displayName": "draw",
+      "description": "Unified static-image generation: one image_generate tool with config-driven engine routing and health-aware fallback.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-draw",
+      "category": "vision",
+      "tags": [
+        "vision"
+      ],
+      "stars": 10,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T13:52:10Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-budget",
       "name": "dsh-budget",
       "displayName": "budget",
@@ -1541,19 +1562,17 @@
       }
     },
     {
-      "slug": "perrylink-dsh-draw",
-      "name": "dsh-draw",
-      "displayName": "draw",
-      "description": "Unified static-image generation: one image_generate tool with config-driven engine routing and health-aware fallback.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-draw",
-      "category": "vision",
-      "tags": [
-        "vision"
-      ],
+      "slug": "leechen298-code2skill",
+      "name": "Code2Skill",
+      "displayName": "Code2Skill",
+      "description": "Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle.",
+      "author": "leechen298",
+      "repoUrl": "https://github.com/leechen298/Code2Skill",
+      "category": "tools",
+      "tags": [],
       "stars": 9,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:10Z",
+      "license": "MIT",
+      "updatedAt": "2026-10-07T05:39:18Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1611,25 +1630,6 @@
       "stars": 9,
       "license": "MIT",
       "updatedAt": "2026-09-11T18:25:33Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "leechen298-code2skill",
-      "name": "Code2Skill",
-      "displayName": "Code2Skill",
-      "description": "Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle.",
-      "author": "leechen298",
-      "repoUrl": "https://github.com/leechen298/Code2Skill",
-      "category": "tools",
-      "tags": [],
-      "stars": 8,
-      "license": "MIT",
-      "updatedAt": "2026-10-07T05:39:18Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1791,7 +1791,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:51:41Z",
+      "updatedAt": "2026-10-15T08:27:50Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1936,7 +1936,7 @@
       "tags": [],
       "stars": 4,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T19:28:53Z",
+      "updatedAt": "2026-10-15T10:18:19Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2074,6 +2074,28 @@
       "stars": 3,
       "license": "MIT",
       "updatedAt": "2026-08-19T03:23:19Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "weibaohui-dsh-settings-ui",
+      "name": "dsh-settings-ui",
+      "displayName": "settings ui",
+      "description": "Customizes the native DSH settings window: preset/custom sizes, fullscreen, background transparency, and theme/solid-color/image backgrounds, with a floating-ball quick access; saved in the local browser.",
+      "author": "weibaohui",
+      "repoUrl": "https://github.com/weibaohui/dsh-settings-ui",
+      "category": "web-ui",
+      "tags": [
+        "skin",
+        "vision"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "updatedAt": "2026-10-09T09:11:40Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2312,7 +2334,7 @@
       "tags": [],
       "stars": 2,
       "license": "MIT",
-      "updatedAt": "2026-10-12T15:19:27Z",
+      "updatedAt": "2026-10-16T07:54:45Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2335,28 +2357,6 @@
       "stars": 1,
       "license": "MIT",
       "updatedAt": "2026-08-28T12:50:14Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "weibaohui-dsh-settings-ui",
-      "name": "dsh-settings-ui",
-      "displayName": "settings ui",
-      "description": "Customizes the native DSH settings window: preset/custom sizes, fullscreen, background transparency, and theme/solid-color/image backgrounds, with a floating-ball quick access; saved in the local browser.",
-      "author": "weibaohui",
-      "repoUrl": "https://github.com/weibaohui/dsh-settings-ui",
-      "category": "web-ui",
-      "tags": [
-        "skin",
-        "vision"
-      ],
-      "stars": 1,
-      "license": "MIT",
-      "updatedAt": "2026-10-09T09:11:40Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3093,7 +3093,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-09T15:22:34Z",
+      "updatedAt": "2026-10-15T18:05:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3112,7 +3112,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-09T15:22:24Z",
+      "updatedAt": "2026-10-15T20:55:47Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3131,7 +3131,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-09T15:24:12Z",
+      "updatedAt": "2026-10-15T11:55:33Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3188,7 +3188,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-09T15:20:58Z",
+      "updatedAt": "2026-10-15T22:45:01Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3685,6 +3685,25 @@
       "stars": 0,
       "license": "MIT",
       "updatedAt": "2026-10-09T02:08:10Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "diwer-dsh-codex-adapter",
+      "name": "dsh-codex-adapter",
+      "displayName": "codex adapter",
+      "description": "在 DeepSeek Harness 桌面版中使用 ChatGPT 订阅登录，选择 GPT 模型，支持账户可用的图片能力和宿主工具。",
+      "author": "diwer",
+      "repoUrl": "https://github.com/diwer/dsh-codex-adapter",
+      "category": "integrations",
+      "tags": [],
+      "stars": 0,
+      "license": "MIT",
+      "updatedAt": "2026-10-16T06:46:10Z",
       "install": {
         "type": "github",
         "profiles": [

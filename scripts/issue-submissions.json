@@ -617,5 +617,17 @@
       ]
     },
     "notes": "- **浮层本体需要 macOS**（AppKit）+ Xcode 命令行工具（`swiftc`）：首次使用时按需编译到 `~/.dsh/dsh-testhud/bin/testhud`，本机约 3~4 秒，之后复用；没有 `swiftc` 时工具照样记录每一步与结论，只是如实告诉你「浮层没画出来」。进度文件与工具本身跨平台可用。\n- `peerDependencies` 声明 `@deepseek-ai/dsh-tools ~0.2.0-rc.2`：运行版本落在范围外时宿主会**拒绝加载整个 bundle**（而不是半挂上），需要时改这一行即可。\n- **不改被测应用的任何文件**：只在 `~/.dsh/test-progress.json` 写进度（朴素 JSON，任何脚本都能写）。\n- 面板**鼠标穿透、置顶、不抢焦点**，不进 Dock 也不进 ⌘Tab；只有顶部色带（拖拽把手）与内容溢出时的拖动命中层会接鼠标。\n- 界面文案**中英双语**（跟随系统语言）；面板上出现的每一个颜色都取自 Apple 色卡。"
+  },
+  {
+    "fullName": "diwer/dsh-codex-adapter",
+    "category": "integrations",
+    "tagline": "在 DeepSeek Harness 桌面版中使用 ChatGPT 订阅登录，选择 GPT 模型，支持账户可用的图片能力和宿主工具。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "需要用户自己的 ChatGPT 账号及可用订阅/模型权限；不要求填写 API Key。面向 macOS DeepSeek Harness 桌面版 0.2.0-rc.2，使用 desktop Profile。MIT 许可，社区插件，并非 OpenAI 或 DeepSeek 官方产品。请按市场流程独立验证，不将作者测试标为市场认证。"
   }
 ]
