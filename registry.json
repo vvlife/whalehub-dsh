@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-10-17T07:53:12.680Z",
+  "generatedAt": "2026-10-18T08:07:36.376Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 180,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 8842,
+      "stars": 8922,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-17T05:20:21Z",
+      "updatedAt": "2026-10-17T17:33:38Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -46,9 +46,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 4690,
+      "stars": 4765,
       "license": "MIT",
-      "updatedAt": "2026-10-17T07:37:36Z",
+      "updatedAt": "2026-10-18T07:50:39Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -74,9 +74,9 @@
         "editor",
         "tui"
       ],
-      "stars": 4217,
+      "stars": 4263,
       "license": "MIT",
-      "updatedAt": "2026-10-17T06:23:53Z",
+      "updatedAt": "2026-10-17T16:15:27Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 2645,
+      "stars": 2663,
       "license": null,
-      "updatedAt": "2026-10-17T07:15:56Z",
+      "updatedAt": "2026-10-18T05:09:11Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,9 +121,9 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 2200,
+      "stars": 2230,
       "license": "MIT",
-      "updatedAt": "2026-10-11T02:28:17Z",
+      "updatedAt": "2026-10-18T04:19:48Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -146,9 +146,9 @@
         "ocr",
         "multimodal"
       ],
-      "stars": 895,
+      "stars": 896,
       "license": "MIT",
-      "updatedAt": "2026-10-13T09:12:15Z",
+      "updatedAt": "2026-10-18T02:42:13Z",
       "install": {
         "type": "manual",
         "profiles": [
@@ -172,9 +172,9 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 674,
+      "stars": 676,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-09-29T13:34:29Z",
+      "updatedAt": "2026-10-17T12:35:00Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -195,9 +195,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 614,
+      "stars": 627,
       "license": "MIT",
-      "updatedAt": "2026-10-16T14:06:20Z",
+      "updatedAt": "2026-10-17T15:57:56Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -216,9 +216,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 569,
+      "stars": 580,
       "license": "MIT",
-      "updatedAt": "2026-10-17T07:47:40Z",
+      "updatedAt": "2026-10-17T19:40:05Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -238,7 +238,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 524,
+      "stars": 525,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
@@ -260,7 +260,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 359,
+      "stars": 363,
       "license": "MIT",
       "updatedAt": "2026-10-16T11:26:13Z",
       "install": {
@@ -305,9 +305,9 @@
         "genui",
         "generative-ui"
       ],
-      "stars": 309,
+      "stars": 310,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-09-29T13:34:34Z",
+      "updatedAt": "2026-10-18T06:44:32Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -345,7 +345,7 @@
       "repoUrl": "https://github.com/dhicoc/dsh-reverse-skill",
       "category": "tools",
       "tags": [],
-      "stars": 260,
+      "stars": 261,
       "license": "MIT",
       "updatedAt": "2026-10-08T09:10:26Z",
       "install": {
@@ -364,9 +364,9 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 235,
+      "stars": 238,
       "license": "MIT",
-      "updatedAt": "2026-10-16T17:53:29Z",
+      "updatedAt": "2026-10-17T12:56:35Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -383,9 +383,9 @@
       "repoUrl": "https://github.com/PerryLink/dsh-auto-review",
       "category": "agent",
       "tags": [],
-      "stars": 233,
+      "stars": 234,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-17T00:54:13Z",
+      "updatedAt": "2026-10-18T05:09:59Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -404,7 +404,26 @@
       "tags": [],
       "stars": 218,
       "license": "MIT",
-      "updatedAt": "2026-10-17T05:25:29Z",
+      "updatedAt": "2026-10-17T11:29:22Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-industry-research",
+      "name": "dsh-industry-research",
+      "displayName": "industry research",
+      "description": "Industry and company research pack: chain mapping, policy and news tracking, research cards and auditable reports.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-industry-research",
+      "category": "tools",
+      "tags": [],
+      "stars": 214,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T13:52:20Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -424,25 +443,6 @@
       "stars": 213,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:53:14Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-industry-research",
-      "name": "dsh-industry-research",
-      "displayName": "industry research",
-      "description": "Industry and company research pack: chain mapping, policy and news tracking, research cards and auditable reports.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-industry-research",
-      "category": "tools",
-      "tags": [],
-      "stars": 212,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:20Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -478,7 +478,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-annotation",
       "category": "web-ui",
       "tags": [],
-      "stars": 146,
+      "stars": 148,
       "license": "MIT",
       "updatedAt": "2026-10-14T03:25:06Z",
       "install": {
@@ -501,7 +501,7 @@
         "multi-agent",
         "governance"
       ],
-      "stars": 145,
+      "stars": 146,
       "license": "MIT",
       "updatedAt": "2026-10-14T01:10:07Z",
       "install": {
@@ -513,6 +513,29 @@
       "notes": "私有仓库（dsh-external），github: 安装需读取权限；需 Node >=22.19。装完用 dsh --profile web --dump-config 验证出现 dsh-external-workflow 后重启。/workflow create 不接受 --wait。",
       "featured": true,
       "private": true
+    },
+    {
+      "slug": "sutera-diffusus-dsh-whale-musume",
+      "name": "dsh-whale-musume",
+      "displayName": "whale musume",
+      "description": "Whale-girl desktop pet for DSH, supporting both the Desktop app (Electron shell, bundled DSH 0.2.0-rc.2) and the Web UI: pat-to-raise growth, per-tool work poses, 90+ artworks, 39 achievements, optional weather companion and MiMo TTS line playback, built-in settings panel; local-first, zero telemetry, 142 unit tests.",
+      "author": "Sutera-Diffusus",
+      "repoUrl": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+      "category": "web-ui",
+      "tags": [
+        "skin",
+        "desktop",
+        "sidebar"
+      ],
+      "stars": 136,
+      "license": "MIT",
+      "updatedAt": "2026-10-18T07:58:36Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
     },
     {
       "slug": "perrylink-dsh-memento",
@@ -547,30 +570,7 @@
       ],
       "stars": 133,
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-10-01T04:45:58Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "sutera-diffusus-dsh-whale-musume",
-      "name": "dsh-whale-musume",
-      "displayName": "whale musume",
-      "description": "Whale-girl desktop pet for DSH, supporting both the Desktop app (Electron shell, bundled DSH 0.2.0-rc.2) and the Web UI: pat-to-raise growth, per-tool work poses, 90+ artworks, 39 achievements, optional weather companion and MiMo TTS line playback, built-in settings panel; local-first, zero telemetry, 142 unit tests.",
-      "author": "Sutera-Diffusus",
-      "repoUrl": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
-      "category": "web-ui",
-      "tags": [
-        "skin",
-        "desktop",
-        "sidebar"
-      ],
-      "stars": 132,
-      "license": "MIT",
-      "updatedAt": "2026-10-17T07:43:45Z",
+      "updatedAt": "2026-10-18T02:30:38Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -628,7 +628,7 @@
         "notification",
         "desktop"
       ],
-      "stars": 88,
+      "stars": 89,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:44Z",
       "install": {
@@ -670,7 +670,7 @@
       "tags": [],
       "stars": 67,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:15Z",
+      "updatedAt": "2026-10-18T06:56:04Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -689,7 +689,7 @@
       "tags": [],
       "stars": 60,
       "license": "MIT",
-      "updatedAt": "2026-10-08T04:48:13Z",
+      "updatedAt": "2026-10-18T02:28:54Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -752,7 +752,7 @@
       "tags": [],
       "stars": 55,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:06Z",
+      "updatedAt": "2026-10-18T06:49:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -771,7 +771,7 @@
       "tags": [],
       "stars": 54,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:01Z",
+      "updatedAt": "2026-10-18T06:47:45Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -824,6 +824,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-plugin-guide",
+      "name": "dsh-plugin-guide",
+      "displayName": "plugin guide",
+      "description": "The plugin-development knowledge base as an installable agent skill: official docs, a Cordis primer and community pitfalls.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-plugin-guide",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 52,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-13T14:52:19Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "alingalingling-ui-status-label",
       "name": "ui-status-label",
       "displayName": "ui status label",
@@ -835,25 +854,6 @@
       "stars": 51,
       "license": "MIT",
       "updatedAt": "2026-08-15T08:57:01Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-plugin-guide",
-      "name": "dsh-plugin-guide",
-      "displayName": "plugin guide",
-      "description": "The plugin-development knowledge base as an installable agent skill: official docs, a Cordis primer and community pitfalls.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-plugin-guide",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 51,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-13T14:52:19Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -962,6 +962,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-claude-move",
+      "name": "dsh-claude-move",
+      "displayName": "claude move",
+      "description": "Four-source migration wizard: move Claude Code, Codex, OpenCode and Hermes sessions, memories and skills into DSH.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-claude-move",
+      "category": "integrations",
+      "tags": [],
+      "stars": 29,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-12T14:38:48Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "loserfox-distill",
       "name": "distill",
       "displayName": "distill",
@@ -981,25 +1000,6 @@
       }
     },
     {
-      "slug": "perrylink-dsh-claude-move",
-      "name": "dsh-claude-move",
-      "displayName": "claude move",
-      "description": "Four-source migration wizard: move Claude Code, Codex, OpenCode and Hermes sessions, memories and skills into DSH.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-claude-move",
-      "category": "integrations",
-      "tags": [],
-      "stars": 28,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T14:38:48Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-checkpoint-rewind",
       "name": "dsh-checkpoint-rewind",
       "displayName": "checkpoint rewind",
@@ -1010,7 +1010,7 @@
       "tags": [],
       "stars": 25,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:51:46Z",
+      "updatedAt": "2026-10-18T06:45:05Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1065,25 +1065,6 @@
       }
     },
     {
-      "slug": "perrylink-dsh-defend",
-      "name": "dsh-defend",
-      "displayName": "defend",
-      "description": "Prompt-injection, jailbreak and secret-leak defense with allow/ask/block interception and sanitized audit events.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-defend",
-      "category": "agent",
-      "tags": [],
-      "stars": 23,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:03Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-skill-pack-security",
       "name": "dsh-skill-pack-security",
       "displayName": "skill pack security",
@@ -1095,6 +1076,25 @@
       "stars": 22,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-16T06:54:39Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "perrylink-dsh-defend",
+      "name": "dsh-defend",
+      "displayName": "defend",
+      "description": "Prompt-injection, jailbreak and secret-leak defense with allow/ask/block interception and sanitized audit events.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-defend",
+      "category": "agent",
+      "tags": [],
+      "stars": 22,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-18T06:48:34Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1174,7 +1174,7 @@
       "tags": [],
       "stars": 20,
       "license": "MIT",
-      "updatedAt": "2026-10-16T16:56:02Z",
+      "updatedAt": "2026-10-18T05:39:10Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1214,7 +1214,7 @@
       ],
       "stars": 19,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:51:49Z",
+      "updatedAt": "2026-10-18T06:45:33Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1256,7 +1256,26 @@
       ],
       "stars": 17,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:51:57Z",
+      "updatedAt": "2026-10-18T06:46:26Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "zuoyunlai-lunheng-article-pipeline-dsh",
+      "name": "lunheng-article-pipeline-dsh",
+      "displayName": "lunheng article pipeline dsh",
+      "description": "Long-form writing pipeline skill bundle: 9 independent roles T1-T9 across 6 phases",
+      "author": "zuoyunlai",
+      "repoUrl": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh",
+      "category": "agent",
+      "tags": [],
+      "stars": 17,
+      "license": "MIT",
+      "updatedAt": "2026-10-18T03:38:14Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1276,25 +1295,6 @@
       "stars": 15,
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T13:53:25Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "zuoyunlai-lunheng-article-pipeline-dsh",
-      "name": "lunheng-article-pipeline-dsh",
-      "displayName": "lunheng article pipeline dsh",
-      "description": "Long-form writing pipeline skill bundle: 9 independent roles T1-T9 across 6 phases",
-      "author": "zuoyunlai",
-      "repoUrl": "https://github.com/zuoyunlai/lunheng-article-pipeline-dsh",
-      "category": "agent",
-      "tags": [],
-      "stars": 15,
-      "license": "MIT",
-      "updatedAt": "2026-10-17T04:45:03Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1437,7 +1437,26 @@
       "tags": [],
       "stars": 12,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:12Z",
+      "updatedAt": "2026-10-18T06:55:11Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "titanwings-dsh-plannotator",
+      "name": "dsh-plannotator",
+      "displayName": "plannotator",
+      "description": "Plan annotator.",
+      "author": "titanwings",
+      "repoUrl": "https://github.com/titanwings/dsh-plannotator",
+      "category": "agent",
+      "tags": [],
+      "stars": 12,
+      "license": "MIT",
+      "updatedAt": "2026-08-25T07:50:25Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1503,25 +1522,6 @@
       }
     },
     {
-      "slug": "titanwings-dsh-plannotator",
-      "name": "dsh-plannotator",
-      "displayName": "plannotator",
-      "description": "Plan annotator.",
-      "author": "titanwings",
-      "repoUrl": "https://github.com/titanwings/dsh-plannotator",
-      "category": "agent",
-      "tags": [],
-      "stars": 11,
-      "license": "MIT",
-      "updatedAt": "2026-08-25T07:50:25Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-draw",
       "name": "dsh-draw",
       "displayName": "draw",
@@ -1534,7 +1534,26 @@
       ],
       "stars": 10,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:52:10Z",
+      "updatedAt": "2026-10-18T06:54:20Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "leechen298-code2skill",
+      "name": "Code2Skill",
+      "displayName": "Code2Skill",
+      "description": "Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle.",
+      "author": "leechen298",
+      "repoUrl": "https://github.com/leechen298/Code2Skill",
+      "category": "tools",
+      "tags": [],
+      "stars": 10,
+      "license": "MIT",
+      "updatedAt": "2026-10-07T05:39:18Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1553,26 +1572,7 @@
       "tags": [],
       "stars": 10,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:51:38Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "leechen298-code2skill",
-      "name": "Code2Skill",
-      "displayName": "Code2Skill",
-      "description": "Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle.",
-      "author": "leechen298",
-      "repoUrl": "https://github.com/leechen298/Code2Skill",
-      "category": "tools",
-      "tags": [],
-      "stars": 9,
-      "license": "MIT",
-      "updatedAt": "2026-10-07T05:39:18Z",
+      "updatedAt": "2026-10-18T06:43:28Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1791,7 +1791,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-10-16T08:18:15Z",
+      "updatedAt": "2026-10-17T07:55:04Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1832,7 +1832,7 @@
       "tags": [],
       "stars": 5,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-16T10:06:44Z",
+      "updatedAt": "2026-10-17T09:40:41Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2173,7 +2173,7 @@
       "tags": [],
       "stars": 2,
       "license": "MIT",
-      "updatedAt": "2026-10-15T05:22:11Z",
+      "updatedAt": "2026-10-17T10:28:08Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2515,7 +2515,7 @@
       "tags": [],
       "stars": 1,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:51:34Z",
+      "updatedAt": "2026-10-18T06:42:38Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2870,7 +2870,7 @@
       "tags": [],
       "stars": 1,
       "license": "MIT",
-      "updatedAt": "2026-10-05T05:40:23Z",
+      "updatedAt": "2026-10-17T11:51:10Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3076,7 +3076,7 @@
       "tags": [],
       "stars": 0,
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T13:51:44Z",
+      "updatedAt": "2026-10-18T06:44:38Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3114,7 +3114,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-15T18:05:56Z",
+      "updatedAt": "2026-10-18T04:45:37Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3133,7 +3133,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-15T20:55:47Z",
+      "updatedAt": "2026-10-18T04:43:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3152,7 +3152,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-15T11:55:33Z",
+      "updatedAt": "2026-10-18T05:53:45Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3171,7 +3171,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-15T05:35:39Z",
+      "updatedAt": "2026-10-18T04:07:19Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3190,7 +3190,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-15T06:35:55Z",
+      "updatedAt": "2026-10-18T04:10:01Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3209,7 +3209,7 @@
       "tags": [],
       "stars": 0,
       "license": null,
-      "updatedAt": "2026-10-15T22:45:01Z",
+      "updatedAt": "2026-10-18T04:11:18Z",
       "install": {
         "type": "github",
         "profiles": [
