@@ -629,5 +629,16 @@
       ]
     },
     "notes": "需要用户自己的 ChatGPT 账号及可用订阅/模型权限；不要求填写 API Key。面向 macOS DeepSeek Harness 桌面版 0.2.0-rc.2，使用 desktop Profile。MIT 许可，社区插件，并非 OpenAI 或 DeepSeek 官方产品。请按市场流程独立验证，不将作者测试标为市场认证。"
+  },
+  {
+    "fullName": "gulagala001/dsh-workflow",
+    "category": "agent",
+    "tagline": "为 DSH 原生 Workflow 提供可保存、嵌套、续跑的 JavaScript 编排、共享输出目标、worktree 隔离与原生 Jobs／工作流面板。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    }
   }
 ]
