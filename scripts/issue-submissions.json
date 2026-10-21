@@ -640,5 +640,53 @@
         "web"
       ]
     }
+  },
+  {
+    "fullName": "gulagala001/dsh-theme-plugin",
+    "category": "web-ui",
+    "tagline": "在 DSH 设置中统一管理外观和主题，浏览带图片的多来源市场，一键检查安装，并提供失败恢复与 AI 修复说明。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "Targets DSH 0.2.1-rc.2 exactly, Cordis 4.0.5 and Node.js 22.19+. Version 0.2.0 uses real native theme backends, configuration validation/persistence and isolated pre-install checks. A fixed 549-entry catalog snapshot was prepared and runnable candidates exercised individually on macOS: 454 passed basic runtime checks; 95 remained blocked, including obsolete interfaces, missing resources and runtime faults. Real market installation of dsh-ads and ORCA Link, native configuration writes, restart recovery and coinstallation were verified. Windows/Linux devices and every additional feature or plugin combination are not verified. Theme backends retain normal Node/DSH capabilities; preflight is not a malicious-code sandbox."
+  },
+  {
+    "fullName": "gulagala001/dsh-btw",
+    "category": "web-ui",
+    "tagline": "在主输入框上方使用原生弹窗，借助当前会话上下文进行旁聊与追问，主任务可继续运行。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "Targets DeepSeek Harness 0.2.1-rc.2 exactly, Cordis 4.0.5 and Node.js 22.19+. Verified on macOS with the real release runtime in an isolated native DSH Web profile: package installation, /btw entry, native popover/history/follow-up interactions, independent cancellation and main-conversation preservation. Four focused tests and the main/tag CI passed. Windows, Linux and Electron desktop device flows have not been tested. Cache reuse preserves the main request prefix and provider affinity, but actual cache hits depend on the provider."
+  },
+  {
+    "fullName": "gulagala001/dsh-deepseek-workbench",
+    "category": "integrations",
+    "tagline": "在 DeepSeek Harness 中使用 DeepSeek 网页聊天、临时侧栏聊天和 API 开放平台，并将网页历史迁移为可继续的 DSH 会话。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "精确适配 DSH 0.2.1-rc.2、Cordis 4.0.5，要求 Node.js ≥22.19。标准 rc.2 桌面提供隔离页面与页面读取；网页聊天操作使用匹配的桌面浏览器 bridge。跨重启持久登录、官网附件下载和扩展平台页面使用配套源码适配，可在自己的匹配宿主副本中独立应用；插件按真实宿主能力提供功能。浏览器版 DSH 受官网嵌入与跨域限制，提供外部浏览器入口。官网聊天登录与 API 平台授权分别管理。\n\n普通网页聊天保留官网历史；临时侧栏关闭会删除自己的官网会话，失败保留面板供重试。包通过固定 GitHub Release 分发。"
+  },
+  {
+    "fullName": "gulagala001/dsh-undo-plugin",
+    "category": "web-ui",
+    "tagline": "为 DeepSeek Harness 提供对话与工作区文件原地撤回，支持确认和撤销撤回。",
+    "install": {
+      "type": "github",
+      "profiles": [
+        "web"
+      ]
+    },
+    "notes": "精确适配 DSH 0.2.1-rc.2，Node.js 22.19+。macOS 已验证原生安装、对话与文件撤回、撤销撤回、快捷键和附件；Windows/Linux 实机未验证。使用 GitHub 固定版本包，不发布到 npm。"
   }
 ]
