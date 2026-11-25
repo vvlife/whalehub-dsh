@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-11-25T07:15:52.803Z",
+  "generatedAt": "2026-11-25T07:24:53.726Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 202,
   "plugins": [
@@ -2010,7 +2010,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-10-21T08:43:04Z",
+      "updatedAt": "2026-11-25T07:23:20Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2219,6 +2219,27 @@
       }
     },
     {
+      "slug": "wychmod-dsh-mini-superagent",
+      "name": "dsh-mini-superagent",
+      "displayName": "mini superagent",
+      "description": "Task dispatch from the main session to independent background sub-sessions that return immediately and report back automatically; a sidebar workbench shows concurrency, queueing, batch progress and failure reasons, with cancel, retry and archive. 10 `dispatch_*` tools, zero runtime dependencies, pure ESM. Install: `dsh plugin add dsh-mini-superagent`.",
+      "author": "wychmod",
+      "repoUrl": "https://github.com/wychmod/dsh-mini-superagent",
+      "category": "agent",
+      "tags": [
+        "sidebar"
+      ],
+      "stars": 4,
+      "license": "MIT",
+      "updatedAt": "2026-11-21T16:42:22Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "pandapolo-dsh-voice-call",
       "name": "dsh-voice-call",
       "displayName": "voice call",
@@ -2410,27 +2431,6 @@
       "stars": 3,
       "license": "MIT",
       "updatedAt": "2026-10-29T01:28:38Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "wychmod-dsh-mini-superagent",
-      "name": "dsh-mini-superagent",
-      "displayName": "mini superagent",
-      "description": "Task dispatch from the main session to independent background sub-sessions that return immediately and report back automatically; a sidebar workbench shows concurrency, queueing, batch progress and failure reasons, with cancel, retry and archive. 10 `dispatch_*` tools, zero runtime dependencies, pure ESM. Install: `dsh plugin add dsh-mini-superagent`.",
-      "author": "wychmod",
-      "repoUrl": "https://github.com/wychmod/dsh-mini-superagent",
-      "category": "agent",
-      "tags": [
-        "sidebar"
-      ],
-      "stars": 3,
-      "license": "MIT",
-      "updatedAt": "2026-11-21T16:42:22Z",
       "install": {
         "type": "github",
         "profiles": [
