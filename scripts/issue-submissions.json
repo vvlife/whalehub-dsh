@@ -688,5 +688,44 @@
       ]
     },
     "notes": "精确适配 DSH 0.2.1-rc.2，Node.js 22.19+。macOS 已验证原生安装、对话与文件撤回、撤销撤回、快捷键和附件；Windows/Linux 实机未验证。使用 GitHub 固定版本包，不发布到 npm。"
+  },
+  {
+    "fullName": "gulagala001/dsh-persona-plugin",
+    "category": "agent",
+    "tagline": "Create, import and manage personality presets with global and per-conversation choices.",
+    "install": {
+      "type": "manual",
+      "profiles": [
+        "web"
+      ],
+      "command": "dsh plugin --profile web add https://github.com/gulagala001/dsh-persona-plugin/releases/download/v0.1.2-dsh.0.2.1-rc.3/gulagala001-dsh-persona-plugin-0.1.2-dsh.0.2.1-rc.3.tgz"
+    },
+    "notes": "Exact DSH 0.2.1-rc.3; use the host-matched fixed GitHub package. Public-source, build and archive checks passed. No new full desktop GUI runtime check is claimed. Other host versions are not claimed."
+  },
+  {
+    "fullName": "gulagala001/dsh-extensions",
+    "category": "ecosystem",
+    "tagline": "Manage skills, MCP servers, instruction files, custom commands and hooks.",
+    "install": {
+      "type": "manual",
+      "profiles": [
+        "web"
+      ],
+      "command": "dsh plugin --profile web add https://github.com/gulagala001/dsh-extensions/releases/download/v0.1.2-dsh.0.2.1-rc.3/dsh-extensions-0.1.2-dsh.0.2.1-rc.3.tgz"
+    },
+    "notes": "Exact DSH 0.2.1-rc.3; use the host-matched fixed GitHub package. Public-source, build and archive checks passed. No new full desktop GUI runtime check is claimed. Other host versions are not claimed."
+  },
+  {
+    "fullName": "gulagala001/dsh-intelligent-ui",
+    "category": "web-ui",
+    "tagline": "Native interactive answers, editable cards and on-demand UI skills for DSH.",
+    "install": {
+      "type": "manual",
+      "profiles": [
+        "web"
+      ],
+      "command": "dsh plugin --profile web add https://github.com/gulagala001/dsh-intelligent-ui/releases/download/v0.2.1-rc.3.iui.1.0.13/dsh-intelligent-ui-0.2.1-rc.3.iui.1.0.13.tgz"
+    },
+    "notes": "适用 Profile：`web`，Node.js >=22.19。上面的安装方式仅用于 DSH `0.2.1-alpha.2`；另提供 `0.2.0-rc.2` 与 `0.2.1-alpha.1` 的宿主匹配固定发行包，完整对应关系见下。安装后重启 DSH Web。\n\n**身份与安装来源**：这是 `gulagala001/dsh-intelligent-ui`，独立 DSH Web 插件，OMD 可选。尚未发布 npm 包；`yunyv/dsh-intelligent-ui` 和 npm 上的同名 `dsh-intelligent-ui` 属于其他项目，不是本次投稿目标。请按完整宿主版本选择下面的固定 tgz，不生成裸 npm 同名安装命令。\n\n**需要人工审核安装入口**：当前 `scripts/process-issues.mjs` 的 `parseInstall()` 不识别 HTTPS tgz，会退回 GitHub 源码安装；`scripts/sync-registry.mjs` 又从静态 `OVERRIDES` 取安装元数据，没有保留 Issue 队列里的自定义 install。请维护者在本条目使用匹配宿主的固定 tgz override；如当前条目能力暂不接受此入口，请先保持仅浏览/链接发行页（browse-only），不要暴露裸 npm 或默认 GitHub 源码的一键安装。\n\n为避免本条被 `[Plugin]` 标题自动队列误处理，暂用 `[Plugin manual review]` 标題保留正式模板字段，待维护者确认入口后再进入自动队列。这里不请求修改市场公共实现。\n\n请采用支持完整宿主匹配的自定义安装入口，避免默认 npm / 未固定源码分支安装。该项目尚未向同源 `vvlife/awesome-deepseek-harness-plugins` 重复提交；本次只通过 WhaleHub 官方 Issue 队列申请收录。"
   }
 ]

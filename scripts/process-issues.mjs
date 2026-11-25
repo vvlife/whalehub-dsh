@@ -2,9 +2,12 @@
 /**
  * process-issues.mjs — 每日 CI 顺手处理插件提交 Issue
  *
- * 流程（仅处理标题以 [Plugin] 开头的 open issue）：
+ * 流程（处理标题以 [Plugin] 或 [Plugin manual review] 开头的 open issue）：
  *   1. 从 issue 标题 / 表单正文解析出 fullName / category / tagline / install / notes；
- *   2. 用 verify-plugin.mjs 的 isRealDshPlugin 做"真·DSH 插件"校验：
+ *      标题只是项目名时回退表单仓库栏；安装方式里的固定 GitHub release tgz
+ *      会原样保留为自定义命令（不会退回 github: 源码安装）；
+ *   2. 固定 release tgz 做 URL 格式 + 可达性校验；其余用
+ *      verify-plugin.mjs 的 isRealDshPlugin 做"真·DSH 插件"校验：
  *      - ok    → 写入 scripts/issue-submissions.json（下次 sync 自动进注册表），
  *                留言"已收录"并关闭 issue；
  *      - fail  → 确凿不达标（无 package.json / 有但不声明 dsh.bundle.patch / npm 包找不到），
@@ -28,8 +31,8 @@
  */
 import { execFileSync } from 'node:child_process'
 import { readFileSync, writeFileSync } from 'node:fs'
-import { join, dirname } from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { join, dirname, resolve } from 'node:path'
+import { fileURLToPath, pathToFileURL } from 'node:url'
 import { isRealDshPlugin } from './verify-plugin.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
@@ -98,13 +101,23 @@ const CATEGORY_KEYS = {
   'fun': /fun|好玩|杂项|misc/i,
 }
 
-function parseIssue(title, body) {
-  // 仓库：优先标题 [Plugin] owner/repo，回退正文首个 github.com/owner/repo
+/** 只接受真正的 owner/repo 形式，避免把 "[Plugin] Persona" 当成仓库名 */
+function isValidFullName(s) {
+  return !!s && /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(s)
+}
+
+export function parseIssue(title, body) {
+  // 仓库：优先标题 [Plugin] owner/repo；标题只是项目名（如 "[Plugin] Persona"）
+  // 时回退到表单的"GitHub 仓库地址"栏，最后才是正文里首个 github.com/owner/repo。
   let fullName = null
-  const tm = title.match(/\[Plugin\]\s*([^\]\s`*]+)/i)
-  if (tm) fullName = tm[1].replace(/[`*]/g, '').trim()
+  const tm = title.match(/^\[Plugin(?:\s+manual\s+review)?\]\s*([^\]\s`*—]+)/i)
+  const fromTitle = tm ? tm[1].replace(/[`*]/g, '').trim() : null
+  if (isValidFullName(fromTitle)) fullName = fromTitle
   if (!fullName) {
-    const bm = body.match(/github\.com\/([A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+)/)
+    const repoSec = section(body, [
+      'GitHub 仓库地址', 'GitHub repository', '仓库地址', 'repository',
+    ])
+    const bm = (repoSec || body).match(/github\.com\/([A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+)/i)
     if (bm) fullName = bm[1]
   }
   if (fullName) fullName = fullName.split('/').slice(0, 2).join('/') // 剥掉子路径
@@ -127,17 +140,31 @@ function parseIssue(title, body) {
   return { fullName, category, tagline, install, notes }
 }
 
-function parseInstall(instSec) {
+export function parseInstall(instSec) {
   if (!instSec) return { type: 'github', profiles: ['web'] }
   const s = instSec.trim()
-  // npm：npm:pkg / dsh plugin add pkg（只取包名安全字符，避免吞入中文说明）
-  if (/npm/i.test(s)) {
+
+  // 固定发行包：dsh plugin add <GitHub release tgz URL>。必须原样保留 URL，
+  // 否则退回 github:owner/repo 源码安装会把作者明确固定的宿主版本装错。
+  const tgz = s.match(/https:\/\/[A-Za-z0-9_./%:@?&=+~#-]+\.tgz\b/i)
+  if (tgz) {
+    const url = tgz[0]
+    return {
+      type: 'manual',
+      profiles: ['web'],
+      command: `dsh plugin --profile web add ${url}`,
+    }
+  }
+
+  // npm：npm:pkg / dsh plugin add pkg（不强制正文出现 "npm" 字样；
+  // 只取包名安全字符，github: 目标留给下面的分支处理）
+  if (/npm/i.test(s) || /dsh\s+plugin(?:\s+--profile\s+[\w-]+)?\s+add\s+/i.test(s)) {
     const m =
       s.match(/npm:\s*([@A-Za-z0-9_./-]+)/i) ||
-      s.match(/dsh\s+plugin\s+add\s+([@A-Za-z0-9_./-]+)/i)
+      s.match(/dsh\s+plugin(?:\s+--profile\s+[\w-]+)?\s+add\s+([@A-Za-z0-9_./:+-]+)/i)
     if (m) {
       const pkg = m[1].replace(/^npm:/i, '')
-      if (pkg && !pkg.startsWith('github:')) return { type: 'npm', package: pkg, profiles: ['web'] }
+      if (pkg && !/^github:/i.test(pkg)) return { type: 'npm', package: pkg.replace(/["'`]+$/, ''), profiles: ['web'] }
     }
   }
   // 显式 github:（只取 URL 安全字符；可能带 #branch&path:/x 子目录）
@@ -151,10 +178,49 @@ function parseInstall(instSec) {
   return { type: 'github', profiles: ['web'] }
 }
 
-function oneClick(fullName, install) {
-  if (install.command) return `dsh plugin add "${install.command}"`
-  if (install.type === 'npm' && install.package) return `dsh plugin add ${install.package}`
-  return `dsh plugin add "github:${fullName}"`
+export function oneClick(fullName, install) {
+  if (install.command) return install.command
+  if (install.type === 'npm' && install.package) return `dsh plugin --profile web add ${install.package}`
+  return `dsh plugin --profile web add "github:${fullName}"`
+}
+
+/**
+ * 固定发行包（GitHub release tgz）只接受严格格式：
+ *   dsh plugin --profile <profile> add https://github.com/<当前仓库>/releases/download/<tag>/<file>.tgz
+ * 不接受任意 shell 命令，也不接受指向其他仓库的 tgz，避免 Issue 里的自定义
+ * command 变成任意命令注入 / 挂错仓库。
+ */
+export function fixedReleaseUrl(fullName, install) {
+  if (install?.type !== 'manual' || !install.command) return null
+  const m = install.command.match(
+    /^dsh plugin --profile ([\w][\w-]{0,39}) add (https:\/\/github\.com\/[A-Za-z0-9_./%:@&=+~#-]+\.tgz)$/i,
+  )
+  if (!m) return null
+  const prefix = `https://github.com/${String(fullName || '').toLowerCase()}/releases/download/`
+  if (!m[2].toLowerCase().startsWith(prefix)) return null
+  return { profile: m[1], url: m[2] }
+}
+
+/** 固定发行包只做可达性检查；宿主版本匹配由作者在 Issue 中声明并经人工审核。 */
+async function verifyFixedRelease(fullName, install) {
+  const fixed = fixedReleaseUrl(fullName, install)
+  if (!fixed) return null
+  const ac = new AbortController()
+  const timer = setTimeout(() => ac.abort(), 20_000)
+  try {
+    const res = await fetch(fixed.url, {
+      method: 'HEAD',
+      redirect: 'follow',
+      signal: ac.signal,
+      headers: { 'User-Agent': 'whalehub-verify' },
+    })
+    if (!res.ok) return { status: 'fail', reason: `固定发行包 HTTP ${res.status}：${fixed.url}` }
+    return { status: 'ok', reason: `固定发行包可访问 ✓（profile: ${fixed.profile}）` }
+  } catch (e) {
+    return { status: 'skip', reason: `固定发行包 HEAD 失败：${String(e?.message ?? e)}` }
+  } finally {
+    clearTimeout(timer)
+  }
 }
 
 function loadSubs() {
@@ -188,7 +254,7 @@ async function main() {
   } else {
     const raw = gh(['issue', 'list', '--repo', REPO, '--state', 'open', '--json', 'number,title,body', '--limit', '100'])
     const issues = JSON.parse(raw)
-    targets = issues.filter((i) => /^\[Plugin\]/i.test(i.title))
+    targets = issues.filter((i) => /^\[Plugin(?:\s+manual\s+review)?\]/i.test(i.title))
     console.log(`open plugin-submission issues: ${targets.length}`)
   }
 
@@ -203,9 +269,12 @@ async function main() {
       continue
     }
 
+    const fixed = fixedReleaseUrl(fullName, install)
     let verdict
     try {
-      verdict = await isRealDshPlugin(fullName, install)
+      verdict = fixed
+        ? (await verifyFixedRelease(fullName, install)) ?? { status: 'skip', reason: '固定发行包校验不可用' }
+        : await isRealDshPlugin(fullName, install)
     } catch (e) {
       verdict = { status: 'skip', reason: 'verify threw: ' + String(e?.message ?? e) }
     }
@@ -215,8 +284,11 @@ async function main() {
       const already = subs.some((s) => s.fullName.toLowerCase() === fullName.toLowerCase())
       if (!already) { subs.push({ fullName, category, tagline, install, notes: notes || undefined }); changed = true }
       const cmd = oneClick(fullName, install)
+      const passed = fixed
+        ? '✅ 固定 GitHub Release 安装包可访问，已按作者指定的宿主匹配版本收录进注册表（发行包内容/宿主匹配由作者验证，市场不做运行时背书）。'
+        : '✅ 已通过 WhaleHub 的"真·DSH 插件"校验（仓库声明了 `dsh.bundle.patch`），已自动收录进注册表。'
       const body = [
-        '✅ 已通过 WhaleHub 的"真·DSH 插件"校验（仓库声明了 `dsh.bundle.patch`），已自动收录进注册表。',
+        passed,
         '',
         `- 仓库：${fullName}`,
         `- 分类：${category}`,
@@ -256,4 +328,6 @@ async function main() {
   console.log(`\ndone. issue-submissions.json changed=${changed}`)
 }
 
-main().catch((e) => { console.error(e); process.exit(1) })
+if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
+  main().catch((e) => { console.error(e); process.exit(1) })
+}

@@ -48,6 +48,7 @@ const EXCLUDE = new Set([
   'yihong89/dsh-plugins',
   'artificialnotimbecile/dsh-context-taxonomy',
   'zhaoyilun/dsh-preset-flash-director',
+  'vlln/plugin-registry', // package.json 无 dsh.bundle.patch（2026-11-25 CI 校验判定）
   // —— 以下 10 条由 CI 校验门 (validate-plugins.mjs) 在 run 31893823351 判定为「非 DSH 插件」——
   // 要么仓库里根本没有任何 package.json（无法作为 dsh 插件安装），要么有 package.json 但不声明 dsh.bundle.patch。
   'nagi-ovo/dsh-find-plugins', // 仓库无 package.json
@@ -76,9 +77,10 @@ const EXTRA_ENTRIES = [
   },
 ]
 
-/** 社区提交队列（GitHub Issue 表单）：维护者审核后入册，仅收录通过"真·DSH 插件"校验的条目。
- *  每条含 fullName / category / tagline；install · notes · tags 由下方 OVERRIDES 补充。
- *  未通过校验的提交（无 dsh.bundle.patch）不会被 sync 收录，需作者补全后重新提交。 */
+/** 社区提交队列（GitHub Issue 表单）：维护者审核后入册，仅收录通过校验的条目。
+ *  每条含 fullName / category / tagline；install · notes · tags 可来自 Issue 队列
+ *  （scripts/issue-submissions.json，例如固定的 GitHub release tgz 安装入口），
+ *  下方 OVERRIDES 仅作为人工补充/覆盖。未通过校验的提交不会被 sync 收录。 */
 const SUBMISSIONS = [
   { fullName: 'tuogusa/dsh-plugin-toggle', category: 'tools', tagline: 'DSH 插件开关/删除管理器：设置页直接启用停用、删除插件，支持 bundle 整组开关' },
   { fullName: 'tuogusa/dsh-skill-manager', category: 'tools', tagline: 'DSH 技能管理器：设置页浏览/搜索/删除用户技能，显示来源与标记' },
@@ -282,6 +284,19 @@ const OVERRIDES = {
     install: { type: 'npm', package: '@omdsh-plugins/omdsh-plughub', profiles: ['web'] },
     notes: 'npm 已发布；安装后重启生效，Settings → Plugins → OMDSH Plugins 中可安装其余插件。',
   },
+  // —— #92 / #93 / #85：固定宿主版本的 release tgz 安装入口（Issue 队列自带 install）——
+  'gulagala001/dsh-persona-plugin': {
+    tags: ['persona', 'presets', 'agent', 'workflow'],
+    notes: '固定发行包适配 DSH 0.2.1-rc.3；安装后重启 dsh web。仅该宿主版本由作者验证，其他版本请使用仓库对应的 release。',
+  },
+  'gulagala001/dsh-extensions': {
+    tags: ['skills', 'mcp', 'hooks', 'commands', 'settings'],
+    notes: '固定发行包适配 DSH 0.2.1-rc.3；安装后重启 dsh web。用于管理 Skills、MCP 服务器、指令文件、自定义命令与 Hooks。',
+  },
+  'gulagala001/dsh-intelligent-ui': {
+    tags: ['genui', 'interactive-ui', 'cards', 'charts', 'web-ui'],
+    notes: '固定发行包适配 DSH 0.2.1-rc.3，要求 Node.js >=22.19；安装后重启 dsh web。更早的宿主版本请按仓库 README 选择对应 release；不要安装 npm 上的同名包（属于其他项目）。',
+  },
 }
 
 const TAG_RULES = [
@@ -383,7 +398,17 @@ async function main() {
     const slug = slugify(fullName)
     const prevEntry = prev.find((p) => p.slug === slug)
     const meta = NO_API ? null : await fetchRepoMeta(fullName, token).catch(() => null)
-    const override = OVERRIDES[fullName] ?? {}
+    // Issue 队列里的自定义 install（如宿主匹配的固定 tgz）必须一起带进注册表，
+    // 否则会被 overriding 的默认 github:owner/repo 覆盖，装到未固定的源码分支。
+    // OVERRIDES 仍可显式覆盖队列字段（人工审核优先级最高）。
+    const submission = issueSubs.find(
+      (s) => s.fullName?.toLowerCase() === fullName.toLowerCase(),
+    )
+    const fromIssue = {}
+    if (submission?.install) fromIssue.install = submission.install
+    if (submission?.notes) fromIssue.notes = submission.notes
+    if (submission?.tags) fromIssue.tags = submission.tags
+    const override = { ...fromIssue, ...(OVERRIDES[fullName] ?? {}) }
 
     // 永久封禁：即使 awesome 列表里有也绝不收录（大小写不敏感）
     if (EXCLUDE.has(fullName.toLowerCase())) {
