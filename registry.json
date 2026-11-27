@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-11-26T12:46:06.811Z",
+  "generatedAt": "2026-11-27T12:37:17.219Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
-  "pluginCount": 202,
+  "pluginCount": 204,
   "plugins": [
     {
       "slug": "zhu1090093659-dsh-web-ui",
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 10652,
+      "stars": 10666,
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-26T07:49:25Z",
+      "updatedAt": "2026-11-26T17:09:24Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -46,9 +46,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 8302,
+      "stars": 8353,
       "license": "MIT",
-      "updatedAt": "2026-11-26T12:39:02Z",
+      "updatedAt": "2026-11-27T11:53:36Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -74,9 +74,9 @@
         "editor",
         "tui"
       ],
-      "stars": 5345,
+      "stars": 5357,
       "license": "MIT",
-      "updatedAt": "2026-11-26T06:27:14Z",
+      "updatedAt": "2026-11-26T16:22:11Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 3151,
+      "stars": 3155,
       "license": null,
-      "updatedAt": "2026-11-26T08:29:37Z",
+      "updatedAt": "2026-11-27T11:48:32Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 3109,
+      "stars": 3115,
       "license": "MIT",
       "updatedAt": "2026-11-18T17:49:56Z",
       "install": {
@@ -142,9 +142,9 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 1132,
+      "stars": 1148,
       "license": "MIT",
-      "updatedAt": "2026-11-26T02:15:18Z",
+      "updatedAt": "2026-11-26T18:39:14Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -165,7 +165,7 @@
         "charts",
         "mermaid"
       ],
-      "stars": 1065,
+      "stars": 1068,
       "license": "MIT",
       "updatedAt": "2026-11-25T10:36:19Z",
       "install": {
@@ -216,7 +216,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 735,
+      "stars": 737,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-11-15T23:07:58Z",
       "install": {
@@ -278,9 +278,9 @@
       "tags": [
         "desktop"
       ],
-      "stars": 508,
+      "stars": 521,
       "license": "MIT",
-      "updatedAt": "2026-11-26T05:07:11Z",
+      "updatedAt": "2026-11-26T19:55:26Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -319,7 +319,7 @@
       "repoUrl": "https://github.com/dhicoc/dsh-reverse-skill",
       "category": "tools",
       "tags": [],
-      "stars": 362,
+      "stars": 363,
       "license": "MIT",
       "updatedAt": "2026-11-14T12:07:49Z",
       "install": {
@@ -360,7 +360,7 @@
       "repoUrl": "https://github.com/Nwflower/dsh-chat-import",
       "category": "integrations",
       "tags": [],
-      "stars": 331,
+      "stars": 332,
       "license": "MIT",
       "updatedAt": "2026-11-23T12:30:57Z",
       "install": {
@@ -485,9 +485,9 @@
         "desktop",
         "sidebar"
       ],
-      "stars": 224,
+      "stars": 225,
       "license": "MIT",
-      "updatedAt": "2026-11-26T12:20:13Z",
+      "updatedAt": "2026-11-27T12:07:12Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -572,7 +572,7 @@
         "rewind",
         "checkpoint"
       ],
-      "stars": 154,
+      "stars": 156,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-11-21T09:10:38Z",
       "install": {
@@ -670,7 +670,7 @@
       "tags": [
         "sidebar"
       ],
-      "stars": 100,
+      "stars": 101,
       "license": "Apache-2.0",
       "updatedAt": "2026-11-24T11:22:23Z",
       "install": {
@@ -731,7 +731,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-plugin-guide",
       "category": "ecosystem",
       "tags": [],
-      "stars": 72,
+      "stars": 73,
       "license": "Apache-2.0",
       "updatedAt": "2026-11-23T05:09:45Z",
       "install": {
@@ -751,7 +751,7 @@
       "repoUrl": "https://github.com/mrRisega/dsh-remote",
       "category": "integrations",
       "tags": [],
-      "stars": 64,
+      "stars": 65,
       "license": null,
       "updatedAt": "2026-11-19T06:10:35Z",
       "install": {
@@ -982,7 +982,7 @@
       "tags": [
         "skin"
       ],
-      "stars": 41,
+      "stars": 42,
       "license": null,
       "updatedAt": "2026-08-16T09:41:08Z",
       "install": {
@@ -1394,6 +1394,25 @@
       "notes": "_No response_"
     },
     {
+      "slug": "weibaohui-dsh-sync",
+      "name": "dsh-sync",
+      "displayName": "sync",
+      "description": "Multi-machine sync: keeps multiple dsh replicas consistent through one private GitCode repository",
+      "author": "weibaohui",
+      "repoUrl": "https://github.com/weibaohui/dsh-sync",
+      "category": "integrations",
+      "tags": [],
+      "stars": 19,
+      "license": "MIT",
+      "updatedAt": "2026-11-18T03:38:24Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-observe",
       "name": "dsh-observe",
       "displayName": "observe",
@@ -1412,25 +1431,6 @@
         ]
       },
       "notes": "_No response_"
-    },
-    {
-      "slug": "weibaohui-dsh-sync",
-      "name": "dsh-sync",
-      "displayName": "sync",
-      "description": "Multi-machine sync: keeps multiple dsh replicas consistent through one private GitCode repository",
-      "author": "weibaohui",
-      "repoUrl": "https://github.com/weibaohui/dsh-sync",
-      "category": "integrations",
-      "tags": [],
-      "stars": 18,
-      "license": "MIT",
-      "updatedAt": "2026-11-18T03:38:24Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
     },
     {
       "slug": "perrylink-dsh-output-styles",
@@ -1792,6 +1792,25 @@
       }
     },
     {
+      "slug": "delef-dsh-free-web-search",
+      "name": "dsh-free-web-search",
+      "displayName": "free web search",
+      "description": "Free web search with 10 engines (Bing/DuckDuckGo/SearXNG/AnySearch free + Exa/Tavily/Keenable/Perplexity/DeepSeek paid), automatic fallback chain, time-filtered advanced search, platform search (GitHub/Reddit), web page fetching, LRU caching, and a settings UI. No API keys required.",
+      "author": "delef",
+      "repoUrl": "https://github.com/delef/dsh-free-web-search",
+      "category": "tools",
+      "tags": [],
+      "stars": 8,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-11-03T04:46:03Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "weibaohui-dsh-continue",
       "name": "dsh-continue",
       "displayName": "continue",
@@ -1892,17 +1911,17 @@
       }
     },
     {
-      "slug": "delef-dsh-free-web-search",
-      "name": "dsh-free-web-search",
-      "displayName": "free web search",
-      "description": "Free web search with 10 engines (Bing/DuckDuckGo/SearXNG/AnySearch free + Exa/Tavily/Keenable/Perplexity/DeepSeek paid), automatic fallback chain, time-filtered advanced search, platform search (GitHub/Reddit), web page fetching, LRU caching, and a settings UI. No API keys required.",
-      "author": "delef",
-      "repoUrl": "https://github.com/delef/dsh-free-web-search",
-      "category": "tools",
+      "slug": "yyfdfsyyf-source-dsh-context-fold",
+      "name": "dsh-context-fold",
+      "displayName": "context fold",
+      "description": "Context folding: spills oversized tool results to on-disk copies with deterministic head/tail markers, keeps a searchable ledger of compaction summaries, and extracts cross-session memories scoped per project; folded content is restored byte-for-byte through one tool call.",
+      "author": "yyfdfsyyf-source",
+      "repoUrl": "https://github.com/yyfdfsyyf-source/dsh-context-fold",
+      "category": "agent",
       "tags": [],
       "stars": 7,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-11-03T04:46:03Z",
+      "license": "MIT",
+      "updatedAt": "2026-11-21T16:29:47Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -1956,25 +1975,6 @@
       }
     },
     {
-      "slug": "yyfdfsyyf-source-dsh-context-fold",
-      "name": "dsh-context-fold",
-      "displayName": "context fold",
-      "description": "Context folding: spills oversized tool results to on-disk copies with deterministic head/tail markers, keeps a searchable ledger of compaction summaries, and extracts cross-session memories scoped per project; folded content is restored byte-for-byte through one tool call.",
-      "author": "yyfdfsyyf-source",
-      "repoUrl": "https://github.com/yyfdfsyyf-source/dsh-context-fold",
-      "category": "agent",
-      "tags": [],
-      "stars": 6,
-      "license": "MIT",
-      "updatedAt": "2026-11-21T16:29:47Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-reach",
       "name": "dsh-reach",
       "displayName": "reach",
@@ -2010,7 +2010,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-11-25T13:08:22Z",
+      "updatedAt": "2026-11-26T12:49:18Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2133,7 +2133,7 @@
       ],
       "stars": 5,
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-25T17:30:55Z",
+      "updatedAt": "2026-11-27T10:46:31Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3305,6 +3305,25 @@
       }
     },
     {
+      "slug": "afspero-canvasmind",
+      "name": "CanvasMind",
+      "displayName": "CanvasMind",
+      "description": "Full-page canvas workspace: project canvas with 23 node types, Excalidraw whiteboard and a component studio; local JSON storage, reuses the harness default model.",
+      "author": "afspero",
+      "repoUrl": "https://github.com/afspero/CanvasMind",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 1,
+      "license": "MIT",
+      "updatedAt": "2026-11-27T05:20:16Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "tuogusa-dsh-plugin-toggle",
       "name": "dsh-plugin-toggle",
       "displayName": "plugin toggle",
@@ -4243,6 +4262,28 @@
         ]
       },
       "notes": "_No response_"
+    },
+    {
+      "slug": "cyrus0719-dsh-pet-remielle",
+      "name": "dsh-pet-remielle",
+      "displayName": "pet remielle",
+      "description": "透明置顶的 Windows 桌面桌宠「蕾米埃尔」：754 帧原生动画，点一下就在桌面上直接和 DSH 智能体对话、派活。",
+      "author": "Cyrus0719",
+      "repoUrl": "https://github.com/Cyrus0719/dsh-pet-remielle",
+      "category": "fun",
+      "tags": [
+        "desktop"
+      ],
+      "stars": 0,
+      "license": null,
+      "updatedAt": "2026-11-27T09:50:09Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      },
+      "notes": "- 仅 Windows 10/11；Neutralino 运行时已随包内置，安装不跑任何构建脚本，不需要 allowBuilds\n- 需要 DSH 0.2.x；安装后桌面上应出现透明宠物窗口\n- 宠物素材仅限个人非商业同人使用（作者 HanaAyane / 小蕾米），代码 MIT"
     }
   ]
 }
