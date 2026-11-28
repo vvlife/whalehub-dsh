@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "generatedAt": "2026-11-27T12:37:17.219Z",
+  "generatedAt": "2026-11-28T11:56:04.071Z",
   "source": "https://raw.githubusercontent.com/vvlife/awesome-deepseek-harness-plugins/main/README.md",
   "pluginCount": 204,
   "plugins": [
@@ -19,9 +19,9 @@
         "ssh",
         "sidebar"
       ],
-      "stars": 10666,
+      "stars": 10674,
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-26T17:09:24Z",
+      "updatedAt": "2026-11-27T16:45:47Z",
       "install": {
         "type": "npm",
         "package": "@linxin666/dsh-web-ui-all",
@@ -46,9 +46,9 @@
         "terminal",
         "skin"
       ],
-      "stars": 8353,
+      "stars": 8374,
       "license": "MIT",
-      "updatedAt": "2026-11-27T11:53:36Z",
+      "updatedAt": "2026-11-28T11:29:16Z",
       "install": {
         "type": "npm",
         "package": "dsh-cc-tui",
@@ -74,9 +74,9 @@
         "editor",
         "tui"
       ],
-      "stars": 5357,
+      "stars": 5366,
       "license": "MIT",
-      "updatedAt": "2026-11-26T16:22:11Z",
+      "updatedAt": "2026-11-27T13:45:45Z",
       "install": {
         "type": "npm",
         "package": "dsh-better-sidebar@0.10.2",
@@ -98,9 +98,9 @@
       "tags": [
         "skin"
       ],
-      "stars": 3155,
+      "stars": 3156,
       "license": null,
-      "updatedAt": "2026-11-27T11:48:32Z",
+      "updatedAt": "2026-11-27T15:29:29Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -121,7 +121,7 @@
         "multi-agent",
         "teams"
       ],
-      "stars": 3115,
+      "stars": 3121,
       "license": "MIT",
       "updatedAt": "2026-11-18T17:49:56Z",
       "install": {
@@ -142,7 +142,7 @@
       "repoUrl": "https://github.com/omdsh-dev/dsh-mnemon",
       "category": "tools",
       "tags": [],
-      "stars": 1148,
+      "stars": 1153,
       "license": "MIT",
       "updatedAt": "2026-11-26T18:39:14Z",
       "install": {
@@ -165,9 +165,9 @@
         "charts",
         "mermaid"
       ],
-      "stars": 1068,
+      "stars": 1071,
       "license": "MIT",
-      "updatedAt": "2026-11-25T10:36:19Z",
+      "updatedAt": "2026-11-28T09:38:48Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -235,7 +235,7 @@
       "repoUrl": "https://github.com/yyh-001/dsh-expression",
       "category": "ecosystem",
       "tags": [],
-      "stars": 607,
+      "stars": 608,
       "license": "MIT",
       "updatedAt": "2026-11-26T09:26:04Z",
       "install": {
@@ -257,7 +257,7 @@
         "editor",
         "mentions"
       ],
-      "stars": 575,
+      "stars": 576,
       "license": "MIT",
       "updatedAt": "2026-09-01T01:00:35Z",
       "install": {
@@ -278,9 +278,9 @@
       "tags": [
         "desktop"
       ],
-      "stars": 521,
+      "stars": 532,
       "license": "MIT",
-      "updatedAt": "2026-11-26T19:55:26Z",
+      "updatedAt": "2026-11-27T19:44:07Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -300,7 +300,7 @@
         "skin",
         "desktop"
       ],
-      "stars": 418,
+      "stars": 419,
       "license": "MIT",
       "updatedAt": "2026-10-30T13:15:27Z",
       "install": {
@@ -319,7 +319,7 @@
       "repoUrl": "https://github.com/dhicoc/dsh-reverse-skill",
       "category": "tools",
       "tags": [],
-      "stars": 363,
+      "stars": 364,
       "license": "MIT",
       "updatedAt": "2026-11-14T12:07:49Z",
       "install": {
@@ -383,7 +383,7 @@
         "macos",
         "sidebar"
       ],
-      "stars": 324,
+      "stars": 325,
       "license": "MIT",
       "updatedAt": "2026-09-12T13:58:15Z",
       "install": {
@@ -453,6 +453,29 @@
       }
     },
     {
+      "slug": "sutera-diffusus-dsh-whale-musume",
+      "name": "dsh-whale-musume",
+      "displayName": "whale musume",
+      "description": "Whale-girl desktop pet for DSH, supporting both the Desktop app (Electron shell, bundled DSH 0.2.0-rc.2) and the Web UI: pat-to-raise growth, per-tool work poses, 90+ artworks, 39 achievements, optional weather companion and MiMo TTS line playback, built-in settings panel; local-first, zero telemetry, 142 unit tests.",
+      "author": "Sutera-Diffusus",
+      "repoUrl": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+      "category": "web-ui",
+      "tags": [
+        "skin",
+        "desktop",
+        "sidebar"
+      ],
+      "stars": 227,
+      "license": "MIT",
+      "updatedAt": "2026-11-28T11:38:33Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "perrylink-dsh-industry-research",
       "name": "dsh-industry-research",
       "displayName": "industry research",
@@ -471,29 +494,6 @@
         ]
       },
       "notes": "_No response_"
-    },
-    {
-      "slug": "sutera-diffusus-dsh-whale-musume",
-      "name": "dsh-whale-musume",
-      "displayName": "whale musume",
-      "description": "Whale-girl desktop pet for DSH, supporting both the Desktop app (Electron shell, bundled DSH 0.2.0-rc.2) and the Web UI: pat-to-raise growth, per-tool work poses, 90+ artworks, 39 achievements, optional weather companion and MiMo TTS line playback, built-in settings panel; local-first, zero telemetry, 142 unit tests.",
-      "author": "Sutera-Diffusus",
-      "repoUrl": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
-      "category": "web-ui",
-      "tags": [
-        "skin",
-        "desktop",
-        "sidebar"
-      ],
-      "stars": 225,
-      "license": "MIT",
-      "updatedAt": "2026-11-27T12:07:12Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
     },
     {
       "slug": "perrylink-dsh-research-report",
@@ -572,7 +572,7 @@
         "rewind",
         "checkpoint"
       ],
-      "stars": 156,
+      "stars": 158,
       "license": "BSD-3-Clause",
       "updatedAt": "2026-11-21T09:10:38Z",
       "install": {
@@ -629,7 +629,7 @@
       "repoUrl": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
       "category": "web-ui",
       "tags": [],
-      "stars": 135,
+      "stars": 136,
       "license": "MIT",
       "updatedAt": "2026-11-12T12:51:49Z",
       "install": {
@@ -649,7 +649,7 @@
       "repoUrl": "https://github.com/Anionex/dsh-computer-use",
       "category": "web-ui",
       "tags": [],
-      "stars": 111,
+      "stars": 112,
       "license": "MIT",
       "updatedAt": "2026-11-21T13:45:48Z",
       "install": {
@@ -938,7 +938,7 @@
       "repoUrl": "https://github.com/PerryLink/dsh-lsp-actions",
       "category": "tools",
       "tags": [],
-      "stars": 43,
+      "stars": 44,
       "license": "Apache-2.0",
       "updatedAt": "2026-11-23T08:29:48Z",
       "install": {
@@ -1781,7 +1781,7 @@
       "repoUrl": "https://github.com/weibaohui/dsh-smart-title",
       "category": "ecosystem",
       "tags": [],
-      "stars": 9,
+      "stars": 10,
       "license": "MIT",
       "updatedAt": "2026-10-29T01:28:28Z",
       "install": {
@@ -2010,7 +2010,7 @@
       ],
       "stars": 6,
       "license": "MIT",
-      "updatedAt": "2026-11-26T12:49:18Z",
+      "updatedAt": "2026-11-27T12:38:49Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2020,29 +2020,6 @@
       },
       "notes": "DSH Web 内嵌市场：dsh plugin --profile web add \"github:vvlife/whalehub-dsh#main&path:/plugin\"，重启 dsh web 后 Settings → Plugins 出现「🐋 插件市场」Tab。网页版：https://whalehub-dsh.vercel.app",
       "featured": true
-    },
-    {
-      "slug": "tuogusa-dsh-skill-manager",
-      "name": "dsh-skill-manager",
-      "displayName": "skill manager",
-      "description": "DSH 技能管理器：设置页浏览/搜索/删除用户技能，显示来源与标记",
-      "author": "tuogusa",
-      "repoUrl": "https://github.com/tuogusa/dsh-skill-manager",
-      "category": "tools",
-      "tags": [
-        "skills",
-        "manager",
-        "settings"
-      ],
-      "stars": 6,
-      "license": "MIT",
-      "updatedAt": "2026-08-19T02:16:24Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
     },
     {
       "slug": "fakechris-dsh-track",
@@ -2133,7 +2110,30 @@
       ],
       "stars": 5,
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-27T10:46:31Z",
+      "updatedAt": "2026-11-27T22:21:43Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
+      "slug": "tuogusa-dsh-skill-manager",
+      "name": "dsh-skill-manager",
+      "displayName": "skill manager",
+      "description": "DSH 技能管理器：设置页浏览/搜索/删除用户技能，显示来源与标记",
+      "author": "tuogusa",
+      "repoUrl": "https://github.com/tuogusa/dsh-skill-manager",
+      "category": "tools",
+      "tags": [
+        "skills",
+        "manager",
+        "settings"
+      ],
+      "stars": 5,
+      "license": "MIT",
+      "updatedAt": "2026-08-19T02:16:24Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2340,6 +2340,25 @@
       }
     },
     {
+      "slug": "perrylink-dsh-hazchem-check",
+      "name": "dsh-hazchem-check",
+      "displayName": "hazchem check",
+      "description": "Hazardous-chemical register check: recomputes stored quantity against the GB 18218-2018 threshold quantities for major-hazard installation identification, flags differences only.",
+      "author": "PerryLink",
+      "repoUrl": "https://github.com/PerryLink/dsh-hazchem-check",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 4,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-11-22T16:19:58Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
+    },
+    {
       "slug": "tuogusa-dsh-whale-background",
       "name": "dsh-whale-background",
       "displayName": "whale background",
@@ -2477,25 +2496,6 @@
       }
     },
     {
-      "slug": "kingjly-dsh-plugin-builder",
-      "name": "dsh-plugin-builder",
-      "displayName": "plugin builder",
-      "description": "Plugin builder scaffolding.",
-      "author": "kingjly",
-      "repoUrl": "https://github.com/kingjly/dsh-plugin-builder",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 3,
-      "license": "MIT",
-      "updatedAt": "2026-08-14T06:04:50Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
       "slug": "perrylink-dsh-hidden-risk-map",
       "name": "dsh-hidden-risk-map",
       "displayName": "hidden risk map",
@@ -2507,25 +2507,6 @@
       "stars": 3,
       "license": "Apache-2.0",
       "updatedAt": "2026-11-22T16:21:06Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      }
-    },
-    {
-      "slug": "perrylink-dsh-hazchem-check",
-      "name": "dsh-hazchem-check",
-      "displayName": "hazchem check",
-      "description": "Hazardous-chemical register check: recomputes stored quantity against the GB 18218-2018 threshold quantities for major-hazard installation identification, flags differences only.",
-      "author": "PerryLink",
-      "repoUrl": "https://github.com/PerryLink/dsh-hazchem-check",
-      "category": "ecosystem",
-      "tags": [],
-      "stars": 3,
-      "license": "Apache-2.0",
-      "updatedAt": "2026-11-22T16:19:58Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -2798,6 +2779,25 @@
         ]
       },
       "notes": "需飞书自建应用凭证（FEISHU_APP_ID/FEISHU_APP_SECRET 环境变量，密钥不落盘）；事件订阅用长连接模式；pnpm 10/11 需在 profile 的 pnpm-workspace.yaml 放行 protobufjs（README FAQ）。已声明 dsh.bundle.patch，dsh plugin add 一条命令安装即挂载；群聊需 @机器人，/attach 可接管 GUI 会话。"
+    },
+    {
+      "slug": "kingjly-dsh-plugin-builder",
+      "name": "dsh-plugin-builder",
+      "displayName": "plugin builder",
+      "description": "Plugin builder scaffolding.",
+      "author": "kingjly",
+      "repoUrl": "https://github.com/kingjly/dsh-plugin-builder",
+      "category": "ecosystem",
+      "tags": [],
+      "stars": 2,
+      "license": "MIT",
+      "updatedAt": "2026-08-14T06:04:50Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      }
     },
     {
       "slug": "weibaohui-dsh-favorites",
@@ -3088,7 +3088,7 @@
       ],
       "stars": 1,
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-25T18:59:43Z",
+      "updatedAt": "2026-11-27T22:31:09Z",
       "install": {
         "type": "github",
         "profiles": [
@@ -3612,6 +3612,28 @@
         "command": "dsh plugin --profile web add https://github.com/gulagala001/dsh-persona-plugin/releases/download/v0.1.2-dsh.0.2.1-rc.3/gulagala001-dsh-persona-plugin-0.1.2-dsh.0.2.1-rc.3.tgz"
       },
       "notes": "固定发行包适配 DSH 0.2.1-rc.3；安装后重启 dsh web。仅该宿主版本由作者验证，其他版本请使用仓库对应的 release。"
+    },
+    {
+      "slug": "cyrus0719-dsh-pet-remielle",
+      "name": "dsh-pet-remielle",
+      "displayName": "pet remielle",
+      "description": "透明置顶的 Windows 桌面桌宠「蕾米埃尔」：754 帧原生动画，点一下就在桌面上直接和 DSH 智能体对话、派活。",
+      "author": "Cyrus0719",
+      "repoUrl": "https://github.com/Cyrus0719/dsh-pet-remielle",
+      "category": "fun",
+      "tags": [
+        "desktop"
+      ],
+      "stars": 1,
+      "license": null,
+      "updatedAt": "2026-11-28T05:37:29Z",
+      "install": {
+        "type": "github",
+        "profiles": [
+          "web"
+        ]
+      },
+      "notes": "- 仅 Windows 10/11；Neutralino 运行时已随包内置，安装不跑任何构建脚本，不需要 allowBuilds\n- 需要 DSH 0.2.x；安装后桌面上应出现透明宠物窗口\n- 宠物素材仅限个人非商业同人使用（作者 HanaAyane / 小蕾米），代码 MIT"
     },
     {
       "slug": "iambatman1928-dsh-xingye",
@@ -4262,28 +4284,6 @@
         ]
       },
       "notes": "_No response_"
-    },
-    {
-      "slug": "cyrus0719-dsh-pet-remielle",
-      "name": "dsh-pet-remielle",
-      "displayName": "pet remielle",
-      "description": "透明置顶的 Windows 桌面桌宠「蕾米埃尔」：754 帧原生动画，点一下就在桌面上直接和 DSH 智能体对话、派活。",
-      "author": "Cyrus0719",
-      "repoUrl": "https://github.com/Cyrus0719/dsh-pet-remielle",
-      "category": "fun",
-      "tags": [
-        "desktop"
-      ],
-      "stars": 0,
-      "license": null,
-      "updatedAt": "2026-11-27T09:50:09Z",
-      "install": {
-        "type": "github",
-        "profiles": [
-          "web"
-        ]
-      },
-      "notes": "- 仅 Windows 10/11；Neutralino 运行时已随包内置，安装不跑任何构建脚本，不需要 allowBuilds\n- 需要 DSH 0.2.x；安装后桌面上应出现透明宠物窗口\n- 宠物素材仅限个人非商业同人使用（作者 HanaAyane / 小蕾米），代码 MIT"
     }
   ]
 }
